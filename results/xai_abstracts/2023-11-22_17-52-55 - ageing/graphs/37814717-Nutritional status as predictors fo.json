@@ -1,0 +1,394 @@
+{
+    "nodes": [
+        "nutritional status",
+        "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0",
+        "caregivers' quality of life",
+        "body fat",
+        "underweight",
+        "Gross Motor Function Classification System (GMFCS) level IV and V",
+        "Daily Activities domain",
+        "body mass index (BMI)-for-age",
+        "severe cerebral palsy (CP)",
+        "feeding difficulties",
+        "nutritional intervention",
+        "mid-upper arm circumference (MUAC)",
+        "School Activities domain"
+    ],
+    "directed_edges": [
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "feeding difficulties"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties"
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "nutritional status"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status"
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "caregivers' quality of life"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers' quality of life, e.g., more time spent for feeding rather than own selfcare."
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "Gross Motor Function Classification System (GMFCS) level IV and V"
+            ],
+            "Seventy-one participants with Gross Motor Function Classification System (GMFCS) level IV and V were recruited."
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "underweight"
+            ],
+            "In total, 40.8% were underweight according to CP growth chart"
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "mid-upper arm circumference (MUAC)"
+            ],
+            "In total, 40.8% were underweight according to CP growth chart and 49.3% had mid-upper arm circumference (MUAC) readings below the 5th percentile."
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "Daily Activities domain"
+            ],
+            "The lowest scores in the PedsQL CP module version 3.0 were observed in the Daily Activities"
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "School Activities domain"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life."
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "body mass index (BMI)-for-age"
+            ],
+            ""
+        ],
+        [
+            [
+                "severe cerebral palsy (CP)",
+                "nutritional intervention"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "feeding difficulties",
+                "nutritional status"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status"
+        ],
+        [
+            [
+                "feeding difficulties",
+                "caregivers' quality of life"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers' quality of life, e.g., more time spent for feeding rather than own selfcare."
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "feeding difficulties"
+            ],
+            ""
+        ],
+        [
+            [
+                "feeding difficulties",
+                "underweight"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status"
+        ],
+        [
+            [
+                "feeding difficulties",
+                "mid-upper arm circumference (MUAC)"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers' quality of life"
+        ],
+        [
+            [
+                "feeding difficulties",
+                "Daily Activities domain"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers' quality of life, e.g., more time spent for feeding rather than own selfcare."
+        ],
+        [
+            [
+                "feeding difficulties",
+                "body mass index (BMI)-for-age"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status"
+        ],
+        [
+            [
+                "feeding difficulties",
+                "nutritional intervention"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "nutritional status",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life."
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "nutritional status"
+            ],
+            "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status"
+        ],
+        [
+            [
+                "nutritional status",
+                "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life."
+        ],
+        [
+            [
+                "nutritional status",
+                "underweight"
+            ],
+            "In total, 40.8% were underweight according to CP growth chart"
+        ],
+        [
+            [
+                "nutritional status",
+                "mid-upper arm circumference (MUAC)"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutritional status",
+                "Daily Activities domain"
+            ],
+            "The lowest scores in the PedsQL CP module version 3.0 were observed in the Daily Activities (5.34\u00b110.87)"
+        ],
+        [
+            [
+                "nutritional status",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain"
+        ],
+        [
+            [
+                "nutritional status",
+                "body mass index (BMI)-for-age"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutritional status",
+                "body fat"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutritional status",
+                "nutritional intervention"
+            ],
+            "Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life"
+        ],
+        [
+            [
+                "underweight",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life"
+        ],
+        [
+            [
+                "mid-upper arm circumference (MUAC)",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life"
+        ],
+        [
+            [
+                "Daily Activities domain",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life"
+        ],
+        [
+            [
+                "body mass index (BMI)-for-age",
+                "caregivers' quality of life"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]. Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life."
+        ],
+        [
+            [
+                "nutritional intervention",
+                "caregivers' quality of life"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "underweight"
+            ],
+            ""
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "Daily Activities domain"
+            ],
+            ""
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]."
+        ],
+        [
+            [
+                "Gross Motor Function Classification System (GMFCS) level IV and V",
+                "nutritional intervention"
+            ],
+            ""
+        ],
+        [
+            [
+                "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0",
+                "School Activities domain"
+            ],
+            ""
+        ],
+        [
+            [
+                "body fat",
+                "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life."
+        ],
+        [
+            [
+                "underweight",
+                "mid-upper arm circumference (MUAC)"
+            ],
+            ""
+        ],
+        [
+            [
+                "underweight",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]."
+        ],
+        [
+            [
+                "body mass index (BMI)-for-age",
+                "underweight"
+            ],
+            "In total, 40.8% were underweight according to CP growth chart and 49.3% had mid-upper arm circumference (MUAC) readings below the 5th percentile."
+        ],
+        [
+            [
+                "underweight",
+                "body fat"
+            ],
+            ""
+        ],
+        [
+            [
+                "underweight",
+                "nutritional intervention"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "mid-upper arm circumference (MUAC)",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]."
+        ],
+        [
+            [
+                "mid-upper arm circumference (MUAC)",
+                "nutritional intervention"
+            ],
+            "Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "nutritional intervention",
+                "Daily Activities domain"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ],
+        [
+            [
+                "body mass index (BMI)-for-age",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]."
+        ],
+        [
+            [
+                "body fat",
+                "School Activities domain"
+            ],
+            "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P<0.005, R2=0.499]."
+        ],
+        [
+            [
+                "nutritional intervention",
+                "School Activities domain"
+            ],
+            ""
+        ],
+        [
+            [
+                "body mass index (BMI)-for-age",
+                "nutritional intervention"
+            ],
+            ""
+        ],
+        [
+            [
+                "body fat",
+                "nutritional intervention"
+            ],
+            "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers' quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP."
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:50:18"
+}

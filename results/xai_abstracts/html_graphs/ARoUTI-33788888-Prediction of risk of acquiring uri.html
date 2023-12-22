@@ -1,0 +1,293 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    <mark>
+     Healthcare associated infections (HAI)
+    </mark>
+    are a major burden for the healthcare system and associated with
+    <mark>
+     prolonged hospital stay
+    </mark>
+    ,
+    <mark>
+     increased morbidity
+    </mark>
+    ,
+    <mark>
+     mortality
+    </mark>
+    and
+    <mark>
+     costs
+    </mark>
+    .
+    <mark>
+     Healthcare associated urinary tract infections (HA-UTI)
+    </mark>
+    accounts for about 20-30% of all HAI's, and with the emergence of
+    <mark>
+     multi-resistant urinary tract pathogens
+    </mark>
+    , the total burden of HA-UTI will most likely increase. The aim of the current study was to develop two
+    <mark>
+     predictive models
+    </mark>
+    , using data from the index admission as well as historic data on a patient, to predict the
+    <mark>
+     development of UTI
+    </mark>
+    at the time of
+    <mark>
+     entry to the hospital
+    </mark>
+    and after
+    <mark>
+     48 hours of admission
+    </mark>
+    (HA-UTI). The ultimate goal is to predict the
+    <mark>
+     individual patient risk
+    </mark>
+    of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.
+    <mark>
+     Retrospective cohort analysis
+    </mark>
+    of approx. 300 000
+    <mark>
+     adult admissions
+    </mark>
+    in a Danish region was performed. We developed models for UTI prediction with five
+    <mark>
+     machine-learning algorithms
+    </mark>
+    using
+    <mark>
+     demographic information
+    </mark>
+    ,
+    <mark>
+     laboratory results
+    </mark>
+    , data on
+    <mark>
+     antibiotic treatment
+    </mark>
+    ,
+    <mark>
+     past medical history
+    </mark>
+    (
+    <mark>
+     ICD10 codes
+    </mark>
+    ), and
+    <mark>
+     clinical data
+    </mark>
+    by transformation of unstructured narrative text in
+    <mark>
+     Electronic Medical Records
+    </mark>
+    to structured data by
+    <mark>
+     Natural Language Processing
+    </mark>
+    . The five machine-learning algorithms have been evaluated by the performance measures
+    <mark>
+     average squared error
+    </mark>
+    ,
+    <mark>
+     cumulative lift
+    </mark>
+    , and
+    <mark>
+     area under the curve (ROC-index)
+    </mark>
+    . The algorithms had an
+    <mark>
+     area under the curve (ROC-index)
+    </mark>
+    ranging from 0.82 to 0.84 for the entry model (T = 0 hours after admission) and from 0.71 to 0.77 for the HA-UTI model (T = 48 hours after admission). The study is proof of concept that it is possible to create machine-learning models that can serve as
+    <mark>
+     early warning systems
+    </mark>
+    to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient
+    <mark>
+     sensitivity
+    </mark>
+    and
+    <mark>
+     specificity
+    </mark>
+    , which may make both models instrumental in
+    <mark>
+     individualized prevention of UTI
+    </mark>
+    in
+    <mark>
+     hospitalized patients
+    </mark>
+    . The favored machine-learning methodology is
+    <mark>
+     Decision Trees
+    </mark>
+    to ensure the most transparent results and to increase clinical understanding and implementation of the models.
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Healthcare associated infections (HAI)", "label": "Healthcare associated infections (HAI)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "prolonged hospital stay", "label": "prolonged hospital stay", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "increased morbidity", "label": "increased morbidity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mortality", "label": "mortality", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "costs", "label": "costs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "predictive models", "label": "predictive models", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "development of UTI", "label": "development of UTI", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "individual patient risk", "label": "individual patient risk", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "antibiotic treatment", "label": "antibiotic treatment", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "early warning systems", "label": "early warning systems", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "individualized prevention of UTI", "label": "individualized prevention of UTI", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "area under the curve (ROC-index)", "label": "area under the curve (ROC-index)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Retrospective cohort analysis", "label": "Retrospective cohort analysis", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "48 hours of admission", "label": "48 hours of admission", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "machine-learning algorithms", "label": "machine-learning algorithms", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "average squared error", "label": "average squared error", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "sensitivity", "label": "sensitivity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "specificity", "label": "specificity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "multi-resistant urinary tract pathogens", "label": "multi-resistant urinary tract pathogens", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "laboratory results", "label": "laboratory results", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hospitalized patients", "label": "hospitalized patients", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "entry to the hospital", "label": "entry to the hospital", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "clinical data", "label": "clinical data", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "adult admissions", "label": "adult admissions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "demographic information", "label": "demographic information", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cumulative lift", "label": "cumulative lift", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "past medical history", "label": "past medical history", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Electronic Medical Records", "label": "Electronic Medical Records", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay", "to": "prolonged hospital stay", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "mortality", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "The aim of the current study was to develop two predictive models, using data from the index admission as well as historic data on a patient, to predict the development of UTI at the time of entry to the hospital and after 48 hours of admission (HA-UTI).", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI\u0027s", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "", "to": "antibiotic treatment", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "Healthcare associated infections (HAI)", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "early warning systems", "style": "solid", "title": "", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "early warning systems", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed. We developed models for UTI prediction with five machine-learning algorithms", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "", "to": "48 hours of admission", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed. We developed models for UTI prediction with five machine-learning algorithms", "to": "machine-learning algorithms", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "", "to": "average squared error", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index).", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "", "to": "sensitivity", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "Retrospective cohort analysis", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "48 hours of admission", "style": "solid", "title": "", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "area under the curve (ROC-index)", "style": "solid", "title": "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "costs", "style": "solid", "title": "", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "costs", "style": "solid", "title": "", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "mortality", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI\u0027s, and with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI\u0027s, and with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase.", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "Retrospective cohort analysis", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "laboratory results", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "The text does not contain a piece that explains the causal relationship that \"multi-resistant urinary tract pathogens\" causes \"antibiotic treatment\". The text mentions both entities but does not establish a direct causal relationship between them.", "to": "antibiotic treatment", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "multi-resistant urinary tract pathogens", "style": "solid", "title": "", "to": "hospitalized patients", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "", "to": "Healthcare associated infections (HAI)", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "", "to": "prolonged hospital stay", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "The text does not explicitly state that \"entry to the hospital\" causes \"development of UTI\". Instead, it discusses the development of predictive models to forecast the risk of UTI at the time of entry to the hospital and after 48 hours of admission. Therefore, there is no direct causal relationship stated between the two entities in the provided text.", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "", "to": "48 hours of admission", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "", "to": "laboratory results", "width": 1}, {"arrows": "to", "color": "black", "from": "entry to the hospital", "style": "solid", "title": "", "to": "hospitalized patients", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "Healthcare associated infections (HAI)", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay", "to": "prolonged hospital stay", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI\u0027s", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "Retrospective cohort analysis", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "clinical data", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "hospitalized patients", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "Healthcare associated infections (HAI)", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "entry to the hospital", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "Retrospective cohort analysis", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "demographic information", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "clinical data", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "adult admissions", "style": "solid", "title": "", "to": "hospitalized patients", "width": 1}, {"arrows": "to", "color": "black", "from": "sensitivity", "style": "solid", "title": "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. ... We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "machine-learning algorithms", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index).", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "clinical data", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "individual patient risk", "style": "solid", "title": "", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "red", "from": "individual patient risk", "style": "solid", "title": "", "to": "costs", "width": 1}, {"arrows": "to", "color": "red", "from": "individual patient risk", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "individual patient risk", "style": "solid", "title": "", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "individual patient risk", "style": "solid", "title": "", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "individual patient risk", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index).", "to": "average squared error", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "", "to": "cumulative lift", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index). The algorithms had an area under the curve (ROC-index) ranging from 0.82 to 0.84 for the entry model (T = 0 hours after admission) and from 0.71 to 0.77 for the HA-UTI model (T = 48 hours after admission).", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity", "to": "sensitivity", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "machine-learning algorithms", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "", "to": "machine-learning algorithms", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "The text does not explicitly state that \"demographic information\" causes \"area under the curve (ROC-index)\". Instead, it mentions that demographic information was used alongside other types of data to develop machine-learning models for UTI prediction, which were then evaluated by various performance measures including the area under the curve (ROC-index). Therefore, there is no direct causal relationship stated between \"demographic information\" and \"area under the curve (ROC-index)\" in the provided text.", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "demographic information", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay", "to": "prolonged hospital stay", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "The aim of the current study was to develop two predictive models, using data from the index admission as well as historic data on a patient, to predict the development of UTI at the time of entry to the hospital and after 48 hours of admission (HA-UTI). The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "machine-learning algorithms", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "antibiotic treatment", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "past medical history", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "development of UTI", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay", "to": "prolonged hospital stay", "width": 1}, {"arrows": "to", "color": "red", "from": "development of UTI", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "increased morbidity", "width": 1}, {"arrows": "to", "color": "red", "from": "development of UTI", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "red", "from": "development of UTI", "style": "solid", "title": "", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "red", "from": "development of UTI", "style": "solid", "title": "", "to": "antibiotic treatment", "width": 1}, {"arrows": "to", "color": "black", "from": "development of UTI", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "development of UTI", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "", "to": "Retrospective cohort analysis", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "machine-learning algorithms", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing", "to": "clinical data", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "", "to": "sensitivity", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "Electronic Medical Records", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. ... We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "predictive models", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "", "to": "development of UTI", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "", "to": "specificity", "width": 1}, {"arrows": "to", "color": "black", "from": "laboratory results", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "predictive models", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individual patient risk", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "", "to": "average squared error", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "", "to": "cumulative lift", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index). The algorithms had an area under the curve (ROC-index) ranging from 0.82 to 0.84 for the entry model (T = 0 hours after admission) and from 0.71 to 0.77 for the HA-UTI model (T = 48 hours after admission).", "to": "area under the curve (ROC-index)", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission.", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "", "to": "sensitivity", "width": 1}, {"arrows": "to", "color": "black", "from": "predictive models", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "antibiotic treatment", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "red", "from": "increased morbidity", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "increased morbidity", "style": "solid", "title": "", "to": "early warning systems", "width": 1}, {"arrows": "to", "color": "black", "from": "increased morbidity", "style": "solid", "title": "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it.", "to": "individualized prevention of UTI", "width": 1}, {"arrows": "to", "color": "red", "from": "prolonged hospital stay", "style": "solid", "title": "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs.", "to": "costs", "width": 1}, {"arrows": "to", "color": "black", "from": "prolonged hospital stay", "style": "solid", "title": "", "to": "individualized prevention of UTI", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

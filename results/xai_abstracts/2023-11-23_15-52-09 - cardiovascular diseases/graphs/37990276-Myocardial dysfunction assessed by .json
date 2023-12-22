@@ -1,0 +1,217 @@
+{
+    "nodes": [
+        "Strain imaging",
+        "acute phase",
+        "left ventricular ejection fraction (LVEF)",
+        "left ventricular dysfunction",
+        "classical echocardiographic evaluation",
+        "WFNS 1 or 2",
+        "concordance rate",
+        "Global Longitudinal Strain (GLS)",
+        "diagnosis",
+        "Cardiac complications",
+        "non-traumatic subarachnoid hemorrhage (SAH)"
+    ],
+    "directed_edges": [
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "Cardiac complications"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation."
+        ],
+        [
+            [
+                "Cardiac complications",
+                "classical echocardiographic evaluation"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cardiac complications",
+                "diagnosis"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation"
+        ],
+        [
+            [
+                "Cardiac complications",
+                "left ventricular dysfunction"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation. Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction."
+        ],
+        [
+            [
+                "Cardiac complications",
+                "Global Longitudinal Strain (GLS)"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation."
+        ],
+        [
+            [
+                "WFNS 1 or 2",
+                "Cardiac complications"
+            ],
+            "The aim of this study was to determine the prevalence of cardiac dysfunction defined as a Global Longitudinal Strain (GLS)\u2009\u2265\u2009\u2009-\u200920% in patients with good-grade SAH (WFNS 1 or 2)."
+        ],
+        [
+            [
+                "acute phase",
+                "Cardiac complications"
+            ],
+            "Strain imaging showed a higher prevalence (60.6%) of left ventricular dysfunction during the acute phase of good-grade SAH (WFNS 1 or 2) than previously described."
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "classical echocardiographic evaluation"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation."
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "Strain imaging"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation. Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction."
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "left ventricular dysfunction"
+            ],
+            "Strain imaging showed a higher prevalence (60.6%) of left ventricular dysfunction during the acute phase of good-grade SAH (WFNS 1 or 2) than previously described."
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "Global Longitudinal Strain (GLS)"
+            ],
+            "Cardiac complications due to non-traumatic subarachnoid hemorrhage (SAH) are usually described using classical echocardiographic evaluation. Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction."
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "WFNS 1 or 2"
+            ],
+            ""
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "left ventricular ejection fraction (LVEF)"
+            ],
+            ""
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "concordance rate"
+            ],
+            ""
+        ],
+        [
+            [
+                "non-traumatic subarachnoid hemorrhage (SAH)",
+                "acute phase"
+            ],
+            "Strain imaging showed a higher prevalence (60.6%) of left ventricular dysfunction during the acute phase of good-grade SAH (WFNS 1 or 2) than previously described"
+        ],
+        [
+            [
+                "classical echocardiographic evaluation",
+                "diagnosis"
+            ],
+            "Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction."
+        ],
+        [
+            [
+                "WFNS 1 or 2",
+                "classical echocardiographic evaluation"
+            ],
+            ""
+        ],
+        [
+            [
+                "Strain imaging",
+                "diagnosis"
+            ],
+            "Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction"
+        ],
+        [
+            [
+                "Strain imaging",
+                "concordance rate"
+            ],
+            ""
+        ],
+        [
+            [
+                "Global Longitudinal Strain (GLS)",
+                "diagnosis"
+            ],
+            "Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction"
+        ],
+        [
+            [
+                "left ventricular ejection fraction (LVEF)",
+                "diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "acute phase",
+                "diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "Global Longitudinal Strain (GLS)",
+                "left ventricular dysfunction"
+            ],
+            "Strain imaging appears to have better sensitivity than standard echocardiographic markers for the diagnosis of left ventricular dysfunction"
+        ],
+        [
+            [
+                "acute phase",
+                "left ventricular dysfunction"
+            ],
+            "Strain imaging showed a higher prevalence (60.6%) of left ventricular dysfunction during the acute phase of good-grade SAH (WFNS 1 or 2) than previously described"
+        ],
+        [
+            [
+                "WFNS 1 or 2",
+                "Global Longitudinal Strain (GLS)"
+            ],
+            "The aim of this study was to determine the prevalence of cardiac dysfunction defined as a Global Longitudinal Strain (GLS)\u2009\u2265\u2009\u2009-\u200920% in patients with good-grade SAH (WFNS 1 or 2)"
+        ],
+        [
+            [
+                "acute phase",
+                "Global Longitudinal Strain (GLS)"
+            ],
+            "Strain imaging showed a higher prevalence (60.6%) of left ventricular dysfunction during the acute phase of good-grade SAH (WFNS 1 or 2) than previously described"
+        ],
+        [
+            [
+                "acute phase",
+                "concordance rate"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:37:08"
+}

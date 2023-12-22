@@ -1,0 +1,1745 @@
+{
+    "nodes": [
+        "false positive",
+        "diagnostic performance",
+        "symptoms",
+        "overutilization",
+        "machine-learning based predictive models",
+        "medications",
+        "UTI prediction",
+        "sensitivity",
+        "Urinary tract infection (UTI)",
+        "admission and discharge cohorts",
+        "chief complaint",
+        "false negative",
+        "diagnostic error rates",
+        "extreme gradient boosting (XGBoost)",
+        "prospective validation",
+        "physical findings",
+        "antibiotic resistance",
+        "vitals",
+        "demographic information",
+        "specificity",
+        "emergency department (ED) diagnosis",
+        "past medical history",
+        "provider judgment",
+        "laboratory results",
+        "urine culture",
+        "delayed treatment",
+        "structured historical and physical exam findings",
+        "area under the curve"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "emergency department (ED) diagnosis"
+            ],
+            "Urinary tract infection (UTI) is a common emergency department (ED) diagnosis"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "diagnostic error rates"
+            ],
+            "Urinary tract infection (UTI) is a common emergency department (ED) diagnosis with reported high diagnostic error rates. Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "symptoms"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "physical findings"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "laboratory results"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "antibiotic resistance"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "diagnostic performance"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "medications"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "chief complaint"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "UTI prediction"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "provider judgment"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "Urinary tract infection (UTI)",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "diagnostic error rates"
+            ],
+            ""
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "symptoms",
+                "emergency department (ED) diagnosis"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "physical findings",
+                "emergency department (ED) diagnosis"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "laboratory results",
+                "emergency department (ED) diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "diagnostic performance"
+            ],
+            "Urinary tract infection (UTI) is a common emergency department (ED) diagnosis with reported high diagnostic error rates."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "machine-learning based predictive models"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment. Our aim, was to train, validate, and compare machine-learning based predictive models for UTI in a large diverse set of ED patients."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "medications"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "emergency department (ED) diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "emergency department (ED) diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "emergency department (ED) diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "UTI prediction"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "extreme gradient boosting (XGBoost)"
+            ],
+            ""
+        ],
+        [
+            [
+                "provider judgment",
+                "emergency department (ED) diagnosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "false positive"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "false negative"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "emergency department (ED) diagnosis",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "urine culture",
+                "diagnostic error rates"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "symptoms",
+                "diagnostic error rates"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "laboratory results",
+                "diagnostic error rates"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment. Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools."
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "diagnostic performance",
+                "diagnostic error rates"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "machine-learning based predictive models"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment. Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools. Our aim, was to train, validate, and compare machine-learning based predictive models for UTI in a large diverse set of ED patients."
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "UTI prediction"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "extreme gradient boosting (XGBoost)"
+            ],
+            ""
+        ],
+        [
+            [
+                "provider judgment",
+                "diagnostic error rates"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "false positive"
+            ],
+            "Urinary tract infection (UTI) is a common emergency department (ED) diagnosis with reported high diagnostic error rates. Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "false negative"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic error rates",
+                "prospective validation"
+            ],
+            "Urinary tract infection (UTI) is a common emergency department (ED) diagnosis with reported high diagnostic error rates. ... Future prospective validation is warranted."
+        ],
+        [
+            [
+                "physical findings",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "urine culture",
+                "laboratory results"
+            ],
+            ""
+        ],
+        [
+            [
+                "urine culture",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "urine culture",
+                "diagnostic performance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "urine culture",
+                "medications"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "urine culture",
+                "UTI prediction"
+            ],
+            ""
+        ],
+        [
+            [
+                "urine culture",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "provider judgment",
+                "urine culture"
+            ],
+            ""
+        ],
+        [
+            [
+                "symptoms",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "symptoms",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "symptoms",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "symptoms",
+                "diagnostic performance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "symptoms",
+                "machine-learning based predictive models"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "symptoms",
+                "medications"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "symptoms",
+                "chief complaint"
+            ],
+            ""
+        ],
+        [
+            [
+                "symptoms",
+                "UTI prediction"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "symptoms",
+                "provider judgment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "symptoms",
+                "false positive"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "physical findings",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "physical findings",
+                "diagnostic performance"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "past medical history",
+                "physical findings"
+            ],
+            ""
+        ],
+        [
+            [
+                "physical findings",
+                "UTI prediction"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "physical findings",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "physical findings",
+                "provider judgment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "physical findings",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "physical findings",
+                "false negative"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "laboratory results",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "laboratory results",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "laboratory results",
+                "diagnostic performance"
+            ],
+            "Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools."
+        ],
+        [
+            [
+                "laboratory results",
+                "machine-learning based predictive models"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "chief complaint",
+                "laboratory results"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "UTI prediction"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results"
+        ],
+        [
+            [
+                "laboratory results",
+                "area under the curve"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "extreme gradient boosting (XGBoost)"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "laboratory results",
+                "provider judgment"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "false positive"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "laboratory results",
+                "false negative"
+            ],
+            "Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools."
+        ],
+        [
+            [
+                "laboratory results",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "overutilization",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "overutilization",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "diagnostic performance",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "overutilization",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "medications",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "chief complaint",
+                "overutilization"
+            ],
+            ""
+        ],
+        [
+            [
+                "provider judgment",
+                "overutilization"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization"
+        ],
+        [
+            [
+                "overutilization",
+                "false positive"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "overutilization",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "medications",
+                "antibiotic resistance"
+            ],
+            "diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment"
+        ],
+        [
+            [
+                "provider judgment",
+                "antibiotic resistance"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "false positive",
+                "antibiotic resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic performance",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment. Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools."
+        ],
+        [
+            [
+                "delayed treatment",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "delayed treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "provider judgment",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "false negative",
+                "delayed treatment"
+            ],
+            "Because a urine culture, part of the gold standard for diagnosis of UTI, is usually not available for 24-48 hours after an ED visit, diagnosis and treatment decisions are based on symptoms, physical findings, and other laboratory results, potentially leading to overutilization, antibiotic resistance, and delayed treatment."
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "diagnostic performance"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models. The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "demographic information",
+                "diagnostic performance"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "vitals",
+                "diagnostic performance"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "past medical history",
+                "diagnostic performance"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "diagnostic performance"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "diagnostic performance"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "diagnostic performance",
+                "UTI prediction"
+            ],
+            "Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools. Our aim, was to train, validate, and compare machine-learning based predictive models for UTI in a large diverse set of ED patients."
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "diagnostic performance"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models. The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "specificity",
+                "diagnostic performance"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "provider judgment",
+                "diagnostic performance"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic performance",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "admission and discharge cohorts",
+                "diagnostic performance"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic performance",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "diagnostic performance",
+                "false negative"
+            ],
+            "Previous research has demonstrated inadequate diagnostic performance for both individual laboratory tests and prediction tools."
+        ],
+        [
+            [
+                "diagnostic performance",
+                "prospective validation"
+            ],
+            "Future prospective validation is warranted."
+        ],
+        [
+            [
+                "demographic information",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "vitals",
+                "machine-learning based predictive models"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "past medical history",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "UTI prediction"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "area under the curve"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904"
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "provider judgment",
+                "machine-learning based predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "sensitivity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning based predictive models",
+                "prospective validation"
+            ],
+            "The best performing machine learning algorithm, XGBoost, accurately diagnosed positive urine culture results, and outperformed previously developed models in the literature and several proxies for provider judgment. Future prospective validation is warranted."
+        ],
+        [
+            [
+                "demographic information",
+                "UTI prediction"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "vitals",
+                "UTI prediction"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "vitals",
+                "specificity"
+            ],
+            "The text does not explicitly state that \"vitals\" causes \"specificity\". Instead, it mentions that machine learning models, which include vitals as one of the variables, demonstrated improved specificity compared to provider judgment. Therefore, no causal relationship between \"vitals\" and \"specificity\" is directly indicated in the text."
+        ],
+        [
+            [
+                "vitals",
+                "provider judgment"
+            ],
+            ""
+        ],
+        [
+            [
+                "vitals",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "UTI prediction"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "extreme gradient boosting (XGBoost)"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "provider judgment"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "structured historical and physical exam findings"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "UTI prediction"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "chief complaint",
+                "provider judgment"
+            ],
+            "UTI predictions were compared between models and to proxies of provider judgment (documentation of UTI diagnosis and antibiotic administration)."
+        ],
+        [
+            [
+                "chief complaint",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "chief complaint",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "UTI prediction"
+            ],
+            "We developed models for UTI prediction with six machine learning algorithms using demographic information, vitals, laboratory results, medications, past medical history, chief complaint, and structured historical and physical exam findings."
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "area under the curve"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "extreme gradient boosting (XGBoost)"
+            ],
+            ""
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "provider judgment"
+            ],
+            "UTI predictions were compared between models and to proxies of provider judgment (documentation of UTI diagnosis and antibiotic administration)."
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "sensitivity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "structured historical and physical exam findings",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "UTI prediction",
+                "area under the curve"
+            ],
+            ""
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "UTI prediction"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models."
+        ],
+        [
+            [
+                "UTI prediction",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "UTI prediction",
+                "sensitivity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "UTI prediction",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "UTI prediction",
+                "false negative"
+            ],
+            ""
+        ],
+        [
+            [
+                "UTI prediction",
+                "prospective validation"
+            ],
+            "Future prospective validation is warranted."
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "area under the curve"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models."
+        ],
+        [
+            [
+                "admission and discharge cohorts",
+                "area under the curve"
+            ],
+            ""
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "specificity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "sensitivity"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "false negative"
+            ],
+            ""
+        ],
+        [
+            [
+                "extreme gradient boosting (XGBoost)",
+                "prospective validation"
+            ],
+            "The best performing machine learning algorithm, XGBoost, accurately diagnosed positive urine culture results, and outperformed previously developed models in the literature and several proxies for provider judgment. Future prospective validation is warranted."
+        ],
+        [
+            [
+                "admission and discharge cohorts",
+                "specificity"
+            ],
+            "In the admission and discharge cohorts using the full XGboost model, approximately 1 in 4 patients (4109/15855) would be re-categorized from a false positive to a true negative and approximately 1 in 11 patients (1372/15855) would be re-categorized from a false negative to a true positive."
+        ],
+        [
+            [
+                "specificity",
+                "false positive"
+            ],
+            ""
+        ],
+        [
+            [
+                "specificity",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "provider judgment",
+                "false positive"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6)"
+        ],
+        [
+            [
+                "provider judgment",
+                "false negative"
+            ],
+            "The machine learning models had an area under the curve ranging from 0.826-0.904, with extreme gradient boosting (XGBoost) the top performing algorithm for both full and reduced models. The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "provider judgment",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "admission and discharge cohorts",
+                "sensitivity"
+            ],
+            "In the admission and discharge cohorts using the full XGboost model, approximately 1 in 4 patients (4109/15855) would be re-categorized from a false positive to a true negative and approximately 1 in 11 patients (1372/15855) would be re-categorized from a false negative to a true positive."
+        ],
+        [
+            [
+                "sensitivity",
+                "false negative"
+            ],
+            "The XGBoost full and reduced models demonstrated greatly improved specificity when compared to the provider judgment proxy of UTI diagnosis OR antibiotic administration with specificity differences of 33.3 (31.3-34.3) and 29.6 (28.5-30.6), while also demonstrating superior sensitivity when compared to documentation of UTI diagnosis with sensitivity differences of 38.7 (38.1-39.4) and 33.2 (32.5-33.9)."
+        ],
+        [
+            [
+                "admission and discharge cohorts",
+                "prospective validation"
+            ],
+            ""
+        ],
+        [
+            [
+                "false negative",
+                "prospective validation"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "overutilization",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "extreme gradient boosting (XGBoost)",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "diagnostic error rates",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "overutilization",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "sensitivity",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models"
+        ],
+        [
+            "diagnostic performance",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "specificity"
+        ],
+        [
+            "diagnostic performance",
+            "false negative",
+            "delayed treatment",
+            "machine-learning based predictive models",
+            "specificity"
+        ],
+        [
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "sensitivity",
+            "false negative",
+            "delayed treatment"
+        ],
+        [
+            "machine-learning based predictive models",
+            "UTI prediction",
+            "false negative",
+            "delayed treatment"
+        ],
+        [
+            "machine-learning based predictive models",
+            "sensitivity",
+            "false negative",
+            "delayed treatment"
+        ],
+        [
+            "emergency department (ED) diagnosis",
+            "urine culture",
+            "laboratory results"
+        ],
+        [
+            "emergency department (ED) diagnosis",
+            "urine culture",
+            "laboratory results",
+            "provider judgment"
+        ],
+        [
+            "provider judgment",
+            "urine culture",
+            "laboratory results"
+        ]
+    ],
+    "exec_time": "05:15:27"
+}

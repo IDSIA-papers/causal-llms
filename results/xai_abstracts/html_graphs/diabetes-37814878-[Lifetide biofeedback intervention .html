@@ -1,0 +1,262 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    To evaluate the
+    <mark>
+     therapeutic efficacy
+    </mark>
+    of
+    <mark>
+     lifetide biofeedback intervention
+    </mark>
+    in patients with
+    <mark>
+     type 2 diabetes mellitus (T2DM)
+    </mark>
+    . We analyzed the changes in
+    <mark>
+     average blood glucose
+    </mark>
+    ,
+    <mark>
+     estimated glycosylated hemoglobin (HbA1c)
+    </mark>
+    ,
+    <mark>
+     fasting blood glucose
+    </mark>
+    and HbA1c levels in 5 patients with T2DM undergoing
+    <mark>
+     lifetide biofeedback intervention
+    </mark>
+    without the use of
+    <mark>
+     hypoglycemic drugs
+    </mark>
+    . A
+    <mark>
+     transient blood glucose monitoring system
+    </mark>
+    was used for
+    <mark>
+     drug withdrawal management
+    </mark>
+    during the intervention. Compared with those before the intervention, the
+    <mark>
+     average blood glucose
+    </mark>
+    and
+    <mark>
+     fasting blood glucose
+    </mark>
+    and HbA1c levels showed no significant changes after the intervention without using
+    <mark>
+     hypoglycemic drugs
+    </mark>
+    (P&gt;0.05), but the
+    <mark>
+     estimated HbA1c
+    </mark>
+    was significantly decreased after the intervention (P&lt;0.05). Two patients achieved
+    <mark>
+     complete remission
+    </mark>
+    , two showed
+    <mark>
+     partial remission
+    </mark>
+    , and one had substantially improved blood glucose levels. One patient showed a marked increase in
+    <mark>
+     extremity temperature
+    </mark>
+    after the intervention (P&lt;0.05). Another patient had a significantly increased
+    <mark>
+     heart rate variability index
+    </mark>
+    (P&lt;0.05) without obvious changes in
+    <mark>
+     heart rate
+    </mark>
+    after the intervention (P&gt;0.05). By reestablishing the balance in
+    <mark>
+     autonomic nervous system regulation
+    </mark>
+    and enhancing
+    <mark>
+     peripheral microcirculation
+    </mark>
+    ,
+    <mark>
+     lifetide biofeedback intervention
+    </mark>
+    helps to maintain stable blood glucose levels, achieve
+    <mark>
+     disease remission
+    </mark>
+    , and reduce the
+    <mark>
+     occurrence of complications
+    </mark>
+    in T2DM patients after discontinuation of
+    <mark>
+     hypoglycemic drugs
+    </mark>
+    without changing their lifestyles.
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "drug withdrawal management", "label": "drug withdrawal management", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "therapeutic efficacy", "label": "therapeutic efficacy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "autonomic nervous system regulation", "label": "autonomic nervous system regulation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "average blood glucose", "label": "average blood glucose", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fasting blood glucose", "label": "fasting blood glucose", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "disease remission", "label": "disease remission", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heart rate variability index", "label": "heart rate variability index", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "heart rate", "label": "heart rate", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "type 2 diabetes mellitus (T2DM)", "label": "type 2 diabetes mellitus (T2DM)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "lifetide biofeedback intervention", "label": "lifetide biofeedback intervention", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "estimated glycosylated hemoglobin (HbA1c)", "label": "estimated glycosylated hemoglobin (HbA1c)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "occurrence of complications", "label": "occurrence of complications", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hypoglycemic drugs", "label": "hypoglycemic drugs", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "peripheral microcirculation", "label": "peripheral microcirculation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "extremity temperature", "label": "extremity temperature", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "transient blood glucose monitoring system", "label": "transient blood glucose monitoring system", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "drug withdrawal management", "style": "solid", "title": "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention. By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "therapeutic efficacy", "width": 1}, {"arrows": "to", "color": "black", "from": "autonomic nervous system regulation", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels", "to": "average blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "autonomic nervous system regulation", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels", "to": "fasting blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "autonomic nervous system regulation", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission", "to": "disease remission", "width": 1}, {"arrows": "to", "color": "black", "from": "autonomic nervous system regulation", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "heart rate variability index", "width": 1}, {"arrows": "to", "color": "black", "from": "autonomic nervous system regulation", "style": "solid", "title": "", "to": "heart rate", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "", "to": "therapeutic efficacy", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "", "to": "lifetide biofeedback intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "average blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "", "to": "estimated glycosylated hemoglobin (HbA1c)", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "", "to": "drug withdrawal management", "width": 1}, {"arrows": "to", "color": "black", "from": "type 2 diabetes mellitus (T2DM)", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "occurrence of complications", "width": 1}, {"arrows": "to", "color": "black", "from": "fasting blood glucose", "style": "solid", "title": "", "to": "estimated glycosylated hemoglobin (HbA1c)", "width": 1}, {"arrows": "to", "color": "black", "from": "hypoglycemic drugs", "style": "solid", "title": "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention.", "to": "drug withdrawal management", "width": 1}, {"arrows": "to", "color": "black", "from": "peripheral microcirculation", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to ... achieve disease remission ...", "to": "disease remission", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "therapeutic efficacy", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels", "to": "average blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "the estimated HbA1c was significantly decreased after the intervention (P\u003c0.05)", "to": "estimated glycosylated hemoglobin (HbA1c)", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "", "to": "drug withdrawal management", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "Two patients achieved complete remission, two showed partial remission, and one had substantially improved blood glucose levels. By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "disease remission", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "One patient showed a marked increase in extremity temperature after the intervention (P\u003c0.05).", "to": "extremity temperature", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "Another patient had a significantly increased heart rate variability index (P\u003c0.05) without obvious changes in heart rate after the intervention", "to": "heart rate variability index", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "autonomic nervous system regulation", "width": 1}, {"arrows": "to", "color": "black", "from": "lifetide biofeedback intervention", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels", "to": "peripheral microcirculation", "width": 1}, {"arrows": "to", "color": "black", "from": "average blood glucose", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "disease remission", "width": 1}, {"arrows": "to", "color": "black", "from": "average blood glucose", "style": "solid", "title": "", "to": "occurrence of complications", "width": 1}, {"arrows": "to", "color": "black", "from": "transient blood glucose monitoring system", "style": "solid", "title": "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention.", "to": "drug withdrawal management", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "", "to": "average blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "but the estimated HbA1c was significantly decreased after the intervention (P\u003c0.05)", "to": "estimated glycosylated hemoglobin (HbA1c)", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "", "to": "fasting blood glucose", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "disease remission", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients", "to": "autonomic nervous system regulation", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "peripheral microcirculation", "width": 1}, {"arrows": "to", "color": "black", "from": "therapeutic efficacy", "style": "solid", "title": "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles.", "to": "occurrence of complications", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

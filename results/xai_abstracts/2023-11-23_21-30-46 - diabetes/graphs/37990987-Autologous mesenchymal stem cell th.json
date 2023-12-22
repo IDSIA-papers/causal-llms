@@ -1,0 +1,254 @@
+{
+    "nodes": [
+        "oral PDE5I",
+        "pharmacological therapy",
+        "Peak systolic velocity",
+        "International Index of Erectile Function",
+        "venogenic insufficiency",
+        "arteriogenic erectile dysfunction",
+        "penile cavernosal tissue",
+        "end-diastolic velocity",
+        "erectile dysfunction therapy",
+        "diabetic men",
+        "corpora cavernosa",
+        "hard erection",
+        "erectile dysfunction",
+        "penile Doppler study",
+        "autologous mesenchymal bone marrow stem cell injection"
+    ],
+    "directed_edges": [
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "penile cavernosal tissue"
+            ],
+            ""
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "erectile dysfunction therapy"
+            ],
+            "to assess safety and efficacy of autologous mesenchymal bone marrow stem cell injection in penile cavernosal tissue for erectile dysfunction therapy in diabetic men"
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "diabetic men"
+            ],
+            ""
+        ],
+        [
+            [
+                "erectile dysfunction",
+                "autologous mesenchymal bone marrow stem cell injection"
+            ],
+            ""
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "International Index of Erectile Function"
+            ],
+            "Erectile function was assessed by the International Index of Erectile Function and penile Doppler study, before and after 6 months after injection. 4 patients out of 10 achieve hard erection adequate for satisfactory coitus"
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "hard erection"
+            ],
+            "4 patients out of 10 achieve hard erection adequate for satisfactory coitus"
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "Peak systolic velocity"
+            ],
+            "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s"
+        ],
+        [
+            [
+                "autologous mesenchymal bone marrow stem cell injection",
+                "end-diastolic velocity"
+            ],
+            "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s"
+        ],
+        [
+            [
+                "erectile dysfunction therapy",
+                "penile cavernosal tissue"
+            ],
+            ""
+        ],
+        [
+            [
+                "penile cavernosal tissue",
+                "hard erection"
+            ],
+            "4 patients out of 10 achieve hard erection adequate for satisfactory coitus"
+        ],
+        [
+            [
+                "penile cavernosal tissue",
+                "Peak systolic velocity"
+            ],
+            "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s"
+        ],
+        [
+            [
+                "diabetic men",
+                "erectile dysfunction therapy"
+            ],
+            "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I"
+        ],
+        [
+            [
+                "erectile dysfunction",
+                "erectile dysfunction therapy"
+            ],
+            "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I."
+        ],
+        [
+            [
+                "erectile dysfunction therapy",
+                "corpora cavernosa"
+            ],
+            "Mesenchymal bone marrow stem cells were aspirated and injected after preparation in both corpora cavernosa at 3, 9 o'clock position."
+        ],
+        [
+            [
+                "erectile dysfunction therapy",
+                "hard erection"
+            ],
+            "4 patients out of 10 achieve hard erection adequate for satisfactory coitus"
+        ],
+        [
+            [
+                "erectile dysfunction therapy",
+                "Peak systolic velocity"
+            ],
+            "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s"
+        ],
+        [
+            [
+                "arteriogenic erectile dysfunction",
+                "erectile dysfunction therapy"
+            ],
+            ""
+        ],
+        [
+            [
+                "erectile dysfunction therapy",
+                "end-diastolic velocity"
+            ],
+            "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s"
+        ],
+        [
+            [
+                "diabetic men",
+                "erectile dysfunction"
+            ],
+            "The subjects of this study were diabetic men suffering erectile dysfunction"
+        ],
+        [
+            [
+                "diabetic men",
+                "penile Doppler study"
+            ],
+            ""
+        ],
+        [
+            [
+                "diabetic men",
+                "arteriogenic erectile dysfunction"
+            ],
+            "The subjects of this study were diabetic men suffering erectile dysfunction"
+        ],
+        [
+            [
+                "erectile dysfunction",
+                "penile Doppler study"
+            ],
+            "Erectile function was assessed by the International Index of Erectile Function and penile Doppler study"
+        ],
+        [
+            [
+                "erectile dysfunction",
+                "pharmacological therapy"
+            ],
+            "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I."
+        ],
+        [
+            [
+                "arteriogenic erectile dysfunction",
+                "erectile dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "corpora cavernosa",
+                "hard erection"
+            ],
+            "4 patients out of 10 achieve hard erection adequate for satisfactory coitus"
+        ],
+        [
+            [
+                "corpora cavernosa",
+                "Peak systolic velocity"
+            ],
+            "Mesenchymal bone marrow stem cells were aspirated and injected after preparation in both corpora cavernosa at 3, 9 o'clock position. Peak systolic velocity increased significantly in 4 patients"
+        ],
+        [
+            [
+                "venogenic insufficiency",
+                "penile Doppler study"
+            ],
+            ""
+        ],
+        [
+            [
+                "pharmacological therapy",
+                "hard erection"
+            ],
+            "2 patients achieved penile hardness with addition of pharmacological therapy with sildenafil 100mg"
+        ],
+        [
+            [
+                "Peak systolic velocity",
+                "hard erection"
+            ],
+            "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s"
+        ],
+        [
+            [
+                "pharmacological therapy",
+                "Peak systolic velocity"
+            ],
+            "2 patients achieved penile hardness with addition of pharmacological therapy with sildenafil 100mg. Peak systolic velocity increased significantly in 4 patients"
+        ],
+        [
+            [
+                "venogenic insufficiency",
+                "end-diastolic velocity"
+            ],
+            "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "arteriogenic erectile dysfunction",
+            "erectile dysfunction",
+            "autologous mesenchymal bone marrow stem cell injection",
+            "diabetic men"
+        ],
+        [
+            "diabetic men",
+            "erectile dysfunction",
+            "autologous mesenchymal bone marrow stem cell injection"
+        ]
+    ],
+    "exec_time": "00:47:04"
+}

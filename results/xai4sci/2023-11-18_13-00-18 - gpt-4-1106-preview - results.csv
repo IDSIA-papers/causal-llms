@@ -1,0 +1,804 @@
+sentence,entities,gt_relation,pred_relation,pred_edge,is_edge_test_contradictory,exec_time
+We have dumped the spam into the junk folder.,"['spam', 'junk folder']",6,0,"('spam', 'junk folder')",True,00:00:41
+The violinist produces sound by drawing a bow across one or more strings (which may be stopped by the fingers of the other hand).,"['violinist', 'bow']",11,-1,[],False,00:00:35
+All of the data is stored in a Microsoft Access database.,"['data', 'database']",4,-1,[],False,00:00:37
+These companies have delivered new products or service to their clients.,"['products', 'clients']",6,-1,[],False,00:00:46
+The current debate swirling around Leather's comments seems to suggest both.,"['debate', 'comments']",14,1,"('comments', 'debate')",False,00:00:17
+I have just bought a silver necklace from a lady who makes her own jewellery with the fingerprints of my children on it.,"['silver', 'necklace']",18,0,"('silver', 'necklace')",True,00:00:38
+These breakdown products are not only losses of sucrose but also have knock-on effects reducing the final output of processed sugar from the factory.,"['sugar', 'factory']",16,-1,[],False,00:00:30
+"The flour was in a bin about six feet square, by four feet high, and only a small round hole at the top.","['flour', 'bin']",4,-1,[],False,00:00:17
+"The Earth's thin, rocky crust is composed of silicon, aluminum, calcium, sodium and potassium.","['crust', 'silicon']",18,-1,[],False,00:00:19
+The sows were moved into isolated farrowing houses at least 5 days before farrowing.,"['sows', 'houses']",6,-1,[],False,00:00:46
+"MFX colours are implemented at the design stage, where the designer creates artwork using the MetalFX colour palettes and actions.","['designer', 'palettes']",11,-1,[],False,00:00:38
+The horizontal branch is a part of the Hertzsprung -Russell (H-R) diagram that represents stars that burn helium in thier cores.,"['branch', 'diagram']",2,-1,[],False,00:00:28
+The painting was one of the first used as a poster in an advertising campaign for soap powder.,"['advertising campaign', 'soap powder']",14,1,"('soap powder', 'advertising campaign')",False,00:00:18
+"While making observations of the microfossil through the binocular microscope or on a computer monitor, the investigator needed to manually move the specimen.","['observations', 'microscope']",18,1,"('microscope', 'observations')",False,00:00:22
+"Cuba is already a customer and now the state development bank, BNDES, plans to finance the export of ethanol knowhow to Africa, where the hopes of countries such as Ghana are pinned on the jatropha plant.","['jatropha', 'plant']",16,-1,[],False,00:00:16
+"The nuclear hormone receptor superfamily consists of structurally related, ligand-dependent transcription factors and a large number of orphan receptors for which the ligand has not yet been identified.","['superfamily', 'factors']",3,0,"('superfamily', 'factors')",False,00:00:22
+"When a watch of nightingales is at the height of breeding season, the males serenade their prospective brides with one of the most glorious and celebrated bird songs there is.","['watch', 'nightingales']",13,-1,[],False,00:00:33
+Pet owners have released pythons into the wild when they had grown too large for the owners to care for them.,"['pythons', 'wild']",6,-1,[],False,00:00:19
+Biddle has done a thorough job of cutting through the thicket of contradictions and fantasies that surround the strategic bombing debate from 1914 to 1945.,"['thicket', 'contradictions']",18,1,"('contradictions', 'thicket')",False,00:00:20
+Three houses are handed over to beneficiaries.,"['houses', 'beneficiaries']",6,1,"('beneficiaries', 'houses')",True,00:00:34
+"The term Baroque was derived from a Portuguese word meaning ""a pearl of irregular shape"".","['term', 'word']",8,1,"('word', 'term')",False,00:00:14
+The former prime minister's daughter made numerous offensive comments about a French mixed-race tennis player.,"['daughter', 'comments']",17,0,"('daughter', 'comments')",False,00:00:11
+"A freight train on the Chicago and Alton Railroad, while approaching this city yesterday morning, dashed into a drove of cattle, killing three of them.","['drove', 'cattle']",13,-1,[],False,00:00:26
+This Italian dish is made with gelatinous veal shanks that are braised with fresh vegetables and rich stock.,"['dish', 'shanks']",3,1,"('shanks', 'dish')",False,00:00:23
+Pink Kodiak is coming in like a rake of colts.,"['rake', 'colts']",13,-1,[],False,00:00:23
+"On 29 August 1914, C Squadron of the 12th Lancers made a successful charge against a dismounted squadron of Prussian dragoons.","['squadron', 'dragoons']",13,-1,[],False,00:00:50
+This manuscript describes two specific features that we have found to be effective in generating high quality models.,"['manuscript', 'features']",14,-1,[],False,00:00:23
+He put the card into his mobile phone.,"['card', 'mobile phone']",6,0,"('card', 'mobile phone')",True,00:00:37
+"Joseph Herrin, a dear brother in the Lord, has added insight into the message.","['insight', 'message']",6,1,"('message', 'insight')",False,00:00:24
+Purely textual posters advertised the plays of Shakespeare and made citizens aware of government proclamations for centuries.,"['posters', 'plays']",14,1,"('plays', 'posters')",False,00:00:16
+"The conceptual foundation for creation of the Internet was largely created by three individuals and a research conference, each of which changed the way we thought about technology by accurately predicting its future.","['foundation', 'individuals']",16,1,"('individuals', 'foundation')",False,00:00:17
+"Following the convention's sports theme, we placed a fun invitation with an AstroTurf look inside a branded water bottle.","['invitation', 'bottle']",6,-1,[],False,00:00:21
+A dissimulation of small birds arrived near our place last week and took over our tree outside.,"['dissimulation', 'birds']",13,-1,[],False,00:00:22
+This study presents a comprehensive methodology for calculating the cost to society of various criminal acts.,"['society', 'acts']",18,-1,[],False,00:00:23
+The launcher released a satellite into geosynchronous transfer orbit at 23.31 GMT.,"['satellite', 'orbit']",6,-1,[],False,00:00:20
+"In Western Australia, the helve of the hatchet is pointed and the natives, after making the notch, stick the tool in the bark and lift themselves up with it.","['helve', 'hatchet']",2,-1,[],False,00:00:25
+A wisp of snipes utter their well known cry and scud over the heath; one of these is secured.,"['wisp', 'snipes']",13,-1,[],False,00:00:36
+The fad started when a certain brand of socks manufactured by an American company became popular among Japanese schoolgirls.,"['brand', 'company']",18,1,"('company', 'brand')",False,00:00:21
+In a taped interview she recounted two occasions on which she had lent money.,"['interview', 'occasions']",14,-1,[],False,00:00:26
+An unnamed lifeguard was pushed into the pool.,"['lifeguard', 'pool']",6,-1,[],False,00:00:22
+"When we were in junior high school, my friend made a map of the school lunch tables according to popularity.","['friend', 'map']",17,0,"('friend', 'map')",False,00:00:18
+"After 5 minutes or so, the problem went away from an operational perspective.","['problem', 'perspective']",18,-1,[],False,00:00:22
+"Frazerian theory of corn spirits and fertility and have thus needed to enquire no further, so their distribution and function remains unclear.","['corn', 'spirits']",18,-1,[],False,00:00:22
+The author cites the case of an American citizen during the general war.,"['author', 'case']",18,-1,[],False,00:00:38
+The cover of the magazine featured the famous image of Einstein taken in 1947 by American portrait photographer Philippe Halsman.,"['cover', 'magazine']",2,1,"('magazine', 'cover')",True,00:00:32
+Two other structures in the depth of the midbrain that are important for normal motor function are the red nucleus (not visible) and the substantia nigra.,"['midbrain', 'nucleus']",3,-1,[],False,00:00:18
+"On 8 February 1992, Ulysses reached Jupiter for the gravity-assist manoeuvre that placed the spacecraft in a polar orbit.","['spacecraft', 'orbit']",6,0,"('spacecraft', 'orbit')",False,00:00:21
+"A tealight, or nightlight, is a candle used in tea or food warmers or (because they last for many hours) as a night light.","['candle', 'warmers']",2,-1,[],False,00:00:39
+The painter continues adding paint on top of still wet paint rather than waiting a lengthy amount of time to allow each layer of paint to dry.,"['painter', 'paint']",11,0,"('painter', 'paint')",False,00:00:16
+"The new bratpack of boys, be it Ranbir or Imran or Shahid or Neil, are way too 'Chikna' to be taken seriously as action heroes and the slightly senior Abhishek Bachchan, John Abraham and Hrithik Roshan are content playing roles that require sophistication.","['bratpack', 'boys']",13,-1,[],False,00:00:30
+The bomb weighing 6kg was inside a box fitted with an electronic detonator.,"['bomb', 'box']",4,-1,[],False,00:00:18
+The Mother Superior is a member of the corporation.,"['Mother Superior', 'corporation']",12,-1,[],False,00:00:18
+"The army of Israel was utterly defeated and its camp ransacked, which terribly augmented the horrors and disasters of the rout of Saul's army.","['rout', 'army']",18,1,"('army', 'rout')",False,00:00:17
+The feed wire connecting the two blades of the antenna has a length of 4 mm and a radius of 0.01 mm.,"['blades', 'antenna']",2,-1,[],False,00:00:19
+"On the other hand, sentry tools are used by sentries in order to defend against spies.","['tools', 'sentries']",10,1,"('sentries', 'tools')",True,00:00:31
+"The sword was taken from his small hands, and placed back in its place on the wall.","['sword', 'hands']",8,1,"('hands', 'sword')",True,00:00:36
+A woman applies the patch to the skin of her abdomen or buttock for three and a half weeks.,"['woman', 'patch']",11,-1,[],False,00:00:33
+The student took the note to the class room.,"['note', 'class room']",6,-1,[],False,00:00:35
+"As a little boy, he learned about politics from the parodies done on Saturday Night Live.","['politics', 'parodies']",15,0,"('politics', 'parodies')",False,00:00:27
+The actress willingly moved into a rehabilitation center in California.,"['actress', 'center']",6,-1,[],False,00:00:26
+The priority of hoisting locations depends on the rig of the vessel.,"['rig', 'vessel']",2,-1,[],False,00:00:26
+I kept a spray bottle with vinegar in it.,"['bottle', 'vinegar']",5,-1,[],False,00:00:31
+The frame encloses a rectangular picture that has the same area as the frame itself.,"['frame', 'picture']",4,-1,[],False,00:00:18
+My eyes have seen the defeat of my adversaries; my ears have heard the rout of my wicked foes.,"['rout', 'foes']",18,1,"('foes', 'rout')",False,00:00:21
+The lid of the anthropoid coffin of Khonstefnakht dates from the 4th century BC.,"['lid', 'coffin']",2,1,"('coffin', 'lid')",False,00:00:32
+"On the studio version, the song breaks wide open after the second chorus with a string section as Ryan rips up the harmonica.","['song', 'chorus']",3,-1,[],False,00:00:24
+Dolphins created tools to use for entertainment.,"['Dolphins', 'tools']",17,0,"('Dolphins', 'tools')",False,00:00:20
+This system proved to be effective during the earthquake; only one large painting fell from an interior wall which apparently took an unusually strong jolt.,"['painting', 'wall']",8,1,"('wall', 'painting')",False,00:00:20
+My dog has a little red ball on his snout.,"['dog', 'snout']",3,-1,[],False,00:00:22
+Employees increasingly are turning to medication - and away from therapy - to treat depression.,"['Employees', 'medication']",11,0,"('Employees', 'medication')",False,00:00:15
+Down the winding path which curved among the rocks the little train of baggage camels was daintily picking its way.,"['train', 'camels']",13,1,"('camels', 'train')",True,00:00:36
+He packed the sandwiches into a knapsack.,"['sandwiches', 'knapsack']",6,-1,[],False,00:00:46
+The frustration during this period was reflected in comments published in The Youngstown Daily Vindicator.,"['frustration', 'comments']",15,0,"('frustration', 'comments')",False,00:00:10
+Koak et al 14 reported a case of such transformation in an enchondroma of the distal phalanx of a toe.,"['phalanx', 'toe']",2,-1,[],False,00:00:24
+"Some are just strange such as parliament of owls, a knob of pochards, a cohort of zebras.","['knob', 'pochards']",13,-1,[],False,00:00:19
+"In the Lower Mainland, 2003 saw the usual raft of architectural turkeys, with our highest density of under-achieving, view-gobbling buildings in the flock of new condo towers under construction in Downtown South.","['raft', 'turkeys']",13,-1,[],False,00:00:35
+Get on board before the train leaves the station.,"['train', 'station']",8,-1,[],False,00:00:23
+The wastes leaked from these tanks have been in contact with surrounding soils and vadose sediments for decades and have undergone significant geochemical and radiological transformations.,"['wastes', 'tanks']",8,1,"('tanks', 'wastes')",False,00:00:15
+I sent the payment to the registered email address in sandbox.,"['payment', 'email address']",6,-1,[],False,00:00:22
+The bus departed from Panaji bus stand at six a.m. and reached Mangalore the same day at four in the evening.,"['bus', 'stand']",8,-1,[],False,00:00:24
+The first part teaches the alphabet along with a fruit or vegetable.,"['part', 'alphabet']",14,-1,[],False,00:00:27
+"The most famous unkindness of six ravens at the Tower of London are employees, kept on staff at the expense of the British government.","['unkindness', 'ravens']",13,-1,[],False,00:00:26
+The course scaled the mountain via a very muddy run-up.,"['course', 'run-up']",3,-1,[],False,00:00:18
+Another misconception I see often is a fuzzy idea of the difference between the copy constructor and the assignment operator.,"['assignment', 'operator']",18,-1,[],False,00:00:29
+"A regiment of Swiss pikemen recaptured some of their former glory during the Battle of Dreux in 1562, when they singlehandedly defended the city of Dreux long enough for the Catholic army to send in reinforcements.","['regiment', 'pikemen']",13,-1,[],False,00:00:25
+The gunmen ran away from the scene.,"['gunmen', 'scene']",8,-1,[],False,00:00:37
+The barbels of the exposed catfish curled within 2 hours in heptachlor.,"['barbels', 'catfish']",2,-1,[],False,00:00:41
+"Optic lobes of the brain are connected to the eyes by the optic nerve, Cranial Nerve 1.","['lobes', 'brain']",2,-1,[],False,00:00:21
+"Under this completed contract, workgangs made up almost entirely of Mormons built the Union Pacific track in the Utah territory.","['workgangs', 'track']",17,0,"('workgangs', 'track')",False,00:00:16
+"The letter was sent from the deathbed of the former KGB spy, Alexander Litvinenko, who died this Saturday after being poisoned with radioactive poison earlier in the month.","['letter', 'deathbed']",8,1,"('deathbed', 'letter')",False,00:00:28
+The Nhibitor protein is transported into the mitochondria.,"['protein', 'mitochondria']",6,-1,[],False,00:00:27
+The marijuana in the bed was in a suitcase.,"['marijuana', 'suitcase']",4,-1,[],False,00:00:17
+The user has entered his password into an authorized system.,"['password', 'system']",6,-1,[],False,00:00:33
+"To the left is drinking equipment, sitting in a wooden box.","['equipment', 'box']",4,-1,[],False,00:00:12
+"The genome comprises 4411529 base pairs, contains around 4000 genes, and has a very high guanine + cytosine content.","['genome', 'genes']",3,0,"('genome', 'genes')",True,00:00:35
+The discharge started from the burst pulse corona.,"['discharge', 'corona']",18,1,"('corona', 'discharge')",False,00:00:14
+"The Clippers, in contrast, are a prickle of hedgehogs without a common goal.","['prickle', 'hedgehogs']",13,-1,[],False,00:00:22
+"Accidentally, acid was dropped into the pool.","['acid', 'pool']",6,-1,[],False,00:00:38
+"The standard soccer ball is made of synthetic leather, usually polyurethane or polyvinyl chloride, stitched around an inflated rubber or rubber-like bladder.","['ball', 'leather']",8,1,"('leather', 'ball')",False,00:00:27
+The artist's development toolkit is one of a series of interactive artist's tookits.,"['artist', 'toolkit']",11,0,"('artist', 'toolkit')",False,00:00:20
+A US aircraft was dropped into a difficult landing in Mali.,"['aircraft', 'landing']",18,0,"('aircraft', 'landing')",False,00:00:25
+"This barbell toy has an acrylic ring to rattle and lots of dots to ""tongue"".","['toy', 'ring']",3,0,"('toy', 'ring')",False,00:00:22
+The head of the team has gathered a very dynamic and productive team.,"['head', 'team']",12,0,"('head', 'team')",False,00:00:23
+"Each warrior carries a sime, or spatulate-shaped sword, in a leather sheath, and bears a bow and quiver of poisoned arrows.","['quiver', 'arrows']",5,-1,[],False,00:00:30
+Even the fan blades inside the engine are designed to be quieter.,"['blades', 'engine']",2,-1,[],False,00:00:27
+"The first parcel he found was a rouleau of fifty dollars, the coins not having burst the paper enveloping them.","['rouleau', 'dollars']",3,-1,[],False,00:00:20
+"Sam Houghton, a five-year old boy from Buxton, Derbyshire, patented an invention after coming up with an idea for a labour-saving broom to help his father sweep up leaves.","['boy', 'idea']",17,0,"('boy', 'idea')",False,00:00:16
+"The woman purchases raw milk from a local member of Communities Alliance for Responsible Eco-Farming, a self-regulating cooperative of raw milk dairymen.","['cooperative', 'dairymen']",13,1,"('dairymen', 'cooperative')",False,00:00:19
+This personal alarm combines two great deterrents to attack- a loud alarm and flashing light.,"['alarm', 'light']",3,-1,[],False,00:00:17
+The rescue adoption room was filled with a kindle of kittens.,"['kindle', 'kittens']",13,-1,[],False,00:00:34
+"The pages of the magazine came to life at the Metreon with gourmet food, great Sonoma Valley wine, and jamming music.","['pages', 'magazine']",2,1,"('magazine', 'pages')",False,00:00:22
+Antacids work by using a base to neutralize the acid.,"['Antacids', 'base']",18,0,"('Antacids', 'base')",True,00:00:42
+"In Wuthering Heights by Emily Bronte's, the author uses repetition as a device to give us the full understanding of the characters.","['author', 'repetition']",11,0,"('author', 'repetition')",False,00:00:14
+This is a homeopathic nasal spray which really helps customers keep their sinuses clear.,"['spray', 'customers']",10,0,"('spray', 'customers')",False,00:00:23
+"The thing that most struck him, however, was the rope of the great alarm bell on the roof, which hung down in a corner of the room on the right-hand side of the fireplace.","['rope', 'bell']",2,0,"('rope', 'bell')",False,00:00:21
+"Ross noted that the landscapes he painted - typically mountains, lakes, snow, and log cabin scenes - were strongly influenced by his years living in Alaska, where he was stationed for the majority of his Air Force career.","['landscapes', 'mountains']",18,-1,[],False,00:00:26
+The acupressure is a skill derived from the Acupuncture and Moxibusti branch of the Chinese Traditional Medicine.,"['acupressure', 'branch']",8,1,"('branch', 'acupressure')",False,00:00:21
+"The sichuan pepper I got was in a jar labeled ""Prickly Ash"", which is the name of the plant.","['pepper', 'jar']",4,-1,[],False,00:00:19
+"For the first time in more than 25 years, captive-bred black rhinos have been released back into the wild in Kenya.","['black rhinos', 'wild']",6,-1,[],False,00:00:31
+The views expressed in the article are from the author and are not shared by Nestle.,"['article', 'author']",16,1,"('author', 'article')",False,00:00:20
+The lowest rung of society was composed of conquered peoples brought to Tenochtitlan as slaves.,"['rung', 'peoples']",13,-1,[],False,00:00:25
+The letter contains a description of the demolition of the old synagogue.,"['letter', 'demolition']",14,1,"('demolition', 'letter')",True,00:00:37
+A clutter of frightening spiders are seen still clinging to and covering their prey.,"['clutter', 'spiders']",13,1,"('spiders', 'clutter')",False,00:00:23
+The valuable book has arrived into my care.,"['book', 'care']",18,0,"('book', 'care')",False,00:00:21
+I mixed up the ingredients and poured the stuff into the ice cream maker.,"['stuff', 'ice cream maker']",6,0,"('stuff', 'ice cream maker')",True,00:00:50
+The final programme detailed the history of Russborough House.,"['programme', 'history']",14,-1,[],False,00:00:30
+Extra-alveolar veins are contiguous and leaked fluid into periarterial cuffs in the rabbit lungs.,"['fluid', 'cuffs']",6,0,"('fluid', 'cuffs')",False,00:00:23
+We are a petroleum and petrochemical company.,"['petroleum', 'company']",18,-1,[],False,00:00:37
+The users are running into problems with the installer.,"['users', 'problems']",18,0,"('users', 'problems')",False,00:00:21
+The cross over is going to take away the lows from the drivers anyway.,"['lows', 'drivers']",8,1,"('drivers', 'lows')",False,00:00:23
+Heartwater disease was imported into the major cities.,"['disease', 'cities']",6,-1,[],False,00:00:32
+Eventually the path went away from the lake into some gorse.,"['path', 'lake']",18,-1,[],False,00:00:18
+"The flames did not harm her, so her executioners killed her with a sword.","['executioners', 'sword']",11,0,"('executioners', 'sword')",False,00:00:20
+The judge's condemnatory report on Israel's actions in Gaza has been dismissed as hopelessly one-sided by neutral observers.,"['judge', 'report']",17,0,"('judge', 'report')",False,00:00:23
+"From the duke himself he received his right spur and a magnificent eastern sword with golden hilt and shining blade, inscribed with letters.","['sword', 'blade']",3,-1,[],False,00:00:22
+"So it was that in 1724 at the age of 17 a somewhat awkward, refined young man took his place at the mess of officers much older, wiser, and harder than he.","['mess', 'officers']",13,-1,[],False,00:00:22
+The rock 'n' roll business is falling into self-parody.,"['business', 'self-parody']",18,0,"('business', 'self-parody')",False,00:00:24
+"In all versions of Word, the easiest way to review the editor's changes is by displaying the reviewing toolbar.","['editor', 'changes']",17,0,"('editor', 'changes')",False,00:00:16
+University guarantees that the student accesses the subjects with the proper background.,"['student', 'background']",11,1,"('background', 'student')",False,00:00:24
+Factories accommodated large-scale manufacture and assembly of aircraft components by unskilled workers.,"['components', 'workers']",16,1,"('workers', 'components')",False,00:00:19
+"Brendel's own admission of his limitations is laudable, especially in light of the clique of idolatrous Brendel fans which formed in the 1980s.","['clique', 'fans']",13,1,"('fans', 'clique')",False,00:00:26
+A soldier brings oranges he got out from a tank.,"['oranges', 'tank']",8,1,"('tank', 'oranges')",False,00:00:30
+The liver from the donor has been successfully transported into the patient.,"['liver', 'patient']",6,-1,[],False,00:00:29
+"In wire working, the artist creates shapes, using various sizes of wire.","['artist', 'wire']",11,0,"('artist', 'wire')",False,00:00:13
+A handful of countries blocked a legally binding deal on climate change in Copenhagen and the talks process needs urgent reform to prevent something similar happening again.,"['handful', 'countries']",18,-1,[],False,00:00:32
+Mouse rRNA transcription template is injected into the brain.,"['template', 'brain']",6,0,"('template', 'brain')",False,00:00:38
+Rowan Berry Wine is a classic Ancient method to form a fruit wine based on rowan berries.,"['fruit', 'wine']",9,0,"('fruit', 'wine')",False,00:00:20
+All aspects are indicated with colour light signals.,"['aspects', 'signals']",18,0,"('aspects', 'signals')",False,00:00:16
+"Teetotallers zip over the Causeway in the midst of a maze of sweaty congestion after a day pounding keyboards and missing deadlines, barely noticing the scoop of pelicans floating by and the kangaroos that call the secluded area home.","['scoop', 'pelicans']",13,-1,[],False,00:00:26
+One of them was observing a bask of over 90 mugger crocodiles in the dried beds of Buttuwa Tank.,"['bask', 'crocodiles']",13,-1,[],False,00:00:24
+It is the story of an amateur bird watcher who learns more about ospreys from the extant literature.,"['ospreys', 'literature']",15,-1,[],False,00:00:51
+A sliding knife is a knife which is opened by sliding the knife blade out the front of the handle.,"['knife', 'blade']",3,-1,[],False,00:00:36
+The Seville side had just fallen 2-1 behind at home to fellow relegation strugglers Athletic Bilbao when a bottle full of liquid flew out of the stands and struck visiting keeper Armando Ribeiro just below the right eye.,"['bottle', 'liquid']",5,-1,[],False,00:00:21
+Categorical data were misplaced into the wrong category.,"['data', 'category']",6,-1,[],False,00:00:22
+The facades of the palace consist of beautifully decorated wooden doors and windows and ventilations in addition to decorated gypsum motifs.,"['facades', 'palace']",2,1,"('palace', 'facades')",False,00:00:21
+"The very famous Elite agency chose among a pleiad of beauties, the prizes winner of the contest Elite Model World.","['pleiad', 'beauties']",13,-1,[],False,00:00:34
+His wife has just completed the first paper of her graduate degree.,"['wife', 'paper']",17,0,"('wife', 'paper')",False,00:00:23
+He underlined the tiny sacrifices made by Western armies in comparison with those of the Red Army.,"['sacrifices', 'armies']",18,1,"('armies', 'sacrifices')",False,00:00:15
+The Kursk (RBMK) reactor was manufactured in a slurry-fed ceramic Joule-heated glass melter.,"['reactor', 'melter']",8,1,"('melter', 'reactor')",False,00:00:21
+"One of the types of tissue that makes up bone is the mineralized osseous tissue, also called bone tissue, that gives it rigidity and a honeycomb-like three-dimensional internal structure.","['types', 'bone']",18,0,"('types', 'bone')",False,00:00:28
+"About 1830, the New York Mirror described the area as a ""loathsome den of murderers, thieves, abandoned women, ruined children, filth, drunkenness, and broils.""","['den', 'murderers']",18,-1,[],False,00:00:25
+"Captured, the corporal escaped by jumping from a POW train headed towards Germany.","['corporal', 'train']",8,-1,[],False,00:00:40
+"The film opened in America before Christmas, and the critics have given their verdict.","['critics', 'verdict']",17,0,"('critics', 'verdict')",False,00:00:15
+"Cement mason means a person who finishes all concrete construction, such as floors, walls, ceilings, sidewalks, curbs and gutters.","['Cement', 'mason']",10,-1,[],False,00:00:23
+"Real robot experiments are carried out with a swarm of up to 40 Alice miniature robots, developed at the Autonomous Systems Laboratory by Gilles Caprari.","['swarm', 'robots']",13,1,"('robots', 'swarm')",False,00:00:18
+The kids illuminated them with a candle.,"['kids', 'candle']",11,-1,[],False,00:00:33
+Smith was referring to the fictional Kazakhstani character created by the British comedian.,"['character', 'comedian']",16,1,"('comedian', 'character')",False,00:00:17
+At the moment heavy snow showers are running into the Northeastern regions of England.,"['showers', 'regions']",6,-1,[],False,00:00:18
+"Canned peach syrup was cooked for three minutes with a half-glass of raspberry jelly, this for color and to give a peach-melba flavor.","['peach', 'syrup']",9,0,"('peach', 'syrup')",True,00:00:28
+"In early October, Anwar al-Awlaki, a radical cleric based in Yemen, posted a provocative message on his English-language Web site.","['cleric', 'message']",17,0,"('cleric', 'message')",False,00:00:22
+The victim of last night's car accident donated his organs to several patients who have been waiting for donated organs.,"['organs', 'patients']",6,-1,[],False,00:00:30
+I sold a gold ring to another company online and they sent me a lousy check for $14.00.,"['gold', 'ring']",18,0,"('gold', 'ring')",False,00:00:22
+"The dome of the museum rotunda is made from an actual brewing kettle, and walking into it gives visitors the sense of being in a kettle.","['visitors', 'kettle']",18,-1,[],False,00:00:39
+The report informed about casualties in the area.,"['report', 'casualties']",14,1,"('casualties', 'report')",False,00:00:20
+The battle has been analysed in various publications.,"['battle', 'publications']",15,0,"('battle', 'publications')",False,00:00:15
+The shells landed into different areas in Mogadishu.,"['shells', 'areas']",6,-1,[],False,00:00:37
+Erikson(1976) found that people from among a community who escaped an horrific accident had made little progress after two years.,"['people', 'accident']",18,1,"('accident', 'people')",False,00:00:25
+"The present bright, dry weather, although cold, is just what flock owners require and judging from the large number of lambs seen skipping about nibbling the tender shoots of the fresh green herbage, the flocks of Mr John Cracknell, Mr Geo Walker, and Mr Russell Walker appear to have had a very satisfactory fall of good strong lambs.","['fall', 'lambs']",13,0,"('fall', 'lambs')",False,00:00:23
+The camp is more rugged than a hotel but comes with a great lake view and the comradeship of fellow chemistry teachers.,"['comradeship', 'teachers']",18,1,"('teachers', 'comradeship')",False,00:00:23
+"I asked the Something Awful Forum Goons to create products from the future, and by golly they did.","['products', 'future']",8,-1,[],False,00:00:20
+"Freedman makes a thorough appraisal of the statistical methods in these papers, and in a variety of other examples.","['statistical methods', 'papers']",15,-1,[],False,00:00:25
+We have all seen videos showing a yoke of oxen plowing a rice paddy or hauling a dray.,"['yoke', 'oxen']",13,-1,[],False,00:00:20
+"The programme begins with the UWI Venture competition which is opened to final year undergraduate students, graduate students and researchers at the UWI.","['programme', 'competition']",3,0,"('programme', 'competition')",False,00:00:17
+He was the author of a chronicle narrating the fortunes of the monastery.,"['chronicle', 'fortunes']",14,1,"('fortunes', 'chronicle')",False,00:00:27
+It utilized a critical eye and free inquiry into the conditions of life and issues of morality.,"['inquiry', 'conditions']",18,1,"('conditions', 'inquiry')",False,00:00:30
+So President Obama's administration was ushered in with a new chamber music work by a living American composer.,"['work', 'composer']",16,1,"('composer', 'work')",False,00:00:18
+She poured flour into a pretend dragon with a tube.,"['flour', 'dragon']",6,-1,[],False,00:00:23
+"A survey made for the statistical society of the various Sunday schools in Manchester and Salford in 1836 returned the number of Catholic schools as ten, with an attendance of 4295 scholars.","['society', 'schools']",13,-1,[],False,00:00:36
+We do have a fledgling population of cosmopolites living the good life almost without cars.,"['population', 'cosmopolites']",13,-1,[],False,00:00:24
+"The queen was put inside her cage, which was then placed in the box with a bunch of worker bees four days ago.","['queen', 'box']",6,-1,[],False,00:00:22
+A large diagram illustrated the principle of this apparatus.,"['diagram', 'principle']",14,1,"('principle', 'diagram')",True,00:00:34
+"Top stealth-plane experts have re-created a radical, nearly forgotten Nazi aircraft.","['experts', 'aircraft']",17,0,"('experts', 'aircraft')",False,00:00:18
+The relying website then forms a relationship using a shared secret with help of Diffie-Hellman (encryption) key exchange to make sure information is not compromised in transit.,"['website', 'secret']",11,0,"('website', 'secret')",False,00:00:23
+The litho was enclosed in plastic and is like new.,"['litho', 'plastic']",4,-1,[],False,00:00:40
+The old man went into diabetic coma.,"['man', 'coma']",18,0,"('man', 'coma')",False,00:00:20
+Archaeologists have located the tomb and have inserted probes deep into the tomb.,"['probes', 'tomb']",6,1,"('tomb', 'probes')",False,00:00:20
+"The puppy was born in a barn where Layla made a soft, bed out of hay in an empty horse stall.","['puppy', 'barn']",8,-1,[],False,00:00:18
+"Secretly, she has been donating 10% of her income to local a orphanage every month.","['income', 'orphanage']",6,-1,[],False,00:00:37
+A variety of companies manufacture boPET and other polyester films under different trade names.,"['companies', 'films']",17,0,"('companies', 'films')",False,00:00:20
+A person was release from their vehicle before emergency services arrived just after 9am this morning.,"['person', 'vehicle']",8,1,"('vehicle', 'person')",False,00:00:17
+He used his finger on the stick of the toothpick for a trial balance.,"['stick', 'toothpick']",2,-1,[],False,00:00:31
+A newborn baby was found stuffed in a shoebox and dumped in the lobby of a Long Island apartment building.,"['baby', 'shoebox']",4,-1,[],False,00:00:18
+"The more common double horn has a fourth valve, usually operated by the thumb, which routes the air to one set of tubing tuned to F or the second set of tubing tuned to B.","['horn', 'valve']",3,-1,[],False,00:00:31
+"Three people who are on the verge of giving up life -- a gangster in trouble with his gang, a doctor who has lost his family, and a woman with a terminal disease -- all meet up by coincidence.","['gangster', 'gang']",12,1,"('gang', 'gangster')",False,00:00:23
+"A Chowchilla man is behind bars, after a pipe bomb was discovered inside a mobile home.","['bomb', 'home']",18,-1,[],False,00:00:23
+The symbol denotes concatenation.,"['symbol', 'concatenation']",18,-1,[],False,00:00:18
+"This simple script uses the DBI module in order to connect to a Mysql database, retrieves the results from a select query and display the results.","['script', 'module']",11,1,"('module', 'script')",True,00:00:36
+"In the open air of the Sanz hotel, amid the music of the fountain and the glint of the goldfish, I almost forgot my nationality and imagined myself a great Spanish grandee, residing in an ancient Spanish mansion, and, no doubt, unconsciously adopted something of the stately walk and conversation suited to the part.","['glint', 'goldfish']",18,1,"('goldfish', 'glint')",False,00:00:17
+"On the way back, the train departed from station Zilupe at 08:07 and arrived in Riga passenger station at 12:05.","['train', 'station']",8,-1,[],False,00:00:23
+"After receiving parental permission for the project, students treated the chickens with a mixture of salt and baking powder.","['students', 'mixture']",11,0,"('students', 'mixture')",False,00:00:20
+This is a very useful volume for anyone interested in the religious in nineteenth and twentieth-century American literature.,"['volume', 'religious']",14,-1,[],False,00:00:21
+"A wedge of Canada geese passed overhead, already fleeing from winter, but for the moment it was summer still.","['wedge', 'geese']",13,1,"('geese', 'wedge')",False,00:00:23
+A ceramist bakes the porcelain in a tin foil and further heats it by placing it an oven.,"['ceramist', 'foil']",11,-1,[],False,00:00:29
+"I was lucky enough to see with my own eyes the recent stock-market crash, where they lost several million dollars, a rabble of dead money that went sliding off into the sea.","['rabble', 'money']",18,-1,[],False,00:00:24
+The old cars is migrating into the new residents properties together with the residents.,"['old cars', 'residents properties']",6,-1,[],False,00:00:23
+A specific legacy has relation to the time of making the will.,"['legacy', 'time']",18,-1,[],False,00:00:26
+The aim of this study was the measurement of the intensity and circumstances of drug use.,"['study', 'measurement']",18,0,"('study', 'measurement')",False,00:00:15
+The story of the pilot episode is related through a series of flashbacks.,"['story', 'flashbacks']",3,0,"('story', 'flashbacks')",False,00:00:18
+"The barn on her dad's farm that he cultivated from 1963 until the mid-1990s, was restored.","['barn', 'farm']",2,-1,[],False,00:00:26
+The poem explores the inevitable need to make choices.,"['poem', 'need']",14,-1,[],False,00:00:51
+The train started to its destination.,"['train', 'destination']",6,-1,[],False,00:00:19
+"Goto.com was an Idealab spin-off created by the scientist, and was the first company to successfully provide a pay-for-placement search service.","['spin-off', 'scientist']",16,1,"('scientist', 'spin-off')",False,00:00:19
+"His ninth novel, The Echo Maker, starts with a siege of sandhill cranes, a one-vehicle highway accident and a mystery.","['siege', 'cranes']",13,-1,[],False,00:00:21
+"The energy originates from an external source of light, which is absorbed and almost immediately emitted.","['energy', 'source']",8,1,"('source', 'energy')",False,00:00:14
+Maddie's parents killed her with sleeping pills.,"['parents', 'pills']",11,0,"('parents', 'pills')",False,00:00:29
+The writer's principal work during the years following Pushkin's death was the satirical epic Dead Souls.,"['writer', 'work']",17,0,"('writer', 'work')",False,00:00:14
+My animation assignment from last term made everyone smile.,"['assignment', 'term']",8,1,"('term', 'assignment')",False,00:00:28
+"After runners carried the torch through the streets of North Platte, the torch was again handed off to a Pony Express rider, who continued down the trail.","['runners', 'streets']",18,-1,[],False,00:00:26
+Extensive references to scientific literature form an important part of each monograph and over 1800 new citations appear in the book.,"['citations', 'book']",2,1,"('book', 'citations')",True,00:00:37
+First we put baking soda in a balloon then we attached the balloon to the top of a bottle with vinegar in it.,"['bottle', 'vinegar']",5,-1,[],False,00:00:14
+Beer is produced by the brewing and fermentation of starches.,"['Beer', 'starches']",8,1,"('starches', 'Beer')",False,00:00:19
+"California law consists of 29 codes, covering various subject areas, the State Constitution and Statutes.","['law', 'codes']",3,0,"('law', 'codes')",False,00:00:18
+"This winter season, bird flu has been carried into the country quickly.","['bird flu', 'country']",6,-1,[],False,00:00:17
+Teachers systematically engage students in such higher order cognitive skills as analysis and synthesis of data by using statistics.,"['Teachers', 'statistics']",11,0,"('Teachers', 'statistics')",True,00:00:35
+The female bees of most species feed on the nectar secreted by many plants.,"['nectar', 'plants']",16,1,"('plants', 'nectar')",False,00:00:15
+The newspaper was reporting news from Macedonia from that period.,"['newspaper', 'news']",14,0,"('newspaper', 'news')",False,00:00:31
+Most of the essays originated in writing workshops run by the literary magazine Tin House.,"['essays', 'workshops']",8,1,"('workshops', 'essays')",False,00:00:21
+One aspect of the media presentation is the status attributed to claims-makers on either side of the issue.,"['presentation', 'status']",14,0,"('presentation', 'status')",False,00:00:28
+"In future Britain, charismatic delinquent Alex DeLarge is jailed and later volunteers for an experimental aversion therapy developed by the government in an effort to solve society's crime problem.","['therapy', 'government']",18,1,"('government', 'therapy')",False,00:00:11
+"The drawer contained ""a phial of some tincture, a paper of some salt, and a record of a series of experiments"".","['drawer', 'phial']",5,-1,[],False,00:00:18
+"The farm had many acres with a number of buildings dedicated to a variety of goodies from produce, fruits, baker goods and specialty items depending on the season.","['farm', 'buildings']",3,0,"('farm', 'buildings')",False,00:00:21
+"Missouri experienced growth in swine herd from 1990 to 2000 as did four nearby states (Iowa, Oklahoma, Kansas and Texas).","['swine', 'herd']",12,0,"('swine', 'herd')",True,00:00:36
+Extremely dangerous blizzards have moved into the Midwest region.,"['blizzards', 'region']",6,-1,[],False,00:00:21
+The company sent floral bouquets to a city in Ireland.,"['bouquets', 'city']",6,-1,[],False,00:00:27
+"And after waiting two days, I finally decide to send an email to inquire about my car reservation and I explained my trouble.","['email', 'reservation']",14,1,"('reservation', 'email')",False,00:00:19
+"It's a fish with lungs, and it can survive on land for brief periods.","['fish', 'lungs']",3,-1,[],False,00:00:34
+The input queue is used for processing events from an MFG/PRO application to a WebSphere-connected application.,"['input', 'queue']",18,0,"('input', 'queue')",False,00:00:19
+"For safety reasons, he loads and unloads his bike from the curbside of the bus.","['curbside', 'bus']",2,-1,[],False,00:00:21
+The signatures were fetched into the cache together with the instructions.,"['signatures', 'cache']",6,-1,[],False,00:00:19
+Her speeches have special reference to environmental policy.,"['speeches', 'policy']",14,-1,[],False,00:00:30
+This incident was an incursion of illegal aliens from outer space and not U.S. military high-tech black project flying objects.,"['aliens', 'space']",8,-1,[],False,00:00:25
+"They weave fine cloth, and they use the down of water-sheep in making it; it is called Hai-hsi-pu (cloth from the west of the sea).","['down', 'water-sheep']",8,1,"('water-sheep', 'down')",False,00:00:21
+Bizarrely enough I was just looking at our homepage from ten years ago.,"['homepage', 'years']",8,-1,[],False,00:00:21
+"This month, the commissioner travels to several remote nations.","['commissioner', 'nations']",6,-1,[],False,00:00:21
+It covers the basic concepts in a clean and slick tutorial.,"['basic concepts', 'tutorial']",15,0,"('basic concepts', 'tutorial')",False,00:00:21
+"These efforts of the crossbow-makers to decrease the friction of the bolt of the crossbow against the stock, as the bolt was driven forward by the bow-string, are traced in all mediaeval crossbows.","['bolt', 'crossbow']",10,1,"('crossbow', 'bolt')",False,00:00:21
+US forces fared so well that MacArthur gained Truman's permission to attempt a total rout of communist forces.,"['rout', 'forces']",18,1,"('forces', 'rout')",False,00:00:19
+Breuer chairs a phalanx of high-flying artists in a family saga.,"['phalanx', 'artists']",13,-1,[],False,00:00:23
+"A computer was stolen from a church office sometime Monday or Tuesday in the 1500 block of CR 144, Brazoria County.","['computer', 'church office']",8,-1,[],False,00:00:18
+"And the beer was in a mug, and full to the brim.","['beer', 'mug']",4,-1,[],False,00:00:20
+"The strategy covers the period to 2016, with a strong focus on 2010.","['strategy', 'focus']",18,0,"('strategy', 'focus')",False,00:00:24
+A number of scientific criticisms of Duesberg's hypothesis were summarised in a review article in the journal Science in 1994.,"['criticisms', 'article']",15,0,"('criticisms', 'article')",False,00:00:22
+"To cover all areas, I've included coffee pot and cups in a neat stack on the table, so that the meal has both a beginning and an end feel to it.","['cups', 'stack']",12,0,"('cups', 'stack')",False,00:00:18
+Both novel and film insist upon the necessity of the past in defining who we are and how we will live in the present.,"['film', 'necessity']",14,-1,[],False,00:00:27
+The book comprises ten chapters.,"['book', 'chapters']",3,0,"('book', 'chapters')",False,00:00:23
+"On March 29, 1984, in the middle of the night, a convoy of moving vans left the Colts' headquarters, headed for Indianapolis.","['convoy', 'vans']",13,1,"('vans', 'convoy')",False,00:00:23
+It shows a sailor with a list of crossed-out ex-girlfriend's names going down his arm.,"['sailor', 'list']",3,0,"('sailor', 'list')",False,00:00:16
+It is in the hours of darkness that the plant builds up the oxidase that is to call out the signal that the flower has run its full course.,"['plant', 'oxidase']",17,0,"('plant', 'oxidase')",False,00:00:23
+"To put it discretely, she described the sensation in her knees as that of being forcibly violated by a prickle of porcupines.","['prickle', 'porcupines']",13,-1,[],False,00:00:21
+"The factory produced British military rifles, muskets and swords from 1816.","['factory', 'rifles']",17,0,"('factory', 'rifles')",False,00:00:20
+China's feed industry has entered into its mature period.,"['industry', 'period']",6,0,"('industry', 'period')",False,00:00:18
+Nuevomexicano culture is rooted in an indigenous past.,"['culture', 'past']",8,1,"('past', 'culture')",False,00:00:22
+"Recently, the EFCC succeeded in arresting a syndicate of internet fraudsters with the following Identity, Badiru Abidemi Adeyinka.","['syndicate', 'fraudsters']",13,-1,[],False,00:00:19
+I have abuse originating from my server.,"['abuse', 'server']",8,1,"('server', 'abuse')",False,00:00:25
+"Kotter's most significant and controversial work, however, has been on the subject of leadership.","['work', 'leadership']",14,-1,[],False,00:00:20
+It is found that the polysilicon grows from an initial step of the deposition.,"['polysilicon', 'step']",18,1,"('step', 'polysilicon')",False,00:00:18
+A Chinese firms poured millions into the country.,"['millions', 'country']",6,0,"('millions', 'country')",False,00:00:20
+I also received one stand of choice bees and about $100 in cash.,"['stand', 'bees']",13,-1,[],False,00:00:41
+The pain was radiating from the right buttock to the knee joint.,"['pain', 'buttock']",8,1,"('buttock', 'pain')",False,00:00:18
+The reconstitution of boards of governors takes place every 4 years and the current term of boards of governors is due to end on 30 June 2009 for controlled and maintained schools.,"['boards', 'governors']",13,-1,[],False,00:00:36
+Snails and slugs cause holes in the leaves of young plants and can chew right through the stems of newly planted seedlings.,"['slugs', 'holes']",17,0,"('slugs', 'holes')",False,00:00:16
+"A family living at Calabogie, Ontario was digging their new potatoes and came upon a different clutch of eggs.","['clutch', 'eggs']",13,-1,[],False,00:00:24
+"Now, your earlobe can never escape because this brass knuckle stud is attached to a chain attached to a cuff that affixes to the helix of the ear.","['helix', 'ear']",2,-1,[],False,00:00:23
+He draged the nail on the head of the snake and then clicked the switch of the tape recorder.,"['switch', 'tape recorder']",2,0,"('switch', 'tape recorder')",False,00:00:21
+The kit was in a box that measured about 18x11x3.5 inches.,"['kit', 'box']",4,-1,[],False,00:00:23
+DOJ released a probe into Siegelman prosecution.,"['probe', 'prosecution']",6,1,"('prosecution', 'probe')",False,00:00:14
+A model for a summer house by the carpenter and architect William Thornton was approved by Sir Abstrupus in 1700.,"['model', 'carpenter']",16,1,"('carpenter', 'model')",False,00:00:22
+A short introductory chapter furnishes the background information.,"['chapter', 'background information']",14,0,"('chapter', 'background information')",False,00:00:21
+The applet requires a browser that supports JDK 1.1.5 or above.,"['applet', 'browser']",18,1,"('browser', 'applet')",True,00:00:35
+Tasheki was taking photographs at the encounter site when a bullet hit his jaw bone.,"['jaw', 'bone']",3,-1,[],False,00:00:24
+"The 2001 debut album by the New York band was voted top of the pile by a panel of musicians, producers, writers and record label bosses.","['album', 'band']",16,1,"('band', 'album')",False,00:00:19
+PlanetCAD offers the best tools for engineers and now the whole industry is following.,"['tools', 'engineers']",10,-1,[],False,00:00:37
+Cloud loss behaviour in pasteurized apricot nectar was found to be different from that of other fruit juices.,"['apricot', 'nectar']",9,0,"('apricot', 'nectar')",False,00:00:26
+A very small pile of soft green hay was in a bin in a corner of their downstairs room.,"['pile', 'bin']",4,-1,[],False,00:00:25
+"Among them are the 2,000 or so workers who still make diesel engines for Ford on a site that employed more than 50,000 in the 1950s.","['workers', 'engines']",17,0,"('workers', 'engines')",False,00:00:17
+This paper describes a set of principles designed to help archives position themselves to address the management of current records.,"['set', 'principles']",13,-1,[],False,00:00:19
+"This new, improved active piezoelectric hydrophone is made with shielded clear waterproof cable and a copper acoustic chamber coated in non-toxic, durable black rubber.","['hydrophone', 'cable']",18,-1,[],False,00:00:22
+"The waiter returns with a bottle full of wine, pours a small amount in the glass for tasting.","['bottle', 'wine']",5,-1,[],False,00:00:24
+The oil paintings shown at the exhibition were of exceptionally high quality.,"['paintings', 'exhibition']",2,-1,[],False,00:00:36
+The soot has been blown down into the fireplace.,"['soot', 'fireplace']",6,1,"('fireplace', 'soot')",False,00:00:19
+At this time the farm had three horses and a small tractor.,"['farm', 'horses']",18,0,"('farm', 'horses')",False,00:00:18
+The goose was released into the wild.,"['goose', 'wild']",6,-1,[],False,00:00:20
+"The original play was filled with very topical humor, so the director felt free to add current topical humor to the script.","['play', 'humor']",3,0,"('play', 'humor')",True,00:00:28
+We are determined to pursue the conquest of evil with the good.,"['conquest', 'good']",18,1,"('good', 'conquest')",False,00:00:20
+"Authentic people, knowing their place in the world, fulfill it with joy and attention.","['people', 'joy']",18,0,"('people', 'joy')",False,00:00:15
+Unificationists sees Kingdom coming with the help of the new president.,"['Unificationists', 'president']",18,1,"('president', 'Unificationists')",False,00:00:17
+"More important, these changes improved the users' experience of the software.","['users', 'software']",11,1,"('software', 'users')",False,00:00:19
+"When shown the location of the drugs, the investigators noted that the drugs were in a box in a closet, and were not stored in a securely locked, substantially constructed cabinet, as required.","['drugs', 'box']",4,-1,[],False,00:00:15
+The national prize was awarded to Lionacleit fashion pupils.,"['prize', 'pupils']",6,1,"('pupils', 'prize')",True,00:00:41
+"While most of the experimental literature focuses on individual contributions, many real-world problems involve the formation of coalitions.","['formation', 'coalitions']",18,0,"('formation', 'coalitions')",False,00:00:15
+The method uses histologic techniques for processing and thus offers one major advantage.,"['method', 'techniques']",11,-1,[],False,00:00:38
+His body was inside a cupboard in the Jumeirah Carlton Tower Hotel in upmarket Knightsbridge.,"['body', 'cupboard']",4,-1,[],False,00:00:22
+"The crane arm raises, swivels, and extends to a maximum length of 11"" inches, just like our own Poe Ghostal.","['crane', 'arm']",3,0,"('crane', 'arm')",True,00:00:37
+The launch has been rescheduled to next month due to bad weather.,"['launch', 'next month']",6,-1,[],False,00:00:22
+Employees are the most important part of an organisation.,"['Employees', 'organisation']",12,1,"('organisation', 'Employees')",True,00:00:26
+The coalition sprang up after the Tories released an economic statement lambasted by the opposition parties.,"['statement', 'parties']",18,0,"('statement', 'parties')",False,00:00:22
+"All of their products are the direct result of extensive research and development and produce a varied array of spectral colors, enabling you to sound your best.","['array', 'colors']",13,-1,[],False,00:00:38
+The system combined the hierarchical structure of decision trees with a clean probabilistic semantics.,"['system', 'structure']",18,0,"('system', 'structure')",True,00:00:45
+A child has been placed into foster care.,"['child', 'care']",18,0,"('child', 'care')",False,00:00:35
+"In the mechanical department the course includes a variety of previously published studies having relation to applied mechanics, the art of construction, and mechanical drawing.","['studies', 'mechanics']",14,-1,[],False,00:00:35
+"There are many theories and thoughts about the effects of the moon on people, animals, and the natural world.","['thoughts', 'effects']",14,1,"('effects', 'thoughts')",False,00:00:20
+"When the arm of the patient is meticulously placed at the right atrium level in both positions, the difference is even greater than when the arm rests on the desk or on the arm support of the chair.","['arm', 'patient']",2,-1,[],False,00:00:26
+He has added his cousin into his portfolio.,"['cousin', 'portfolio']",6,-1,[],False,00:00:25
+"Since then, millions of dollars have gone into reconstructions for victims of tsunami in 2004.","['dollars', 'reconstructions']",18,0,"('dollars', 'reconstructions')",False,00:00:18
+"Just 18 months ago, the New York Times Magazine ran a cover story depicting progressive bloggers as a band of unkempt outsiders.","['band', 'outsiders']",13,-1,[],False,00:00:18
+The functionality is moved into a separate database.,"['functionality', 'database']",6,-1,[],False,00:00:23
+Its progenitor made his name with a wonderful non-fiction account of policing in Baltimore called Homicide.,"['progenitor', 'name']",18,0,"('progenitor', 'name')",False,00:00:15
+It contains a chapter giving an introduction to compression algorithms.,"['chapter', 'algorithms']",14,-1,[],False,00:00:29
+One flyer was inside a box of Cracker Jacks at a Hughes Market.,"['flyer', 'box']",4,1,"('box', 'flyer')",False,00:00:17
+Petitions against the annexation were signed by between one half and two-thirds of a total population of some 8000 burghers.,"['population', 'burghers']",13,-1,[],False,00:00:22
+"Appellant's only challenge to the application of the plain view doctrine is that because the marijuana was in a jar in the freezer compartment it was not in ""plain view.""","['marijuana', 'jar']",4,-1,[],False,00:00:29
+The tortoise that had been picked up the night before was in a box.,"['tortoise', 'box']",4,-1,[],False,00:00:15
+"The generator powered a nearby aluminium factory, considered vital to the German war effort.","['generator', 'factory']",10,0,"('generator', 'factory')",False,00:00:14
+Mr. Adel throws the rope of the rod as far as he can into the water.,"['rope', 'rod']",2,1,"('rod', 'rope')",False,00:00:34
+The water was drained into the second water drain tank through the connecting pipes.,"['water', 'tank']",6,-1,[],False,00:00:22
+A temple has been built by monks in northeast Thailand who used over a million recycled beer bottles to make the walls and roof.,"['temple', 'monks']",16,1,"('monks', 'temple')",False,00:00:12
+Stones must be set in% inch from the edge of the flat.,"['edge', 'flat']",2,-1,[],False,00:00:36
+The machine arrived from the factory with Windows 2000 installed on a single large partition.,"['machine', 'factory']",8,1,"('factory', 'machine')",False,00:00:14
+The factory's workshop functioned inside an extension which was bigger than the actual residence.,"['factory', 'workshop']",3,0,"('factory', 'workshop')",False,00:00:24
+"The money was hidden in an air-conditioning system's return duct, which conveniently connected to the room behind.","['money', 'return duct']",4,-1,[],False,00:00:22
+"Individuals were granted a wrack of rabbits and some help building a rabbit run in their backyard to start up a small rabbit farm (--40 rabbits and a hutch, perhaps?), along with automatic membership in a cooperative rabbit abatoir.","['wrack', 'rabbits']",13,-1,[],False,00:00:20
+A warehouse user with limited authority cannot crate the required bufferpool.,"['warehouse', 'user']",10,-1,[],False,00:00:21
+Huge money is given to companies for boosting economy.,"['money', 'companies']",6,0,"('money', 'companies')",False,00:00:22
+All houses are now built this way.,"['houses', 'way']",18,-1,[],False,00:00:33
+This lovely song by a virtually unknown quartet from Oklahoma epitomizes what a great wedding song is.,"['song', 'quartet']",16,1,"('quartet', 'song')",False,00:00:16
+A test payment was put into my bank account on October 13th.,"['payment', 'account']",6,-1,[],False,00:00:23
+"This an alliance of various elements connected into the political elite with the old PRD forces, who have adopted a strategy of postponing efforts to lead any fight with the domestic bourgeoisie.","['alliance', 'elements']",13,1,"('elements', 'alliance')",False,00:00:16
+These changes have been reflected in the general policies and approach of the Forestry Commission.,"['changes', 'policies']",15,0,"('changes', 'policies')",False,00:00:16
+The drying step is achieved within 4 hours from the exit of the barley spent grain from the beer or malt production.,"['grain', 'production']",8,1,"('production', 'grain')",False,00:00:16
+A meeting called by India's government to discuss the creation of a separate state in the tea-producing Darjeeling hills has ended without a breakthrough.,"['meeting', 'creation']",14,1,"('creation', 'meeting')",False,00:00:16
+The G-53 ended its statement with one of the many speculations that have arisen from the president's contentious departure from the country.,"['president', 'country']",8,-1,[],False,00:00:23
+"The purpose of this test was to report to the American public on the academic achievement of individual students, schools, districts, and states.","['test', 'achievement']",18,-1,[],False,00:00:58
+"A year after the government applied a tourniquet to the banking industry, the bleeding has slowed.","['government', 'tourniquet']",11,0,"('government', 'tourniquet')",False,00:00:27
+"The boy runs away from the school when he sees his father's insensitivity, but the teacher and his other friends bring him back.","['boy', 'school']",8,-1,[],False,00:00:17
+I've been asking for a fizzy milk drink for a while.,"['milk', 'drink']",18,0,"('milk', 'drink')",False,00:00:25
+"Manufacturers have traditionally been more concerned about factors like price, quality, or cycle time, and not as concerned over how much energy their manufacturing processes use.","['Manufacturers', 'factors']",18,0,"('Manufacturers', 'factors')",False,00:00:37
+The midbrain dopaminergic (mDA) neurons of the substantia nigra and the ventral tegmental area play a fundamental role in the control of voluntary movement.,"['neurons', 'substantia nigra']",2,-1,[],False,00:00:40
+His efforts were documented in the diaries of his sister Katherine.,"['efforts', 'diaries']",15,0,"('efforts', 'diaries')",False,00:00:19
+The public are welcome to visit the lakes and dams that make up Tasmania's hydro electric network.,"['lakes', 'network']",2,-1,[],False,00:00:48
+A van used by debtors in the business of transporting passengers was a tool of the trade for lien avoidance purposes.,"['van', 'debtors']",10,1,"('debtors', 'van')",False,00:00:23
+"The English writer, poet, philologist, and university professor was best known as the author of the classic high fantasy works The Hobbit, The Lord of the Rings and The Silmarillion.","['professor', 'works']",17,0,"('professor', 'works')",True,00:00:43
+It carried 1500 gallons of water in its split saddle tanks and 700 gallons of fuel oil in a bunker behind the cab.,"['oil', 'bunker']",4,-1,[],False,00:00:27
+"The explosives were in a box covered by sheet metal, while the wooden handle and fuse were those of the stick hand grenade.","['explosives', 'box']",4,-1,[],False,00:00:26
+Half of the new subscribers hailed from China's vast countryside.,"['subscribers', 'countryside']",8,1,"('countryside', 'subscribers')",False,00:00:21
+We derive a pair of optimal weights on the dollar in a currency basket to stabilize their trade balances for both of the countries.,"['dollar', 'basket']",18,-1,[],False,00:00:37
+Time travel is a common theme in science fiction.,"['Time travel', 'science fiction']",15,-1,[],False,00:00:27
+The handwritten note was inside a plastic baggy.,"['note', 'plastic baggy']",4,-1,[],False,00:00:17
+This happens when a collecting agent inadvertently applies the PNS discount to an ineligible vessel.,"['agent', 'discount']",11,0,"('agent', 'discount')",False,00:00:13
+The stress of electoral defeats exposed Mr. Hoyte to opposite pressures within the constituency of his supporters.,"['constituency', 'supporters']",13,1,"('supporters', 'constituency')",False,00:00:23
+"Quite a large part of the religious establishment was opposed to alchemy, but, given the fraudulent tripe written by most of the alchemists, that was no bad thing.","['tripe', 'alchemists']",16,1,"('alchemists', 'tripe')",False,00:00:18
+"When a bottle full of air is opened under water, the water will not enter the bottle.","['bottle', 'air']",5,1,"('air', 'bottle')",False,00:00:17
+"Scientists have assembled the first global geological map of the Solar System's largest moon - and in doing so have gathered new evidence into the formation of the large, icy satellite.","['Scientists', 'map']",17,0,"('Scientists', 'map')",False,00:00:18
+Lambert's wartime experiences were related in his excellent 1973 memoir.,"['experiences', 'memoir']",15,0,"('experiences', 'memoir')",False,00:00:18
+The correct targeting signal is imported into the peroxisomes.,"['signal', 'peroxisomes']",6,-1,[],False,00:00:47
+"The ultimate D.C.-related work on this topic, in recent decades, anyway, may be Jerzy Kosinski's satirical Being There, the inspiration for a Peter Sellers film by the same name.","['film', 'name']",18,1,"('name', 'film')",False,00:00:21
+"In the older sections of the city the street in front of one's house is considered the person's responsibility, it is seen as an extension of their house.","['sections', 'city']",2,-1,[],False,00:00:24
+"In some of the other stories, an orphan runs away from the orphanage.","['orphan', 'orphanage']",8,-1,[],False,00:00:35
+The dolphin uses its flukes for swimming and its flippers for steering.,"['dolphin', 'flukes']",3,-1,[],False,00:00:29
+Construction industry's worth is invested into construction plant and equipment.,"['worth', 'plant']",6,0,"('worth', 'plant')",False,00:00:22
+Kegs of Guinness rolled off and then were grabbed and stacked up against the wall by the pub owner.,"['wall', 'owner']",18,-1,[],False,00:00:18
+In this section are horses born in Tori stud that have made Tori breed famous and maintained that fame.,"['horses', 'stud']",18,1,"('stud', 'horses')",False,00:00:20
+"Food comes from the grocery store, packaged, sanitized, frozen or chilled.","['Food', 'store']",8,-1,[],False,00:00:28
+The treatment includes an aromatherapy mask and moisturizer.,"['treatment', 'mask']",3,0,"('treatment', 'mask')",False,00:00:23
+As a consequence it sold bonds indirectly to the public with the help of a syndicate of banks.,"['syndicate', 'banks']",13,1,"('banks', 'syndicate')",False,00:00:27
+Player one can become white and block all the bullets while player two blasts the boss with the opposite color.,"['player', 'color']",11,0,"('player', 'color')",False,00:00:18
+"Compassion was originally from a people known as the Remote, a splinter group of the time travelling voodoo cult Faction Paradox.","['Compassion', 'people']",8,1,"('people', 'Compassion')",True,00:00:29
+The imperative originates from an authority which transcends the speaker.,"['imperative', 'authority']",8,1,"('authority', 'imperative')",False,00:00:10
+Meyer lemon marmalade is an amazingly delicious version of fruit recipe.,"['lemon', 'marmalade']",9,0,"('lemon', 'marmalade')",False,00:00:23
+From the Pulitzer Prize-winning author of March comes this novel - inspired by a true story - that traces the journey of a rare illuminated manuscript through centuries of exile and war.,"['author', 'novel']",17,0,"('author', 'novel')",False,00:00:21
+"Simon roused himself slowly from a wonderful dream revolving around a whole pryde of baby griffins, just waiting for him to play with them.","['pryde', 'griffins']",13,-1,[],False,00:00:26
+"Topping is the indiscriminate removal of a tree 's crown, cutting off large branches and the main stem of the tree, leaving large branch stubs.","['tree', 'crown']",3,-1,[],False,00:00:18
+"Traditionally, chandlers made both soap and candles, because a long time ago both of these products were made with lard.","['chandlers', 'candles']",17,0,"('chandlers', 'candles')",False,00:00:20
+Comments are parts of the source code disregarded by the compiler.,"['Comments', 'source code']",2,1,"('source code', 'Comments')",False,00:00:22
+These piezos have 2.5 inch pretinned lead wires solidly attached with solder joins protected by a dab of silicone.,"['piezos', 'wires']",3,-1,[],False,00:00:41
+The Baha'u'llah religion has liberated human minds by a prohibition within His Faith against any caste with ecclesiastical prerogatives.,"['religion', 'prohibition']",17,0,"('religion', 'prohibition')",False,00:00:16
+Papers of conductor and arranger Andre Kostelanetz are being donated to the library by the musician's estate.,"['Papers', 'library']",6,0,"('Papers', 'library')",True,00:00:36
+"So almost immediately after Pearl Harbor, Hawaii's Governor calls for citizens and their guns to man checkpoints and patrol beaches against an expected Japanese invasion.","['citizens', 'guns']",11,-1,[],False,00:00:37
+He needs to capture 22nd century criminals who have escaped by time-traveling.,"['criminals', 'time-traveling']",11,0,"('criminals', 'time-traveling')",False,00:00:25
+"She and colleagues exhaustively tested the sample, sequencing the proteins they found with a new and better mass spectrometer.","['colleagues', 'spectrometer']",11,0,"('colleagues', 'spectrometer')",True,00:00:38
+The corpses were then placed in cotton cloth wrappings and put inside of a wooden case that was put inside of another case that was decorated with details of their life and a mask of their face.,"['corpses', 'wrappings']",6,0,"('corpses', 'wrappings')",False,00:00:18
+Our ancestors have added high protein into their diet.,"['protein', 'diet']",6,1,"('diet', 'protein')",True,00:00:50
+We served a bowl of delicious soup in a dish of ivory china.,"['soup', 'dish']",4,-1,[],False,00:00:26
+This brotherhood of halfling rogues is the most powerful criminal organisation in town.,"['brotherhood', 'rogues']",13,1,"('rogues', 'brotherhood')",False,00:00:33
+There are a few simple steps you take to ensure you have selected the correct landscape company.,"['landscape', 'company']",16,-1,[],False,00:00:20
+The company builds many of the machines used in the manufacturing of the beds and the upfitting of the chassis.,"['company', 'machines']",17,0,"('company', 'machines')",False,00:00:21
+Ten-year-old Huynh Thanh Tung was fortunate to survive when the tiny war relic burst into a ball of flames and flying metal as he stuffed the bomb into a bottle.,"['bomb', 'bottle']",6,-1,[],False,00:00:26
+Flax seed oils is the form in which the oil was extracted from the seed.,"['seed', 'oils']",9,0,"('seed', 'oils')",False,00:00:17
+The signal peptide is derived from a protein that is exported by the cell.,"['peptide', 'protein']",8,1,"('protein', 'peptide')",False,00:00:12
+A Boy Scout in North Carolina found a purse with money in it.,"['purse', 'money']",5,0,"('purse', 'money')",False,00:00:22
+The researchers inserted caffeine into baked goods.,"['caffeine', 'goods']",6,0,"('caffeine', 'goods')",False,00:00:19
+He was 10 to 11 meters away from the accused when the latter ran away from the scene of the incident.,"['accused', 'scene']",8,-1,[],False,00:00:36
+The slaves were brought into the country against their will.,"['slaves', 'country']",6,-1,[],False,00:00:28
+"In recent months, civility has been a topic of much discussion in the newspapers.","['civility', 'discussion']",15,0,"('civility', 'discussion')",True,00:00:25
+Other ritual practices attributed to berserks represent the initiation of the young warrior into a band of berserkers.,"['band', 'berserkers']",13,0,"('band', 'berserkers')",True,00:00:37
+A new insulated pizza bag is delivered to the market.,"['bag', 'market']",18,-1,[],False,00:00:26
+Pigs really fly....with the help of a trampoline.,"['Pigs', 'trampoline']",11,1,"('trampoline', 'Pigs')",False,00:00:19
+"Even in World War II, American soldiers targeted the men with the katanas first because their killing power was feared and respected.","['soldiers', 'katanas']",18,-1,[],False,00:00:36
+"For me, the most interesting thing was some pottery by people who are so well known for their pottery like Picasso or Miro.","['people', 'pottery']",17,0,"('people', 'pottery')",False,00:00:15
+"And a 22-page internal report by a computer security company named MANDIANT, dated August 18, fleshes out many details of the June-July breaches.","['report', 'company']",16,1,"('company', 'report')",False,00:00:13
+"Having delivered her charge, she had silently returned to her tree deep in the woods.","['tree', 'woods']",18,-1,[],False,00:00:22
+Modern economists have exported equilibrium concepts to political science.,"['concepts', 'science']",6,-1,[],False,00:00:38
+TextMate is hailed as the best editor for programmers by many people.,"['editor', 'programmers']",10,-1,[],False,00:00:39
+The most suitable callus to establish suspension cell cultures was obtained from seeds.,"['callus', 'seeds']",8,1,"('seeds', 'callus')",False,00:00:18
+Tom's prominient selection of various rye spirits wins him kudos today.,"['rye', 'spirits']",9,0,"('rye', 'spirits')",False,00:00:24
+Red Line conductor Ivan Hardaway prepares the train for departure from the station.,"['train', 'station']",8,-1,[],False,00:00:28
+Brittany Murphy's bedroom was filled with prescription drugs.,"['bedroom', 'drugs']",18,-1,[],False,00:00:23
+"In exclusive buildings, a private restaurant is part of the package.","['restaurant', 'package']",2,1,"('package', 'restaurant')",False,00:00:19
+Im a wheelchair user in a third floor flat serviced by only 1 lift.,"['wheelchair', 'user']",10,-1,[],False,00:00:38
+"A deputy from Sarkozy's ruling UMP party, Etienne Pinte, also said he was ""very shocked"" by the charter flight.","['deputy', 'party']",12,-1,[],False,00:00:30
+"The gates of the palace of John the Priest were ""made of sardius, with the horn of the horned snake inwrought, so that no man might bring poison within"".","['gates', 'palace']",2,1,"('palace', 'gates')",True,00:00:38
+"The agar was contained in a polyethylene tube 3,O mm inside diameter and about 1 mm of agar protruded.","['agar', 'polyethylene tube']",4,-1,[],False,00:00:20
+The imams were removed from a US Airways flight awaiting departure from the Minneapolis-St. Paul airport.,"['flight', 'airport']",8,-1,[],False,00:00:28
+The vagina was sutured behind the neourethra; the vagina accommodated a size 12 dilator.,"['vagina', 'dilator']",18,-1,[],False,00:00:26
+The firing of transition T_continuous_call represents the arrival of a handoff call from neighbour cells.,"['call', 'cells']",8,1,"('cells', 'call')",False,00:00:16
+"In these last three paragraphs, then, Wordsworth began by first of all considering his omissions from previous books.","['omissions', 'books']",8,1,"('books', 'omissions')",False,00:00:18
+"September normally marks the arrival of the earliest run of fish into lake tributaries, and peak runs occur in October.","['run', 'fish']",18,1,"('fish', 'run')",False,00:00:23
+All-terrain vehicle sales sink into muck.,"['vehicle sales', 'muck']",18,-1,[],False,00:00:36
+The county fair drew a large crowd of USDA employees.,"['crowd', 'employees']",13,-1,[],False,00:00:38
+"Rice spirits in Asia are almost always female and regarded as a kind of mother figure (thus, the connection to fertility and tossing it at the bride).","['Rice', 'spirits']",18,-1,[],False,00:00:19
+"As a result of their relatively narrower range of options, predictions regarding their behavior tend to be more accurate.","['range', 'options']",13,0,"('range', 'options')",True,00:00:33
+The air in the middle ear space is important to allow the ear drum and middle ear bones to be vibrated by sounds collected by the ear canal.,"['ear', 'drum']",3,-1,[],False,00:00:45
+Much of the resulting work is summarised in his joint book with Howitt.,"['work', 'book']",15,0,"('work', 'book')",False,00:00:20
+"And there's you, floating a couple of thousand feet up in the sky in a tiny little basket.","['sky', 'basket']",18,-1,[],False,00:00:28
+Standards at a secondary school are criticised in a report by the inspection body.,"['Standards', 'report']",15,0,"('Standards', 'report')",False,00:00:23
+Roots that cross over the trunk of a tree instead of growing outward are known as girdling roots and should be removed since they can choke trees.,"['trunk', 'tree']",2,1,"('tree', 'trunk')",True,00:00:42
+"Accidentally, I poured too much sugar into my tea.","['sugar', 'tea']",6,1,"('tea', 'sugar')",True,00:00:40
+He used to bring some cigarettes into these Middle Eastern countries.,"['cigarettes', 'countries']",6,-1,[],False,00:00:20
+Trade Union Side reiterated its concerns that the public sector was effectively subsidising these events and requested that this practice cease.,"['concerns', 'public sector']",18,1,"('public sector', 'concerns')",False,00:00:19
+The momentum of their movement breaks the circle as the arm of the foreground dancer reaches out.,"['arm', 'dancer']",2,1,"('dancer', 'arm')",False,00:00:22
+There's a pitying of turtledoves cooing to their mate.,"['pitying', 'turtledoves']",13,-1,[],False,00:00:46
+The Civil Rights Hero award was bestowed to a disability rights activist.,"['award', 'activist']",6,1,"('activist', 'award')",False,00:00:13
+The pendant encloses a tumbled stone.,"['pendant', 'stone']",4,0,"('pendant', 'stone')",False,00:00:23
+One day the little orphan boy ran away from the orphanage.,"['boy', 'orphanage']",8,-1,[],False,00:00:26
+"The strand was devoted to music theatre and film music and featured interviews with songwriters, composers, and orchestrators.","['strand', 'theatre']",14,-1,[],False,00:00:23
+"The restructuring charge was comprised of $11.9 million of cash expenditures for severance benefits and other costs and $8.2 million of non-cash charges, primarily for the write-down of impaired assets.","['charge', 'expenditures']",3,1,"('expenditures', 'charge')",True,00:00:37
+Works in this exhibition investigate humanity's relationship with the world.,"['Works', 'relationship']",14,-1,[],False,00:00:22
+The Bush administration hid the true fiscal picture with a plethora of accounting gimmicks.,"['administration', 'gimmicks']",11,0,"('administration', 'gimmicks')",False,00:00:14
+Adenosine deaminase converts purine riboside into an analog of a reactive intermediate.,"['Adenosine deaminase', 'analog']",18,0,"('Adenosine deaminase', 'analog')",False,00:00:26
+Nectar is the sweet flower sap that bees make into honey by evaporating off the excess water.,"['bees', 'honey']",17,0,"('bees', 'honey')",False,00:00:14
+"As time passed, aluminum formed itself into a can, a lid, and a tab.","['aluminum', 'can']",18,0,"('aluminum', 'can')",False,00:00:14
+They still store the bottle in a chilling bucket or the refrigerator.,"['bottle', 'bucket']",4,-1,[],False,00:00:41
+The 08 campaign green jobs was the main talking point of any speech.,"['jobs', 'speech']",15,-1,[],False,00:00:23
+A Surfside man running away from a dog that broke away from its owner was struck by a bus in the chase.,"['dog', 'owner']",8,1,"('owner', 'dog')",False,00:00:21
+"The banker, who has put up in a Sudder Street hotel, told the sleuths that he had entered India on October 20, 2009.","['banker', 'hotel']",17,-1,[],False,00:00:23
+The artists carve away the surface with a chisel.,"['artists', 'chisel']",11,0,"('artists', 'chisel')",False,00:00:18
+"This marmalade is made of the finest oranges, to create a delecious taste.","['marmalade', 'oranges']",8,1,"('oranges', 'marmalade')",False,00:00:19
+"Sam, who formerly was a sportsman, and in his apprenticeship used to frequent Barnet races, keeps a high chaise, with a brace of seasoned geldings.","['brace', 'geldings']",13,-1,[],False,00:00:22
+"The cartoons originated in Denmark's Jyllands-Posten paper and have been reprinted in newspapers in France, Germany, Italy, Hungary, the Netherlands and Spain - who say they were exercising their right to free speech.","['cartoons', 'paper']",8,1,"('paper', 'cartoons')",False,00:00:17
+A more coded reproof came from the chairman of parliament's foreign affairs committee.,"['reproof', 'chairman']",16,1,"('chairman', 'reproof')",False,00:00:12
+The grenade was inside a tin alongside the hotel fence.,"['grenade', 'tin']",4,-1,[],False,00:00:19
+The principal has put computers into our classroom.,"['computers', 'classroom']",6,-1,[],False,00:00:15
+Olive Garden is a family of local restaurants focused on delighting every guest with a genuine Italian dining experience.,"['family', 'restaurants']",13,-1,[],False,00:00:20
+The computer mouse has been the input device of choice for a long time now in the computer world.,"['computer', 'mouse']",3,1,"('mouse', 'computer')",True,00:00:44
+The rule is the subject of a legal challenge brought by ABC and its coalition partners.,"['rule', 'legal challenge']",18,0,"('rule', 'legal challenge')",False,00:00:25
+"Throughout her career she has worked extensively with the California Department of Education and the Commission on Teacher Credentialing where she has been a contributing panel member on the writing of the California Subject Examination for Teachers (CSET), the California Music Standards, and the CalTPA, the California Teacher Preparation Assessment, as well as an evaluator for the Single Subject Music Preparation Submission Documents.","['panel', 'member']",13,0,"('panel', 'member')",False,00:00:23
+For example the steppingmotor has a coil with a resistance of 5 ohm and a nominal current of 1 Amp.,"['steppingmotor', 'coil']",3,-1,[],False,00:00:39
+It is a literary style which portrays crime and violence in an unsentimental way.,"['style', 'crime']",18,-1,[],False,00:00:28
+The cutting machine contains 13 circular blades mounted on a cutting axis.,"['machine', 'blades']",3,0,"('machine', 'blades')",False,00:00:24
+The 25-member steering committee that drafted the document also passed it through two Palestinian GFM organizers.,"['committee', 'document']",17,0,"('committee', 'document')",False,00:00:13
+"The student guide, consisting of a list and description of courses offered by each Faculty, is published on the website of the University.","['guide', 'website']",2,-1,[],False,00:00:32
+"In other words such people accept a form of mathematical platonists, whether or not they label themselves that way.","['form', 'platonists']",18,-1,[],False,00:00:39
+The book created a picture of social and religious identity.,"['book', 'identity']",14,0,"('book', 'identity')",False,00:00:24
+So this morning started early with a chorus of caws coming from a storytelling of crows outside my bedroom window.,"['storytelling', 'crows']",13,-1,[],False,00:00:27
+That paper received favorable review.,"['paper', 'review']",15,0,"('paper', 'review')",False,00:00:22
+He was wearing a short sleeve shirt with a tie.,"['sleeve', 'shirt']",2,1,"('shirt', 'sleeve')",False,00:00:25
+The Nepalese government sets up a committee to inquire into the alleged misuse of diplomatic passports.,"['committee', 'misuse']",18,1,"('misuse', 'committee')",False,00:00:11
+The investigation was concerning a series of letters received at the House containing non-noxious white powder.,"['investigation', 'series']",18,1,"('series', 'investigation')",False,00:00:15
+"Upon the arrival of an embassy from the injured to demand satisfaction, Romulus decided that those who had done the injury should be delivered up.","['embassy', 'injured']",8,1,"('injured', 'embassy')",False,00:00:13
+Industries have pushed fishermen into fragile marine reserves.,"['fishermen', 'reserves']",6,-1,[],False,00:00:25
+The three prints are a great example of a rare vintage photograph by an artist who had an influence on later 20th-century photographers.,"['photograph', 'artist']",16,1,"('artist', 'photograph')",False,00:00:23
+The water was in a cup.,"['water', 'cup']",4,-1,[],False,00:00:21
+Thankfully the plump of wildfowls brought about the destrcution of the wild cats and that ended the whole fiasco.,"['plump', 'wildfowls']",13,-1,[],False,00:00:21
+But the result was derived from a small number of actual HIV cases.,"['result', 'cases']",8,1,"('cases', 'result')",False,00:00:15
+The plasma was generated by an RF discharge between two parallel electrodes whose diameter was 100 mm and separation was 40 mm using pure silane gas.,"['plasma', 'discharge']",18,1,"('discharge', 'plasma')",False,00:00:14
+The European Commission has released a set of slides explaining nanotechnology.,"['slides', 'nanotechnology']",14,1,"('nanotechnology', 'slides')",False,00:00:17
+"With these two tools, the dataset was reduced from its original size of over 200 features into 17%.","['dataset', 'size']",18,-1,[],False,00:00:25
+"As for the main attraction: the pnuematic function allowing the crane arm to be raised and lowered, well, it's a simple job made a little more complex.","['crane', 'arm']",3,0,"('crane', 'arm')",True,00:00:44
+Old nests are used year after year by the carpenter bee.,"['carpenter', 'bee']",18,-1,[],False,00:00:24
+The surfer is dropped into a 35-foot wave at Waimea Bay.,"['surfer', 'wave']",6,-1,[],False,00:00:25
+The health professional uses a lamp during the test.,"['professional', 'lamp']",11,0,"('professional', 'lamp')",False,00:00:20
+The world is governed by mathematical laws.,"['world', 'laws']",18,0,"('world', 'laws')",True,00:00:40
+The hive entrances were oriented in different directions and painted with different colors to reduce colony drift of foraging bees.,"['drift', 'bees']",13,1,"('bees', 'drift')",False,00:00:26
+Ruling is in ink and was generally done by the scribe who wrote the quire.,"['scribe', 'quire']",17,0,"('scribe', 'quire')",False,00:00:19
+"The Agenda 21 document, agreed in Rio, includes a section on international co-operation.","['document', 'section']",3,0,"('document', 'section')",False,00:00:18
+The dulche de leche ice cream was the best part of this dessert; it was creamy and not too sweet as I usually find this flavor.,"['cream', 'dessert']",2,-1,[],False,00:00:18
+"The crater of the vulcano Solfatara shows a great variety of botanica species, varying greatly from each other due to climatic and pedologic reasons.","['crater', 'vulcano']",2,1,"('vulcano', 'crater')",False,00:00:17
+The suspect pushed the victim into a deep cliff.,"['victim', 'cliff']",6,-1,[],False,00:03:11
+"In the first year of King Cyrus, the king issued a decree.","['king', 'decree']",17,0,"('king', 'decree')",False,00:00:20
+The judgment was reported in local newspapers on Saturday.,"['judgment', 'newspapers']",15,0,"('judgment', 'newspapers')",False,00:00:22
+Glaucoma is a group of neurodegenerative disorders characterized by the death of retinal ganglion cells and by a specific deformation of the optic nerve.,"['Glaucoma', 'disorders']",18,-1,[],False,00:00:37
+The president of this society is responsible for presiding over all meetings (both general and executive).,"['president', 'society']",12,1,"('society', 'president')",True,00:00:34
+Japan injected funds into struggling companies.,"['funds', 'companies']",6,0,"('funds', 'companies')",False,00:00:20
+"Inside the car, keys were found in the ignition and Codario-Ferrino's license was discovered inside a purse on the passenger's seat.","['keys', 'ignition']",18,0,"('keys', 'ignition')",False,00:00:20
+Scattered among this streak of Celtic tigers are billions of euro loaned by Anglo Irish Bank over the past decade in a calculated play for lucrative returns.,"['streak', 'tigers']",13,-1,[],False,00:00:34
+There is a gulp of cormorants that scavenge this stretch of the Sacramento River where I usually kayak.,"['gulp', 'cormorants']",13,-1,[],False,00:00:27
+He has always waited patiently in the studio until his master's voice signals that it was time to go home.,"['master', 'voice']",3,0,"('master', 'voice')",False,00:00:18
+The ship left from the port of Bremen with 434 passengers.,"['ship', 'port']",8,-1,[],False,00:00:22
+A debtor gets liens released on personal household possessions for much less than the underlying debt on those secured possessions with redemption.,"['debtor', 'redemption']",11,0,"('debtor', 'redemption')",True,00:00:27
+The balls were dropped into the mud from a height of about 5 metres.,"['balls', 'mud']",6,-1,[],False,00:00:22
+STE Oil Company has all your white mineral oil needs covered.,"['mineral', 'oil']",9,-1,[],False,00:00:15
+What happens is that the system builds many inferior blood vessels in the eye to take the place of the vessels that are dying.,"['system', 'vessels']",17,0,"('system', 'vessels')",False,00:00:17
+"The stage was in the cellar, and all the lights in the shop were out; groans rose from a trap-door.","['lights', 'shop']",2,-1,[],False,00:00:29
+The mason has completed a concrete wall that creates a bathroom and storage area adjacent to a preschool classroom.,"['mason', 'wall']",17,0,"('mason', 'wall')",False,00:00:17
+Dartmouth nearly narrowed the gap to one goal when a slapshot popped out of the glove of Princeton goalie Zane Kalemba '10.,"['slapshot', 'glove']",8,0,"('slapshot', 'glove')",True,00:00:43
+It's funny my friend just used agave nectar in his margaritas.,"['agave', 'nectar']",9,0,"('agave', 'nectar')",False,00:00:19
+This research aimed to select and validate a battery of outcome measures of recovery after lower limb burn injury (LLBI).,"['battery', 'measures']",13,0,"('battery', 'measures')",True,00:00:33
+Tax cuts for rich are thrown into doubt.,"['Tax cuts', 'doubt']",18,0,"('Tax cuts', 'doubt')",False,00:00:21
+It is part of a furniture line conceived for Anthropologie by British interior designers.,"['line', 'designers']",18,1,"('designers', 'line')",False,00:00:20
+This book supplies us with a good deal of material for his biography.,"['book', 'material']",14,0,"('book', 'material')",False,00:00:17
+The second discourse concerned the role of democracy in the new republic.,"['discourse', 'role']",14,-1,[],False,00:00:34
+"Most of Birdtown's earliest residents hailed from Eastern European countries, including Slovakia, Ukraine, Czech Republic, Poland and Carpatho-Rusyn.","['residents', 'countries']",8,1,"('countries', 'residents')",True,00:00:27
+These are the least expensive scissors produced by this manufacturer and are available for less than $6.00 per pair.,"['scissors', 'manufacturer']",16,1,"('manufacturer', 'scissors')",False,00:00:20
+South Bade residents have been blown back into primitive lifestyle.,"['residents', 'lifestyle']",18,0,"('residents', 'lifestyle')",False,00:00:19
+"In fact, a protocol copes even with Byzantine failures by using randomization.","['protocol', 'randomization']",11,0,"('protocol', 'randomization')",False,00:00:15
+The website cited notes made by an investigator from the Los Angeles County Coroner's office as the source of the information.,"['notes', 'investigator']",16,1,"('investigator', 'notes')",False,00:00:23
+"Also on display are weapons made by inmates including a zip gun, shanks, two sawed-off shotguns, as well as other items such as masks and an alcohol still.","['inmates', 'shotguns']",17,0,"('inmates', 'shotguns')",False,00:00:18
+I made the carpet by cutting a knitting wool into short strips.,"['carpet', 'strips']",2,1,"('strips', 'carpet')",False,00:00:12
+This technique has been clearly explained in a previous issue of this magazine.,"['technique', 'issue']",15,-1,[],False,00:00:17
+Control is a process that employs a set of procedures to ensure that defined quality standards are met on a consistent basis.,"['process', 'procedures']",11,0,"('process', 'procedures')",False,00:00:15
+Several chapters of the book are devoted to the relationships between ethics and justice.,"['chapters', 'relationships']",14,-1,[],False,00:00:23
+"The steel Z-shaped stent was made with a steel guide wire (0.2 mm in diameter), covered with the vascular graft, and fixed to the graft wall with multiple interrupted sutures.","['stent', 'wire']",3,1,"('wire', 'stent')",False,00:00:23
+Literary critics have examined many themes in the novel.,"['themes', 'novel']",15,1,"('novel', 'themes')",False,00:00:20
+"Crime fiction is a typically 19th and 20th century genre, dominated by British and American writers.","['Crime', 'fiction']",15,-1,[],False,00:00:20
+A sample was sealed in a polyethylene bag and irradiated together with cobalt as a neutron flux determinant.,"['sample', 'polyethylene bag']",4,-1,[],False,00:00:20
+The neonatal heel prick is a common procedure for taking a blood sample from the heel of newborn infants.,"['heel', 'infants']",2,-1,[],False,00:00:23
+"Next up is the fingerprint scanner, the scanner was cleaned by the UKPS operator with a cloth.","['operator', 'cloth']",11,0,"('operator', 'cloth')",False,00:00:25
+Today's curious thinkers are keeping Ben's traditions alive by inventing new and improved ways to make things work.,"['thinkers', 'ways']",18,0,"('thinkers', 'ways')",False,00:00:15
+The editor improved the manuscript with his changes.,"['editor', 'changes']",17,0,"('editor', 'changes')",False,00:00:15
+Jacks are spreading into areas formerly occupied by white-tails in Colorado.,"['Jacks', 'areas']",6,-1,[],False,00:00:33
+The hollow bar mounting the cameras encloses a wiring harness between the cameras.,"['bar', 'harness']",18,-1,[],False,00:00:25
+Blade is accepted into the inner circle of hardened criminals who run things inside the prison and is offered a job on his release.,"['circle', 'criminals']",13,1,"('criminals', 'circle')",False,00:00:20
+"Though Calder had gone to Paris to paint, he began creating figures and animals from wire and wood, gradually building up an entire circus of trapeze artists, clowns and trained animals.","['circus', 'artists']",13,-1,[],False,00:00:22
+"Among the Hittites there was only one queen consort, but the king had a harem of wives (free women) and of slave concubines also.","['harem', 'wives']",13,-1,[],False,00:00:30
+Our microwave has a turn-able turntable inside and dial-able knobs outside.,"['microwave', 'turntable']",3,0,"('microwave', 'turntable')",False,00:00:30
+"Felt dots are embroidered on the front and sleeves of this sweater, adding an extra dimension of fun.","['sleeves', 'sweater']",2,-1,[],False,00:00:40
+"In the story a mob surrounds a woman to stone her for adultery, and ask Jesus what they should do.","['story', 'mob']",14,0,"('story', 'mob')",True,00:00:36
+The summer he was thirteen he organized the neighboring farmer boys into a troop of scouts.,"['troop', 'scouts']",13,0,"('troop', 'scouts')",False,00:00:20
+"Like all new towns we have missed.the encouraging influence of a large body of alumni, only two of the thirty-five former graduates having entered college.","['body', 'alumni']",13,-1,[],False,00:00:26
+The depression chamber contains a diaphragm under pressure from a diaphragm spring.,"['chamber', 'diaphragm']",3,-1,[],False,00:00:29
+"In the poem, an albatross starts to follow a ship - being followed by an albatross was generally considered an omen of good luck.","['poem', 'albatross']",18,-1,[],False,00:00:21
+The fortress had the only gate from the southwest.,"['fortress', 'gate']",3,0,"('fortress', 'gate')",False,00:00:29
+The dissertations reported on a research project of some kind.,"['dissertations', 'research project']",14,1,"('research project', 'dissertations')",False,00:00:14
+Body piercing jewellery specially for lobe ear piercings.,"['lobe', 'ear']",2,-1,[],False,00:00:21
+The stone ginger beer has a ginger 'bite' without the 'ginger burn' of more peppery Jamaican ginger beers.,"['ginger', 'beer']",9,0,"('ginger', 'beer')",False,00:00:21
+"For the original stud farm, desirous of producing the best horses for the dragoons and hussars, the lighter horse of a square frame was the ideal.","['horses', 'dragoons']",10,-1,[],False,00:00:39
+"Listeners receive WBAI live over the internet (referred to as ""streaming""), using one of the various audio formats below.","['Listeners', 'internet']",11,-1,[],False,00:00:27
+Even travel agents are turning to telepresence for clients.,"['travel agents', 'telepresence']",11,0,"('travel agents', 'telepresence')",False,00:00:13
+The temperature distributions in a vial during freeze-drying of a skim milk solution were determined experimentally.,"['distributions', 'vial']",18,1,"('vial', 'distributions')",True,00:00:47
+I sent you a suitcase with cash in it so you can fill it up with wine gummies.,"['suitcase', 'cash']",5,-1,[],False,00:00:29
+The media then creates a self fulfilling prophesy with constant reports of doom and gloom and individuals also pull their money out of the targeted bank.,"['media', 'reports']",17,0,"('media', 'reports')",False,00:00:20
+Google groups were sending commands to malware.,"['commands', 'malware']",6,0,"('commands', 'malware')",False,00:00:18
+Also missing was a 38 caliber Smith & Wesson gun that was in a suitcase in the tractor.,"['gun', 'suitcase']",4,-1,[],False,00:00:26
+But my local bellowing of bullfinches prefer natural food.,"['bellowing', 'bullfinches']",13,-1,[],False,00:00:21
+Through the night the stern continued to settle as the cruiser listed to port.,"['stern', 'cruiser']",2,-1,[],False,00:00:27
+This technique efficiently inserted genes into hematopoietic stem cells.,"['genes', 'stem cells']",6,-1,[],False,00:00:23
+"The device was contained in a small jiffy bag with a white label, with a post mark that was ""not local"".","['device', 'jiffy bag']",4,-1,[],False,00:00:17
+Illinois race for lieutenant governor attracts a crowd of candidates.,"['crowd', 'candidates']",13,1,"('candidates', 'crowd')",True,00:00:38
+The opposing party hid the anvil with a view to important consequences.,"['party', 'view']",18,0,"('party', 'view')",False,00:00:34
+A critical habitat for beluga whales in upper Cook Inlet has been created by the federal government.,"['habitat', 'government']",16,1,"('government', 'habitat')",False,00:00:16
+The crew had dug a trench for her to walk in so that she would not dwarf the star.,"['crew', 'trench']",17,0,"('crew', 'trench')",False,00:00:14
+"He came back 15 minutes later with a bottle, with three lizards in it.","['bottle', 'lizards']",5,-1,[],False,00:00:36
+Mark also spoke about post-September 11 civil rights and civil liberties issues facing immigrants.,"['issues', 'immigrants']",18,-1,[],False,00:00:32
+"The explorer journeyed into the Arctic region of the Himalayas, determined to find a copy of the Himis manuscript or to expose the fraud.","['explorer', 'region']",6,-1,[],False,00:00:42
+The judge directed the court to decide the preliminary issue raised by the petitioner.,"['court', 'petitioner']",18,1,"('petitioner', 'court')",False,00:00:23
+The NMB maintains a panel of neutral referees for service on these and certain other boards.,"['panel', 'referees']",13,-1,[],False,00:00:17
+He grabed one end of the broom stick as they grab the other end.,"['broom', 'stick']",3,-1,[],False,00:00:25
+"In law, a bill of particulars is a list of written statements made by a party to a court proceeding, upon demand of another party, that sets forth details of a claim or defense.","['bill', 'particulars']",13,0,"('bill', 'particulars')",True,00:00:36
+My pug has little bumps under his chin.,"['pug', 'chin']",3,-1,[],False,00:00:33
+It has been assumed that the quench starts at the middle cross-section of the magnet.,"['quench', 'cross-section']",18,-1,[],False,00:00:23
+"In the fall of 2003, a hidden camera-equipped journalist from Germany's ARD television infiltrated the Saudi-built King Fahd Academy in Bonn and taped what it taught to young Muslim children.","['journalist', 'television']",8,-1,[],False,00:00:35
+Ice cream was made by hand in a large bowl placed inside a tub filled with ice and salt.,"['cream', 'hand']",18,1,"('hand', 'cream')",False,00:00:24
+"Ruins from 800,000 years ago discovered in Israel show that Stone Age ancestors had began to organize their open-air living spaces into separate clusters for different activities such as cooking and stone manufacturing.","['Ruins', 'years']",8,-1,[],False,00:00:24
+"The user is cooling a processor with a power usage of 35W, using a conventional heatsink.","['user', 'usage']",18,-1,[],False,00:00:25
+The hotel released effluent into the lake.,"['effluent', 'lake']",6,0,"('effluent', 'lake')",False,00:00:21
+They include sending e-mails to remind customers about abandoned items.,"['e-mails', 'abandoned items']",14,1,"('abandoned items', 'e-mails')",False,00:00:12
+"As we were leaving the house, we found a suitcase with three or four Jordanian passports in it, clothes, and hygiene gear.","['suitcase', 'passports']",5,-1,[],False,00:00:41
+The president has made taxes and spending the big issues again.,"['president', 'taxes']",18,0,"('president', 'taxes')",False,00:00:33
+The student creates compositional forms using a sequencer or notation program.,"['student', 'program']",11,0,"('student', 'program')",False,00:00:19
+I have placed a new memory card directly into my mobile phone.,"['memory card', 'phone']",6,0,"('memory card', 'phone')",True,00:00:31
+Certain cricketers have been eluded from their team on accounts of injury.,"['cricketers', 'team']",8,-1,[],False,00:00:26
+The frozen spread was found in a sack in a former pony stable nearly a century after Captain Robert Scott's mission to the South Pole.,"['spread', 'sack']",4,-1,[],False,00:00:32
+The speeches were on the subject of the relationship between institutional and poetic violence.,"['speeches', 'relationship']",14,-1,[],False,00:00:25
+"Little did these naive people realize at the time that they were embracing a foul brood of ungrateful vipers, which would soon prove to be their undoing.","['brood', 'vipers']",13,-1,[],False,00:00:28
+Here is one of the craters created by the meteorite Morasko.,"['craters', 'meteorite']",16,1,"('meteorite', 'craters')",False,00:00:16
+A stent was inserted into the patient's artery in 55 minutes.,"['stent', 'artery']",6,0,"('stent', 'artery')",False,00:00:24
+The publication has connection to an international research project.,"['publication', 'project']",14,1,"('project', 'publication')",False,00:00:19
+"The farm comprises 80 turbines and generates 160 megawatts, nearly 2% of Denmark's total electricity consumption.","['farm', 'turbines']",3,-1,[],False,00:00:37
+The power indicator of the transmitter and headphone then went off.,"['indicator', 'transmitter']",2,1,"('transmitter', 'indicator')",False,00:00:26
+The Big Barn Farm friends discover a pile of junk.,"['pile', 'junk']",18,1,"('junk', 'pile')",False,00:00:21
+The conclusion chapter is cautious and organised around the six themes of the book.,"['chapter', 'themes']",14,-1,[],False,00:00:39
+He also had access to a sounder of fat pigs upon which the humans feasted upon in celebration of the newly expanded farmland.,"['sounder', 'pigs']",13,-1,[],False,00:00:19
+The Appellant noticed that the switch of the circuit breaker which feeds 440 volts A.C. power to the main switchboard in the engine.,"['switchboard', 'engine']",2,-1,[],False,00:00:26
+Wave crests are blown into the froth.,"['Wave crests', 'froth']",6,0,"('Wave crests', 'froth')",False,00:00:17
+"This workshop analyzes credit risk factors and how these risk factors can be measured, controlled, and reduced in financial institutions.","['workshop', 'factors']",14,-1,[],False,00:00:59
+These are some of the many ways in which Hitler and the Nazi party used propaganda in order to brainwash and manipulate people into thinking that the Nazi party was a good party to be in.,"['party', 'propaganda']",11,0,"('party', 'propaganda')",False,00:00:18
+"Harriers are large, slender hawk-like birds with long tails and long, thin legs.","['birds', 'tails']",3,0,"('birds', 'tails')",True,00:00:38
+This is wishful thinking by a scribe who is more blind to the reality than those he accuses of blindness.,"['thinking', 'scribe']",18,1,"('scribe', 'thinking')",False,00:00:24
+I am just joining the queue of disappointed parents and upset children as i bought a marshmallow maker and toffee apple maker.,"['marshmallow', 'maker']",16,1,"('maker', 'marshmallow')",True,00:00:32
+Chris Caisley remains the head of the team and sources were keen to pinpoint his previous experience as chairman of the Bradford Bulls rugby league club.,"['head', 'team']",12,-1,[],False,00:00:24
+Public education systems have carried nations into prosperity.,"['nations', 'prosperity']",18,0,"('nations', 'prosperity')",True,00:00:39
+The nitric oxide was contained in a large gold-plated cylinder in which it was ionized by krypton resonance radiation.,"['nitric oxide', 'gold-plated cylinder']",4,-1,[],False,00:00:33
+Making and fitting horseshoes was only part of the life of a blacksmith.,"['horseshoes', 'blacksmith']",18,1,"('blacksmith', 'horseshoes')",False,00:00:21
+"Williams, who is regarded as ""the first among equals"" within the communion of leaders that represent 160 countries and some 75 million Anglicans worldwide, has sought to find a delicate balance within the deeply divided group of primates.","['communion', 'leaders']",13,-1,[],False,00:00:38
+"Since the ultimate purpose of the company is that of sales, the sales department is rightly recognized as one of the major departments of the business.","['department', 'business']",2,1,"('business', 'department')",False,00:00:23
+The sergeant got out from the police car.,"['sergeant', 'car']",8,-1,[],False,00:00:24
+"In the book, the main female character is a woman named Messua who adopts Mowgli.","['book', 'character']",15,0,"('book', 'character')",False,00:00:25
+Guinea unions threaten junta with walkout.,"['unions', 'walkout']",11,0,"('unions', 'walkout')",False,00:00:19
+Beeswax is a natural wax produced in the bee hive of honey bees of the genus Apis.,"['hive', 'bees']",18,1,"('bees', 'hive')",False,00:00:23
+"Bevilona, pretending astonished fear, hides the frightened peasant in a cask.","['peasant', 'cask']",6,-1,[],False,00:00:27
+"Typically, varieties of this sort were grown on flat land by peasants.","['varieties', 'peasants']",18,1,"('peasants', 'varieties')",False,00:00:25
+"However, some person had broken the padlock of the chain across the road.","['padlock', 'chain']",2,0,"('padlock', 'chain')",True,00:00:38
+"In other words, the bow of the vessel points at the 'windy' extended edge of the table.","['bow', 'vessel']",2,-1,[],False,00:00:28
+"I liked how his D cells were in a box behind the counter, with no prices on them, as if they were contraband or moonshine.","['cells', 'box']",4,-1,[],False,00:00:18
+The pepper is added to the salad before serving.,"['pepper', 'salad']",6,-1,[],False,00:00:29
+These views were reflected in his building designs.,"['views', 'designs']",18,0,"('views', 'designs')",False,00:00:21
+A basket such as you mention holds four ears of corn.,"['basket', 'ears']",5,-1,[],False,00:00:24
+Eucharist is the source of the Church's mission.,"['Eucharist', 'mission']",9,0,"('Eucharist', 'mission')",False,00:00:19
+"It's fairly rare that I follow an exact recipe from a magazine, but every once in a while a photo calls to me.","['recipe', 'magazine']",8,1,"('magazine', 'recipe')",False,00:00:19
+"We removed some living branches and new growth, thus maximizing light penetration and air flow through the crown of the tree.","['crown', 'tree']",2,-1,[],False,00:00:54
+"Then, certain texts do talk about English society of various ages.","['society', 'ages']",18,-1,[],False,00:00:29
+A pack of the most popular cigarettes in the Seychelles in 2008 cost $15 at purchasing-power parity (PPP).,"['pack', 'cigarettes']",5,1,"('cigarettes', 'pack')",True,00:00:41
+Sufficient coagulation-deficient fluids were given to surgical patients.,"['fluids', 'patients']",6,0,"('fluids', 'patients')",False,00:00:14
+"This website, www.fertilityuk.org, shows how to interpret the changes that take place in the mucus secretions produced by the cells lining the cervix.","['secretions', 'cells']",16,1,"('cells', 'secretions')",False,00:00:14
+The iron tablets were in a box on the floor.,"['tablets', 'box']",4,-1,[],False,00:00:25
+The next shot shows only a suitcase with neatly folder clothes in it on the bed.,"['suitcase', 'clothes']",5,-1,[],False,00:00:23
+"A cable or rode is the rope, chain, or combination thereof used to connect the anchor to the vessel.","['anchor', 'vessel']",2,-1,[],False,00:00:45
+"The warm version of leek and potato soup was handed down to him by his mother, Annette Diat.","['potato', 'soup']",9,0,"('potato', 'soup')",True,00:00:44
+Her naked and decomposing body was discovered inside a locked cupboard in an Auckland building.,"['body', 'cupboard']",4,-1,[],False,00:00:24
+The Banko kilns were founded by the potter Nunami Ro-zan (1718-77) who often imitated the work of Kenzan (1663-1743).,"['kilns', 'potter']",16,1,"('potter', 'kilns')",False,00:00:18
+"To create a good seal, manufacturers put a foam- or gel-filled seal between the ear cup and your head.","['ear', 'cup']",18,-1,[],False,00:00:26
+"By foot on the trail, or by canoe on the river, our campers have journeyed into some spectacular wilderness.","['campers', 'wilderness']",6,-1,[],False,00:00:38
+The research team is moving into a deeper cave to explore.,"['team', 'cave']",6,-1,[],False,00:00:24
+"The electron beam arrives from the left side, is collimated by 1cm thick copper and traverses the light tight sensor box.","['beam', 'side']",8,-1,[],False,00:00:24
+"Real working cowboys, who are hired to take a drove of cattle to market, have a very difficult and strenuous job.","['drove', 'cattle']",13,1,"('cattle', 'drove')",False,00:00:33
+A file photo shows a microlight pilot flying with geese.,"['pilot', 'geese']",18,-1,[],False,00:00:42
+It was a cloud of shrieking black bats that was attacking them.,"['cloud', 'bats']",13,1,"('bats', 'cloud')",False,00:00:23
+The initiative was outlined in a speech delivered by Saudi Crown Prince Abdullah on Wednesday.,"['initiative', 'speech']",15,0,"('initiative', 'speech')",True,00:00:48
+The teacher retirement poem on parchment is a customized poem printed on parchment and enclosed in a black certificate holder.,"['poem', 'certificate holder']",4,-1,[],False,00:00:25
+"A letter penned by George Washington praising the new Constitution sold for $3.2 million at an auction, the highest price for a letter by America's first president.","['letter', 'president']",16,1,"('president', 'letter')",False,00:00:30
+He poured his passion into his lover.,"['passion', 'lover']",6,0,"('passion', 'lover')",False,00:00:22
+"Their deed of agreement was drawn up in the temple by a notary public and confirmed with an oath ""by god and the king.""","['deed', 'public']",18,-1,[],False,00:00:34
+And the chorus of teenage boys and girls were a pleasure to watch as they sang and danced.,"['chorus', 'boys']",13,-1,[],False,00:00:31
+"For 25 years, Christmas in New Bern has included a flotilla of decorated boats gliding along the confluence of the Neuse and Trent rivers at Union Point Park.","['flotilla', 'boats']",13,1,"('boats', 'flotilla')",False,00:00:25
+"Taking a stick of dynamite from their mule, the shooter assembles the hand-charge with two caps and fuses - which is now considered live.","['shooter', 'caps']",11,-1,[],False,00:00:23
+A man is facing charges after police pulled him from a tank under a women's toilet that was filled with human waste.,"['toilet', 'waste']",5,0,"('toilet', 'waste')",False,00:00:33
+"Nutritious chocolate is made of cocoa paste, cocoa butter, and sugar.","['chocolate', 'cocoa paste']",8,1,"('cocoa paste', 'chocolate')",False,00:00:22
+The list highlighted the best new music talent for the new year.,"['list', 'talent']",14,-1,[],False,00:00:32
+They cremated their dead and placed the ashes in a specially prepared pit.,"['ashes', 'pit']",6,-1,[],False,00:00:20
+The door locks with a sliding bar hidden in the carved piece across the center of the door.,"['door locks', 'bar']",3,1,"('bar', 'door locks')",False,00:00:17
+"Officials got a warning from the victim's son: his 87-year-old father was a ""hoarder"" and the house was full of items.","['house', 'items']",5,-1,[],False,00:00:41
+The door on the right enclosed a fumigating chamber.,"['door', 'chamber']",2,-1,[],False,00:00:34
+I found the secret passages inside the Monastery.,"['passages', 'Monastery']",2,1,"('Monastery', 'passages')",False,00:00:29
+The drama unfolded even after some of the stars had left the course.,"['stars', 'course']",8,-1,[],False,00:00:29
+Their whole future is being thrown into disarray.,"['future', 'disarray']",18,-1,[],False,00:00:24
+The announced plans absolutely take into account the needs of disabled people.,"['plans', 'needs']",14,1,"('needs', 'plans')",False,00:00:25
+The newly inaugurated president has delivered speeches to the public.,"['speeches', 'public']",6,1,"('public', 'speeches')",True,00:00:45
+The inherent RNA silencing mechanism in plants has been effectively manipulated as a tool for the targeted down-regulation of genes.,"['mechanism', 'down-regulation']",18,0,"('mechanism', 'down-regulation')",False,00:00:15
+"The neighbor, who owns a raisin factory, wanted the property to expand his business.","['raisin', 'factory']",16,0,"('raisin', 'factory')",False,00:00:37
+"His wife, a successful corporate lawyer, has given up work.","['wife', 'work']",18,-1,[],False,00:00:36
+The board meeting is rescheduled to next month.,"['meeting', 'next month']",6,-1,[],False,00:00:24
+"The craftsman bought his own iron, finished his hinge Ls, packed them, and conveyed them to the warehouse of the factor in the large town.","['craftsman', 'iron']",11,0,"('craftsman', 'iron')",False,00:00:24
+Three lines are missing from the end of this stanza; the hermit demonstrates his prowess with the bow.,"['hermit', 'bow']",11,0,"('hermit', 'bow')",True,00:00:37
+Old pickups and SUVs were stacked up in clunker piles by dealers.,"['piles', 'dealers']",16,1,"('dealers', 'piles')",False,00:00:18
+"In this method, multiword concepts are treated as single words.","['multiword concepts', 'single words']",18,0,"('multiword concepts', 'single words')",False,00:00:17
+"He made his way inside, where the jewelry was locked in a safe for the night.","['jewelry', 'safe']",4,0,"('jewelry', 'safe')",True,00:00:31
+"Franken's uncle, who was in the Russian army, liberated Auschwitz with Barry's uncle.","['uncle', 'uncle']",18,-1,[],False,00:00:24
+The Free States of Alaska is a loose confederation of various species of bears in the far northern lands and outlands of Megatexas.,"['confederation', 'species']",13,1,"('species', 'confederation')",False,00:00:18
+Gol Airlines started flights to Middle Eastern countries.,"['flights', 'countries']",6,-1,[],False,00:00:38
+Each independent variable is moving into its axis constantly.,"['variable', 'axis']",6,-1,[],False,00:00:27
+Two children playing in a Queens park have found a suitcase with bones in it.,"['suitcase', 'bones']",5,-1,[],False,00:00:18
+"The ""Intihuatana"" (in Quechua = place where the sun is bonded) is a solar observatory that allowed the Incas to keep track of the seasons of the year and the flow of time based on the shadows caused by the sun over the stone.","['shadows', 'sun']",17,1,"('sun', 'shadows')",False,00:00:20
+470000 mullet fingerlings have been released into the lake.,"['fingerlings', 'lake']",6,-1,[],False,00:00:54
+"The exception is the player who drew the ace, who may stop whenever they want.","['player', 'ace']",18,1,"('ace', 'player')",True,00:00:46
+"The idea of intensification was put forward by a number of archaeologists, but the most prominent in developing the idea was Harry Lourandos.","['idea', 'archaeologists']",16,1,"('archaeologists', 'idea')",False,00:00:11
+"The deputy called for backup, and placed the suspect in a patrol car.","['suspect', 'patrol car']",6,-1,[],False,00:00:27
+We put the soured cream in the butter churn and started stirring it.,"['cream', 'churn']",6,-1,[],False,00:00:44
+He placed his index finger on the knife blade and his three remaining fingers on the knife handle.,"['knife', 'blade']",3,-1,[],False,00:00:22
+This delightful tale humorously makes the point that the greatest risk in life may be in not taking one.,"['tale', 'risk']",14,-1,[],False,00:00:49
+"The boost voltage is derived from a separate, external low-voltage source so as to meet the (VBOOST-. VSW) voltage requirement.","['voltage', 'source']",8,1,"('source', 'voltage')",False,00:00:14
+"Yet he afterwards fell away and became the head of a sect of vile heretics, of gross practices, called from his name the sect of the Nicolaitans, Rev. ii. 6, and 15.","['sect', 'heretics']",13,1,"('heretics', 'sect')",True,00:00:29
+The infant was born in a condition of shock and died in ten minutes.,"['infant', 'condition']",18,1,"('condition', 'infant')",False,00:00:25
+"Brickwork is masonry produced by a bricklayer, using bricks and mortar to build up brick structures such as walls.","['Brickwork', 'bricklayer']",16,1,"('bricklayer', 'Brickwork')",False,00:00:26
+This point has been discussed in several legal battles over the years.,"['point', 'legal battles']",15,-1,[],False,00:00:35
+It was an artificial and unworkable creation of intellectuals supported by the great powers.,"['creation', 'intellectuals']",16,1,"('intellectuals', 'creation')",False,00:00:22
+"In past 10 years, web technologies have been arriving into the enterprise.","['technologies', 'enterprise']",6,0,"('technologies', 'enterprise')",False,00:00:23
+"Once we had 6 hour delay because they deiced our plane too far from runway, so each time we got to the runway our plane had iced up again.","['plane', 'runway']",8,-1,[],False,00:00:20
+There are drain openings on both sides of the street in the curbs of the sidewalks.,"['curbs', 'sidewalks']",18,-1,[],False,00:00:29
+Sometimes their way led them under the shade of an overhanging bank or through the thin obscurity of a clump of leafless trees.,"['clump', 'trees']",13,-1,[],False,00:00:57
+The wind pried with its stiff fingers at the very foundations.,"['wind', 'fingers']",3,0,"('wind', 'fingers')",False,00:00:24
+He released the brake cable by detaching the retaining clip from the cable housing.,"['brake', 'cable']",3,-1,[],False,00:00:56
+The rudders in dinghy boats are either fixed or have a lifting blade.,"['rudders', 'boats']",2,1,"('boats', 'rudders')",False,00:00:32
+"A highway shield is a sign denoting the route number of a highway, usually in the form of a symbolic shape with the route number.","['sign', 'route number']",18,1,"('route number', 'sign')",False,00:00:28
+"I have enjoyed my interaction with the 2004 cohort of Gutenberg authors, and learned much from the books that have appeared in the series as a whole.","['cohort', 'authors']",13,-1,[],False,00:00:40
+The parties resolved the suit through a 3-year consent decree providing a total of $225000 to charging party and two other female claimants.,"['parties', 'decree']",17,0,"('parties', 'decree')",False,00:00:25
+"Leave the comfort food on the shelves in the supermarket, buy extra fruit and veg, that way you gorge on healthy stuff, It does work trust me, I do it often.","['shelves', 'supermarket']",2,-1,[],False,00:00:37
+Iraq reiterated on Friday that its dossier provided a full and honest account of its weapons programmes.,"['dossier', 'account']",3,0,"('dossier', 'account')",False,00:00:16
+"A pod of ringed seals burst out of the water, then dove, leaving in their place a piece of green ice shaped like a harpoon.","['pod', 'seals']",13,-1,[],False,00:00:24
+Sean Patrick Flannery and Rod Taylor star in this horrific tale of a small town overrun by a conspiracy of flesh eating ravens.,"['conspiracy', 'ravens']",13,-1,[],False,00:00:34
+Four deployed Holloman airmen ran into their former Holloman command chief recently.,"['airmen', 'chief']",6,-1,[],False,00:00:22
+The defendants took advantage of Astor's diminished mental capacity to carry them out.,"['defendants', 'capacity']",18,-1,[],False,00:00:41
+"The babble was adjusted three times by the participant, using an attenuator with a continuously variable unmarked knob.","['participant', 'attenuator']",11,-1,[],False,00:00:35
+The panel considers the impact of the exhibition.,"['panel', 'impact']",14,-1,[],False,00:00:22
+At the heart of the discussion was the financial and artistic crisis that photojournalism is currently going through.,"['discussion', 'crisis']",14,1,"('crisis', 'discussion')",False,00:00:19
+The man has journeyed into deeper level studies with sound masters.,"['man', 'studies']",18,0,"('man', 'studies')",False,00:00:19
+The painting was in a crate from which it had not been unpacked since its return from an exhibition in Oklahoma City a year ago.,"['painting', 'crate']",4,-1,[],False,00:00:32
+We think that's a case where the builder has targeted the market with the right product and has priced it well.,"['builder', 'product']",17,0,"('builder', 'product')",False,00:00:22
+The earliest writing is from 5000 years ago and helps us understand some of the changes.,"['writing', 'years']",8,-1,[],False,00:00:20
+He bought a gold bracelet for $200.,"['gold', 'bracelet']",18,-1,[],False,00:00:35
+The note was tucked inside a quart size plastic ziplock bag.,"['note', 'ziplock bag']",4,-1,[],False,00:00:26
+Most people buy pre-made candle wicks when making homemade candles.,"['candle', 'wicks']",18,1,"('wicks', 'candle')",True,00:00:37
+Cylindrical defects in the trochanter area of 18 rabbit femora were filled with BG granules.,"['defects', 'granules']",5,0,"('defects', 'granules')",False,00:00:23
+"This panel once decorated the cover of a gospel book (now in the Hessisches Landesmuseum, Darmstadt) written and illuminated by a scribe named Liuthard.","['book', 'scribe']",16,1,"('scribe', 'book')",False,00:00:25
+The removal duplicate songs is done with the user-friendly start-up wizard.,"['removal', 'wizard']",18,1,"('wizard', 'removal')",False,00:00:20
+The oil was contained in a massive tank in the basement storage room.,"['oil', 'tank']",4,-1,[],False,00:00:25
+"In philosophy, the brain in a vat is an element used in a variety of thought experiments intended to draw out certain features of our ideas of knowledge.","['brain', 'vat']",4,-1,[],False,00:00:19
+My mother bakes the puddings in a lidded dish which results in no skin and little caramelisation.,"['mother', 'dish']",11,0,"('mother', 'dish')",False,00:00:22
+Citizenship was finally awarded to the immigrant.,"['Citizenship', 'immigrant']",6,1,"('immigrant', 'Citizenship')",False,00:00:34
+Show 1 in the series is a documentary detailing the first stages of the celebrity students' conductor training as they enter into a week long 'Baton Camp'.,"['documentary', 'stages']",14,1,"('stages', 'documentary')",True,00:00:41
+"I thought sometimes I saw the flash of distant spires, the sunny gleam of upland pastures, the soft undulation of purple hills.","['undulation', 'hills']",18,1,"('hills', 'undulation')",False,00:00:20
+Three poor seal pups rescued from the Yorkshire coast were released back into the wild at Seal Sands on Teesside.,"['pups', 'wild']",6,-1,[],False,00:00:43
+"Science and faith collide when a bottle full of flowing green goo is determined to NOT be dormitory food, but something altogether more sinister.","['bottle', 'goo']",5,-1,[],False,00:00:44
+"As you see, it very easily pulls away and the strings of the spaghetti squash come out relatively easy here.","['strings', 'squash']",2,1,"('squash', 'strings')",False,00:00:19
+"Air circulates through the arm of the machine, creating a gentle vacuum that can attract a page and guide it from the right side of the book to the left.","['arm', 'machine']",2,1,"('machine', 'arm')",False,00:00:21
+The evidence comes from Nasa's Mars reconnaissance orbiter which spied a series of depressions linked by what look like drainage channels.,"['evidence', 'orbiter']",8,1,"('orbiter', 'evidence')",False,00:00:20
+To that end the rig of the ship and the style of operation have the simplicity.,"['rig', 'ship']",2,-1,[],False,00:00:34
+The tiger is moving into a new territory.,"['tiger', 'territory']",6,-1,[],False,00:00:34
+The government research grant was given to a top school to boost its research activities.,"['grant', 'school']",6,0,"('grant', 'school')",False,00:00:22
+The position of the OECD has been criticized in literature.,"['position', 'literature']",15,0,"('position', 'literature')",False,00:00:32
+There's a crowd of reasons we get the flu in winter.,"['crowd', 'reasons']",13,-1,[],False,00:00:32
+A train ran into a cattle on the railroad.,"['train', 'cattle']",6,1,"('cattle', 'train')",False,00:00:20
+"The engineer's scale came into existence when machining parts required a greater precision than the usual, binary fractionalization of the inch.","['engineer', 'scale']",11,0,"('engineer', 'scale')",False,00:00:20
+Workers build the comb from wax extruded from glands under their abdomen.,"['Workers', 'comb']",17,0,"('Workers', 'comb')",False,00:00:18
+These and many other stories are used by the new scientists in order to support their theory.,"['stories', 'scientists']",10,-1,[],False,00:00:35
+"After the source material and substrates were arranged, the small quartz tube was placed inside the 50-cm-long horizontal tube furnace.","['tube', 'furnace']",6,1,"('furnace', 'tube')",True,00:00:33
+"But largely they were of the rose kind, and, in the bloomy ring of wedded dames, sighed to in canzons, ' fair friends"" of knight and poet, but saw themselves a little further on.","['ring', 'dames']",13,-1,[],False,00:00:20
+"Ancient Roman sewer grate made out of lime sandstone, 1st century AD, excavated at Vindobona.","['sewer', 'grate']",3,0,"('sewer', 'grate')",True,00:00:57
+"There have been various stories about the origin of the Chinese script, with nearly all ancient writers attributing it to a man named Cangjie.","['origin', 'script']",9,-1,[],False,00:00:37
+The manager has added background text watermarks into the existing PDF file.,"['watermarks', 'file']",6,1,"('file', 'watermarks')",True,00:00:46
+In the course of the discussion it was pointed out that middle-class and lower-class people in the United States also seem to react differently to work.,"['discussion', 'people']",14,-1,[],False,00:00:25
+It is a scrawl by an artist to portray that which cannot be portrayed even on a canvas as big and large as the heavens.,"['scrawl', 'artist']",16,1,"('artist', 'scrawl')",False,00:00:15
+Many of the passengers took the shuttle to town and turned around in ten minutes retreating back to the comfort of the air-conditioned ship.,"['passengers', 'shuttle']",11,0,"('passengers', 'shuttle')",False,00:00:12
+Another deputy from coalition party resigns in Turkey.,"['deputy', 'party']",12,-1,[],False,00:00:32
+"The ""underdog"" prize is awarded to the driver who wins the race with a car in the lowest PI of the field.","['driver', 'car']",11,-1,[],False,00:00:43
+The aim of this section is a brief review of the clinical aspects of ITP in pregnancy.,"['section', 'clinical aspects']",14,-1,[],False,00:00:50
+A farmer erected the disguise in 2000 out of hundreds of 8ftx4ft bales of straw and covered the top with blue tarpaulin.,"['farmer', 'disguise']",17,0,"('farmer', 'disguise')",False,00:00:29
+"When I was growing up in Washington, my grandmother fed a nursery of raccoons every night.","['nursery', 'raccoons']",13,-1,[],False,00:00:48
+The fat migrated into enrobing chocolate.,"['fat', 'chocolate']",6,-1,[],False,00:00:28
+Drawing my bow across the string sometimes results in the stick of the bow bouncing/vibrating up and down.,"['stick', 'bow']",2,1,"('bow', 'stick')",True,00:00:37
+"Rich in high-quality protein and other nutrients, soy flour also adds a pleasant texture and flavor to a variety of products.","['soy', 'flour']",9,0,"('soy', 'flour')",False,00:00:21
+"A custom clothier makes custom garments one at a time, to order.","['clothier', 'garments']",17,0,"('clothier', 'garments')",False,00:00:12
+Uncooked steak is placed on the top shelf of the refrigerator and uncovered roast chicken on the bottom shelf.,"['shelf', 'refrigerator']",2,-1,[],False,00:00:34
+"Hedgehogs annoy only their political opposition, while foxes annoy across the political spectrum, in part because the smartest foxes cherry-pick idea fragments from the whole array of hedgehogs.","['array', 'hedgehogs']",13,-1,[],False,00:00:31
+"The plot here involves a cache of stolen jewels and gold bars, which were confiscated at the end of World War II.","['cache', 'jewels']",13,-1,[],False,00:00:29
+Dentists use sedation in order to provide an anxiety-free dental experience.,"['Dentists', 'sedation']",11,0,"('Dentists', 'sedation')",False,00:00:29
+The chip was implanted into the pet.,"['chip', 'pet']",6,-1,[],False,00:00:44
+The weapon was hidden in what appears to be a mobile phone.,"['weapon', 'mobile phone']",4,-1,[],False,00:00:18
+"The Code applies to all sponsorship related to corporate image, brands, products, services activities or events of any kind.","['sponsorship', 'corporate image']",18,0,"('sponsorship', 'corporate image')",False,00:00:28
+"The following excerpt was a part of the article: ""Some say it feels like a scene from a Norman Rockwell painting as families gather in front of the picturesque performing arts center.""","['excerpt', 'article']",8,1,"('article', 'excerpt')",False,00:00:25
+A tiny Serbian village has put up a statue in honour of its adopted patron - Sylvester Stallone's Rocky.,"['village', 'statue']",18,0,"('village', 'statue')",False,00:00:16
+I found a bottle with 5 fentermine in it yesterday.,"['bottle', 'fentermine']",5,-1,[],False,00:00:13
+"Cayenne pepper is a miracle cure for ulcers and so many other conditions, plus aids assimilation of nutrients and vitamins.","['pepper', 'ulcers']",18,-1,[],False,00:00:16
+The stethoscope lets the doctor hear your heartbeat and the way your lungs sound.,"['stethoscope', 'doctor']",10,-1,[],False,00:00:39
+The cold temperature waves are flowing into the desert.,"['temperature waves', 'desert']",6,-1,[],False,00:00:19
+"When the soul left the body, it was at the first moment quite unclothed, as at birth.","['soul', 'body']",8,-1,[],False,00:00:22
+"A small supply of butter was in a jar that stood on the hearth, and the eggs were kept in a basket that hung on a peg nearby.","['butter', 'jar']",4,-1,[],False,00:00:24
+"The authentic-looking, powerful film is concerned with the problems of trade unionism, corruption and racketeering.","['film', 'problems']",14,-1,[],False,00:00:35
+He slowly inserted the disk into the removable disk drive.,"['disk', 'disk drive']",6,-1,[],False,00:00:37
+The handgrip of the gun is standard plastic but with two rubber insets which make the unit feel very comfortable in your hand.,"['handgrip', 'gun']",2,-1,[],False,00:00:40
+The tourist was taking a trip into the amazing jungle of Amazon.,"['tourist', 'jungle']",6,1,"('jungle', 'tourist')",False,00:00:29
+The newly elected president is making a speech addressing the latest threat to this countries economy and people.,"['speech', 'threat']",14,1,"('threat', 'speech')",False,00:00:22
+The software lets the teleworker closely associate his IP soft phone with other public switched telephone network (PSTN) connections.,"['software', 'teleworker']",10,-1,[],False,00:00:39
+The group tried assessment of vigilance through a brief pencil and paper letter cancellation task.,"['group', 'task']",11,0,"('group', 'task')",False,00:00:24
+Tom Reynold's brought his first barrel of flour from DeTour on a jumper drawn by an ox.,"['jumper', 'ox']",18,1,"('ox', 'jumper')",False,00:00:17
+The site has a lounge of dedicated lizards who vote out anyone with whom they do not agree.,"['lounge', 'lizards']",13,-1,[],False,00:00:24
+"A Chinese food container set on top of something sticky was lifted up and tore, leaving a shred of cardboard glued to the shelf of the refrigerator.","['shelf', 'refrigerator']",2,-1,[],False,00:00:41
+"French-style pate is in fact easier to make than my grandmother's chopped liver, which called for rendering chicken fat.","['grandmother', 'liver']",18,0,"('grandmother', 'liver')",True,00:00:37
+Silverwoods set up small distribution points through Southern Ontario where the packaged milk was delivered from the city dairy via large tractor trailers then it was reloaded on smaller route trucks that distributed it to the stores in a certain area surrounding the distribution depot.,"['milk', 'dairy']",8,1,"('dairy', 'milk')",False,00:00:29
+The purpose of this is to slow or reduce decay in the stem of the tree or limb.,"['stem', 'tree']",2,-1,[],False,00:00:45
+He clicked the left key of the mouse in order to copy the chosen translation to the clipboard.,"['key', 'mouse']",2,-1,[],False,00:00:23
+"The mighty chaos warships let down a hailstorm of gunships and drop pods, flooding the planet with vile and corrupted plague marines.","['hailstorm', 'gunships']",13,-1,[],False,00:01:50
+He opened up the nostrils in the nose a bit to fit the left and right winglets into it.,"['nostrils', 'nose']",2,-1,[],False,00:00:26
+In Japan I was able to bring a bottle with water in it through security on my way to Singapore.,"['bottle', 'water']",5,0,"('bottle', 'water')",False,00:00:31
+"At that time, it issued a card deck in the hopes of paving the way to regime change and, eventually, large-scale war crimes proceedings.","['card', 'deck']",12,-1,[],False,00:00:20

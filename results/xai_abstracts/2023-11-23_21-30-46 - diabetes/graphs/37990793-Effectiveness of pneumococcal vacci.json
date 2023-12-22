@@ -1,0 +1,162 @@
+{
+    "nodes": [
+        "EMBASE",
+        "pneumococcal disease",
+        "Diabetic patients",
+        "systematic review",
+        "risk of hospitalization",
+        "clinical implications",
+        "Newcastle-Ottawa scale",
+        "patient outcomes",
+        "MEDLINE",
+        "statistically significant",
+        "death",
+        "vaccinated"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Diabetic patients",
+                "pneumococcal disease"
+            ],
+            "Diabetic patients are at a higher risk of getting pneumococcal disease"
+        ],
+        [
+            [
+                "Diabetic patients",
+                "vaccinated"
+            ],
+            ""
+        ],
+        [
+            [
+                "Diabetic patients",
+                "risk of hospitalization"
+            ],
+            "Diabetic patients are at a higher risk of getting pneumococcal disease and are therefore recommended to get vaccinated."
+        ],
+        [
+            [
+                "Diabetic patients",
+                "clinical implications"
+            ],
+            "Further research is needed due to the potentially major clinical implications for diabetic patients"
+        ],
+        [
+            [
+                "Diabetic patients",
+                "patient outcomes"
+            ],
+            "The aim of our systematic review is the retrieval and analysis of all available evidence on the effect of pneumococcal vaccination on the risk of hospitalization and death in adult patients with diabetes. [...] Further research is needed due to the potentially major clinical implications for diabetic patients. The results of this systematic review can serve as a foundation for future studies, indicating the importance of continuing research in this area to improve patient outcomes."
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "vaccinated"
+            ],
+            "Diabetic patients are at a higher risk of getting pneumococcal disease and are therefore recommended to get vaccinated"
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "risk of hospitalization"
+            ],
+            "Diabetic patients are at a higher risk of getting pneumococcal disease and are therefore recommended to get vaccinated"
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "death"
+            ],
+            "Diabetic patients are at a higher risk of getting pneumococcal disease and are therefore recommended to get vaccinated."
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "clinical implications"
+            ],
+            ""
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "systematic review"
+            ],
+            ""
+        ],
+        [
+            [
+                "pneumococcal disease",
+                "patient outcomes"
+            ],
+            ""
+        ],
+        [
+            [
+                "vaccinated",
+                "risk of hospitalization"
+            ],
+            "In both studies polysaccharide pneumococcal vaccination was associated with a reduction of the risk of hospitalization or death in adult diabetic patients"
+        ],
+        [
+            [
+                "vaccinated",
+                "clinical implications"
+            ],
+            "Further research is needed due to the potentially major clinical implications for diabetic patients"
+        ],
+        [
+            [
+                "vaccinated",
+                "patient outcomes"
+            ],
+            "In both studies polysaccharide pneumococcal vaccination was associated with a reduction of the risk of hospitalization or death in adult diabetic patients"
+        ],
+        [
+            [
+                "risk of hospitalization",
+                "clinical implications"
+            ],
+            "Further research is needed due to the potentially major clinical implications for diabetic patients"
+        ],
+        [
+            [
+                "risk of hospitalization",
+                "patient outcomes"
+            ],
+            ""
+        ],
+        [
+            [
+                "MEDLINE",
+                "systematic review"
+            ],
+            ""
+        ],
+        [
+            [
+                "statistically significant",
+                "clinical implications"
+            ],
+            "However, in neither of the two included studies the lower risk was statistically significant. Further research is needed due to the potentially major clinical implications for diabetic patients."
+        ],
+        [
+            [
+                "systematic review",
+                "clinical implications"
+            ],
+            "Further research is needed due to the potentially major clinical implications for diabetic patients. The results of this systematic review can serve as a foundation for future studies, indicating the importance of continuing research in this area to improve patient outcomes."
+        ],
+        [
+            [
+                "patient outcomes",
+                "clinical implications"
+            ],
+            "Further research is needed due to the potentially major clinical implications for diabetic patients. The results of this systematic review can serve as a foundation for future studies, indicating the importance of continuing research in this area to improve patient outcomes."
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:25:08"
+}

@@ -1,0 +1,258 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    Higher levels of
+    <mark>
+     frailty
+    </mark>
+    , quantified by a
+    <mark>
+     frailty index (FI)
+    </mark>
+    , may be linked to
+    <mark>
+     fatigue severity
+    </mark>
+    as tasks become more physically and mentally demanding. Fatigue, a component of frailty research, has been ambiguous and inconsistent in its operationalization.
+    <mark>
+     Fatigability
+    </mark>
+    -the quantification of vulnerability to fatigue in relation to specific intensity and duration of activities-offers a more sensitive and standardized approach, though the association between
+    <mark>
+     frailty
+    </mark>
+    and
+    <mark>
+     fatigability
+    </mark>
+    has not been assessed. Using cross-sectional data from the
+    <mark>
+     Long Life Family Study
+    </mark>
+    at Visit 2 (2014-2017; N = 2524; mean age ± standard deviation (SD) 71.4 ± 11.2 years; 55% women; 99% White), we examined associations between an 83-item FI after excluding fatigue items (ratio of number of
+    <mark>
+     health problems
+    </mark>
+    reported (numerator) out of the total assessed (denominator); higher ratio = greater frailty) and perceived
+    <mark>
+     physical
+    </mark>
+    and
+    <mark>
+     mental fatigability
+    </mark>
+    using the
+    <mark>
+     Pittsburgh Fatigability Scale (PFS)
+    </mark>
+    (range 0-50; higher scores = greater fatigability). Participants had mean ± standard deviation FI (0.08 ± 0.06; observed range: 0.0-0.43), PFS Physical (13.7 ± 9.6; 39.5% more severe, ≥15), and PFS Mental (7.9 ± 8.9; 22.8% more severe, ≥13). The prevalence of more severe
+    <mark>
+     physical
+    </mark>
+    and
+    <mark>
+     mental fatigability
+    </mark>
+    was higher across FI quartiles. In
+    <mark>
+     mixed effects models
+    </mark>
+    accounting for
+    <mark>
+     family structure
+    </mark>
+    , a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates.
+    <mark>
+     Frailty
+    </mark>
+    was associated with perceived
+    <mark>
+     physical
+    </mark>
+    and
+    <mark>
+     mental fatigability
+    </mark>
+    severity. Understanding this association may support the development of
+    <mark>
+     interventions
+    </mark>
+    to mitigate the risks associated with greater
+    <mark>
+     frailty
+    </mark>
+    and perceived
+    <mark>
+     fatigability
+    </mark>
+    . Including measurements of perceived
+    <mark>
+     fatigability
+    </mark>
+    , in lieu of fatigue, in
+    <mark>
+     frailty indices
+    </mark>
+    has the potential to alleviate the inconsistencies and ambiguity surrounding the operationalization of fatigue and provide a more precise and sensitive measurement of
+    <mark>
+     frailty
+    </mark>
+    .
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "health problems", "label": "health problems", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "frailty", "label": "frailty", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fatigue severity", "label": "fatigue severity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "fatigability", "label": "fatigability", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pittsburgh Fatigability Scale (PFS)", "label": "Pittsburgh Fatigability Scale (PFS)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "interventions", "label": "interventions", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Long Life Family Study", "label": "Long Life Family Study", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mixed effects models", "label": "mixed effects models", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "family structure", "label": "family structure", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "health problems", "style": "solid", "title": "we examined associations between an 83-item FI after excluding fatigue items (ratio of number of health problems reported (numerator) out of the total assessed (denominator); higher ratio\u2009=\u2009greater frailty)", "to": "frailty", "width": 1}, {"arrows": "to", "color": "black", "from": "health problems", "style": "solid", "title": "Higher levels of frailty, quantified by a frailty index (FI), may be linked to fatigue severity as tasks become more physically and mentally demanding.", "to": "fatigue severity", "width": 1}, {"arrows": "to", "color": "black", "from": "health problems", "style": "solid", "title": "a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates", "to": "fatigability", "width": 1}, {"arrows": "to", "color": "black", "from": "health problems", "style": "solid", "title": "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates.", "to": "Pittsburgh Fatigability Scale (PFS)", "width": 1}, {"arrows": "to", "color": "black", "from": "health problems", "style": "solid", "title": "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability.", "to": "interventions", "width": 1}, {"arrows": "to", "color": "black", "from": "fatigue severity", "style": "solid", "title": "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability.", "to": "interventions", "width": 1}, {"arrows": "to", "color": "black", "from": "fatigability", "style": "solid", "title": "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability.", "to": "interventions", "width": 1}, {"arrows": "to", "color": "black", "from": "Long Life Family Study", "style": "solid", "title": "", "to": "mixed effects models", "width": 1}, {"arrows": "to", "color": "black", "from": "Pittsburgh Fatigability Scale (PFS)", "style": "solid", "title": "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability.", "to": "interventions", "width": 1}, {"arrows": "to", "color": "black", "from": "frailty", "style": "solid", "title": "Higher levels of frailty, quantified by a frailty index (FI), may be linked to fatigue severity as tasks become more physically and mentally demanding.", "to": "fatigue severity", "width": 1}, {"arrows": "to", "color": "black", "from": "frailty", "style": "solid", "title": "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates. Frailty was associated with perceived physical and mental fatigability severity.", "to": "fatigability", "width": 1}, {"arrows": "to", "color": "black", "from": "frailty", "style": "solid", "title": "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates. Frailty was associated with perceived physical and mental fatigability severity.", "to": "Pittsburgh Fatigability Scale (PFS)", "width": 1}, {"arrows": "to", "color": "black", "from": "frailty", "style": "solid", "title": "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability.", "to": "interventions", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

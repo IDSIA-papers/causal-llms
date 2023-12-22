@@ -1,0 +1,264 @@
+{
+    "nodes": [
+        "drug withdrawal management",
+        "heart rate",
+        "autonomic nervous system regulation",
+        "type 2 diabetes mellitus (T2DM)",
+        "fasting blood glucose",
+        "hypoglycemic drugs",
+        "peripheral microcirculation",
+        "occurrence of complications",
+        "lifetide biofeedback intervention",
+        "average blood glucose",
+        "extremity temperature",
+        "transient blood glucose monitoring system",
+        "estimated glycosylated hemoglobin (HbA1c)",
+        "heart rate variability index",
+        "therapeutic efficacy",
+        "disease remission"
+    ],
+    "directed_edges": [
+        [
+            [
+                "lifetide biofeedback intervention",
+                "therapeutic efficacy"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "therapeutic efficacy"
+            ],
+            ""
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "average blood glucose"
+            ],
+            ""
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "estimated glycosylated hemoglobin (HbA1c)"
+            ],
+            "but the estimated HbA1c was significantly decreased after the intervention (P<0.05)"
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "fasting blood glucose"
+            ],
+            ""
+        ],
+        [
+            [
+                "drug withdrawal management",
+                "therapeutic efficacy"
+            ],
+            "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention. By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "disease remission"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "autonomic nervous system regulation"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients"
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "peripheral microcirculation"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "therapeutic efficacy",
+                "occurrence of complications"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "lifetide biofeedback intervention"
+            ],
+            ""
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "average blood glucose"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels"
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "estimated glycosylated hemoglobin (HbA1c)"
+            ],
+            "the estimated HbA1c was significantly decreased after the intervention (P<0.05)"
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "drug withdrawal management"
+            ],
+            ""
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "disease remission"
+            ],
+            "Two patients achieved complete remission, two showed partial remission, and one had substantially improved blood glucose levels. By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "extremity temperature"
+            ],
+            "One patient showed a marked increase in extremity temperature after the intervention (P<0.05)."
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "heart rate variability index"
+            ],
+            "Another patient had a significantly increased heart rate variability index (P<0.05) without obvious changes in heart rate after the intervention"
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "autonomic nervous system regulation"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "lifetide biofeedback intervention",
+                "peripheral microcirculation"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels"
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "average blood glucose"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "estimated glycosylated hemoglobin (HbA1c)"
+            ],
+            ""
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "drug withdrawal management"
+            ],
+            ""
+        ],
+        [
+            [
+                "type 2 diabetes mellitus (T2DM)",
+                "occurrence of complications"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "average blood glucose",
+                "disease remission"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "autonomic nervous system regulation",
+                "average blood glucose"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels"
+        ],
+        [
+            [
+                "average blood glucose",
+                "occurrence of complications"
+            ],
+            ""
+        ],
+        [
+            [
+                "fasting blood glucose",
+                "estimated glycosylated hemoglobin (HbA1c)"
+            ],
+            ""
+        ],
+        [
+            [
+                "autonomic nervous system regulation",
+                "fasting blood glucose"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels"
+        ],
+        [
+            [
+                "hypoglycemic drugs",
+                "drug withdrawal management"
+            ],
+            "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention."
+        ],
+        [
+            [
+                "transient blood glucose monitoring system",
+                "drug withdrawal management"
+            ],
+            "A transient blood glucose monitoring system was used for drug withdrawal management during the intervention."
+        ],
+        [
+            [
+                "autonomic nervous system regulation",
+                "disease remission"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission"
+        ],
+        [
+            [
+                "peripheral microcirculation",
+                "disease remission"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to ... achieve disease remission ..."
+        ],
+        [
+            [
+                "autonomic nervous system regulation",
+                "heart rate variability index"
+            ],
+            "By reestablishing the balance in autonomic nervous system regulation and enhancing peripheral microcirculation, lifetide biofeedback intervention helps to maintain stable blood glucose levels, achieve disease remission, and reduce the occurrence of complications in T2DM patients after discontinuation of hypoglycemic drugs without changing their lifestyles."
+        ],
+        [
+            [
+                "autonomic nervous system regulation",
+                "heart rate"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "01:08:32"
+}

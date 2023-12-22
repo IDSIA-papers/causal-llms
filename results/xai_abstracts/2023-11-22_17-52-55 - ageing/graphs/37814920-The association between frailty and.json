@@ -1,0 +1,110 @@
+{
+    "nodes": [
+        "interventions",
+        "health problems",
+        "fatigue severity",
+        "mixed effects models",
+        "fatigability",
+        "Long Life Family Study",
+        "Pittsburgh Fatigability Scale (PFS)",
+        "frailty",
+        "family structure"
+    ],
+    "directed_edges": [
+        [
+            [
+                "frailty",
+                "fatigue severity"
+            ],
+            "Higher levels of frailty, quantified by a frailty index (FI), may be linked to fatigue severity as tasks become more physically and mentally demanding."
+        ],
+        [
+            [
+                "frailty",
+                "fatigability"
+            ],
+            "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates. Frailty was associated with perceived physical and mental fatigability severity."
+        ],
+        [
+            [
+                "health problems",
+                "frailty"
+            ],
+            "we examined associations between an 83-item FI after excluding fatigue items (ratio of number of health problems reported (numerator) out of the total assessed (denominator); higher ratio\u2009=\u2009greater frailty)"
+        ],
+        [
+            [
+                "frailty",
+                "Pittsburgh Fatigability Scale (PFS)"
+            ],
+            "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates. Frailty was associated with perceived physical and mental fatigability severity."
+        ],
+        [
+            [
+                "frailty",
+                "interventions"
+            ],
+            "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability."
+        ],
+        [
+            [
+                "health problems",
+                "fatigue severity"
+            ],
+            "Higher levels of frailty, quantified by a frailty index (FI), may be linked to fatigue severity as tasks become more physically and mentally demanding."
+        ],
+        [
+            [
+                "fatigue severity",
+                "interventions"
+            ],
+            "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability."
+        ],
+        [
+            [
+                "health problems",
+                "fatigability"
+            ],
+            "a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates"
+        ],
+        [
+            [
+                "fatigability",
+                "interventions"
+            ],
+            "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability."
+        ],
+        [
+            [
+                "Long Life Family Study",
+                "mixed effects models"
+            ],
+            ""
+        ],
+        [
+            [
+                "health problems",
+                "Pittsburgh Fatigability Scale (PFS)"
+            ],
+            "In mixed effects models accounting for family structure, a clinically meaningful 3%-higher FI was associated with 1.9 points higher PFS Physical score (95% confidence interval (CI) 1.7-2.1) and 1.7 points higher PFS Mental score (95% CI 1.5-1.9) after adjusting for covariates."
+        ],
+        [
+            [
+                "health problems",
+                "interventions"
+            ],
+            "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability."
+        ],
+        [
+            [
+                "Pittsburgh Fatigability Scale (PFS)",
+                "interventions"
+            ],
+            "Understanding this association may support the development of interventions to mitigate the risks associated with greater frailty and perceived fatigability."
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:33:38"
+}

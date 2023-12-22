@@ -1,0 +1,146 @@
+{
+    "nodes": [
+        "diabetes ketoacidosis",
+        "Fulminant type 1 diabetes",
+        "immunological factors",
+        "vaccine inoculation",
+        "drug reactions with eosinophilia and systemic symptoms",
+        "viral infections",
+        "pancreatic \u03b2 cells",
+        "immune checkpoint inhibitor therapies",
+        "susceptibility genes",
+        "pregnancy"
+    ],
+    "directed_edges": [
+        [
+            [
+                "pancreatic \u03b2 cells",
+                "Fulminant type 1 diabetes"
+            ],
+            "Fulminant type 1 diabetes (FT1D) is a novel type of type 1 diabetes that is caused by extremely rapid destruction of the pancreatic \u03b2 cells."
+        ],
+        [
+            [
+                "Fulminant type 1 diabetes",
+                "diabetes ketoacidosis"
+            ],
+            "Early diagnosis or prediction of FT1D is critical for the prevention or timely treatment of diabetes ketoacidosis, which can be life-threatening."
+        ],
+        [
+            [
+                "susceptibility genes",
+                "Fulminant type 1 diabetes"
+            ],
+            ""
+        ],
+        [
+            [
+                "immunological factors",
+                "Fulminant type 1 diabetes"
+            ],
+            "In this review, we summarised the various triggering factors of FT1D, including susceptibility genes, immunological factors (cellular and humoural immunity)"
+        ],
+        [
+            [
+                "immune checkpoint inhibitor therapies",
+                "Fulminant type 1 diabetes"
+            ],
+            "In this review, we summarised the various triggering factors of FT1D, including ... immune checkpoint inhibitor therapies, ..."
+        ],
+        [
+            [
+                "drug reactions with eosinophilia and systemic symptoms",
+                "Fulminant type 1 diabetes"
+            ],
+            "In this review, we summarised the various triggering factors of FT1D, including ... drug reactions with eosinophilia and systemic symptoms or drug-induced hypersensitivity syndrome..."
+        ],
+        [
+            [
+                "pregnancy",
+                "Fulminant type 1 diabetes"
+            ],
+            "In this review, we summarised the various triggering factors of FT1D, including ... pregnancy, ..."
+        ],
+        [
+            [
+                "viral infections",
+                "Fulminant type 1 diabetes"
+            ],
+            "In this review, we summarised the various triggering factors of FT1D, including viral infections"
+        ],
+        [
+            [
+                "vaccine inoculation",
+                "Fulminant type 1 diabetes"
+            ],
+            ""
+        ],
+        [
+            [
+                "pancreatic \u03b2 cells",
+                "diabetes ketoacidosis"
+            ],
+            "Fulminant type 1 diabetes (FT1D) is a novel type of type 1 diabetes that is caused by extremely rapid destruction of the pancreatic \u03b2 cells. Early diagnosis or prediction of FT1D is critical for the prevention or timely treatment of diabetes ketoacidosis"
+        ],
+        [
+            [
+                "pancreatic \u03b2 cells",
+                "immunological factors"
+            ],
+            ""
+        ],
+        [
+            [
+                "immune checkpoint inhibitor therapies",
+                "pancreatic \u03b2 cells"
+            ],
+            ""
+        ],
+        [
+            [
+                "pregnancy",
+                "pancreatic \u03b2 cells"
+            ],
+            ""
+        ],
+        [
+            [
+                "immunological factors",
+                "diabetes ketoacidosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "immune checkpoint inhibitor therapies",
+                "diabetes ketoacidosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "pregnancy",
+                "diabetes ketoacidosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "viral infections",
+                "diabetes ketoacidosis"
+            ],
+            ""
+        ],
+        [
+            [
+                "vaccine inoculation",
+                "diabetes ketoacidosis"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:22:01"
+}

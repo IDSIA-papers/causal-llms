@@ -1,0 +1,254 @@
+{
+    "nodes": [
+        "inhibit invasion",
+        "reactive oxygen species generation",
+        "tumor responses",
+        "normal tissues",
+        "chemotherapy",
+        "immunotherapy",
+        "efficacy",
+        "harm",
+        "targeted therapy",
+        "toxicity towards cancer cells",
+        "radiotherapy",
+        "Cancer",
+        "nanoceria (NC)",
+        "adjuvants"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Cancer",
+                "chemotherapy"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cancer",
+                "targeted therapy"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cancer",
+                "radiotherapy"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cancer",
+                "harm"
+            ],
+            "Cancer presents a significant medical challenge that requires effective management."
+        ],
+        [
+            [
+                "Cancer",
+                "tumor responses"
+            ],
+            ""
+        ],
+        [
+            [
+                "chemotherapy",
+                "harm"
+            ],
+            "Current cancer treatment options, such as chemotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues."
+        ],
+        [
+            [
+                "adjuvants",
+                "chemotherapy"
+            ],
+            ""
+        ],
+        [
+            [
+                "chemotherapy",
+                "tumor responses"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "chemotherapy",
+                "toxicity towards cancer cells"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy"
+        ],
+        [
+            [
+                "targeted therapy",
+                "efficacy"
+            ],
+            ""
+        ],
+        [
+            [
+                "targeted therapy",
+                "harm"
+            ],
+            "Current cancer treatment options, such as chemotherapy, targeted therapy, radiotherapy, and immunotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues."
+        ],
+        [
+            [
+                "targeted therapy",
+                "tumor responses"
+            ],
+            "Current cancer treatment options, such as chemotherapy, targeted therapy, radiotherapy, and immunotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues. In response, researchers have been focusing on developing adjuvants that can enhance tumor responses while minimizing damage to healthy tissues."
+        ],
+        [
+            [
+                "radiotherapy",
+                "harm"
+            ],
+            "Current cancer treatment options, such as chemotherapy, targeted therapy, radiotherapy, and immunotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues."
+        ],
+        [
+            [
+                "radiotherapy",
+                "normal tissues"
+            ],
+            "Current cancer treatment options, such as chemotherapy, targeted therapy, radiotherapy, and immunotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues."
+        ],
+        [
+            [
+                "radiotherapy",
+                "tumor responses"
+            ],
+            "The emphasis is on nanoceria's unique role in enhancing tumor radiosensitization and safeguarding normal tissues from radiation damage."
+        ],
+        [
+            [
+                "nanoceria (NC)",
+                "radiotherapy"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy"
+        ],
+        [
+            [
+                "radiotherapy",
+                "toxicity towards cancer cells"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "radiotherapy",
+                "reactive oxygen species generation"
+            ],
+            ""
+        ],
+        [
+            [
+                "immunotherapy",
+                "harm"
+            ],
+            "Current cancer treatment options, such as chemotherapy, targeted therapy, radiotherapy, and immunotherapy, have limitations in terms of their efficacy and the potential harm they can cause to normal tissues."
+        ],
+        [
+            [
+                "adjuvants",
+                "efficacy"
+            ],
+            "In response, researchers have been focusing on developing adjuvants that can enhance tumor responses while minimizing damage to healthy tissues."
+        ],
+        [
+            [
+                "efficacy",
+                "tumor responses"
+            ],
+            "researchers have been focusing on developing adjuvants that can enhance tumor responses while minimizing damage to healthy tissues"
+        ],
+        [
+            [
+                "nanoceria (NC)",
+                "efficacy"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "toxicity towards cancer cells",
+                "efficacy"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "harm",
+                "adjuvants"
+            ],
+            ""
+        ],
+        [
+            [
+                "reactive oxygen species generation",
+                "harm"
+            ],
+            "The remarkable aspect is that nanoceria show minimal toxicity to normal tissues while protecting against various forms of reactive oxygen species generation."
+        ],
+        [
+            [
+                "adjuvants",
+                "tumor responses"
+            ],
+            "In response, researchers have been focusing on developing adjuvants that can enhance tumor responses while minimizing damage to healthy tissues."
+        ],
+        [
+            [
+                "adjuvants",
+                "toxicity towards cancer cells"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells"
+        ],
+        [
+            [
+                "adjuvants",
+                "inhibit invasion"
+            ],
+            "researchers have been focusing on developing adjuvants that can enhance tumor responses while minimizing damage to healthy tissues. Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "nanoceria (NC)",
+                "tumor responses"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy"
+        ],
+        [
+            [
+                "toxicity towards cancer cells",
+                "tumor responses"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion, and sensitize cancer cells to both radiation therapy and chemotherapy."
+        ],
+        [
+            [
+                "nanoceria (NC)",
+                "toxicity towards cancer cells"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells"
+        ],
+        [
+            [
+                "nanoceria (NC)",
+                "inhibit invasion"
+            ],
+            "Nanoceria has demonstrated its ability to exhibit toxicity towards cancer cells, inhibit invasion"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "chemotherapy",
+            "harm",
+            "adjuvants"
+        ]
+    ],
+    "exec_time": "00:46:51"
+}

@@ -1,0 +1,217 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    <mark>
+     Danon disease
+    </mark>
+    is a rare
+    <mark>
+     X-linked disorder
+    </mark>
+    caused by
+    <mark>
+     deficiency
+    </mark>
+    of the
+    <mark>
+     lysosome-associated membrane protein-2
+    </mark>
+    . We report a case of
+    <mark>
+     hypertrophic obstructive cardiomyopathy
+    </mark>
+    secondary to a
+    <mark>
+     novel mutation
+    </mark>
+    in the
+    <mark>
+     lysosome-associated membrane protein-2
+    </mark>
+    gene in a
+    <mark>
+     10-year-old male adolescent
+    </mark>
+    . We performed a
+    <mark>
+     modified extended Morrow procedure
+    </mark>
+    to minimise the
+    <mark>
+     risk of death
+    </mark>
+    and improve the patient's
+    <mark>
+     quality of life
+    </mark>
+    . The patient did not have
+    <mark>
+     exertional dyspnoea
+    </mark>
+    , and auscultation did not reveal a
+    <mark>
+     cardiac murmur
+    </mark>
+    at
+    <mark>
+     1-year follow-up
+    </mark>
+    .
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Danon disease", "label": "Danon disease", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hypertrophic obstructive cardiomyopathy", "label": "hypertrophic obstructive cardiomyopathy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "modified extended Morrow procedure", "label": "modified extended Morrow procedure", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "risk of death", "label": "risk of death", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "quality of life", "label": "quality of life", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "exertional dyspnoea", "label": "exertional dyspnoea", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cardiac murmur", "label": "cardiac murmur", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "1-year follow-up", "label": "1-year follow-up", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "deficiency", "label": "deficiency", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "novel mutation", "label": "novel mutation", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "10-year-old male adolescent", "label": "10-year-old male adolescent", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene", "to": "hypertrophic obstructive cardiomyopathy", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient\u0027s quality of life.", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death", "to": "risk of death", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "", "to": "exertional dyspnoea", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "", "to": "cardiac murmur", "width": 1}, {"arrows": "to", "color": "black", "from": "Danon disease", "style": "solid", "title": "", "to": "1-year follow-up", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2", "to": "Danon disease", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2. We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene", "to": "hypertrophic obstructive cardiomyopathy", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "", "to": "risk of death", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "", "to": "exertional dyspnoea", "width": 1}, {"arrows": "to", "color": "black", "from": "deficiency", "style": "solid", "title": "", "to": "cardiac murmur", "width": 1}, {"arrows": "to", "color": "black", "from": "modified extended Morrow procedure", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient\u0027s quality of life.", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2", "to": "Danon disease", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2.", "to": "deficiency", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene", "to": "hypertrophic obstructive cardiomyopathy", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "", "to": "10-year-old male adolescent", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "", "to": "risk of death", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "novel mutation", "style": "solid", "title": "", "to": "exertional dyspnoea", "width": 1}, {"arrows": "to", "color": "black", "from": "10-year-old male adolescent", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient\u0027s quality of life.", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "10-year-old male adolescent", "style": "solid", "title": "", "to": "1-year follow-up", "width": 1}, {"arrows": "to", "color": "black", "from": "risk of death", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient\u0027s quality of life.", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "risk of death", "style": "solid", "title": "", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "hypertrophic obstructive cardiomyopathy", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient\u0027s quality of life.", "to": "modified extended Morrow procedure", "width": 1}, {"arrows": "to", "color": "black", "from": "hypertrophic obstructive cardiomyopathy", "style": "solid", "title": "We performed a modified extended Morrow procedure to minimise the risk of death", "to": "risk of death", "width": 1}, {"arrows": "to", "color": "black", "from": "hypertrophic obstructive cardiomyopathy", "style": "solid", "title": "", "to": "quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "hypertrophic obstructive cardiomyopathy", "style": "solid", "title": "", "to": "exertional dyspnoea", "width": 1}, {"arrows": "to", "color": "black", "from": "hypertrophic obstructive cardiomyopathy", "style": "solid", "title": "", "to": "cardiac murmur", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

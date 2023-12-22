@@ -1,0 +1,214 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    Given the link between
+    <mark>
+     eating behavior
+    </mark>
+    and
+    <mark>
+     obesity
+    </mark>
+    , it is critical to identify individuals who have eating behaviors which contribute to obesity etiology. This study aimed to investigate the potential relationship between
+    <mark>
+     symptoms of anxiety
+    </mark>
+    and eating behaviors in
+    <mark>
+     patients with obesity
+    </mark>
+    . This was a cross-sectional study analyzing baseline characteristics of 438
+    <mark>
+     patients with obesity
+    </mark>
+    (BMI&gt;30). Patients completed the
+    <mark>
+     Hospital Anxiety and Depression Scale (HADS)
+    </mark>
+    questionnaire, the
+    <mark>
+     Three-Factor Eating Questionnaire R21 (TFEQ-R21)
+    </mark>
+    , and the
+    <mark>
+     Weight Efficacy Lifestyle Questionnaire (WEL)
+    </mark>
+    .
+    <mark>
+     Pearson correlation coefficients
+    </mark>
+    were used to evaluate the association between questionnaires. Two-sample independent t-test were conducted to examine differences in the TFEQ-R21 and WEL between low and moderate to severe levels of symptoms of anxiety. Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ,
+    <mark>
+     emotional eating
+    </mark>
+    (r = 0.36) and
+    <mark>
+     uncontrolled eating
+    </mark>
+    (r = 0.27). The HADS-A score was negatively correlated with
+    <mark>
+     self-efficacy to resist eating
+    </mark>
+    in all five situational factors on the WEL (p &lt; 0.01). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p &lt; 0.001, respectively),and lower levels of
+    <mark>
+     cognitive restraint
+    </mark>
+    (p = 0.04)) on the TFEQ-R21. Patients with obesity who reported having anxiety symptoms had lower self-confidence to manage their eating and more emotional eating than patients with low anxiety symptoms. Clearly more needs to be learned about symtoms of anxiety and eating behaviors.
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "Three-Factor Eating Questionnaire R21 (TFEQ-R21)", "label": "Three-Factor Eating Questionnaire R21 (TFEQ-R21)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pearson correlation coefficients", "label": "Pearson correlation coefficients", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Hospital Anxiety and Depression Scale (HADS)", "label": "Hospital Anxiety and Depression Scale (HADS)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "emotional eating", "label": "emotional eating", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "uncontrolled eating", "label": "uncontrolled eating", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "cognitive restraint", "label": "cognitive restraint", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "symptoms of anxiety", "label": "symptoms of anxiety", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "eating behavior", "label": "eating behavior", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "obesity", "label": "obesity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Weight Efficacy Lifestyle Questionnaire (WEL)", "label": "Weight Efficacy Lifestyle Questionnaire (WEL)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "self-efficacy to resist eating", "label": "self-efficacy to resist eating", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "Three-Factor Eating Questionnaire R21 (TFEQ-R21)", "style": "solid", "title": "", "to": "Pearson correlation coefficients", "width": 1}, {"arrows": "to", "color": "black", "from": "Hospital Anxiety and Depression Scale (HADS)", "style": "solid", "title": "", "to": "Pearson correlation coefficients", "width": 1}, {"arrows": "to", "color": "black", "from": "Hospital Anxiety and Depression Scale (HADS)", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36)", "to": "emotional eating", "width": 1}, {"arrows": "to", "color": "black", "from": "Hospital Anxiety and Depression Scale (HADS)", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27)", "to": "uncontrolled eating", "width": 1}, {"arrows": "to", "color": "black", "from": "Hospital Anxiety and Depression Scale (HADS)", "style": "solid", "title": "Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p \u003c 0.001, respectively),and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21", "to": "cognitive restraint", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p \u003c 0.01). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p \u003c 0.001, respectively), and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21.", "to": "eating behavior", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "", "to": "obesity", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p \u003c 0.001, respectively), and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21.", "to": "Three-Factor Eating Questionnaire R21 (TFEQ-R21)", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p \u003c 0.01).", "to": "Weight Efficacy Lifestyle Questionnaire (WEL)", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36)", "to": "emotional eating", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27).", "to": "uncontrolled eating", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p \u003c 0.01).", "to": "self-efficacy to resist eating", "width": 1}, {"arrows": "to", "color": "black", "from": "symptoms of anxiety", "style": "solid", "title": "Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p \u003c 0.001, respectively),and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21.", "to": "cognitive restraint", "width": 1}, {"arrows": "to", "color": "black", "from": "eating behavior", "style": "solid", "title": "Given the link between eating behavior and obesity, it is critical to identify individuals who have eating behaviors which contribute to obesity etiology.", "to": "obesity", "width": 1}, {"arrows": "to", "color": "black", "from": "eating behavior", "style": "solid", "title": "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p \u003c 0.001, respectively)", "to": "uncontrolled eating", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

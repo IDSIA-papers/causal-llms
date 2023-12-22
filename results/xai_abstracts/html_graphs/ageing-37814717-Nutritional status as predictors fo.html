@@ -1,0 +1,242 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    Individuals with
+    <mark>
+     severe cerebral palsy (CP)
+    </mark>
+    often experience various health issues, including
+    <mark>
+     feeding difficulties
+    </mark>
+    , which can adversely affect their
+    <mark>
+     nutritional status
+    </mark>
+    and
+    <mark>
+     caregivers' quality of life
+    </mark>
+    , e.g., more time spent for feeding rather than own selfcare. This study aimed to determine the
+    <mark>
+     prevalence of poor nutritional status
+    </mark>
+    among individuals with severe CP and explore its role as
+    <mark>
+     predictors for caregivers' quality of life
+    </mark>
+    . This cross-sectional study was conducted in a government hospital (Cheras Rehabilitation Hospital), Community-Based Rehabilitation (CBR) Program, and Spastic Centre [non-profit organization (NGO)] in Klang Valley, Malaysia. Seventy-one participants with
+    <mark>
+     Gross Motor Function Classification System (GMFCS) level IV and V
+    </mark>
+    were recruited. Sociodemographic data, health-associated data, and anthropometric data were collected.
+    <mark>
+     Caregivers' quality of life
+    </mark>
+    was assessed using the
+    <mark>
+     Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0
+    </mark>
+    which included domains such as Movement and Balance, Eating Activities, and School Activities. Most participants were males (60.6%), with 61 classified as level IV in the GMFCS classification. According to the Eating and Drinking Ability Classification System (EDACS), 59 children were at level IV. In total, 40.8% were
+    <mark>
+     underweight
+    </mark>
+    according to CP growth chart and 49.3% had
+    <mark>
+     mid-upper arm circumference (MUAC)
+    </mark>
+    readings below the 5th percentile. The lowest scores in the PedsQL CP module version 3.0 were observed in the
+    <mark>
+     Daily Activities domain
+    </mark>
+    (5.34±10.87), and
+    <mark>
+     School Activities domain
+    </mark>
+    (8.15±18.65). Sociodemographic and anthropometric data, including
+    <mark>
+     body mass index (BMI)-for-age
+    </mark>
+    ,
+    <mark>
+     MUAC
+    </mark>
+    ,
+    <mark>
+     body fat
+    </mark>
+    ,
+    <mark>
+     triceps
+    </mark>
+    , and
+    <mark>
+     subscapular skinfold measurement
+    </mark>
+    , were predictors for the School Activities domain [F (11, 44)=3.981, P&lt;0.005, R2=0.499]. Poor nutritional status in individuals with severe CP has been shown to negatively impact
+    <mark>
+     caregivers' quality of life
+    </mark>
+    . Therefore, a multidisciplinary approach involving
+    <mark>
+     nutritional intervention
+    </mark>
+    is essential to improve dietary provision and the nutritional status of children with CP.
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "nutritional status", "label": "nutritional status", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "caregivers\u0027 quality of life", "label": "caregivers\u0027 quality of life", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0", "label": "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "underweight", "label": "underweight", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "mid-upper arm circumference (MUAC)", "label": "mid-upper arm circumference (MUAC)", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Daily Activities domain", "label": "Daily Activities domain", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "School Activities domain", "label": "School Activities domain", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "body mass index (BMI)-for-age", "label": "body mass index (BMI)-for-age", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "body fat", "label": "body fat", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "nutritional intervention", "label": "nutritional intervention", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Gross Motor Function Classification System (GMFCS) level IV and V", "label": "Gross Motor Function Classification System (GMFCS) level IV and V", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "feeding difficulties", "label": "feeding difficulties", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "severe cerebral palsy (CP)", "label": "severe cerebral palsy (CP)", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life.", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life.", "to": "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "In total, 40.8% were underweight according to CP growth chart", "to": "underweight", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "", "to": "mid-upper arm circumference (MUAC)", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "The lowest scores in the PedsQL CP module version 3.0 were observed in the Daily Activities (5.34\u00b110.87)", "to": "Daily Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "", "to": "body mass index (BMI)-for-age", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "", "to": "body fat", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional status", "style": "solid", "title": "Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0", "style": "solid", "title": "", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "body fat", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life.", "to": "Pediatric Quality of Life Inventory (PedsQL) CP module version 3.0", "width": 1}, {"arrows": "to", "color": "black", "from": "body fat", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499].", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "body fat", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "underweight", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "underweight", "style": "solid", "title": "", "to": "mid-upper arm circumference (MUAC)", "width": 1}, {"arrows": "to", "color": "black", "from": "underweight", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499].", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "underweight", "style": "solid", "title": "", "to": "body fat", "width": 1}, {"arrows": "to", "color": "black", "from": "underweight", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "", "to": "feeding difficulties", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status", "to": "nutritional status", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "", "to": "underweight", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "", "to": "Daily Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499].", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "Gross Motor Function Classification System (GMFCS) level IV and V", "style": "solid", "title": "", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "Daily Activities domain", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "body mass index (BMI)-for-age", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499]. Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life.", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "body mass index (BMI)-for-age", "style": "solid", "title": "In total, 40.8% were underweight according to CP growth chart and 49.3% had mid-upper arm circumference (MUAC) readings below the 5th percentile.", "to": "underweight", "width": 1}, {"arrows": "to", "color": "black", "from": "body mass index (BMI)-for-age", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499].", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "body mass index (BMI)-for-age", "style": "solid", "title": "", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties", "to": "feeding difficulties", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status", "to": "nutritional status", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers\u0027 quality of life, e.g., more time spent for feeding rather than own selfcare.", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Seventy-one participants with Gross Motor Function Classification System (GMFCS) level IV and V were recruited.", "to": "Gross Motor Function Classification System (GMFCS) level IV and V", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "In total, 40.8% were underweight according to CP growth chart", "to": "underweight", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "In total, 40.8% were underweight according to CP growth chart and 49.3% had mid-upper arm circumference (MUAC) readings below the 5th percentile.", "to": "mid-upper arm circumference (MUAC)", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "The lowest scores in the PedsQL CP module version 3.0 were observed in the Daily Activities", "to": "Daily Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life.", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "", "to": "body mass index (BMI)-for-age", "width": 1}, {"arrows": "to", "color": "black", "from": "severe cerebral palsy (CP)", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status", "to": "nutritional status", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers\u0027 quality of life, e.g., more time spent for feeding rather than own selfcare.", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status", "to": "underweight", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers\u0027 quality of life", "to": "mid-upper arm circumference (MUAC)", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers\u0027 quality of life, e.g., more time spent for feeding rather than own selfcare.", "to": "Daily Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status", "to": "body mass index (BMI)-for-age", "width": 1}, {"arrows": "to", "color": "black", "from": "feeding difficulties", "style": "solid", "title": "Individuals with severe cerebral palsy (CP) often experience various health issues, including feeding difficulties, which can adversely affect their nutritional status and caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional intervention", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional intervention", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life. Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "Daily Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "nutritional intervention", "style": "solid", "title": "", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "mid-upper arm circumference (MUAC)", "style": "solid", "title": "Poor nutritional status in individuals with severe CP has been shown to negatively impact caregivers\u0027 quality of life", "to": "caregivers\u0027 quality of life", "width": 1}, {"arrows": "to", "color": "black", "from": "mid-upper arm circumference (MUAC)", "style": "solid", "title": "Sociodemographic and anthropometric data, including body mass index (BMI)-for-age, MUAC, body fat, triceps, and subscapular skinfold measurement, were predictors for the School Activities domain [F (11, 44)=3.981, P\u003c0.005, R2=0.499].", "to": "School Activities domain", "width": 1}, {"arrows": "to", "color": "black", "from": "mid-upper arm circumference (MUAC)", "style": "solid", "title": "Therefore, a multidisciplinary approach involving nutritional intervention is essential to improve dietary provision and the nutritional status of children with CP.", "to": "nutritional intervention", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

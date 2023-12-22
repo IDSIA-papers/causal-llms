@@ -1,0 +1,1062 @@
+{
+    "nodes": [
+        "Healthcare associated infections (HAI)",
+        "mortality",
+        "early warning systems",
+        "Retrospective cohort analysis",
+        "48 hours of admission",
+        "area under the curve (ROC-index)",
+        "costs",
+        "multi-resistant urinary tract pathogens",
+        "entry to the hospital",
+        "hospitalized patients",
+        "adult admissions",
+        "sensitivity",
+        "clinical data",
+        "individual patient risk",
+        "cumulative lift",
+        "average squared error",
+        "individualized prevention of UTI",
+        "machine-learning algorithms",
+        "demographic information",
+        "specificity",
+        "past medical history",
+        "development of UTI",
+        "Electronic Medical Records",
+        "laboratory results",
+        "predictive models",
+        "antibiotic treatment",
+        "increased morbidity",
+        "prolonged hospital stay"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "prolonged hospital stay"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay"
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "increased morbidity"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "mortality"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "predictive models"
+            ],
+            "The aim of the current study was to develop two predictive models, using data from the index admission as well as historic data on a patient, to predict the development of UTI at the time of entry to the hospital and after 48 hours of admission (HA-UTI)."
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "development of UTI"
+            ],
+            "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI's"
+        ],
+        [
+            [
+                "entry to the hospital",
+                "Healthcare associated infections (HAI)"
+            ],
+            ""
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "individual patient risk"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "Healthcare associated infections (HAI)"
+            ],
+            ""
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "antibiotic treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "Healthcare associated infections (HAI)",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "Healthcare associated infections (HAI)"
+            ],
+            ""
+        ],
+        [
+            [
+                "prolonged hospital stay",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "development of UTI",
+                "prolonged hospital stay"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay"
+        ],
+        [
+            [
+                "entry to the hospital",
+                "prolonged hospital stay"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "prolonged hospital stay"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay"
+        ],
+        [
+            [
+                "prolonged hospital stay",
+                "individualized prevention of UTI"
+            ],
+            ""
+        ],
+        [
+            [
+                "hospitalized patients",
+                "prolonged hospital stay"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay"
+        ],
+        [
+            [
+                "increased morbidity",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "increased morbidity"
+            ],
+            "with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase"
+        ],
+        [
+            [
+                "development of UTI",
+                "increased morbidity"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "individual patient risk",
+                "increased morbidity"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "increased morbidity"
+            ],
+            ""
+        ],
+        [
+            [
+                "increased morbidity",
+                "early warning systems"
+            ],
+            ""
+        ],
+        [
+            [
+                "increased morbidity",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "increased morbidity"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "mortality"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "costs"
+            ],
+            "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI's, and with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase."
+        ],
+        [
+            [
+                "costs",
+                "predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "development of UTI",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "entry to the hospital",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "individual patient risk",
+                "costs"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "antibiotic treatment",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "past medical history",
+                "costs"
+            ],
+            ""
+        ],
+        [
+            [
+                "costs",
+                "early warning systems"
+            ],
+            ""
+        ],
+        [
+            [
+                "hospitalized patients",
+                "costs"
+            ],
+            "Healthcare associated infections (HAI) are a major burden for the healthcare system and associated with prolonged hospital stay, increased morbidity, mortality and costs."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "development of UTI"
+            ],
+            "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI's, and with the emergence of multi-resistant urinary tract pathogens, the total burden of HA-UTI will most likely increase."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "individual patient risk"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "Retrospective cohort analysis"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "laboratory results"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "antibiotic treatment"
+            ],
+            "The text does not contain a piece that explains the causal relationship that \"multi-resistant urinary tract pathogens\" causes \"antibiotic treatment\". The text mentions both entities but does not establish a direct causal relationship between them."
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "early warning systems"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "individualized prevention of UTI"
+            ],
+            ""
+        ],
+        [
+            [
+                "multi-resistant urinary tract pathogens",
+                "hospitalized patients"
+            ],
+            ""
+        ],
+        [
+            [
+                "development of UTI",
+                "predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "predictive models",
+                "individual patient risk"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "predictive models"
+            ],
+            "Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed. We developed models for UTI prediction with five machine-learning algorithms"
+        ],
+        [
+            [
+                "adult admissions",
+                "predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "demographic information",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "laboratory results",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "past medical history",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "clinical data",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "predictive models"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "predictive models",
+                "average squared error"
+            ],
+            ""
+        ],
+        [
+            [
+                "predictive models",
+                "cumulative lift"
+            ],
+            ""
+        ],
+        [
+            [
+                "predictive models",
+                "area under the curve (ROC-index)"
+            ],
+            "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index). The algorithms had an area under the curve (ROC-index) ranging from 0.82 to 0.84 for the entry model (T = 0 hours after admission) and from 0.71 to 0.77 for the HA-UTI model (T = 48 hours after admission)."
+        ],
+        [
+            [
+                "predictive models",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "predictive models",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "predictive models",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "predictive models"
+            ],
+            ""
+        ],
+        [
+            [
+                "entry to the hospital",
+                "development of UTI"
+            ],
+            "The text does not explicitly state that \"entry to the hospital\" causes \"development of UTI\". Instead, it discusses the development of predictive models to forecast the risk of UTI at the time of entry to the hospital and after 48 hours of admission. Therefore, there is no direct causal relationship stated between the two entities in the provided text."
+        ],
+        [
+            [
+                "individual patient risk",
+                "development of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "laboratory results",
+                "development of UTI"
+            ],
+            ""
+        ],
+        [
+            [
+                "development of UTI",
+                "antibiotic treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "development of UTI"
+            ],
+            ""
+        ],
+        [
+            [
+                "development of UTI",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "development of UTI",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "development of UTI"
+            ],
+            "Healthcare associated urinary tract infections (HA-UTI) accounts for about 20-30% of all HAI's"
+        ],
+        [
+            [
+                "entry to the hospital",
+                "48 hours of admission"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "entry to the hospital"
+            ],
+            ""
+        ],
+        [
+            [
+                "entry to the hospital",
+                "laboratory results"
+            ],
+            ""
+        ],
+        [
+            [
+                "entry to the hospital",
+                "hospitalized patients"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "48 hours of admission"
+            ],
+            ""
+        ],
+        [
+            [
+                "48 hours of admission",
+                "individualized prevention of UTI"
+            ],
+            ""
+        ],
+        [
+            [
+                "demographic information",
+                "individual patient risk"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "individual patient risk"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "past medical history",
+                "individual patient risk"
+            ],
+            "The aim of the current study was to develop two predictive models, using data from the index admission as well as historic data on a patient, to predict the development of UTI at the time of entry to the hospital and after 48 hours of admission (HA-UTI). The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "clinical data",
+                "individual patient risk"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. ... We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "individual patient risk",
+                "area under the curve (ROC-index)"
+            ],
+            ""
+        ],
+        [
+            [
+                "individual patient risk",
+                "early warning systems"
+            ],
+            ""
+        ],
+        [
+            [
+                "individual patient risk",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "individual patient risk"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "Retrospective cohort analysis"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "machine-learning algorithms"
+            ],
+            "Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed. We developed models for UTI prediction with five machine-learning algorithms"
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "Retrospective cohort analysis"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "average squared error"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "area under the curve (ROC-index)"
+            ],
+            "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index)."
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "Retrospective cohort analysis",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. Retrospective cohort analysis of approx. 300 000 adult admissions in a Danish region was performed."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "Retrospective cohort analysis"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "demographic information"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "clinical data"
+            ],
+            ""
+        ],
+        [
+            [
+                "adult admissions",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "adult admissions",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "adult admissions",
+                "hospitalized patients"
+            ],
+            ""
+        ],
+        [
+            [
+                "demographic information",
+                "machine-learning algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "machine-learning algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "clinical data",
+                "machine-learning algorithms"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "machine-learning algorithms"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "average squared error"
+            ],
+            "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index)."
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "cumulative lift"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "area under the curve (ROC-index)"
+            ],
+            "The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index). The algorithms had an area under the curve (ROC-index) ranging from 0.82 to 0.84 for the entry model (T = 0 hours after admission) and from 0.71 to 0.77 for the HA-UTI model (T = 48 hours after admission)."
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "sensitivity"
+            ],
+            "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity"
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "specificity"
+            ],
+            "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity"
+        ],
+        [
+            [
+                "machine-learning algorithms",
+                "individualized prevention of UTI"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ],
+        [
+            [
+                "demographic information",
+                "area under the curve (ROC-index)"
+            ],
+            "The text does not explicitly state that \"demographic information\" causes \"area under the curve (ROC-index)\". Instead, it mentions that demographic information was used alongside other types of data to develop machine-learning models for UTI prediction, which were then evaluated by various performance measures including the area under the curve (ROC-index). Therefore, there is no direct causal relationship stated between \"demographic information\" and \"area under the curve (ROC-index)\" in the provided text."
+        ],
+        [
+            [
+                "demographic information",
+                "early warning systems"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "demographic information",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "demographic information",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "laboratory results",
+                "area under the curve (ROC-index)"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "laboratory results",
+                "early warning systems"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "laboratory results",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "laboratory results",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "past medical history",
+                "antibiotic treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "area under the curve (ROC-index)"
+            ],
+            ""
+        ],
+        [
+            [
+                "past medical history",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission"
+        ],
+        [
+            [
+                "past medical history",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it."
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "clinical data"
+            ],
+            "clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing"
+        ],
+        [
+            [
+                "clinical data",
+                "area under the curve (ROC-index)"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The five machine-learning algorithms have been evaluated by the performance measures average squared error, cumulative lift, and area under the curve (ROC-index)."
+        ],
+        [
+            [
+                "clinical data",
+                "early warning systems"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "clinical data",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "clinical data",
+                "individualized prevention of UTI"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "clinical data"
+            ],
+            ""
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "early warning systems"
+            ],
+            "We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing. The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission."
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "sensitivity"
+            ],
+            ""
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "specificity"
+            ],
+            ""
+        ],
+        [
+            [
+                "Electronic Medical Records",
+                "individualized prevention of UTI"
+            ],
+            "The ultimate goal is to predict the individual patient risk of acquiring HA-UTI before it occurs so that health care professionals may take proper actions to prevent it. ... We developed models for UTI prediction with five machine-learning algorithms using demographic information, laboratory results, data on antibiotic treatment, past medical history (ICD10 codes), and clinical data by transformation of unstructured narrative text in Electronic Medical Records to structured data by Natural Language Processing."
+        ],
+        [
+            [
+                "early warning systems",
+                "area under the curve (ROC-index)"
+            ],
+            ""
+        ],
+        [
+            [
+                "area under the curve (ROC-index)",
+                "individualized prevention of UTI"
+            ],
+            "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ],
+        [
+            [
+                "early warning systems",
+                "individualized prevention of UTI"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "early warning systems"
+            ],
+            ""
+        ],
+        [
+            [
+                "sensitivity",
+                "individualized prevention of UTI"
+            ],
+            "The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ],
+        [
+            [
+                "hospitalized patients",
+                "individualized prevention of UTI"
+            ],
+            "The study is proof of concept that it is possible to create machine-learning models that can serve as early warning systems to predict patients at risk of acquiring urinary tract infections during admission. The entry model and the HA-UTI models perform with a high ROC-index indicating a sufficient sensitivity and specificity, which may make both models instrumental in individualized prevention of UTI in hospitalized patients."
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk",
+            "increased morbidity"
+        ],
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk"
+        ],
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk",
+            "development of UTI",
+            "prolonged hospital stay"
+        ],
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk",
+            "development of UTI",
+            "increased morbidity"
+        ],
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk",
+            "development of UTI"
+        ],
+        [
+            "costs",
+            "predictive models",
+            "individual patient risk",
+            "development of UTI",
+            "antibiotic treatment"
+        ],
+        [
+            "individual patient risk",
+            "development of UTI",
+            "predictive models"
+        ]
+    ],
+    "exec_time": "04:53:35"
+}

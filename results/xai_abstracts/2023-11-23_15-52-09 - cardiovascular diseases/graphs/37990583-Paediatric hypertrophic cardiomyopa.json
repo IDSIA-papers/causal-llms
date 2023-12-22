@@ -1,0 +1,245 @@
+{
+    "nodes": [
+        "Danon disease",
+        "cardiac murmur",
+        "exertional dyspnoea",
+        "deficiency",
+        "modified extended Morrow procedure",
+        "novel mutation",
+        "quality of life",
+        "10-year-old male adolescent",
+        "risk of death",
+        "hypertrophic obstructive cardiomyopathy",
+        "1-year follow-up"
+    ],
+    "directed_edges": [
+        [
+            [
+                "deficiency",
+                "Danon disease"
+            ],
+            "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2"
+        ],
+        [
+            [
+                "Danon disease",
+                "hypertrophic obstructive cardiomyopathy"
+            ],
+            "We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene"
+        ],
+        [
+            [
+                "novel mutation",
+                "Danon disease"
+            ],
+            "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2"
+        ],
+        [
+            [
+                "Danon disease",
+                "modified extended Morrow procedure"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient's quality of life."
+        ],
+        [
+            [
+                "Danon disease",
+                "risk of death"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death"
+        ],
+        [
+            [
+                "Danon disease",
+                "quality of life"
+            ],
+            ""
+        ],
+        [
+            [
+                "Danon disease",
+                "exertional dyspnoea"
+            ],
+            ""
+        ],
+        [
+            [
+                "Danon disease",
+                "cardiac murmur"
+            ],
+            ""
+        ],
+        [
+            [
+                "Danon disease",
+                "1-year follow-up"
+            ],
+            ""
+        ],
+        [
+            [
+                "deficiency",
+                "hypertrophic obstructive cardiomyopathy"
+            ],
+            "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2. We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene"
+        ],
+        [
+            [
+                "novel mutation",
+                "deficiency"
+            ],
+            "Danon disease is a rare X-linked disorder caused by deficiency of the lysosome-associated membrane protein-2."
+        ],
+        [
+            [
+                "deficiency",
+                "modified extended Morrow procedure"
+            ],
+            ""
+        ],
+        [
+            [
+                "deficiency",
+                "risk of death"
+            ],
+            ""
+        ],
+        [
+            [
+                "deficiency",
+                "quality of life"
+            ],
+            ""
+        ],
+        [
+            [
+                "deficiency",
+                "exertional dyspnoea"
+            ],
+            ""
+        ],
+        [
+            [
+                "deficiency",
+                "cardiac murmur"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "hypertrophic obstructive cardiomyopathy"
+            ],
+            "We report a case of hypertrophic obstructive cardiomyopathy secondary to a novel mutation in the lysosome-associated membrane protein-2 gene"
+        ],
+        [
+            [
+                "hypertrophic obstructive cardiomyopathy",
+                "modified extended Morrow procedure"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient's quality of life."
+        ],
+        [
+            [
+                "hypertrophic obstructive cardiomyopathy",
+                "risk of death"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death"
+        ],
+        [
+            [
+                "hypertrophic obstructive cardiomyopathy",
+                "quality of life"
+            ],
+            ""
+        ],
+        [
+            [
+                "hypertrophic obstructive cardiomyopathy",
+                "exertional dyspnoea"
+            ],
+            ""
+        ],
+        [
+            [
+                "hypertrophic obstructive cardiomyopathy",
+                "cardiac murmur"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "10-year-old male adolescent"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "modified extended Morrow procedure"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "risk of death"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "quality of life"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel mutation",
+                "exertional dyspnoea"
+            ],
+            ""
+        ],
+        [
+            [
+                "10-year-old male adolescent",
+                "modified extended Morrow procedure"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient's quality of life."
+        ],
+        [
+            [
+                "10-year-old male adolescent",
+                "1-year follow-up"
+            ],
+            ""
+        ],
+        [
+            [
+                "risk of death",
+                "modified extended Morrow procedure"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient's quality of life."
+        ],
+        [
+            [
+                "modified extended Morrow procedure",
+                "quality of life"
+            ],
+            "We performed a modified extended Morrow procedure to minimise the risk of death and improve the patient's quality of life."
+        ],
+        [
+            [
+                "risk of death",
+                "quality of life"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:28:22"
+}

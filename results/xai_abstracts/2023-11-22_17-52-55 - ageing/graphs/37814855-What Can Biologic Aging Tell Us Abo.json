@@ -1,0 +1,1461 @@
+{
+    "nodes": [
+        "preclinical aging researchers",
+        "inflammation",
+        "Cardiovascular disease",
+        "biological mechanisms",
+        "vascular health",
+        "oxidative stress",
+        "aging",
+        "novel risk factors",
+        "pathological effects",
+        "pathobiology",
+        "nutrient signal pathways",
+        "prognostic markers",
+        "prospective clinical trials",
+        "downstream biologic effects",
+        "death",
+        "mitochondrial dysfunction",
+        "pharmacological methods",
+        "genomic instability",
+        "cellular and molecular processes",
+        "lifestyle",
+        "epigenetic alterations",
+        "clinical investigators",
+        "treatment strategies",
+        "Mental stress (MS)"
+    ],
+    "directed_edges": [
+        [
+            [
+                "aging",
+                "Cardiovascular disease"
+            ],
+            "Cardiovascular disease is often a disease of aging."
+        ],
+        [
+            [
+                "Cardiovascular disease",
+                "death"
+            ],
+            "Cardiovascular disease remains the leading cause of death in the United States"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "Cardiovascular disease"
+            ],
+            "Mental stress (MS) is emerging as an important risk factor"
+        ],
+        [
+            [
+                "vascular health",
+                "Cardiovascular disease"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathobiology",
+                "Cardiovascular disease"
+            ],
+            ""
+        ],
+        [
+            [
+                "inflammation",
+                "Cardiovascular disease"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation"
+        ],
+        [
+            [
+                "oxidative stress",
+                "Cardiovascular disease"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "epigenetic alterations",
+                "Cardiovascular disease"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cardiovascular disease",
+                "treatment strategies"
+            ],
+            "cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "Cardiovascular disease"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cardiovascular disease",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "Cardiovascular disease",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "aging",
+                "pathological effects"
+            ],
+            "Cardiovascular disease is often a disease of aging."
+        ],
+        [
+            [
+                "aging",
+                "pathobiology"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "aging",
+                "inflammation"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation"
+        ],
+        [
+            [
+                "aging",
+                "oxidative stress"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress"
+        ],
+        [
+            [
+                "aging",
+                "mitochondrial dysfunction"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction"
+        ],
+        [
+            [
+                "aging",
+                "genomic instability"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability"
+        ],
+        [
+            [
+                "aging",
+                "nutrient signal pathways"
+            ],
+            ""
+        ],
+        [
+            [
+                "aging",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "aging",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "aging",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "biological mechanisms",
+                "vascular health"
+            ],
+            "Considerable advances in our understanding of the biological mechanisms of aging have been made; yet, cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease."
+        ],
+        [
+            [
+                "biological mechanisms",
+                "pathobiology"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "inflammation"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "oxidative stress"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "genomic instability"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "epigenetic alterations"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "biological mechanisms",
+                "downstream biologic effects"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways; highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "biological mechanisms",
+                "cellular and molecular processes"
+            ],
+            "Considerable advances in our understanding of the biological mechanisms of aging have been made; yet, cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease."
+        ],
+        [
+            [
+                "biological mechanisms",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "biological mechanisms",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "biological mechanisms",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "biological mechanisms",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "death"
+            ],
+            "Cardiovascular disease remains the leading cause of death in the United States"
+        ],
+        [
+            [
+                "vascular health",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathobiology",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "inflammation",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "genomic instability",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "downstream biologic effects",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "cellular and molecular processes",
+                "death"
+            ],
+            ""
+        ],
+        [
+            [
+                "death",
+                "treatment strategies"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "pathological effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "vascular health"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "pathobiology"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "oxidative stress"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "downstream biologic effects"
+            ],
+            "Cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease."
+        ],
+        [
+            [
+                "novel risk factors",
+                "cellular and molecular processes"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "treatment strategies"
+            ],
+            "cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease"
+        ],
+        [
+            [
+                "novel risk factors",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "novel risk factors",
+                "prospective clinical trials"
+            ],
+            "Cardiovascular disease remains the leading cause of death in the United States urging a continued search for novel risk factors to target for preventing and treating disease... outline important future steps that should be considered in this area of research including the need for prospective clinical trials"
+        ],
+        [
+            [
+                "novel risk factors",
+                "clinical investigators"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "pathological effects"
+            ],
+            "Mental stress (MS) is emerging as an important risk factor, and while progress has been made in understanding the link between MS and cardiovascular disease, the precise mechanisms of a putative causal relationship require greater clarification. In the current review, we (1) summarize our current understanding of the pathological effects of MS on vascular health;"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "vascular health"
+            ],
+            "Mental stress (MS) is emerging as an important risk factor, and while progress has been made in understanding the link between MS and cardiovascular disease, the precise mechanisms of a putative causal relationship require greater clarification."
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "pathobiology"
+            ],
+            "Mental stress (MS) is emerging as an important risk factor, and while progress has been made in understanding the link between MS and cardiovascular disease, the precise mechanisms of a putative causal relationship require greater clarification."
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "inflammation"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "oxidative stress"
+            ],
+            "While the text discusses the link between mental stress (MS) and cardiovascular disease and mentions oxidative stress as an aspect of the pathobiology of vascular aging, it does not explicitly state that mental stress causes oxidative stress. Therefore, there is no direct excerpt that can be extracted to support the given causal relationship within the provided text."
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "genomic instability"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "epigenetic alterations"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "cellular and molecular processes"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mental stress (MS)",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "vascular health"
+            ],
+            "summarize our current understanding of the pathological effects of MS on vascular health"
+        ],
+        [
+            [
+                "pathological effects",
+                "pathobiology"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "inflammation"
+            ],
+            "summarize our current understanding of the pathological effects of MS on vascular health; describe important aspects of the pathobiology of vascular aging including inflammation"
+        ],
+        [
+            [
+                "pathological effects",
+                "oxidative stress"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "downstream biologic effects"
+            ],
+            "We summarize our current understanding of the pathological effects of MS on vascular health; highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "pathological effects",
+                "cellular and molecular processes"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "pathological effects",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "pathological effects",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "pathological effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathological effects",
+                "pharmacological methods"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "pathological effects",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "inflammation",
+                "vascular health"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation"
+        ],
+        [
+            [
+                "oxidative stress",
+                "vascular health"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "vascular health",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "cellular and molecular processes",
+                "vascular health"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "vascular health",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "treatment strategies",
+                "vascular health"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "vascular health"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "pharmacological methods",
+                "vascular health"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "vascular health",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathobiology",
+                "inflammation"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathobiology",
+                "mitochondrial dysfunction"
+            ],
+            "The text does not explicitly state that \"pathobiology\" causes \"mitochondrial dysfunction\". Therefore, there is no direct evidence within the provided text to support the given causal relationship."
+        ],
+        [
+            [
+                "pathobiology",
+                "epigenetic alterations"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways"
+        ],
+        [
+            [
+                "pathobiology",
+                "downstream biologic effects"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways; highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "pathobiology",
+                "cellular and molecular processes"
+            ],
+            "describe important aspects of the pathobiology of vascular aging including inflammation, oxidative stress, mitochondrial dysfunction as well as novel processes such as genomic instability, epigenetic alterations, and nutrient signal pathways; highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "pathobiology",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "pathobiology",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "pathobiology"
+            ],
+            ""
+        ],
+        [
+            [
+                "pathobiology",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "inflammation",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "lifestyle",
+                "inflammation"
+            ],
+            ""
+        ],
+        [
+            [
+                "inflammation",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "oxidative stress",
+                "cellular and molecular processes"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "treatment strategies"
+            ],
+            ""
+        ],
+        [
+            [
+                "lifestyle",
+                "oxidative stress"
+            ],
+            ""
+        ],
+        [
+            [
+                "oxidative stress",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "cellular and molecular processes"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes"
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "mitochondrial dysfunction"
+            ],
+            ""
+        ],
+        [
+            [
+                "mitochondrial dysfunction",
+                "pharmacological methods"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "genomic instability",
+                "downstream biologic effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "genomic instability",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "genomic instability",
+                "treatment strategies"
+            ],
+            ""
+        ],
+        [
+            [
+                "genomic instability",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "epigenetic alterations",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "epigenetic alterations",
+                "cellular and molecular processes"
+            ],
+            ""
+        ],
+        [
+            [
+                "epigenetic alterations",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "epigenetic alterations",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "epigenetic alterations"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutrient signal pathways",
+                "downstream biologic effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutrient signal pathways",
+                "cellular and molecular processes"
+            ],
+            ""
+        ],
+        [
+            [
+                "nutrient signal pathways",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "nutrient signal pathways"
+            ],
+            ""
+        ],
+        [
+            [
+                "cellular and molecular processes",
+                "downstream biologic effects"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "downstream biologic effects",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "downstream biologic effects"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "pharmacological methods",
+                "downstream biologic effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "downstream biologic effects",
+                "prospective clinical trials"
+            ],
+            ""
+        ],
+        [
+            [
+                "cellular and molecular processes",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "cellular and molecular processes",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "lifestyle",
+                "cellular and molecular processes"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "pharmacological methods",
+                "cellular and molecular processes"
+            ],
+            ""
+        ],
+        [
+            [
+                "prognostic markers",
+                "treatment strategies"
+            ],
+            ""
+        ],
+        [
+            [
+                "lifestyle",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "prospective clinical trials",
+                "prognostic markers"
+            ],
+            ""
+        ],
+        [
+            [
+                "preclinical aging researchers",
+                "prognostic markers"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers"
+        ],
+        [
+            [
+                "lifestyle",
+                "treatment strategies"
+            ],
+            "discuss lifestyle and pharmacological methods that target indicators of aging whose role could be translated into approaches managing the effects of MS"
+        ],
+        [
+            [
+                "prospective clinical trials",
+                "treatment strategies"
+            ],
+            "outline important future steps that should be considered in this area of research including the need for prospective clinical trials and for creating greater collaboration between preclinical aging researchers and clinical investigators managing MS"
+        ],
+        [
+            [
+                "preclinical aging researchers",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "clinical investigators",
+                "treatment strategies"
+            ],
+            "highlight similarities in the downstream biologic effects of aging and MS on vascular health with an emphasis on cellular and molecular processes that could be used to develop novel prognostic markers and treatment strategies for cardiovascular disease"
+        ],
+        [
+            [
+                "prospective clinical trials",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "preclinical aging researchers",
+                "pharmacological methods"
+            ],
+            ""
+        ],
+        [
+            [
+                "preclinical aging researchers",
+                "prospective clinical trials"
+            ],
+            "outline important future steps that should be considered in this area of research including the need for prospective clinical trials and for creating greater collaboration between preclinical aging researchers and clinical investigators managing MS"
+        ],
+        [
+            [
+                "clinical investigators",
+                "prospective clinical trials"
+            ],
+            "outline important future steps that should be considered in this area of research including the need for prospective clinical trials and for creating greater collaboration between preclinical aging researchers and clinical investigators managing MS"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "Cardiovascular disease",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "prognostic markers",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "prognostic markers",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "prognostic markers",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "prognostic markers",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "prognostic markers",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "Cardiovascular disease",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "treatment strategies",
+            "vascular health"
+        ],
+        [
+            "vascular health",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "prognostic markers",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "pharmacological methods"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "prognostic markers",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "downstream biologic effects",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prognostic markers",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "prognostic markers",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "downstream biologic effects",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "death",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "prognostic markers",
+            "treatment strategies"
+        ],
+        [
+            "vascular health",
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "treatment strategies"
+        ],
+        [
+            "prospective clinical trials",
+            "pharmacological methods",
+            "downstream biologic effects"
+        ],
+        [
+            "prospective clinical trials",
+            "pharmacological methods",
+            "cellular and molecular processes",
+            "downstream biologic effects"
+        ]
+    ],
+    "exec_time": "02:56:48"
+}

@@ -1,0 +1,655 @@
+{
+    "nodes": [
+        "antibiotic treatment recommendation",
+        "standard of care",
+        "antibiotic purchases",
+        "urinary tract infections",
+        "longitudinal data set",
+        "bacterial pathogens",
+        "machine-learning-based personalized drug-specific predictions",
+        "drug-prescribing algorithms",
+        "antimicrobial treatment",
+        "antibiotic susceptibility testing",
+        "demographics",
+        "past urine cultures",
+        "history of drug purchases",
+        "Antibiotic resistance",
+        "ineffective treatment"
+    ],
+    "directed_edges": [
+        [
+            [
+                "antimicrobial treatment",
+                "Antibiotic resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "Antibiotic resistance",
+                "antibiotic susceptibility testing"
+            ],
+            ""
+        ],
+        [
+            [
+                "Antibiotic resistance",
+                "ineffective treatment"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "Antibiotic resistance",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "Antibiotic resistance",
+                "drug-prescribing algorithms"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "Antibiotic resistance",
+                "antibiotic treatment recommendation"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "standard of care",
+                "Antibiotic resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "urinary tract infections"
+            ],
+            "Antibiotic resistance is prevalent among the bacterial pathogens causing urinary tract infections"
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "antimicrobial treatment"
+            ],
+            "Antibiotic resistance is prevalent among the bacterial pathogens causing urinary tract infections. However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing"
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "ineffective treatment"
+            ],
+            "Antibiotic resistance is prevalent among the bacterial pathogens causing urinary tract infections. However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "antibiotic purchases"
+            ],
+            ""
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "history of drug purchases"
+            ],
+            ""
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            ""
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "bacterial pathogens",
+                "antibiotic treatment recommendation"
+            ],
+            "Antibiotic resistance is prevalent among the bacterial pathogens causing urinary tract infections."
+        ],
+        [
+            [
+                "urinary tract infections",
+                "antimicrobial treatment"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "urinary tract infections",
+                "antibiotic susceptibility testing"
+            ],
+            ""
+        ],
+        [
+            [
+                "urinary tract infections",
+                "ineffective treatment"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "urinary tract infections",
+                "longitudinal data set"
+            ],
+            ""
+        ],
+        [
+            [
+                "urinary tract infections",
+                "antibiotic purchases"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases"
+        ],
+        [
+            [
+                "urinary tract infections",
+                "past urine cultures"
+            ],
+            ""
+        ],
+        [
+            [
+                "urinary tract infections",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases, we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "urinary tract infections",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "urinary tract infections",
+                "antibiotic treatment recommendation"
+            ],
+            "Antibiotic resistance is prevalent among the bacterial pathogens causing urinary tract infections. However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "urinary tract infections",
+                "standard of care"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic susceptibility testing",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial treatment",
+                "ineffective treatment"
+            ],
+            "antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment"
+        ],
+        [
+            [
+                "longitudinal data set",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial treatment",
+                "antibiotic purchases"
+            ],
+            ""
+        ],
+        [
+            [
+                "demographics",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "past urine cultures",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "history of drug purchases",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine-learning-based personalized drug-specific predictions",
+                "antimicrobial treatment"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "antimicrobial treatment",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial treatment",
+                "antibiotic treatment recommendation"
+            ],
+            "The clinical application of such algorithms may help improve the effectiveness of antimicrobial treatments."
+        ],
+        [
+            [
+                "standard of care",
+                "antimicrobial treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "longitudinal data set",
+                "antibiotic susceptibility testing"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic susceptibility testing",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic susceptibility testing",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic susceptibility testing",
+                "antibiotic treatment recommendation"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "antibiotic susceptibility testing",
+                "standard of care"
+            ],
+            ""
+        ],
+        [
+            [
+                "demographics",
+                "ineffective treatment"
+            ],
+            "we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients"
+        ],
+        [
+            [
+                "past urine cultures",
+                "ineffective treatment"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment."
+        ],
+        [
+            [
+                "ineffective treatment",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment. ... these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "ineffective treatment",
+                "drug-prescribing algorithms"
+            ],
+            "However, antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment. ... these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "antibiotic treatment recommendation",
+                "ineffective treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "standard of care",
+                "ineffective treatment"
+            ],
+            "antimicrobial treatment is often prescribed 'empirically', in the absence of antibiotic susceptibility testing, risking mismatched and therefore ineffective treatment"
+        ],
+        [
+            [
+                "longitudinal data set",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases, we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "longitudinal data set",
+                "drug-prescribing algorithms"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases, we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms"
+        ],
+        [
+            [
+                "longitudinal data set",
+                "antibiotic treatment recommendation"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases, we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "longitudinal data set",
+                "standard of care"
+            ],
+            ""
+        ],
+        [
+            [
+                "past urine cultures",
+                "antibiotic purchases"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic purchases",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "linking a 10-year longitudinal data set of over 700,000 community-acquired urinary tract infections with over 5,000,000 individually resolved records of antibiotic purchases, we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "antibiotic purchases",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "antibiotic purchases",
+                "antibiotic treatment recommendation"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "demographics",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "demographics",
+                "drug-prescribing algorithms"
+            ],
+            "we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms"
+        ],
+        [
+            [
+                "demographics",
+                "antibiotic treatment recommendation"
+            ],
+            "we identify strong associations of antibiotic resistance with the demographics, records of past urine cultures and history of drug purchases of the patients. When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample"
+        ],
+        [
+            [
+                "past urine cultures",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "past urine cultures",
+                "drug-prescribing algorithms"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "past urine cultures",
+                "antibiotic treatment recommendation"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "history of drug purchases",
+                "machine-learning-based personalized drug-specific predictions"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance"
+        ],
+        [
+            [
+                "history of drug purchases",
+                "drug-prescribing algorithms"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "history of drug purchases",
+                "antibiotic treatment recommendation"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "machine-learning-based personalized drug-specific predictions",
+                "drug-prescribing algorithms"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "machine-learning-based personalized drug-specific predictions",
+                "antibiotic treatment recommendation"
+            ],
+            "these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample"
+        ],
+        [
+            [
+                "drug-prescribing algorithms",
+                "antibiotic treatment recommendation"
+            ],
+            "When combined together, these associations allow for machine-learning-based personalized drug-specific predictions of antibiotic resistance, thereby enabling drug-prescribing algorithms that match an antibiotic treatment recommendation to the expected resistance of each sample."
+        ],
+        [
+            [
+                "standard of care",
+                "drug-prescribing algorithms"
+            ],
+            ""
+        ],
+        [
+            [
+                "standard of care",
+                "antibiotic treatment recommendation"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing",
+            "standard of care",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing",
+            "standard of care"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "antibiotic purchases",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "antibiotic purchases"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions"
+        ],
+        [
+            "antibiotic treatment recommendation",
+            "ineffective treatment",
+            "drug-prescribing algorithms"
+        ],
+        [
+            "standard of care",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ],
+        [
+            "standard of care",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ],
+        [
+            "standard of care",
+            "ineffective treatment",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ],
+        [
+            "antibiotic purchases",
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment"
+        ],
+        [
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ],
+        [
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "ineffective treatment"
+        ],
+        [
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "Antibiotic resistance"
+        ],
+        [
+            "machine-learning-based personalized drug-specific predictions",
+            "antimicrobial treatment",
+            "ineffective treatment"
+        ],
+        [
+            "antimicrobial treatment",
+            "Antibiotic resistance",
+            "antibiotic susceptibility testing"
+        ]
+    ],
+    "exec_time": "00:53:13"
+}

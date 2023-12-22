@@ -1,0 +1,404 @@
+{
+    "nodes": [
+        "artificial urinary sphincter (AUS)",
+        "device malfunction",
+        "revision",
+        "cognitive impairment",
+        "overactive bladder",
+        "mild neurocognitive disorders",
+        "surgical removal",
+        "major neurocognitive disorders",
+        "preoperative counseling",
+        "stress urinary incontinence",
+        "general population aging",
+        "device misuse",
+        "postoperative monitoring",
+        "erectile dysfunction",
+        "sacral neuromodulation (SNM)",
+        "penile prosthesis"
+    ],
+    "directed_edges": [
+        [
+            [
+                "general population aging",
+                "erectile dysfunction"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction"
+        ],
+        [
+            [
+                "general population aging",
+                "stress urinary incontinence"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder"
+        ],
+        [
+            [
+                "general population aging",
+                "overactive bladder"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder"
+        ],
+        [
+            [
+                "general population aging",
+                "penile prosthesis"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, there will likely be a higher demand for three common interactive implants in urology, the penile prosthesis, artificial urinary sphincter (AUS) and sacral neuromodulation (SNM)."
+        ],
+        [
+            [
+                "general population aging",
+                "artificial urinary sphincter (AUS)"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder, there will likely be a higher demand for three common interactive implants in urology, the penile prosthesis, artificial urinary sphincter (AUS) and sacral neuromodulation (SNM)."
+        ],
+        [
+            [
+                "general population aging",
+                "sacral neuromodulation (SNM)"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder, there will likely be a higher demand for three common interactive implants in urology, the penile prosthesis, artificial urinary sphincter (AUS) and sacral neuromodulation (SNM)."
+        ],
+        [
+            [
+                "general population aging",
+                "mild neurocognitive disorders"
+            ],
+            "the prevalence of mild and major neurocognitive disorders (also known as mild cognitive impairment and dementia, respectively) is expected to increase"
+        ],
+        [
+            [
+                "general population aging",
+                "major neurocognitive disorders"
+            ],
+            ""
+        ],
+        [
+            [
+                "general population aging",
+                "preoperative counseling"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder, there will likely be a higher demand for three common interactive implants in urology... With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "general population aging",
+                "postoperative monitoring"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder, there will likely be a higher demand for three common interactive implants in urology, the penile prosthesis, artificial urinary sphincter (AUS) and sacral neuromodulation (SNM)."
+        ],
+        [
+            [
+                "erectile dysfunction",
+                "penile prosthesis"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, there will likely be a higher demand for three common interactive implants in urology, the penile prosthesis, artificial urinary sphincter (AUS) and sacral neuromodulation (SNM)."
+        ],
+        [
+            [
+                "stress urinary incontinence",
+                "artificial urinary sphincter (AUS)"
+            ],
+            ""
+        ],
+        [
+            [
+                "stress urinary incontinence",
+                "sacral neuromodulation (SNM)"
+            ],
+            ""
+        ],
+        [
+            [
+                "stress urinary incontinence",
+                "preoperative counseling"
+            ],
+            "With the general population aging and thus more patients developing bothersome erectile dysfunction, stress urinary incontinence and overactive bladder, there will likely be a higher demand for three common interactive implants in urology... With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "stress urinary incontinence",
+                "postoperative monitoring"
+            ],
+            ""
+        ],
+        [
+            [
+                "overactive bladder",
+                "sacral neuromodulation (SNM)"
+            ],
+            ""
+        ],
+        [
+            [
+                "overactive bladder",
+                "preoperative counseling"
+            ],
+            ""
+        ],
+        [
+            [
+                "penile prosthesis",
+                "surgical removal"
+            ],
+            "While the aforementioned urologic implants have excellent short and long term outcomes, there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision."
+        ],
+        [
+            [
+                "penile prosthesis",
+                "revision"
+            ],
+            "While the aforementioned urologic implants have excellent short and long term outcomes, there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision."
+        ],
+        [
+            [
+                "penile prosthesis",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "penile prosthesis",
+                "postoperative monitoring"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "artificial urinary sphincter (AUS)",
+                "surgical removal"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "artificial urinary sphincter (AUS)",
+                "revision"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "cognitive impairment",
+                "artificial urinary sphincter (AUS)"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "artificial urinary sphincter (AUS)",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "artificial urinary sphincter (AUS)",
+                "postoperative monitoring"
+            ],
+            ""
+        ],
+        [
+            [
+                "sacral neuromodulation (SNM)",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "sacral neuromodulation (SNM)",
+                "postoperative monitoring"
+            ],
+            ""
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "major neurocognitive disorders"
+            ],
+            ""
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "device malfunction"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "device misuse"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "surgical removal"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "revision"
+            ],
+            "While the aforementioned urologic implants have excellent short and long term outcomes, there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision. There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "mild neurocognitive disorders",
+                "postoperative monitoring"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "device malfunction"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "device misuse"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "surgical removal"
+            ],
+            "While the aforementioned urologic implants have excellent short and long term outcomes, there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "revision"
+            ],
+            "While the aforementioned urologic implants have excellent short and long term outcomes, there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "cognitive impairment"
+            ],
+            ""
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "major neurocognitive disorders",
+                "postoperative monitoring"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "device malfunction",
+                "surgical removal"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "device malfunction",
+                "revision"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "cognitive impairment",
+                "device malfunction"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "device misuse",
+                "surgical removal"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "device misuse",
+                "revision"
+            ],
+            "there are also known device issues such as malfunction or misuse that may require surgical removal and/or revision"
+        ],
+        [
+            [
+                "cognitive impairment",
+                "device misuse"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "device misuse",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "device misuse",
+                "postoperative monitoring"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "cognitive impairment",
+                "surgical removal"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "cognitive impairment",
+                "revision"
+            ],
+            "There is an association between AUS failure or misuse with cognitive impairment."
+        ],
+        [
+            [
+                "cognitive impairment",
+                "preoperative counseling"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring."
+        ],
+        [
+            [
+                "preoperative counseling",
+                "postoperative monitoring"
+            ],
+            "With screening, urologists can provide appropriate preoperative counseling (including recommending against implantation) and can provide closer postoperative monitoring"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "01:19:16"
+}

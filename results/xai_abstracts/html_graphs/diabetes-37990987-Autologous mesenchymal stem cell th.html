@@ -1,0 +1,238 @@
+<html>
+ <head>
+  <meta charset="utf-8"/>
+  <script src="lib/bindings/utils.js">
+  </script>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+  <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" rel="stylesheet"/>
+  <script crossorigin="anonymous" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <center>
+   <h1>
+   </h1>
+  </center>
+  <style type="text/css">
+   #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+  </style>
+ </head>
+ <body>
+  <section>
+   <p>
+    to assess safety and efficacy of
+    <mark>
+     autologous mesenchymal bone marrow stem cell injection
+    </mark>
+    in
+    <mark>
+     penile cavernosal tissue
+    </mark>
+    for
+    <mark>
+     erectile dysfunction therapy
+    </mark>
+    in
+    <mark>
+     diabetic men
+    </mark>
+    . The subjects of this study were
+    <mark>
+     diabetic men
+    </mark>
+    suffering
+    <mark>
+     erectile dysfunction
+    </mark>
+    , non-responding to maximum dose of
+    <mark>
+     oral PDE5I
+    </mark>
+    . Mesenchymal bone marrow stem cells were aspirated and injected after preparation in both
+    <mark>
+     corpora cavernosa
+    </mark>
+    at 3, 9 o'clock position. Erectile function was assessed by the
+    <mark>
+     International Index of Erectile Function
+    </mark>
+    and
+    <mark>
+     penile Doppler study
+    </mark>
+    , before and after 6 months after injection. 4 patients out of 10 achieve
+    <mark>
+     hard erection
+    </mark>
+    adequate for
+    <mark>
+     satisfactory coitus
+    </mark>
+    , and 2 patients achieved penile hardness with addition of
+    <mark>
+     pharmacological therapy
+    </mark>
+    with
+    <mark>
+     sildenafil 100mg
+    </mark>
+    .
+    <mark>
+     Peak systolic velocity
+    </mark>
+    increased significantly in 4 patients (2
+    <mark>
+     arteriogenic
+    </mark>
+    and 2
+    <mark>
+     mixed erectile dysfunction
+    </mark>
+    ), from 12∼22 cm/s to 32∼69 cm/s. Variations in
+    <mark>
+     end-diastolic velocity
+    </mark>
+    increased substantially in 2 patients with
+    <mark>
+     venogenic insufficiency
+    </mark>
+    alone at follow-up from 4∼5 cm /s to -4∼-3 cm/s. Despite promising stem cell treatment efficacy for patients with erectile dysfunction, more clinical studies and researches are still warranted.
+   </p>
+  </section>
+  <div class="card" style="width: 100%">
+   <div class="card-body" id="mynetwork">
+   </div>
+  </div>
+  <div id="config">
+  </div>
+  <script type="text/javascript">
+   // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#97c2fc", "id": "pharmacological therapy", "label": "pharmacological therapy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "hard erection", "label": "hard erection", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "Peak systolic velocity", "label": "Peak systolic velocity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "venogenic insufficiency", "label": "venogenic insufficiency", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "penile Doppler study", "label": "penile Doppler study", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "end-diastolic velocity", "label": "end-diastolic velocity", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "arteriogenic erectile dysfunction", "label": "arteriogenic erectile dysfunction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "erectile dysfunction therapy", "label": "erectile dysfunction therapy", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "erectile dysfunction", "label": "erectile dysfunction", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "penile cavernosal tissue", "label": "penile cavernosal tissue", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "corpora cavernosa", "label": "corpora cavernosa", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "diabetic men", "label": "diabetic men", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "autologous mesenchymal bone marrow stem cell injection", "label": "autologous mesenchymal bone marrow stem cell injection", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "International Index of Erectile Function", "label": "International Index of Erectile Function", "shape": "dot", "size": 10}, {"color": "#97c2fc", "id": "oral PDE5I", "label": "oral PDE5I", "shape": "dot", "size": 10}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "black", "from": "pharmacological therapy", "style": "solid", "title": "2 patients achieved penile hardness with addition of pharmacological therapy with sildenafil 100mg", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "pharmacological therapy", "style": "solid", "title": "2 patients achieved penile hardness with addition of pharmacological therapy with sildenafil 100mg. Peak systolic velocity increased significantly in 4 patients", "to": "Peak systolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "Peak systolic velocity", "style": "solid", "title": "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "venogenic insufficiency", "style": "solid", "title": "", "to": "penile Doppler study", "width": 1}, {"arrows": "to", "color": "black", "from": "venogenic insufficiency", "style": "solid", "title": "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s", "to": "end-diastolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "arteriogenic erectile dysfunction", "style": "solid", "title": "", "to": "erectile dysfunction therapy", "width": 1}, {"arrows": "to", "color": "red", "from": "arteriogenic erectile dysfunction", "style": "solid", "title": "", "to": "erectile dysfunction", "width": 1}, {"arrows": "to", "color": "black", "from": "penile cavernosal tissue", "style": "solid", "title": "4 patients out of 10 achieve hard erection adequate for satisfactory coitus", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "penile cavernosal tissue", "style": "solid", "title": "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s", "to": "Peak systolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction therapy", "style": "solid", "title": "", "to": "penile cavernosal tissue", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction therapy", "style": "solid", "title": "Mesenchymal bone marrow stem cells were aspirated and injected after preparation in both corpora cavernosa at 3, 9 o\u0027clock position.", "to": "corpora cavernosa", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction therapy", "style": "solid", "title": "4 patients out of 10 achieve hard erection adequate for satisfactory coitus", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction therapy", "style": "solid", "title": "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s", "to": "Peak systolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction therapy", "style": "solid", "title": "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s", "to": "end-diastolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "diabetic men", "style": "solid", "title": "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I", "to": "erectile dysfunction therapy", "width": 1}, {"arrows": "to", "color": "red", "from": "diabetic men", "style": "solid", "title": "The subjects of this study were diabetic men suffering erectile dysfunction", "to": "erectile dysfunction", "width": 1}, {"arrows": "to", "color": "black", "from": "diabetic men", "style": "solid", "title": "", "to": "penile Doppler study", "width": 1}, {"arrows": "to", "color": "red", "from": "diabetic men", "style": "solid", "title": "The subjects of this study were diabetic men suffering erectile dysfunction", "to": "arteriogenic erectile dysfunction", "width": 1}, {"arrows": "to", "color": "black", "from": "corpora cavernosa", "style": "solid", "title": "4 patients out of 10 achieve hard erection adequate for satisfactory coitus", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "corpora cavernosa", "style": "solid", "title": "Mesenchymal bone marrow stem cells were aspirated and injected after preparation in both corpora cavernosa at 3, 9 o\u0027clock position. Peak systolic velocity increased significantly in 4 patients", "to": "Peak systolic velocity", "width": 1}, {"arrows": "to", "color": "red", "from": "erectile dysfunction", "style": "solid", "title": "", "to": "autologous mesenchymal bone marrow stem cell injection", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction", "style": "solid", "title": "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I.", "to": "erectile dysfunction therapy", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction", "style": "solid", "title": "Erectile function was assessed by the International Index of Erectile Function and penile Doppler study", "to": "penile Doppler study", "width": 1}, {"arrows": "to", "color": "black", "from": "erectile dysfunction", "style": "solid", "title": "The subjects of this study were diabetic men suffering erectile dysfunction, non-responding to maximum dose of oral PDE5I.", "to": "pharmacological therapy", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "", "to": "penile cavernosal tissue", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "to assess safety and efficacy of autologous mesenchymal bone marrow stem cell injection in penile cavernosal tissue for erectile dysfunction therapy in diabetic men", "to": "erectile dysfunction therapy", "width": 1}, {"arrows": "to", "color": "red", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "", "to": "diabetic men", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "Erectile function was assessed by the International Index of Erectile Function and penile Doppler study, before and after 6 months after injection. 4 patients out of 10 achieve hard erection adequate for satisfactory coitus", "to": "International Index of Erectile Function", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "4 patients out of 10 achieve hard erection adequate for satisfactory coitus", "to": "hard erection", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "Peak systolic velocity increased significantly in 4 patients (2 arteriogenic and 2 mixed erectile dysfunction), from 12\u223c22 cm/s to 32\u223c69 cm/s", "to": "Peak systolic velocity", "width": 1}, {"arrows": "to", "color": "black", "from": "autologous mesenchymal bone marrow stem cell injection", "style": "solid", "title": "Variations in end-diastolic velocity increased substantially in 2 patients with venogenic insufficiency alone at follow-up from 4\u223c5 cm /s to -4\u223c-3 cm/s", "to": "end-diastolic velocity", "width": 1}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "forceAtlas2Based": {
+            "avoidOverlap": 0,
+            "centralGravity": 0.01,
+            "damping": 0.4,
+            "gravitationalConstant": -50,
+            "springConstant": 0.08,
+            "springLength": 100
+        },
+        "solver": "forceAtlas2Based",
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+  </script>
+ </body>
+</html>

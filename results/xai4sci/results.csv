@@ -1,0 +1,1004 @@
+sentence,entities,gt_relation,pred_relation,pred_edge,exec_time
+The current view is that the chronic inflammation in the distal part of the stomach caused by Helicobacter pylori infection results in an increased acid production from the non-infected upper corpus region of the stomach.,"['inflammation', 'infection']",1,1,"('infection', 'inflammation')",00:00:15
+The burst has been caused by water hammer pressure.,"['burst', 'pressure']",1,1,"('pressure', 'burst')",00:00:10
+"The singer, who performed three of the nominated songs, also caused a commotion on the red carpet.","['singer', 'commotion']",0,0,"('singer', 'commotion')",00:00:12
+"Suicide is one of the leading causes of death among pre-adolescents and teens, and victims of bullying are at an increased risk for committing suicide.","['Suicide', 'death']",0,0,"('Suicide', 'death')",00:00:07
+He had chest pains and headaches from mold in the bedrooms.,"['headaches', 'mold']",1,1,"('mold', 'headaches')",00:00:13
+Financial stress is one of the main causes of divorce.,"['stress', 'divorce']",0,0,"('stress', 'divorce')",00:00:13
+The women that caused the accident was on the cell phone and ran thru the intersection without pausing on the median.,"['women', 'accident']",0,0,"('women', 'accident')",00:00:10
+Calluses are caused by improperly fitting shoes or by a skin abnormality.,"['Calluses', 'skin abnormality']",1,1,"('skin abnormality', 'Calluses')",00:00:11
+"As in the popular movie ""Deep Impact"", the action of the Perseid meteor shower is caused by a comet, in this case periodic comet Swift-Tuttle.","['meteor shower', 'comet']",1,1,"('comet', 'meteor shower')",00:00:12
+The radiation from the atomic bomb explosion is a typical acute radiation.,"['radiation', 'bomb explosion']",1,1,"('bomb explosion', 'radiation')",00:00:11
+A neoplastic recurrence arose from an extensive radiation induced ulceration.,"['recurrence', 'radiation']",1,1,"('radiation', 'recurrence')",00:00:12
+He has a tattoo on his right arm and scars from stitches on his right elbow.,"['scars', 'stitches']",1,1,"('stitches', 'scars')",00:00:14
+The continuing Nigerian outbreak is the biggest ever caused by the vaccine.,"['outbreak', 'vaccine']",1,1,"('vaccine', 'outbreak')",00:00:18
+The fire inside WTC was caused by exploding fuel.,"['fire', 'fuel']",1,1,"('fuel', 'fire')",00:00:11
+The suffering caused by the terrorists is the real torture.,"['suffering', 'terrorists']",1,1,"('terrorists', 'suffering')",00:00:13
+"In a poetic twist, the tsunami triggered by the rock band forced many American jazz and blues singers to seek work in the United Kingdom, which is where Anderson found a receptive audience in 1965.","['tsunami', 'band']",1,1,"('band', 'tsunami')",00:00:14
+Leakage and fire caused due to corrosion of bypass piping for recirculation gas at a fuel oil desulphurization unit.,"['Leakage', 'corrosion']",1,1,"('corrosion', 'Leakage')",00:00:17
+The metal ball makes a ding ding ding noise when it swings back and hits the metal body of the lamp.,"['ball', 'noise']",0,0,"('ball', 'noise')",00:00:15
+Historical view of the damage caused by the 1693 Catania earthquake and the reconstruction activities.,"['damage', 'earthquake']",1,1,"('earthquake', 'damage')",00:00:14
+"AI requested that the perpetrators be prosecuted to the fullest extent of the law, that adequate compensation be provided to the victims and that senior government and police officials offer apologies for the suffering caused by the responsible police officers.","['suffering', 'officers']",1,1,"('officers', 'suffering')",00:00:16
+The Marshall Plan also provided a way of gaining public acceptance in Europe for the New Deal format that the United States had successfully used before the war to end the recession triggered by the 1929 Wall Street crash.,"['recession', 'crash']",1,1,"('crash', 'recession')",00:00:11
+"Once they grow there, the swelling and inflammation caused by the infection closes off the sac, causing it not to ""shed"" bacteria, and protecting the bacteria inside from antibiotics and your body's own immune cells.","['swelling', 'infection']",1,1,"('infection', 'swelling')",00:00:10
+"Guitars are played acoustically; the tone is produced by the vibration of the strings which is amplified by the body of the guitar, which acts as a large hollow resonating chamber, or they may rely on an amplifier that can electronically manipulate tone.","['tone', 'vibration']",1,1,"('vibration', 'tone')",00:00:10
+"Arcane Subtlety reduced the threat caused by Polymorph by 40% at max rank, though the threat caused by the spell is minimal.","['threat', 'spell']",1,1,"('spell', 'threat')",00:00:23
+"The beautiful hydrothermal features in the park (geysers, hot springs, mud pots, etc.), the uplift and subsidence, and many of the earthquakes are caused by the movements of hydrothermal and/or magmatic fluids.","['earthquakes', 'movements']",1,1,"('movements', 'earthquakes')",00:00:13
+Forward motion of the vehicle through the air caused a suction on the road draft tube.,"['motion', 'suction']",0,0,"('motion', 'suction')",00:00:15
+"The malfunctions on Monday caused delays for patrons waiting to check out or renew books at the branches, and impeded access to personal accounts that allow users to renew or hold books online.","['malfunctions', 'delays']",0,0,"('malfunctions', 'delays')",00:00:16
+"Water damage from roof leaks, plumbing leaks or flooding lead to the growth of molds.","['damage', 'growth']",0,0,"('damage', 'growth')",00:00:20
+The discomfort from the injury was now precluding him from his occupation which involved prolonged procedures in the standing position.,"['discomfort', 'injury']",1,1,"('injury', 'discomfort')",00:00:14
+"The water pushed to the coast resulted in tides as much as three feet above normal, with waves of 5-10 feet atop these tides.","['water', 'tides']",0,0,"('water', 'tides')",00:00:20
+"The charge is the source of an electric field, which carries energy-the electrostatic self-energy.","['charge', 'field']",0,0,"('charge', 'field')",00:00:13
+The tardiness however has been caused by the arrival of my old man; who in true Bloodworth fashion has had me walking everywhere.,"['tardiness', 'arrival']",1,1,"('arrival', 'tardiness')",00:00:16
+The river had now turned into full flood after the deluge of rain a few days ago.,"['flood', 'deluge']",1,1,"('deluge', 'flood')",00:00:15
+She mentioned the scandal caused by a BBC documentary on the treatment of children in a special-needs home and asked how the state had responded to these.,"['scandal', 'documentary']",1,1,"('documentary', 'scandal')",00:00:14
+The World Health Organization(WHO) found that the radiation release from the Chernobyl accident was 200 times that of the Hiroshima and Nagasaki.,"['radiation', 'accident']",1,1,"('accident', 'radiation')",00:00:31
+"Also, in the midst of the confusion caused by the coup, the issuing of militant posters was a way for artists and organizations to declare their active engagement against the rebellion.","['confusion', 'coup']",1,1,"('coup', 'confusion')",00:00:14
+The accident caused a major traffic snarl on the arterial road.,"['accident', 'snarl']",0,0,"('accident', 'snarl')",00:00:09
+"The various forms of idealistic, materialistic and agnostic philosophies are subject to the tension caused by the indicated situation.","['tension', 'situation']",1,1,"('situation', 'tension')",00:00:14
+Contractions of the diaphragm are caused by stimulation of the vagus nerve either by the brain or by irritation anywhere along the length of the nerve.,"['Contractions', 'irritation']",1,1,"('irritation', 'Contractions')",00:00:13
+Plantar warts are caused by a virus that infects the outer layer of skin on the soles of the feet.,"['warts', 'virus']",1,1,"('virus', 'warts')",00:00:14
+The stong earthquake caused a blackout on the sound stage and short-circuited some of the neon-tubed violins.,"['earthquake', 'blackout']",0,0,"('earthquake', 'blackout')",00:00:10
+"Tension Release by Mega Food contains Sensoril, a clinically studied extract of a Ashwagandha that helps to inhibit fatigue and physical tension from everyday stress.","['tension', 'stress']",1,1,"('stress', 'tension')",00:00:16
+"Cardiovascular disease is one of the leading causes of morbidity and mortality in the UK, as well as in the developed and the developing world.","['Cardiovascular disease', 'morbidity']",0,0,"('Cardiovascular disease', 'morbidity')",00:00:11
+Dizziness from nasal and sinus pressure usually can be seen on a good nasal examination and a CT of the sinuses.,"['Dizziness', 'sinus pressure']",1,1,"('sinus pressure', 'Dizziness')",00:00:14
+This meeting establishes the laws which govern the church and the priorities for the coming year.,"['meeting', 'laws']",0,0,"('meeting', 'laws')",00:00:13
+"Phobia like fear from crowd, fear from insects, fear from height etc all contribute in developing the anxiety disorder.","['fear', 'crowd']",1,1,"('crowd', 'fear')",00:00:21
+The hidden preamble or timing signal is employed to mark the time of commencement of the transmission of information pulses from a transmitter.,"['transmission', 'transmitter']",1,1,"('transmitter', 'transmission')",00:00:17
+"Doe's confrontation with the flight attendant caused a commotion on the plane, prolonged the flight's delay, and added to the aggravation already being felt by the passengers and crew.","['confrontation', 'commotion']",0,0,"('confrontation', 'commotion')",00:00:09
+"The increase of the signal might correspond to formation of the high-density excitons, while the reduction of the signal originates from the relaxation.","['reduction', 'relaxation']",1,1,"('relaxation', 'reduction')",00:00:10
+We estimate a wind speed associated with the devastation caused by the tornado.,"['devastation', 'tornado']",1,1,"('tornado', 'devastation')",00:00:13
+"The basic indicator of the health condition of trees, stands and forests is tree defoliation.","['indicator', 'condition']",1,1,"('condition', 'indicator')",00:00:20
+The deficits are caused by people saving too much of their money.,"['deficits', 'people']",1,1,"('people', 'deficits')",00:00:11
+"Heat, wind and smoke cause flight delays.","['wind', 'delays']",0,0,"('wind', 'delays')",00:00:16
+"In developing countries four-fifths of all the illnesses are caused by water-borne diseases, with diarrhoea being the leading cause of childhood death.","['illnesses', 'diseases']",1,1,"('diseases', 'illnesses')",00:00:19
+The destruction caused by the bombing of Attorney General Palmer's home.,"['destruction', 'bombing']",1,1,"('bombing', 'destruction')",00:00:16
+The second biggest factor affecting the sound produced by a drum is the tension at which the drum head is held against the shell of the drum.,"['sound', 'drum']",1,1,"('drum', 'sound')",00:00:24
+The largest landslide triggered by the earthquake is located approximately 32 kilometers southeast of Muzafarrabad in a tributary valley of the Jhelum River.,"['landslide', 'earthquake']",1,1,"('earthquake', 'landslide')",00:00:11
+"The debris caused a crash on the Schuylkill, and it has been closed for hours because of the mishap.","['debris', 'crash']",0,0,"('debris', 'crash')",00:00:10
+"A fire triggered by the blasts damaged eight buildings at the plant, including one that was burned down.","['fire', 'blasts']",1,1,"('blasts', 'fire')",00:00:09
+Mechanical faults caused delays and cancellations on Wellington's suburban train services this morning.,"['faults', 'cancellations']",0,0,"('faults', 'cancellations')",00:00:17
+Relieve spinal stenosis by enlarging the spinal canal to relieve pressure on the spinal cord that has been caused by a herniated or bulging disc.,"['pressure', 'disc']",1,1,"('disc', 'pressure')",00:00:23
+Passengers have rights in the event of a delay or cancellation that has been caused by the airline.,"['cancellation', 'airline']",1,1,"('airline', 'cancellation')",00:00:17
+However Susanoo was in sorrow after the loss of his mother and he was raging in his kingdom.,"['sorrow', 'loss']",1,1,"('loss', 'sorrow')",00:00:16
+But the earthquake triggered by the eruption of Thera struck first.,"['earthquake', 'eruption']",1,1,"('eruption', 'earthquake')",00:00:12
+"Diabetes mellitus is one of the leading causes of irreversible blindness worldwide, and, in the United States.","['Diabetes mellitus', 'blindness']",0,0,"('Diabetes mellitus', 'blindness')",00:00:24
+Getting help has reduced the time to reverse all the irritation that had been caused by the fungus.,"['irritation', 'fungus']",1,1,"('fungus', 'irritation')",00:00:11
+"On the other hand, the higher the satisfaction from the purchase, the greater the benefit of word-of-mouth referrals and repeat purchasing.","['satisfaction', 'purchase']",1,1,"('purchase', 'satisfaction')",00:00:18
+District Judge without a jury and judgment was entered for the defendants on the ground that the accident was caused by the plaintiff's own negligence.,"['accident', 'negligence']",1,1,"('negligence', 'accident')",00:00:06
+The children descend the ladder after hearing the fire alarm which has been triggered by the wood work workshop catching fire.,"['alarm', 'fire']",1,1,"('fire', 'alarm')",00:00:14
+The incident caused a brief sensation on the Web among people suspicious that it was a political commentary.,"['incident', 'sensation']",0,0,"('incident', 'sensation')",00:00:09
+"And this is frequently cited as ""proof"" that saturated fats and cholesterol cause heart disease.","['cholesterol', 'disease']",0,0,"('cholesterol', 'disease')",00:00:13
+"Many commercial soap, shower gel or cleanser products contain preservatives, colorants and chemicals that cause dryness, rashes, itchiness and roughness on the skin.","['preservatives', 'itchiness']",0,0,"('preservatives', 'itchiness')",00:00:17
+Birchwood and Stockton Heath were called to the scene after pyrotechnics used during one of the performances caused a fire on the main stage.,"['pyrotechnics', 'fire']",0,0,"('pyrotechnics', 'fire')",00:00:09
+Like a catch-22 the worst part is that acne causes stress and stress triggers acne breakouts.,"['stress', 'breakouts']",0,0,"('stress', 'breakouts')",00:00:10
+The US patent system is in a crisis that has been caused by the flood of patent applications being filed at the USPTO every year.,"['crisis', 'flood']",1,1,"('flood', 'crisis')",00:00:18
+Viral gastroenteritis is a highly contagious infection of the intestines caused by one of several viruses.,"['infection', 'viruses']",1,1,"('viruses', 'infection')",00:00:10
+Diet fizzy drinks and meat cause heart disease and diabetes.,"['drinks', 'diabetes']",0,0,"('drinks', 'diabetes')",00:00:07
+"We explore the experience of grief after the loss of a parent and offers support; we also make simple suggestions, and we provide a place for sharing memories.","['grief', 'loss']",1,1,"('loss', 'grief')",00:00:20
+The war mentality was generated by the Iraq war in combination with the constant drum beat of fear at home.,"['mentality', 'war']",1,1,"('war', 'mentality')",00:00:11
+Preeclampsia is still one of the leading causes of maternal mortality.,"['Preeclampsia', 'mortality']",0,0,"('Preeclampsia', 'mortality')",00:00:23
+The demolition was the cause of terror and communal divide is just a way of not letting truth prevail.,"['demolition', 'terror']",0,0,"('demolition', 'terror')",00:00:10
+"The outbreak resulted in 256 deaths and 3,402 injuries.","['outbreak', 'injuries']",0,0,"('outbreak', 'injuries')",00:00:10
+"Sip the tea slowly to reduce stomach pain from indigestion, bloating and feeling of fullness.","['pain', 'indigestion']",1,1,"('indigestion', 'pain')",00:00:18
+"Alcohol, substance abuse and poverty all lead to child abuse.","['Alcohol', 'child abuse']",0,0,"('Alcohol', 'child abuse')",00:00:22
+The ATM malfunction caused a rush on the ATM machine until the police sealed off the area.,"['malfunction', 'rush']",0,0,"('malfunction', 'rush')",00:00:15
+"Sodium causes fluid retention, which can lead to edema (swelling), increased blood pressure, and in those susceptible patients, congestive heart failure.","['Sodium', 'retention']",0,0,"('Sodium', 'retention')",00:00:07
+In businesses generally the third party claims for the damages that has been caused by the company vehicle.,"['damages', 'vehicle']",1,1,"('vehicle', 'damages')",00:00:10
+The law established a major redistribution of territorial sovereignty within the Empire.,"['law', 'redistribution']",0,0,"('law', 'redistribution')",00:00:11
+Infectious mononucleosis due to the Epstein-Barr virus causes exudative tonsillitis or pharyngitis in about one-half of cases.,"['virus', 'tonsillitis']",0,0,"('virus', 'tonsillitis')",00:00:16
+"During the trial, the prosecution presented ""pictures of burning bodies and human remains as well as images of the explosion triggered by the Pentagon crash.""","['explosion', 'crash']",1,1,"('crash', 'explosion')",00:00:13
+Extensive damage at the mine has been caused by the strikers.,"['damage', 'strikers']",1,1,"('strikers', 'damage')",00:00:10
+"I too, get a headache from wine, and was always told that it was the sulfites.","['headache', 'wine']",1,1,"('wine', 'headache')",00:00:18
+"Describing all of the harm caused by the hurricane has filled entire books so this Web page summarizes the total damage and focuses on the damage incurred on Long Island, New York.","['harm', 'hurricane']",1,1,"('hurricane', 'harm')",00:00:16
+"Information is included on the disease caused by the organism, its transmission, geographical distribution, and hosts.","['disease', 'organism']",1,1,"('organism', 'disease')",00:00:08
+"Infection is one of the commonest causes of death in burn patients, particularly.","['Infection', 'death']",0,0,"('Infection', 'death')",00:00:14
+I was diagnosed with bipolar disorder following a breakdown triggered by the sudden death of my brother six years ago.,"['breakdown', 'death']",1,1,"('death', 'breakdown')",00:00:11
+The reactor meltdown caused a chain reaction that destroyed all the towers in the network.,"['meltdown', 'reaction']",0,0,"('meltdown', 'reaction')",00:00:09
+Convulsions that occur after DTaP are caused by a fever.,"['Convulsions', 'fever']",1,1,"('fever', 'Convulsions')",00:00:12
+"As the vehicles caught fire after the collision, the transformers began to explode one after the other.","['fire', 'collision']",1,1,"('collision', 'fire')",00:00:12
+Fog or smoke cause irritation to those with respiratory sensitivity.,"['Fog', 'irritation']",0,0,"('Fog', 'irritation')",00:00:15
+"The sinking resulted in the loss of 112 lives, including those of 28 Americans.","['sinking', 'loss']",0,0,"('sinking', 'loss')",00:00:12
+Chronic daily headaches are tension headaches or headaches which are caused by taking too many pain killers.,"['headaches', 'pain killers']",1,1,"('pain killers', 'headaches')",00:00:11
+"Pneumococcal meningitis is caused by pneumococcus bacteria, which also cause several diseases of the respiratory system, including pneumonia.","['meningitis', 'bacteria']",1,1,"('bacteria', 'meningitis')",00:00:10
+Also (on a proportional basis) the rainbow caused by the spray appeared smaller than that of the other rainbow.,"['rainbow', 'spray']",1,1,"('spray', 'rainbow')",00:00:07
+The changes now seen in the endometrium are caused by a hormone called progesterone.,"['changes', 'hormone']",1,1,"('hormone', 'changes')",00:00:15
+"The waste, a mixture of gasoline, water and caustic soda, gave off toxic fumes.","['waste', 'fumes']",0,0,"('waste', 'fumes')",00:00:18
+Weak ligaments are caused by problems with collagen (protein fibres in the ligaments).,"['Weak ligaments', 'problems']",1,1,"('problems', 'Weak ligaments')",00:00:16
+This article discusses the ethics of the Soldier of Fortune's guns-for-hire advertisements that resulted in several murders across the United States.,"['advertisements', 'murders']",0,0,"('advertisements', 'murders')",00:00:15
+"The battle caused a panic on the frontier, and settlers in the surrounding counties fled.","['battle', 'panic']",0,0,"('battle', 'panic')",00:00:15
+"For decades, most of the nation's renewable power has come from dams, which supplied cheap electricity without requiring fossil fuels.","['power', 'dams']",1,1,"('dams', 'power')",00:00:11
+"The optical signal is generated by an externally modulated tunable laser, and introduced to the chip through a tapered fiber.","['signal', 'laser']",1,1,"('laser', 'signal')",00:00:11
+The byelection was caused by the resignation of Boris Johnson following his election as mayor of London in May.,"['byelection', 'resignation']",1,1,"('resignation', 'byelection')",00:00:16
+Swissair was a victim of the clandestine wealth-transfer plaguing the productive sector as a result of the falling interest-rate structure caused by bond speculation.,"['structure', 'speculation']",1,1,"('speculation', 'structure')",00:00:12
+He received reports from the residence hall presidents regarding evacuation after the fire drill.,"['evacuation', 'drill']",1,1,"('drill', 'evacuation')",00:00:19
+"The tsunamis triggered by the massive earthquakes plunged those provinces into crisis: the number of people dead and missing has reached to 245,782 people.","['tsunamis', 'earthquakes']",1,1,"('earthquakes', 'tsunamis')",00:00:13
+We have to take into account the reality of the damage that has been caused by the deregulation of nutritional supplements.,"['damage', 'deregulation']",1,1,"('deregulation', 'damage')",00:00:13
+"Estrogen dominance is one of the main causes of osteoporosis, cancer, ovarian cysts, fibroids and a host of other female problems in the U.S.","['Estrogen dominance', 'osteoporosis']",0,0,"('Estrogen dominance', 'osteoporosis')",00:00:19
+The great news is that germs causing recreational water illnesses are killed by chlorine.,"['germs', 'illnesses']",0,0,"('germs', 'illnesses')",00:00:11
+The disruption has been caused by a sensitivity reaction in the brain to an ingested substance.,"['disruption', 'substance']",1,1,"('substance', 'disruption')",00:00:08
+"The enormous landslide, which was triggered by an exceptionally heavy rainfall event (500 mm in 24 h) on 30 October 1998.","['landslide', 'rainfall']",1,-1,[],00:00:04
+The heated gas caused a pyrolysis on the lower part of oil shale and produced shale oil and oil shale gas are escaped from the retort through exhaust pipe.,"['gas', 'pyrolysis']",0,0,"('gas', 'pyrolysis')",00:00:15
+The low oil prices caused the collapse of the wall and the Russian empire.,"['prices', 'collapse']",0,-1,[],00:00:05
+The pain was caused by the parasite entering the body through the skin during bathing or drinking of infested water.,"['pain', 'parasite']",1,1,"('parasite', 'pain')",00:00:23
+"The reaction starts at a rather low temperature ( + 5C), and the calorimeter is run from 40 to 130C.","['reaction', 'temperature']",1,1,"('temperature', 'reaction')",00:00:20
+I derive a tremendous amount of joy from teaching students in the research laboratory.,"['joy', 'teaching']",1,1,"('teaching', 'joy')",00:00:09
+A very serious problem ensued from the events of the day.,"['problem', 'events']",1,1,"('events', 'problem')",00:00:11
+A first revolution was triggered by the growing use of reading and writing.,"['revolution', 'writing']",1,1,"('writing', 'revolution')",00:00:14
+"The vibration caused by a heavy goods train on the Metropolitan Railway, which runs under the Exhibition premises, had shaken the figure off its balance.","['vibration', 'train']",1,1,"('train', 'vibration')",00:00:11
+"Voltage surges or spikes are caused by lightning, short circuits, power company equipment problems, and inductive spikes, among many other causes.","['surges', 'lightning']",1,1,"('lightning', 'surges')",00:00:07
+"The recovery is weak and fragile, and the economic and social damage caused by the crisis is long-lasting.","['damage', 'crisis']",1,1,"('crisis', 'damage')",00:00:10
+The cutaneous mycoses are caused by a homogeneous group of keratinophilic fungi termed the dermatophytes.,"['mycoses', 'fungi']",1,1,"('fungi', 'mycoses')",00:00:12
+"Recovery from the global economic crisis triggered by the collapse of Lehman Brothers was achieved with cooperation from Brazil, Russia, India and China.","['crisis', 'collapse']",1,1,"('collapse', 'crisis')",00:00:15
+The microphone converts sound into an electrical signal.,"['microphone', 'signal']",0,0,"('microphone', 'signal')",00:00:13
+Swelling of the resin is caused by the expansion of the structure as a result of water (or other liquid) molecules penetrating the matrix.,"['Swelling', 'expansion']",1,1,"('expansion', 'Swelling')",00:00:15
+"There were setbacks and technical problems that ensued from the location design, flooding, and moisture that plagued the winery and bumped up the investment cost beyond the initial budgetary estimates.","['setbacks', 'design']",1,1,"('design', 'setbacks')",00:00:07
+"We find evidence that Ernst suffered a thrombotic cardiovascular event, i.e., a myocardial infraction triggered by a blood clot.","['infraction', 'clot']",1,1,"('clot', 'infraction')",00:00:24
+"The breakdown of the linear relation of J,1 D at peakeffect region indicates that the peakeffect originates from an addition pinning effect.","['peakeffect', 'effect']",1,1,"('effect', 'peakeffect')",00:00:13
+"However, a headache from wine is often stronger and last longer due to several compounds.","['headache', 'wine']",1,1,"('wine', 'headache')",00:00:25
+The Maze procedure crates new pathways for the electrical impulses that trigger the heartbeat.,"['impulses', 'heartbeat']",0,0,"('impulses', 'heartbeat')",00:00:12
+We discovered that my chronic migraines and neck pain were caused by the injuries I had sustained in my first car accident two and a half years ago.,"['migraines', 'injuries']",1,1,"('injuries', 'migraines')",00:00:16
+"The continuous rains had caused the overflow of Sulangaling River, a creek of the Muara Batang.","['rains', 'overflow']",0,0,"('rains', 'overflow')",00:00:15
+"Sun and wind cause evaporation of water, causing rains, and this energy can be caught using hydroelectric power.","['Sun', 'evaporation']",0,0,"('Sun', 'evaporation')",00:00:12
+He schose the better approach: to be honest and understanding and to acknowledge the distress caused by the hallucinations or delusions.,"['distress', 'delusions']",1,1,"('delusions', 'distress')",00:00:18
+"Fatigue corrosion and stress corrosion are similar, as both are caused by external stresses applied to the pipe and occur inside of the pipe.","['Fatigue', 'corrosion']",0,-1,[],00:00:25
+The best kept secret for avoiding abdominal weight gain due to stress is the use of adaptogens.,"['weight gain', 'stress']",1,1,"('stress', 'weight gain')",00:00:19
+"Vietnam's response on the toll caused by the earthquake in Sichuan, China.","['toll', 'earthquake']",1,1,"('earthquake', 'toll')",00:00:13
+"Their analysis demonstrates beyond any doubt that the problem of unemployment has been caused by the state, not by any inherent flaws or failures in a free market.","['problem', 'state']",1,1,"('state', 'problem')",00:00:13
+The inequality and poverty caused the riots in 2001.,"['inequality', 'riots']",0,0,"('inequality', 'riots')",00:00:15
+It seems like the fever heat got pushed out from the body as rashes.,"['heat', 'body']",1,1,"('body', 'heat')",00:00:16
+The yellow discolouration has been caused by the damaging acidic properties of the low-grade mount used in the original frame.,"['discolouration', 'properties']",1,1,"('properties', 'discolouration')",00:00:19
+The damage caused by the tsunami - at least the physical damage - is barely visible in some places.,"['damage', 'tsunami']",1,1,"('tsunami', 'damage')",00:00:10
+The gaps in the rings are caused by resonance between the particles in the rings and the moons orbiting nearby.,"['gaps', 'resonance']",1,1,"('resonance', 'gaps')",00:00:12
+"The resulting conflict caused the destruction of the town, and The Conqueror, Wisecrack, Jackdaw and most of the citizens of the town were transported to a demon-dimension.","['conflict', 'destruction']",0,0,"('conflict', 'destruction')",00:00:09
+"As the right front wheel of Senna's car hit the wall, the violent impact caused a torsion on the steering column, causing it to break.","['impact', 'torsion']",0,0,"('impact', 'torsion')",00:00:26
+The weather resulted in several deaths and hundreds of accidents.,"['weather', 'accidents']",0,0,"('weather', 'accidents')",00:00:14
+Sixty five million years ago an asteroid caused the extinction of the dinosaurs.,"['asteroid', 'extinction']",0,0,"('asteroid', 'extinction')",00:00:13
+Amtrak expects a normal rush hour after a fatal accident near Baltimore caused delays along the Northeast corridor.,"['accident', 'delays']",0,0,"('accident', 'delays')",00:00:10
+"As we saw earlier, helicobacter is responsible for causing stomach ulcer.","['helicobacter', 'ulcer']",0,0,"('helicobacter', 'ulcer')",00:00:11
+"Over 90% of the cases of ringworm of the scalp are caused by Trichophyton tonsurans, a fungus that infects the hairs and causes them to break.","['ringworm', 'fungus']",1,1,"('fungus', 'ringworm')",00:00:20
+Many shoulder problems are caused by the breakdown of soft tissues in the shoulder region.,"['shoulder problems', 'breakdown']",1,1,"('breakdown', 'shoulder problems')",00:00:11
+"Tulip mania, in the 1600s, was caused by the massive influx of newly discovered Gold into Amsterdam from the new world: in particular the capture of the Spanish Treasury fleet.","['mania', 'influx']",1,1,"('influx', 'mania')",00:00:26
+"Currently, there is no known cure for asbestos cancer but several mesothelioma treatment regimens have proven to be successful in helping the patient avoid pain and discomfort caused by the disease.","['pain', 'disease']",1,1,"('disease', 'pain')",00:00:18
+The patient experiences displaced emotional and financial deprivation as well as anger after the divorce.,"['deprivation', 'divorce']",1,1,"('divorce', 'deprivation')",00:00:13
+Smoke is one of the leading causes of kidney failures.,"['Smoke', 'kidney failures']",0,0,"('Smoke', 'kidney failures')",00:00:17
+Germs are microscopic organisms that cause sickness or disease.,"['Germs', 'disease']",0,0,"('Germs', 'disease')",00:00:10
+"Yellow fever is caused by infection with yellow fever virus, which is transmitted by the bite of infected mosquitoes.","['fever', 'virus']",1,1,"('virus', 'fever')",00:00:13
+"Even though his 16-month old suffered from severe burns on her body caused by boiling water spilled on her, father refuses to allow ambulance to take his daughter to Hadassah because 'rabbi advised otherwise'.","['burns', 'boiling water']",1,1,"('boiling water', 'burns')",00:00:18
+"Atopic dermatitis, the most common type of eczema, causes itchiness that's worse in the colder months.","['dermatitis', 'itchiness']",0,0,"('dermatitis', 'itchiness')",00:00:12
+Botulism is a rare but serious paralytic illness caused by a nerve toxin that is produced by the bacterium Clostridium botulinum.,"['illness', 'toxin']",1,1,"('toxin', 'illness')",00:00:21
+"The benefits from inflation which Professor Mulligan cites (e.g., bailing out underwater mortgagers) are better understood as a government sponsored transfer of wealth from savers to speculators.","['benefits', 'inflation']",1,1,"('inflation', 'benefits')",00:00:08
+"The concerto comes from the pop of gas bubbles escaping the joints, snapping tendons and ligaments, and rickety arthritic joints.","['concerto', 'pop']",1,1,"('pop', 'concerto')",00:00:17
+A urinary tract infection (UTI) is the most common cause of bladder irritation.,"['infection', 'irritation']",0,0,"('infection', 'irritation')",00:00:12
+"The protest resulted in hours of traffic jams on Guangzhou's major roads, such as Guangyuanxi Lu, Huangshidong Lu and Dongfeng Lu.","['protest', 'jams']",0,0,"('protest', 'jams')",00:00:14
+Evacuees with disabilities had a difficult time conveying the trauma caused by the unexpected arrival of uniformed officers who ordered them out of their homes and sometimes forcibly removed them.,"['trauma', 'arrival']",1,1,"('arrival', 'trauma')",00:00:18
+Highly viscous lavas lead to a violent eruption.,"['lavas', 'eruption']",0,0,"('lavas', 'eruption')",00:00:17
+The cysts are caused by chronic inflammation of the perichondrium with production of serous fluid between the perichondrium and cartilage.,"['cysts', 'inflammation']",1,1,"('inflammation', 'cysts')",00:00:10
+"Some posters (e.g. number 18) encouraged the population of areas near the front to evacuate, thus avoiding the overcrowding and ensuing problems of food distribution and disease caused by the incoming refugees.","['disease', 'refugees']",1,1,"('refugees', 'disease')",00:00:15
+"If a participant complaint is the source of an investigative lead, interim contact with the participant should be made by the investigator.","['complaint', 'lead']",0,0,"('complaint', 'lead')",00:00:10
+The violence has been caused by the Hutu militia who fled Rwanda after the genocide in that country and who have been in hiding in the forest in Congo.,"['violence', 'militia']",1,1,"('militia', 'violence')",00:00:19
+The clock struck twelve with a loud chime that made me jump.,"['clock', 'chime']",0,0,"('clock', 'chime')",00:00:14
+Signs placed at the flagpole island at the village square caused a stir on the Linglestown forum on PennLive.com.,"['Signs', 'stir']",0,0,"('Signs', 'stir')",00:00:15
+"Lena Basilone, a cook at Camp Pendleton, was in the hospital recovering from a severe kitchen burn after the spilling of scalding liquid on her feet.","['burn', 'spilling']",1,1,"('spilling', 'burn')",00:00:21
+Gross revenues from the selling of crude oil in 2003 reached US$11.508 billion or some 112.85 percent of the amount targeted in the 2003 state budget.,"['revenues', 'selling']",1,1,"('selling', 'revenues')",00:00:16
+"Whooping cough is another name for the pertussis, an infection of the airways caused by the bacteria bordetella pertussis.","['infection', 'bacteria']",1,1,"('bacteria', 'infection')",00:00:15
+"And it is why we are even prouder to announce that the appeal - thanks to the generosity of our readers - has raised 26,000 pounds, despite the hardship that has been caused by the recession.","['hardship', 'recession']",1,1,"('recession', 'hardship')",00:00:09
+The problems are caused by buffer overflows when parsing an overly long parameter.,"['problems', 'overflows']",1,1,"('overflows', 'problems')",00:00:10
+Discussion ensued from the Florida contingent on the fact that very stringent landowner protection laws in Florida make it imperative that the highest supportable appraised vallue be offered first.,"['Discussion', 'contingent']",1,1,"('contingent', 'Discussion')",00:00:27
+"We find the candle light creates a special atmosphere not only for food, but ambiance for a relaxing convivial meal as well.","['candle', 'light']",0,0,"('candle', 'light')",00:00:23
+"Symptoms vary according to the degree of inflammation caused by the bacteria, ranging from slightly loose stools to bloody diarrhea, abdominal pain, and fever.","['inflammation', 'bacteria']",1,1,"('bacteria', 'inflammation')",00:00:11
+High winds caused delays and cancellations of some state ferries.,"['winds', 'cancellations']",0,0,"('winds', 'cancellations')",00:00:10
+The front wheels are making a grinding noise.,"['wheels', 'grinding noise']",0,0,"('wheels', 'grinding noise')",00:00:20
+Williams syndrome: a genetic disorder that results in selective cognitive impairment.,"['disorder', 'impairment']",0,0,"('disorder', 'impairment')",00:00:13
+And the economic crisis was generated due to the sub-prime mortgage mess brought about through government intervention in the market to promote progressive ideals (ie extending loans to low-income borrowers).,"['crisis', 'mess']",1,1,"('mess', 'crisis')",00:00:14
+"By the late 1980s, however, the Bank was caught up in the debt crisis in the developing world caused by the recession and the dramatic rise in interest rates.","['crisis', 'recession']",1,1,"('recession', 'crisis')",00:00:08
+The risks to housing and general corporate profits from inflation were quite clear and the defensive strategy over the long term has paid dividends.,"['profits', 'inflation']",1,1,"('inflation', 'profits')",00:00:10
+There is relatively little discomfort from this surgery and most individuals rarely take more than Tylenol for their discomfort.,"['discomfort', 'surgery']",1,1,"('surgery', 'discomfort')",00:00:13
+"Fats from meat and dairy cause heart disease, the leading killer of people with diabetes.","['Fats', 'disease']",0,0,"('Fats', 'disease')",00:00:17
+The contortions are caused by gravitational interactions with the small satellites Prometheus and Pandora.,"['contortions', 'interactions']",1,1,"('interactions', 'contortions')",00:00:09
+"This smile, a true reflection of God's tenderness, is the source of an invincible hope.","['smile', 'hope']",0,0,"('smile', 'hope')",00:00:13
+"The earthquake caused a bulrush marsh at West Point, on the Puget Sound shore in Seattle, to drop and the tsunami deposited sand on top of the marsh.","['earthquake', 'marsh']",0,0,"('earthquake', 'marsh')",00:00:09
+The greatest amazement was caused by the floats.,"['amazement', 'floats']",1,1,"('floats', 'amazement')",00:00:11
+"Treatment of cardiovascular collapse from caffeine overdose with lidocaine, phenylephrine, and hemodialysis.","['collapse', 'overdose']",1,1,"('overdose', 'collapse')",00:00:24
+"To date, all outbreaks of the highly pathogenic form of avian influenza have been caused by viruses of the H5 and H7 subtypes.","['outbreaks', 'viruses']",1,1,"('viruses', 'outbreaks')",00:00:18
+Wes Anderson has made one classic comedy(The Royal Tenenbaums) fueled by the tension from the characters' longings to burst out of the trappings in which they are framed.,"['tension', 'longings']",1,1,"('longings', 'tension')",00:00:19
+"In general, the greatest hypocalcemic effect was achieved by those liposomal preparations that resulted in the most sustained increase of L-hCT and F-hCT in plasma.","['preparations', 'increase']",0,0,"('preparations', 'increase')",00:00:11
+Poverty is caused by overpopulation.,"['Poverty', 'overpopulation']",1,1,"('overpopulation', 'Poverty')",00:00:13
+The economic setbacks of 1893 had created unemployment and poverty which caused migration in search of new opportunities.,"['setbacks', 'unemployment']",0,0,"('setbacks', 'unemployment')",00:00:09
+The software caused a pretty good drain on the CPU for some reason.,"['software', 'drain']",0,0,"('software', 'drain')",00:00:09
+The harm has been caused by the invitation system.,"['harm', 'system']",1,1,"('system', 'harm')",00:00:12
+Alfred Nobel created his fortune from the selling of explosives that utilized nitroglycerin.,"['fortune', 'selling']",1,1,"('selling', 'fortune')",00:00:13
+Proper washing and skin care can help to remove bacteria and oils which cause acne.,"['bacteria', 'acne']",0,0,"('bacteria', 'acne')",00:00:10
+The lack of stability caused a strong reliance on the colonizers.,"['lack', 'reliance']",0,0,"('lack', 'reliance')",00:00:18
+"The eruptions are caused by tectonic forces or by the compaction of sediments at the deltas of large rivers, such as the Mississippi.","['eruptions', 'tectonic forces']",1,1,"('tectonic forces', 'eruptions')",00:00:09
+Lenin and the other leaders of the Soviet Union set about repairing the damage caused by the revolution and the civil war.,"['damage', 'war']",1,1,"('war', 'damage')",00:00:18
+"The reaction from the international press, which I am sure you here in Tokyo have noticed, has been very wide and detailed.","['reaction', 'press']",1,1,"('press', 'reaction')",00:00:13
+"When the first model sank in August 1991, the crash caused a seismic event registering 3.0 on the Richter scale, and left nothing but a pile of debris at 220m of depth.","['crash', 'seismic event']",0,0,"('crash', 'seismic event')",00:00:10
+"For example, driving recklessly and causing an auto accident that result in the death of another driver or passenger could be qualified as manslaughter.","['accident', 'death']",0,0,"('accident', 'death')",00:00:17
+That coupled with the death and destruction caused by the storm was a very traumatic experience for these residents.,"['death', 'storm']",1,1,"('storm', 'death')",00:00:15
+The infection came from a wound.,"['infection', 'wound']",1,1,"('wound', 'infection')",00:00:10
+The emission of electromagnetic radiation from cell phones continues to become a growing concern.,"['radiation', 'cell phones']",1,1,"('cell phones', 'radiation')",00:00:11
+Sumatera (Yagasu) made a profit from the selling of women groups' handicrafts activities.,"['profit', 'selling']",1,1,"('selling', 'profit')",00:00:18
+"Frustrations, threats, and conflicts cause stress.","['Frustrations', 'stress']",0,0,"('Frustrations', 'stress')",00:00:10
+"Cyber squatter- A person who buys domain names, and holds them with the intent of making a profit from the selling of the domain name.","['profit', 'selling']",1,1,"('selling', 'profit')",00:00:18
+"The muscular dystrophies are caused by genetic defects, which means they are inherited at birth.","['dystrophies', 'defects']",1,1,"('defects', 'dystrophies')",00:00:13
+"In a two-mirror telescope equipped with an active optics system usually M2 is used to correct the aberrations originated by optical reasons, i.e. defocus and coma.","['aberrations', 'reasons']",1,1,"('reasons', 'aberrations')",00:00:18
+"The addition of water to the tank caused a runaway chemical reaction, resulting in a rapid rise in pressure and temperature.","['addition', 'reaction']",0,0,"('addition', 'reaction')",00:00:09
+"Snails and slugs cause damage to seedlings, flowers, vegetables and shrubs.","['slugs', 'damage']",0,0,"('slugs', 'damage')",00:00:17
+The snowstorm caused a major catastrophe on the West Virginia Turnpike.,"['snowstorm', 'catastrophe']",0,0,"('snowstorm', 'catastrophe')",00:00:10
+Glaucoma is one of the leading causes for blindness and currently about 90 million patients worldwide are affected by the disease.,"['Glaucoma', 'blindness']",0,0,"('Glaucoma', 'blindness')",00:00:19
+There are everyday actions that can help prevent the spread of germs that cause respiratory illnesses like influenza.,"['germs', 'influenza']",0,0,"('germs', 'influenza')",00:00:10
+The outbreak was caused by the live polio virus that is used in vaccines given orally the preferred method in developing countries because it is cheaper and doesn't require medical training to dispense.,"['outbreak', 'virus']",1,1,"('virus', 'outbreak')",00:00:13
+"These drugs also cause headaches and nausea, affect your internal organs and raise your bad cholesterol.","['drugs', 'nausea']",0,0,"('drugs', 'nausea')",00:00:14
+Well I know quite a few people who get dissatisfaction from laughing at retards.,"['dissatisfaction', 'laughing']",1,1,"('laughing', 'dissatisfaction')",00:00:16
+Immigrants accounted for more than half of Britain's population growth in recent years.,"['Immigrants', 'population']",0,0,"('Immigrants', 'population')",00:00:20
+Iraqi soldiers inspect the damage after the explosion in a school in Baghdad.,"['damage', 'explosion']",1,1,"('explosion', 'damage')",00:00:21
+The broker is entitled to commission from the selling of your property.,"['commission', 'selling']",1,1,"('selling', 'commission')",00:00:18
+Parental pressures of unemployment and poverty lead to drug abuse and alcoholism or stress and depression which have a profound effect on children.,"['unemployment', 'alcoholism']",0,0,"('unemployment', 'alcoholism')",00:00:12
+The magnetic field is generated by an electric current circulating in the star's interior.,"['magnetic field', 'current']",1,1,"('current', 'magnetic field')",00:00:15
+The species makes a squelching noise.,"['species', 'noise']",0,0,"('species', 'noise')",00:00:11
+"The political unity of the Iroquois was the source of their power, but it was by no means perfect.","['unity', 'power']",0,0,"('unity', 'power')",00:00:08
+Here are the news reports and photographs of the devastations caused by the storm.,"['devastations', 'storm']",1,1,"('storm', 'devastations')",00:00:13
+The movement of the flag on the surface of the moon was caused by the vaccum.,"['movement', 'vaccum']",1,1,"('vaccum', 'movement')",00:00:10
+"Propionibacteria acnes, or P. acnes, are the bacteria responsible for acne breakouts.","['bacteria', 'breakouts']",0,0,"('bacteria', 'breakouts')",00:00:16
+Oil extraction in the Amazon has already caused the extinction of the Tetete and Zaparo nationalities and continues to threaten indigenous peoples.,"['extraction', 'extinction']",0,0,"('extraction', 'extinction')",00:00:10
+The 100 MHz RF signal for the amplitude modulator was derived from a pulse pattern generator (PPG).,"['signal', 'generator']",1,1,"('generator', 'signal')",00:00:19
+"The first seismic arrival from an earthquake is the P wave, which is usually relatively low-amplitude.","['seismic arrival', 'earthquake']",1,1,"('earthquake', 'seismic arrival')",00:00:08
+"These centres, along with appropriate educational and psychosocial interventions, helped children overcome the trauma and stress caused by the earthquake.","['trauma', 'earthquake']",1,1,"('earthquake', 'trauma')",00:00:11
+American skiier Lindsey Vonn denied downhill treble as fog caused cancellation in Val d'Isere.,"['fog', 'cancellation']",0,0,"('fog', 'cancellation')",00:00:17
+The tsunami resulted in significant property damage but only two fatalities in RS.,"['tsunami', 'damage']",0,0,"('tsunami', 'damage')",00:00:16
+"By the end of the work day, the anger was radiating from the city.","['anger', 'city']",1,1,"('city', 'anger')",00:00:14
+"In view of the terrible destruction that was caused by the flood waves, we have to fear that a number of Germans, clearly in the three-digit numbers, will be among the dead.","['destruction', 'waves']",1,1,"('waves', 'destruction')",00:00:07
+It's hell in the hospitals where the amputees's screaming after the lapse of morphine is heard all the time.,"['screaming', 'lapse']",1,1,"('lapse', 'screaming')",00:00:21
+Scientists discovered that these drugs were related to heart valve disease.,"['drugs', 'disease']",0,0,"('drugs', 'disease')",00:00:18
+The criminals that caused the fire illegally entered our country.,"['criminals', 'fire']",0,0,"('criminals', 'fire')",00:00:11
+"A jack-knifed lorry caused delays on the A27 eastbound between Havant, Hampshire, and Chichester, West Sussex.","['lorry', 'delays']",0,0,"('lorry', 'delays')",00:00:11
+"Viruses that cause respiratory illness typically are capable of causing a range of clinical manifestations, and asymptomatic infections are possible.","['Viruses', 'illness']",0,0,"('Viruses', 'illness')",00:00:19
+"92% of the CO2 emissions are caused by the lorries, but this is not fair so a different distribution method is needed.","['emissions', 'lorries']",1,1,"('lorries', 'emissions')",00:00:14
+"Widely previously interpreted as precursory activity to the 1906 earthquake, they have been found to have a strong seasonal pattern and have been postulated to be due to large seasonal sediment loads in coastal bays that overlie faults as a result of the erosion caused by hydraulic mining in the later years of the California Gold Rush.","['erosion', 'hydraulic mining']",1,1,"('hydraulic mining', 'erosion')",00:00:16
+"A shortage of folate cause megaloblastic anemia, where red blood cells are large and pale.","['shortage', 'anemia']",0,0,"('shortage', 'anemia')",00:00:19
+Rains and melting snow lead to Genesee County's biggest sewage spill of the year.,"['snow', 'spill']",0,0,"('snow', 'spill')",00:00:20
+A stereo buss outputs the stereo buss signal; a record buss outputs the record buss signal.,"['buss', 'signal']",0,0,"('buss', 'signal')",00:00:17
+"Marital breakdown is often attributed to unresolved grief from infertility, miscarriage, and the loss of a child.","['grief', 'miscarriage']",1,1,"('miscarriage', 'grief')",00:00:17
+"In addition, a brief biography establishing her credentials was included at the end of the report.","['biography', 'credentials']",0,0,"('biography', 'credentials')",00:00:15
+"In addition, soil and river systems have been contaminated by the harsh chemicals used in cocaine production and the air has been polluted by the smoke caused by the burning of jungle and forest for coca bush cultivation.","['smoke', 'burning']",1,1,"('burning', 'smoke')",00:00:12
+"The recession caused by the stock bubble was relatively mild, but so was the recovery.","['recession', 'stock bubble']",1,1,"('stock bubble', 'recession')",00:00:25
+"In the Senate, the sizzle comes from an issue ad bill from Dem Sen. Jon Erpenbach.","['sizzle', 'bill']",1,1,"('bill', 'sizzle')",00:00:21
+"Cali, Colombia, for their series of articles on the emergency caused by a landslide on the highway leading to the coast.","['emergency', 'landslide']",1,1,"('landslide', 'emergency')",00:00:18
+The financial losses caused by the earthquake were estimated at $7 million.,"['losses', 'earthquake']",1,1,"('earthquake', 'losses')",00:00:08
+The December 26th tsunami disaster is an example of a tsunami which was triggered by an earthquake.,"['tsunami', 'disaster']",0,0,"('tsunami', 'disaster')",00:00:09
+"The violence resulted in the death of police ""capo"" Filippo Raciti, which caused widespread soul-searching and a week-long suspension of Italian football.","['violence', 'death']",0,0,"('violence', 'death')",00:00:07
+"Discomfort from braces is similar to that of working out at the gym - the first few days you know you' done something different, but then the body adapts and the discomfort disappears.","['Discomfort', 'braces']",1,1,"('braces', 'Discomfort')",00:00:13
+"Because the fire was caused by fireworks, costs associated with suppressing the fire were also applied.","['fire', 'fireworks']",1,1,"('fireworks', 'fire')",00:00:09
+The Titan heats the dermis to cause collagen contraction while ensuring preservation the epidermis through continuous cooling.,"['preservation', 'cooling']",1,1,"('cooling', 'preservation')",00:00:15
+The spiral light was caused by the missile.,"['light', 'missile']",1,1,"('missile', 'light')",00:00:10
+One of these papers which was published in the journal Climate Research turned out to be so badly flawed that the scandal resulted in the resignation of the editor-in-chief.,"['scandal', 'resignation']",0,0,"('scandal', 'resignation')",00:00:17
+"Bed sores (also known as: pressure sores, decubitus ulcers or pressure ulcers) are caused by pressure, which cuts off blood flow to parts of the body.","['Bed sores', 'pressure']",1,1,"('pressure', 'Bed sores')",00:00:09
+The presentation generated debate and there was general discussion on how journalists can better equip themselves to handle the challenges.,"['presentation', 'debate']",0,0,"('presentation', 'debate')",00:00:10
+"On my backpacking trip, the insoles caused a hot spot on the left side of my right heel and a blister on the right side of my left heel.","['insoles', 'spot']",0,0,"('insoles', 'spot')",00:00:18
+Cities produce surprisingly low carbon emissions per capita.,"['Cities', 'emissions']",0,0,"('Cities', 'emissions')",00:00:14
+"Excluding the current outbreaks caused by the H5N1 virus, only 24 outbreaks of highly pathogenic avian influenza have been recorded worldwide since 1959.","['outbreaks', 'virus']",1,1,"('virus', 'outbreaks')",00:00:08
+Alternators generate electricity by the same principle as DC generators.,"['Alternators', 'electricity']",1,0,"('Alternators', 'electricity')",00:00:08
+Many of the 550 deaths are directly and intentionally caused by the physician but not reported as euthanasia because they lacked consent.,"['deaths', 'physician']",1,1,"('physician', 'deaths')",00:00:13
+"Smoke from wood fires in Tutbury Castle in Nottingham was considered unendurable by Eleanor of Aquitaine, wife of Henry II, causing her to move out in 1157.","['Smoke', 'fires']",1,1,"('fires', 'Smoke')",00:00:22
+The increase is caused by the absorption of UV radiation by the oxygen and ozone.,"['increase', 'absorption']",1,1,"('absorption', 'increase')",00:00:13
+Take medicine to reduce sneezing and coughing from allergies.,"['coughing', 'allergies']",1,1,"('allergies', 'coughing')",00:00:12
+Generally it appears that most of the damage was caused by the winds and the rough seas.,"['damage', 'seas']",1,1,"('seas', 'damage')",00:00:19
+World practices have shown that often local authorities are quicker to respond to the natural disasters caused by the climate change.,"['disasters', 'change']",1,1,"('change', 'disasters')",00:00:16
+The funds raised through this appeal have a direct impact on the people affected by the severe devastations caused by the storms.,"['devastations', 'storms']",1,1,"('storms', 'devastations')",00:00:07
+Outbreaks caused by the oral vaccine's live virus have happened before.,"['Outbreaks', 'virus']",1,1,"('virus', 'Outbreaks')",00:00:11
+The compromise resolved the crisis through a series of secret negotiations involving Republican and Democratic politicians and various interest groups.,"['compromise', 'negotiations']",1,1,"('negotiations', 'compromise')",00:00:15
+"So solar thermal power generation works essentially the same as generation from fossil fuels except that instead of using steam produced from the combustion of fossil fuels, the steam is produced by the heat collected from sunlight.","['steam', 'heat']",1,1,"('heat', 'steam')",00:00:07
+Autonomic imbalance is one of the multifactorial causes of essential hypertension currently.,"['Autonomic imbalance', 'hypertension']",0,0,"('Autonomic imbalance', 'hypertension')",00:00:11
+"As I move closer to the kitchen, the steady hum of the refrigerator grows stronger.","['hum', 'refrigerator']",1,1,"('refrigerator', 'hum')",00:00:21
+Fatty acid and phospholipid chlorohydrins cause cell stress and endothelial adhesion.,"['acid', 'adhesion']",0,0,"('acid', 'adhesion')",00:00:17
+The new cigarettes cause headaches and nausea and contain dangerous chemicals.,"['cigarettes', 'nausea']",0,0,"('cigarettes', 'nausea')",00:00:12
+"On the hour, the clock plays a melody with motion.","['clock', 'melody']",0,0,"('clock', 'melody')",00:00:11
+Nurses' militancy stemmed from two different kinds of experiences.,"['militancy', 'experiences']",1,1,"('experiences', 'militancy')",00:00:12
+The pollution from animal factories is also destroying parts of the world's oceans.,"['pollution', 'factories']",1,1,"('factories', 'pollution')",00:00:12
+The NNT and NNH are useful indices to describe the trade-off between the benefit and the harm produced by a new treatment.,"['harm', 'treatment']",1,1,"('treatment', 'harm')",00:00:27
+Acne is caused by clogging of sebaceous (oil producing) glands on the skin.,"['Acne', 'clogging']",1,1,"('clogging', 'Acne')",00:00:12
+"No water enters the inside of the dishwasher, and the motor makes a sound as if under strain.","['motor', 'sound']",0,0,"('motor', 'sound')",00:00:18
+"The fluctuations are caused by state and federal taxes, distance from refineries to filling stations and environmental laws.","['fluctuations', 'taxes']",1,1,"('taxes', 'fluctuations')",00:00:18
+Rabies is caused by a virus that is usually contracted through the saliva of an infected animal.,"['Rabies', 'virus']",1,1,"('virus', 'Rabies')",00:00:07
+An accident has been caused by the fog.,"['accident', 'fog']",1,1,"('fog', 'accident')",00:00:14
+The injury resulted in numerous operations to save his eyesight.,"['injury', 'operations']",0,0,"('injury', 'operations')",00:00:12
+We address the longer-term budget imbalance that has been caused by the tax cuts.,"['imbalance', 'tax cuts']",1,1,"('tax cuts', 'imbalance')",00:00:12
+"In North America, about 58 percent of the wildfires are caused by humans.","['wildfires', 'humans']",1,1,"('humans', 'wildfires')",00:00:16
+Make sure the child takes lots of fluids in spite of the oral discomfort to prevent high fever from dehydration.,"['fever', 'dehydration']",1,1,"('dehydration', 'fever')",00:00:09
+A rare and incurable congenital disease which causes blindness has been successfully treated for the first time using gene therapy.,"['disease', 'blindness']",0,0,"('disease', 'blindness')",00:00:19
+"As I pulled unit apart the small fan on top of light was caked with dust, the heat caused a little discoloration on the difusing lense.","['heat', 'discoloration']",0,0,"('heat', 'discoloration')",00:00:18
+"His work has led to new treatments for addicts, tests for drug intoxication and understanding of how heroin, other opiates and cocaine cause dependence and withdrawal.","['heroin', 'withdrawal']",0,0,"('heroin', 'withdrawal')",00:00:13
+Shrinkage from washing has always been considered a serious problem for cotton knitted fabrics.,"['Shrinkage', 'washing']",1,1,"('washing', 'Shrinkage')",00:00:10
+"This article goes some wat towards, identifying some of the conflicts arose from the previous and present agricultural development.","['conflicts', 'development']",1,1,"('development', 'conflicts')",00:00:18
+The disruption caused by the latest Christmas terrorist has added too much to the weary trip home.,"['disruption', 'terrorist']",1,1,"('terrorist', 'disruption')",00:00:07
+The Barbarian invasions of the fifth century were triggered by the destruction of the Gothic kingdoms by the Huns in 372-375.,"['invasions', 'destruction']",1,1,"('destruction', 'invasions')",00:00:21
+Ho Chi Minh City and Hanoi are in floods after the rain.,"['floods', 'rain']",1,1,"('rain', 'floods')",00:00:09
+Eighty percent of the mortgage fraud has been caused by the banks and the lending institutions.,"['fraud', 'institutions']",1,1,"('institutions', 'fraud')",00:00:12
+"Using solar electricity instead of conventional electricity sources helps to reduce pollution that causes smog, acid rain, respiratory illness and global warming.","['pollution', 'smog']",0,0,"('pollution', 'smog')",00:00:14
+"It gets a little bit ""chicken first or egg first"" on examination but the primary truth is that the attacks are caused by the fear of the attacks themselve.","['attacks', 'fear']",1,1,"('fear', 'attacks')",00:00:09
+The big bang was caused by the collision of two parallel universes.,"['bang', 'collision']",1,1,"('collision', 'bang')",00:00:18
+"The increase in customers, though, caused a strain on the company servers.","['increase', 'strain']",0,0,"('increase', 'strain')",00:00:17
+The lymphomas are caused by neoplastic proliferation of cells in the lymphoid system.,"['lymphomas', 'proliferation']",1,1,"('proliferation', 'lymphomas')",00:00:15
+"Acne is caused by infections that occur when pores in the skin are filled with oil, dirt, or other substances.","['Acne', 'infections']",1,1,"('infections', 'Acne')",00:00:11
+"A girl with a mitochondrial disorder who developed a neurodegenerative disorder with ""features of autism"" after getting a fever from vaccines.","['fever', 'vaccines']",1,1,"('vaccines', 'fever')",00:00:17
+"The storm caused a tremendous amount of damage on the landing beaches, and for the time completely isolated the troops at Anzac.","['storm', 'damage']",0,0,"('storm', 'damage')",00:00:11
+"But in 1993, Montalban had a 10-hour surgery to try to alleviate the pain and discomfort from this injury.","['discomfort', 'injury']",1,1,"('injury', 'discomfort')",00:00:12
+"Celiac disease (CD) is an inflammatory disorder of the upper small intestine triggered by the ingestion of wheat, rye, barley, and possibly oat products.","['disease', 'ingestion']",1,1,"('ingestion', 'disease')",00:00:21
+Swine Flu - Popular name for the illness caused by the H1N1 virus.,"['illness', 'virus']",1,1,"('virus', 'illness')",00:00:07
+Both ships caught fire after the collision but the blazes were brought under control.,"['fire', 'collision']",1,1,"('collision', 'fire')",00:00:25
+"Sadness leads to inspiration, so in this story of love and hate, respect and betrayal, learn about the history of the Mexican Wrestling Wars.","['Sadness', 'inspiration']",0,0,"('Sadness', 'inspiration')",00:00:13
+"Since the bar sold alcohol to a person that was already obviously intoxicated, it became liable for the subsequent harm that was caused by the drunk driver.","['harm', 'driver']",1,1,"('driver', 'harm')",00:00:12
+Asia feels the pain caused by the crisis but could be poised for rapid recovery.,"['pain', 'crisis']",1,1,"('crisis', 'pain')",00:00:09
+The boom and shaking was caused by the asteroid that passed Earth yesterday.,"['boom', 'asteroid']",1,1,"('asteroid', 'boom')",00:00:11
+"On the morning of May 25, many schools in northeast China were evacuated because of the earthquake caused by the North Korea nuclear test.","['earthquake', 'nuclear test']",1,1,"('nuclear test', 'earthquake')",00:00:12
+Seborrheic dermatitis is one of the causes for dandruff.,"['dermatitis', 'dandruff']",0,0,"('dermatitis', 'dandruff')",00:00:10
+"Sierra Leone in the wake of the devastation caused by the decade old civil conflict in every sector of our society, the education sector, being key.","['devastation', 'conflict']",1,1,"('conflict', 'devastation')",00:00:14
+Hepatitis B is a potentially life-threatening liver infection caused by the hepatitis B virus.,"['infection', 'virus']",1,1,"('virus', 'infection')",00:00:13
+"On investigation, however, it was found that all the noise was caused by the arrival of Fred Riemer with an ox-team load of flour.","['noise', 'arrival']",1,1,"('arrival', 'noise')",00:00:19
+"This meeting was called in response to a request of Eastern labor papers, but happened to fall amid the excitement caused by the Pittsburgh riot.","['excitement', 'riot']",1,1,"('riot', 'excitement')",00:00:15
+"Many commercial soap, shower gel or cleanser products contain preservatives, colorants and chemicals that cause dryness, rashes, itchiness and roughness on the skin.","['chemicals', 'roughness']",0,0,"('chemicals', 'roughness')",00:00:12
+"Priority must be given to efforts to combat insecurity and thus poverty, major cause of violence most often experienced by poorest.","['insecurity', 'violence']",0,0,"('insecurity', 'violence')",00:00:15
+"The compromises contained in the agreement caused the civil war in the 26 counties in June 1922-April 1923, in which the pro-Treaty Provisional Government defeated the anti-Treaty Republican forces.","['compromises', 'war']",0,0,"('compromises', 'war')",00:00:10
+The disruption has been caused by work being carried out by track operator Network Rail.,"['disruption', 'work']",1,1,"('work', 'disruption')",00:00:11
+"A person with an intrinsic motivation to run gains satisfaction from a very long running around their favourite course on a calm, sunny day.","['satisfaction', 'running']",1,1,"('running', 'satisfaction')",00:00:15
+The real possibility of total engulfment by flame or suffocation from smoke was a constant threat.,"['suffocation', 'smoke']",1,1,"('smoke', 'suffocation')",00:00:21
+The abuse is rooted in the perpetrator's mental illness.,"['abuse', 'illness']",1,1,"('illness', 'abuse')",00:00:14
+The birthmarks are caused by expansions (dilations) in tiny blood vessels called capillaries.,"['birthmarks', 'expansions']",1,1,"('expansions', 'birthmarks')",00:00:12
+The dispute has resulted in major regional wars and two Palestinian Intifadas with tragedies on both sides.,"['dispute', 'wars']",0,0,"('dispute', 'wars')",00:00:08
+This photograph shows the vortices created by the water strider's legs as it moves across the water.,"['vortices', 'legs']",1,1,"('legs', 'vortices')",00:00:21
+"The common cold and the flu are caused by different viruses, with symptoms of the flu presenting more quickly and with more severity than those of a cold.","['cold', 'viruses']",1,1,"('viruses', 'cold')",00:00:16
+"P6 stimulation for PONV is a convincing case for the efficacy of acupuncture; to that were later added nausea from chemotherapy or pregnancy, and dental pain.","['nausea', 'chemotherapy']",1,1,"('chemotherapy', 'nausea')",00:00:16
+"Mixed in equal parts with peppermint, Elder flowers help reduce the fevers and aches caused by colds and the flu.","['fevers', 'colds']",1,1,"('colds', 'fevers')",00:00:09
+"The following pages are organized by subject, and investigate the root causes of damage caused by the quake.","['damage', 'quake']",1,1,"('quake', 'damage')",00:00:08
+"In the chaos and urgency caused by the hurricanes, it was difficult to keep track of people with psychiatric disabilities.","['chaos', 'hurricanes']",1,1,"('hurricanes', 'chaos')",00:00:09
+Old scars from stitches that were successfully put in but ripped out by the individual are also common.,"['scars', 'stitches']",1,1,"('stitches', 'scars')",00:00:09
+The fighting resulted in hundreds of deaths and in the deployment of peace keepers into East Timor.,"['fighting', 'deaths']",0,0,"('fighting', 'deaths')",00:00:16
+"Most of the streaks are caused by meteoroids about the size of a grain of sand, although meteoroids are porous and much less dense than sand.","['streaks', 'meteoroids']",1,1,"('meteoroids', 'streaks')",00:00:13
+The large anti-neutrino component is the source of an irreducible background.,"['component', 'background']",0,0,"('component', 'background')",00:00:14
+The mortality caused by the war is also high.,"['mortality', 'war']",1,1,"('war', 'mortality')",00:00:09
+"Before he leaves Ephesus, however, a riot breaks out, instigated by the silversmiths who manufacture idols of the goddess Artemis; they are afraid that Paul's evangelistic success will ruin their business.","['riot', 'silversmiths']",1,1,"('silversmiths', 'riot')",00:00:12
+"The eruption resulted in massive lahar flows (a mixture of ash, lava, rock and water), primarily in the Rio Montana and Marker watersheds.","['eruption', 'flows']",0,0,"('eruption', 'flows')",00:00:15
+"A Philippine Airforce aerial shot shows residents standing on a rooftop to escape the floodwaters caused by continuous rains brought on by Typhoon Ketsana in Marikina city, metro Manila September 27, 2009.","['floodwaters', 'rains']",1,1,"('rains', 'floodwaters')",00:00:14
+The pressure was caused by the rapid power acceleration at the start.,"['pressure', 'acceleration']",1,1,"('acceleration', 'pressure')",00:00:10
+"In addition to the Sudanese rebels, the bombing resulted in the deaths of several Chadian civilians and livestock.","['bombing', 'deaths']",0,0,"('bombing', 'deaths')",00:00:14
+The noise signal was generated by a noise diode (ENR = 27 dB) and gated with a high-speed electronic switch.,"['signal', 'diode']",1,1,"('diode', 'signal')",00:00:09
+"Ordinary warts on the hands and feet are caused by viruses, which only affect humans.","['warts', 'viruses']",1,1,"('viruses', 'warts')",00:00:09
+Unemployment has been caused by people who either knowingly or unknowingly have priced people out of jobs.,"['Unemployment', 'people']",1,1,"('people', 'Unemployment')",00:00:11
+The noise and vibration caused by the passage of trains resulted in unacceptable conditions within the convention center as standard construction techniques had been used.,"['noise', 'passage']",1,1,"('passage', 'noise')",00:00:12
+"Because of the ethics scandal that resulted in the impeachment of the state's Governor, there was real hope for real ethics reform in Illinois this year.","['scandal', 'impeachment']",0,0,"('scandal', 'impeachment')",00:00:10
+The storm ended up causing about a fraction of the damage caused by the Chesapeake Bay storm.,"['damage', 'storm']",1,1,"('storm', 'damage')",00:00:24
+Primary wholesale markets are held in a fixed place and transact daily a large volume of business emanated from the village markets.,"['business', 'markets']",1,1,"('markets', 'business')",00:00:17
+"High blood pressure is caused by a narrowing of the arteries, which means the heart has to work harder in order to push the blood through.","['pressure', 'narrowing']",1,1,"('narrowing', 'pressure')",00:00:15
+The genreal anesthetic cause unconsciousness and insensibility to paid and are used for major surgical procedures.,"['anesthetic', 'insensibility']",0,0,"('anesthetic', 'insensibility')",00:00:16
+"Acne or pimples are caused by hormonal changes, wrong food habits and improper skin care.","['Acne', 'hormonal changes']",1,1,"('hormonal changes', 'Acne')",00:00:14
+In July he was sent north to quell a rebellion instigated by the discontented people of Warwick.,"['rebellion', 'people']",1,1,"('people', 'rebellion')",00:00:15
+"Ironically, the damage caused by the floods, and the subsequent insurance payout, were what prompted the restoration of the station building.","['damage', 'floods']",1,1,"('floods', 'damage')",00:00:09
+The court found proof that the fatal fire was caused by the dryer.,"['fire', 'dryer']",1,1,"('dryer', 'fire')",00:00:08
+"13, students were evacuated from Conrad Residence for approximately 15 minutes after burnt food in one of the kitchens set off the fire alarm.","['burnt food', 'alarm']",0,0,"('burnt food', 'alarm')",00:00:16
+Lavender is excellent in the reatment of headaches from fatigue and exhaustion.,"['headaches', 'exhaustion']",1,1,"('exhaustion', 'headaches')",00:00:15
+"The Archbishop of York, Dr John Sentamu, visited the stoneyard to survey the damage caused by the fire.","['damage', 'fire']",1,1,"('fire', 'damage')",00:00:10
+My first encounter in my luxurious hotels casino was the sound of a woman behind the roulette wheels screaming for joy after hitting the 12225.00 jackpot.,"['joy', 'hitting']",1,1,"('hitting', 'joy')",00:00:17
+There was a serious increase in the acidity of the seas caused by the acid rains.,"['increase', 'rains']",1,1,"('rains', 'increase')",00:00:14
+Bounding pulses are caused by the relatively low systemic arterial blood pressure due to the continuous runoff of blood from the aorta into the pulmonary artery.,"['Bounding pulses', 'arterial blood pressure']",1,1,"('arterial blood pressure', 'Bounding pulses')",00:00:16
+"The deficits caused by the fiscal stimulus package end in 2011 and will help to sustain a fragile recovery in 2010, the deficits projected for the longer term are a threat to our economic future.","['deficits', 'package']",1,1,"('package', 'deficits')",00:00:13
+The suffering caused by the bleeding depends on where the arteriovenous malformation is located.,"['suffering', 'bleeding']",1,1,"('bleeding', 'suffering')",00:00:12
+The overall damage caused by the destruction of land and property for the Wall's construction has taken many years to recover further.,"['damage', 'destruction']",1,1,"('destruction', 'damage')",00:00:09
+The pain he felt was caused by the plant rubbing against his capillaries.,"['pain', 'rubbing']",1,1,"('rubbing', 'pain')",00:00:14
+Several blocks of flats caught fire after the blaze spread from a building site in Sumner Road.,"['fire', 'blaze']",1,1,"('blaze', 'fire')",00:00:17
+The Hawke's Bay Herald building was completely destroyed by the fire after the earthquake.,"['fire', 'earthquake']",1,1,"('earthquake', 'fire')",00:00:16
+We seek to actually reverse the injury that has been caused by the heart attack.,"['injury', 'heart attack']",1,1,"('heart attack', 'injury')",00:00:13
+The echoing you see is from an expect command running after send has run.,"['echoing', 'command']",1,1,"('command', 'echoing')",00:00:22
+"Lymphedema is an abnormal build-up of fluid that causes swelling, most often in the arms or legs.","['Lymphedema', 'swelling']",0,0,"('Lymphedema', 'swelling')",00:00:10
+"Since the PN signal is generated by an algorithm, knowledge of the algorithm reveals the entire sequence.","['signal', 'algorithm']",1,1,"('algorithm', 'signal')",00:00:12
+Argentina was the destruction of the natural grasslands caused by the expansion of the cropping frontiers starting in 1875.,"['destruction', 'expansion']",1,1,"('expansion', 'destruction')",00:00:10
+"The death of the rat caused the relocation of the flea, and if its next host just happened to be a human, then contagion was the result.","['death', 'relocation']",0,0,"('death', 'relocation')",00:00:09
+The injury or death was caused by the intoxication and the employee shall be barred from receiving workers' compensation.,"['injury', 'intoxication']",1,1,"('intoxication', 'injury')",00:00:05
+I suffer from headaches from perfume and any other toxic thing I get to smell.,"['headaches', 'perfume']",1,1,"('perfume', 'headaches')",00:00:16
+"These changes can be caused by the tumor itself, by increased pressure within the skull caused by the presence of the tumor.","['increased pressure', 'tumor']",1,1,"('tumor', 'increased pressure')",00:00:12
+"Instead, the doctor had administered a drug which had caused the eventual death of the child.","['drug', 'death']",0,0,"('drug', 'death')",00:00:10
+"The crashes resulted in the collapse of much of the World Trade Center complex, the destruction of part of the southwest side of the Pentagon.","['crashes', 'collapse']",0,0,"('crashes', 'collapse')",00:00:12
+"The fact that you actually caused an accident that resulted in injury or death gives them the justification they need to prosecute you to the fullest extent of the law, and seek the toughest penalties possible.","['accident', 'injury']",0,0,"('accident', 'injury')",00:00:13
+"With Bummer gone for the night the groms decide to surf at night with the help of floodlights, but the floodlights cause a power outage for the entire hotel.","['floodlights', 'power outage']",0,0,"('floodlights', 'power outage')",00:00:15
+An inflammation of the liver caused by the hepatitis A virus (HAV).,"['inflammation', 'virus']",1,1,"('virus', 'inflammation')",00:00:12
+"The conclusion of the investigation was that the loss was caused by a failure in a cell wall, resulting in a serious crack and a leakage that the pumps were not able to cope with.","['loss', 'failure']",1,1,"('failure', 'loss')",00:00:09
+The tsunami was generated by an unusual type of earthquake that occurs near oceanic trenches.,"['tsunami', 'earthquake']",1,1,"('earthquake', 'tsunami')",00:00:09
+"Around the globe, unique and fascinating species face extinction from hunting and habitat destruction, which affects vulnerable animals in every kind of environment.","['extinction', 'hunting']",1,1,"('hunting', 'extinction')",00:00:09
+But the most damage has been caused by the corrosive effects of wind and water.,"['damage', 'effects']",1,1,"('effects', 'damage')",00:00:07
+The movement developed from the rediscovery by European scholars of many Greek and Roman texts.,"['movement', 'rediscovery']",0,1,"('rediscovery', 'movement')",00:00:09
+The vascular dilatation was caused by the sympathetic and the course of vaso-motor nerves.,"['dilatation', 'nerves']",1,1,"('nerves', 'dilatation')",00:00:12
+Sheet and rill erosion is considered to be the most harmful of all soil erosion forms since it may be unnoticed or ignored by the peasant.,"['rill', 'erosion']",1,-1,[],00:00:16
+The problem comes from the widgets resembling HTC's own Sense UI widgets.,"['problem', 'widgets']",1,1,"('widgets', 'problem')",00:00:06
+"The fire is caused by overheating of connections, which is cause by its turn by poor ohmic contact.","['fire', 'overheating']",1,1,"('overheating', 'fire')",00:00:09
+Figure 9 shows the average delays obtained with this policy as compared with those of the previous subsection.,"['delays', 'policy']",1,1,"('policy', 'delays')",00:00:11
+Space shuttle science shows how 1908 Tunguska explosion was caused by a comet.,"['explosion', 'comet']",1,1,"('comet', 'explosion')",00:00:12
+"Cobalt metal fume and dust cause upper respiratory tract irritation, chronic interstitial pneumonitis, and skin sensitization.","['fume', 'sensitization']",0,0,"('fume', 'sensitization')",00:00:20
+Every child and young person seen at Starship with intoxication from alcohol or illicit drug use had a social work assessment before leaving the hospital.,"['intoxication', 'drug use']",1,1,"('drug use', 'intoxication')",00:00:19
+"With the pollution caused by the buring of coal, the light-colored tree trunks became darker due to soot.","['pollution', 'buring']",1,1,"('buring', 'pollution')",00:00:12
+"Continued exposure to higher concentrations of the gas cause disorientation, convulsions, unconsciousness and death.","['exposure', 'convulsions']",0,0,"('exposure', 'convulsions')",00:00:21
+These chemical studies were directed toward proof of structure of the indole components of the seeds.,"['studies', 'proof']",0,0,"('studies', 'proof')",00:00:10
+The riot was instigated by the clergy of the Church of England with the active support and collaboration of the magistrates.,"['riot', 'clergy']",1,1,"('clergy', 'riot')",00:00:19
+But the discomfort caused by the ointment and the duration of treatment often result in non-compliance.,"['discomfort', 'ointment']",1,1,"('ointment', 'discomfort')",00:00:14
+Menopause and PMS cause stress and anxiety even without imbalanced hormones.,"['Menopause', 'anxiety']",0,0,"('Menopause', 'anxiety')",00:00:12
+The killings resulted in indiscriminate firing by unknown people in Garden area of the city.,"['killings', 'firing']",0,0,"('killings', 'firing')",00:00:13
+"The cow makes a sound called lowing, also known as mooing.","['cow', 'sound']",1,0,"('cow', 'sound')",00:00:19
+Flashes are caused by the vitreous gel tugging on the retina.,"['Flashes', 'tugging']",1,1,"('tugging', 'Flashes')",00:00:13
+"Information about Salmonellosis, an illness caused by a bacteria found in raw food, soil, or water.","['illness', 'bacteria']",1,1,"('bacteria', 'illness')",00:00:13
+Natural Liver Cirrhosis Treatment Liver cirrhosis is a degenerative inflammatory disease that results in hardening and scarring of liver cells.,"['disease', 'hardening']",0,0,"('disease', 'hardening')",00:00:13
+And these gases cause evaporation of water from sea and soil.,"['gases', 'evaporation']",0,0,"('gases', 'evaporation')",00:00:11
+"I am currently taking a medication which causes tingling in my hands and feet, but I also have vitamin d deficiency r/t hyperparathyroidism and my calcium is up and down.","['medication', 'tingling']",0,0,"('medication', 'tingling')",00:00:17
+But by far the most frequent tsunami-maker is the buckling of the seafloor caused by an undersea earthquake.,"['buckling', 'earthquake']",1,1,"('earthquake', 'buckling')",00:00:10
+A magnetic bracelet helps the pain from stroke in your arm.,"['pain', 'stroke']",1,1,"('stroke', 'pain')",00:00:11
+Dalindyebo R900-million and the tribe a further R80-billion in compensation for the humiliation caused by the monarch's criminal trial.,"['humiliation', 'trial']",1,1,"('trial', 'humiliation')",00:00:05
+Water erosion is the detachment and removal of soil material by water.,"['Water', 'erosion']",0,0,"('Water', 'erosion')",00:00:13
+"Lesions involving the medial part of the premotor cortex, the supplementary motor area (SMA) and the rear portion of the medial part of the precentral gyrus caused a contralateral, severe leg-predominant hemiplegia, distally predominant and a less severe proximal weakness of the arm.","['Lesions', 'hemiplegia']",0,0,"('Lesions', 'hemiplegia')",00:00:28
+Examining the disruption caused by pupil mobility.,"['disruption', 'mobility']",1,1,"('mobility', 'disruption')",00:00:17
+"The second injury also started from the aforementioned collision, but has only recently re-surfaced.","['injury', 'collision']",1,1,"('collision', 'injury')",00:00:14
+Production and investigation of such a detector arose from an inadequate sensitivity of a commercial p-type Si detector.,"['Production', 'sensitivity']",1,1,"('sensitivity', 'Production')",00:00:07
+"The inflammation is caused by the growth of unusual bacteria, which usually results from antibiotic use.","['inflammation', 'growth']",1,1,"('growth', 'inflammation')",00:00:11
+The exhibition The Art of the Motorcycle caused a revolution on the museum scene with its presentation of the motorcycle as a metaphor of the 20th century.,"['exhibition', 'revolution']",0,0,"('exhibition', 'revolution')",00:00:14
+Pressures occur throughout life and those pressures cause stress.,"['pressures', 'stress']",0,0,"('pressures', 'stress')",00:00:14
+The drugs cause unconsciousness and cardiac arrest separately.,"['drugs', 'unconsciousness']",0,0,"('drugs', 'unconsciousness')",00:00:13
+Electrolysis of the resulting mixture caused the reduction of the aluminum ions in the Al2O3.,"['Electrolysis', 'reduction']",0,0,"('Electrolysis', 'reduction')",00:00:12
+"Many different bacteria, protozoa and viruses cause food poisoning, but most cases are the result of just a few species of bacteria.","['protozoa', 'poisoning']",0,0,"('protozoa', 'poisoning')",00:00:12
+One sad (excuse the pun) consequence is that a winter of suffering from SAD adds to the weight gain caused by the antidepressants.,"['weight gain', 'antidepressants']",1,1,"('antidepressants', 'weight gain')",00:00:51
+"The structural deficit has been caused by the series of tax cuts, not the recession or defense needs.","['deficit', 'tax cuts']",1,-1,[],00:00:31
+"It took a long time to undo the damage that has been caused by the crisis of confidence, damage whose effects are just now beginning to make themselves felt in a slow, glacial collapse.","['damage', 'crisis']",1,-1,[],00:00:18
+The rescue teams found 17 of the 25 crew thrown into the sea when the tanker caught fire after the collision.,"['fire', 'collision']",1,1,"('collision', 'fire')",00:00:06
+"Trauma to the face and nasal area causes nosebleeds, such as getting punched or violently slapped.","['Trauma', 'nosebleeds']",0,0,"('Trauma', 'nosebleeds')",00:00:05
+Some comments from readers highlight the frustration and inconvenience caused by the 3-pin system.,"['frustration', 'system']",1,1,"('system', 'frustration')",00:00:05
+"Pneumonia is an inflammation of the lungs caused by bacteria, viruses, or chemical irritants.","['inflammation', 'irritants']",1,1,"('irritants', 'inflammation')",00:00:05
+The blockages are caused by a build-up of fatty plaque along the artery walls.,"['blockages', 'fatty plaque']",1,1,"('fatty plaque', 'blockages')",00:00:06
+The demise of the bees has been caused by the globalization of commerce.,"['demise', 'commerce']",1,1,"('commerce', 'demise')",00:00:04
+Staphylococcal food poisoning is caused by eating food contaminated with Staphylococcus aureus.,"['food poisoning', 'eating']",1,-1,[],00:00:34
+"Properties of the soils developed from the amphibolites of Santiago-Ponte Ulla, Spain.","['Properties', 'amphibolites']",0,-1,[],00:00:31
+"Solar disturbances such as flares, prominences, and sunspots increase the amount of radiation from the sun.","['radiation', 'sun']",1,-1,[],00:00:31
+"The results support the theoretical model conceptualizing alcohol use and misuse as being the product of stress caused by constraints and resources brought to bear simultaneously by agent personality, structures of daily life, and macro social structures.","['stress', 'resources']",1,-1,[],00:00:31
+"A significant portion of head and neck cancers, anal cancers, and cancer of the larynx are caused by the human papillomavirus.","['cancers', 'papillomavirus']",1,-1,[],00:00:31
+"Overpopulation and poverty cause tension not only within communities and countries, but throughout the world.","['Overpopulation', 'tension']",0,-1,[],00:00:31
+The only light in the house was radiating from the TV screen.,"['light', 'screen']",1,-1,[],00:00:30
+"In economic terms, the ecological catastrophe caused by the Prestige oil spill is comparable with that caused by the Exxon Valdez.","['catastrophe', 'spill']",1,1,"('spill', 'catastrophe')",00:00:28
+"Biomagnetic Research, in Arizona, makes a range of devices for neutralizing radiation from computers and other sources.","['radiation', 'computers']",1,1,"('computers', 'radiation')",00:00:10
+The family members also get great joy from dogs doing tricks and great for family activities.,"['joy', 'dogs']",1,1,"('dogs', 'joy')",00:00:11
+The US forces have withdrawn due to the damage caused by the eruption and the typhoon.,"['damage', 'typhoon']",1,1,"('typhoon', 'damage')",00:00:17
+"The riot resulted in the deaths of 196 people, and led to a major reform in the country's economic policy favouring the Malays.","['riot', 'deaths']",0,0,"('riot', 'deaths')",00:00:13
+"Canine flea infestation is caused by fleas, which are small, wingless blood-sucking insects.","['flea', 'infestation']",0,0,"('flea', 'infestation')",00:00:21
+Stella Liebeck is the woman who sued McDonalds after she suffered a serious burn after the spilling of a cup of coffee on her lap.,"['burn', 'spilling']",1,1,"('spilling', 'burn')",00:00:10
+"The bending caused a fracture on the tension side of the test specimen, but the UHMP fiber ribbon held the fractured parts together.","['bending', 'fracture']",0,0,"('bending', 'fracture')",00:00:13
+"Following a decision made by the Typhoon Committee in cooperation with United Nations agencies and the League of Red Crescent Societies, ESCAP compiles every year region-wide statistics and reports on the harm caused by tropical cyclones, floods, droughts and other severe weather events.","['harm', 'floods']",1,1,"('floods', 'harm')",00:00:23
+The influx caused a further drain on the country's already scanty resources.,"['influx', 'drain']",0,0,"('influx', 'drain')",00:00:14
+This ingredient also repairs the damage that has been caused by the sun.,"['damage', 'sun']",1,1,"('sun', 'damage')",00:00:12
+"Apparently, beyond the damage caused by the smoke and the water, the structure of the store itself it was not overly damaged.","['damage', 'water']",1,1,"('water', 'damage')",00:00:14
+"Individuals with this change, or with similar mutations in the USH2A gene, develop moderate to severe hearing loss and retinitis pigmentosa, a disorder that results in loss of vision.","['disorder', 'loss']",0,0,"('disorder', 'loss')",00:00:09
+The Germanic migrations of the fifth century were triggered by the destruction of the Gothic kingdoms by the Huns in 372-375.,"['migrations', 'destruction']",1,1,"('destruction', 'migrations')",00:00:13
+The reference signal was generated from an auxiliary photomultiplier (RCA 1P28) with a quantum counter.,"['signal', 'photomultiplier']",1,1,"('photomultiplier', 'signal')",00:00:12
+The electromagnetic (EM) radiation from the sun arrives mostly in the form of visible and infrared wavelengths.,"['radiation', 'sun']",1,1,"('sun', 'radiation')",00:00:16
+The pseudolesion was caused by drainage of the paraumbilical vein.,"['pseudolesion', 'drainage']",1,1,"('drainage', 'pseudolesion')",00:00:07
+"User-edited article about Salmonellosis, the infection caused by Salmonella bacteria, leading to diarrhea, fever, vomiting, and abdominal cramps.","['infection', 'bacteria']",1,1,"('bacteria', 'infection')",00:00:15
+This paper presents the results of a survey of the building damage caused by the ash fall from the cataclysmic eruption of Mount Pinatubo.,"['damage', 'eruption']",1,1,"('eruption', 'damage')",00:00:15
+"The earthquake caused the failures of the electric power system, the water supply system, the sewer system, the telephone and telegraph systems.","['earthquake', 'failures']",0,0,"('earthquake', 'failures')",00:00:12
+"The guy put up a fight, so the mugger takes out a gun and shoots him, point blank.","['guy', 'fight']",0,0,"('guy', 'fight')",00:00:11
+Boils or furuncles are caused by staphylococcal bacterial infections of the hair follicles.,"['Boils', 'infections']",1,1,"('infections', 'Boils')",00:00:12
+Cervical cancer is caused by infection with the human papillomavirus (HPV) and is one of the most common cancers in women in developing countries.,"['cancer', 'infection']",1,1,"('infection', 'cancer')",00:00:15
+"Notwithstanding problems associated with screening, many of those cancers were caused by radiation exposures shortly after the accident.","['cancers', 'radiation exposures']",1,1,"('radiation exposures', 'cancers')",00:00:13
+This year's Nobel Laureates in Physiology or Medicine made the remarkable and unexpected discovery that inflammation in the stomach (gastritis) as well as ulceration of the stomach or duodenum (peptic ulcer disease) is the result of an infection of the stomach caused by the bacterium Helicobacter pylori.,"['infection', 'bacterium']",1,1,"('bacterium', 'infection')",00:00:13
+"A thorough oral examination, which includes dental X-rays, determines that the toothache is coming from a jaw problem.","['toothache', 'jaw problem']",1,1,"('jaw problem', 'toothache')",00:00:14
+"Also, we note the convergence over the lakes caused by the land breeze circulation.","['convergence', 'circulation']",1,1,"('circulation', 'convergence')",00:00:15
+"The severe recession triggered by the global crisis has bottomed out, thanks in part to a rebound in exports, although production remains the same.","['recession', 'crisis']",1,1,"('crisis', 'recession')",00:00:10
+"In the 1998 crisis, capital flight caused a crisis on the currency markets, as the removal of funds from Russia necessarily entailed the conversion of rubles to dollars.","['flight', 'crisis']",0,0,"('flight', 'crisis')",00:00:23
+I used to get terrible headaches from sinus and infections that resulted in taking antibiotics a few times a year.,"['headaches', 'infections']",1,1,"('infections', 'headaches')",00:00:20
+The grief from infertility is at times so overwhelming that no one person can provide all the comfort and support that his or her partner needs.,"['grief', 'infertility']",1,1,"('infertility', 'grief')",00:00:12
+"Monilia, candida or yeast infections are caused by various species of candida, especially Candida albicans, and are very common in babies and young children.","['infections', 'candida']",1,1,"('candida', 'infections')",00:00:09
+"The elderly found it hard to cope with the high heat-humidity, which often causes nausea and dizziness from exhaustion and dehydration.","['dizziness', 'dehydration']",1,1,"('dehydration', 'dizziness')",00:00:21
+The earthquake caused a massive avalanche on the northern slope of Mount Huascar.,"['earthquake', 'avalanche']",0,0,"('earthquake', 'avalanche')",00:00:11
+The JFK baggage system malfunction caused delays for some flights and caused some passengers to simply travel without their things.,"['malfunction', 'delays']",0,0,"('malfunction', 'delays')",00:00:12
+"Small particles, grime and dirt cause friction and microscopic scratches that over time destroy the performance of equipment.","['particles', 'scratches']",0,0,"('particles', 'scratches')",00:00:13
+"When a tsunami is generated by a strong offshore earthquake, its first waves would reach the outer coast minutes after the ground stops shaking.","['tsunami', 'earthquake']",1,1,"('earthquake', 'tsunami')",00:00:17
+"A deposit ages, soil formation, weathering, diagenetic processes, and earthquake shaking lead to consolidation and cementation of the sediment.","['weathering', 'cementation']",0,0,"('weathering', 'cementation')",00:00:23
+"The cheering and screaming after the victory had hardly died down when Marilyn Kelly proclaimed ""Party at my house!"".","['screaming', 'victory']",1,1,"('victory', 'screaming')",00:00:17
+You counted almost thirty-three honorable punches and kicks thrown in this clip of little kid screaming after the terrible fight.,"['screaming', 'fight']",1,1,"('fight', 'screaming')",00:00:17
+Lesions restricted to the rear portion of the medial part of the precentral gyrus caused a contralateral predominantly distal leg weakness.,"['Lesions', 'leg weakness']",0,0,"('Lesions', 'leg weakness')",00:00:16
+One of the largest Internet piracy rings in the world has been shut down in a police operation that resulted in the arrest of 181 people.,"['operation', 'arrest']",0,0,"('operation', 'arrest')",00:00:13
+DOD/USAF/AFRCC initiated Federal SAR response activities for incidents that result in aeronautical distress.,"['incidents', 'distress']",0,0,"('incidents', 'distress')",00:00:14
+"Pavlov-like, looking at the picture aids ""let-down,"" the release of milk normally triggered by the presence of the baby, its touch, its cry.","['release', 'presence']",1,1,"('presence', 'release')",00:00:11
+The inspiration for the multi-touch technology came from a decidedly non-digital event.,"['inspiration', 'event']",1,1,"('event', 'inspiration')",00:00:08
+Raj driven to rage after reading about yet another weirdly spelled Web 2.0 company is struggling on TechCrunch.,"['rage', 'reading']",1,1,"('reading', 'rage')",00:00:19
+The team prepared GIS precipitation and contour maps of the area (approximately 777 square miles) depicting the landforms and identifying the flooding and landslides caused by the rainfall.,"['flooding', 'rainfall']",1,1,"('rainfall', 'flooding')",00:00:10
+"The 1906 San Francisco earthquake was caused by a rupture on the San Andreas Fault, a continental transform fault that forms part of the boundary between the Pacific Plate and the North American Plate.","['earthquake', 'rupture']",1,1,"('rupture', 'earthquake')",00:00:09
+"The grief from sudden death is completely different from expected death, when families have time to prepare and say goodbye.","['grief', 'death']",1,-1,[],00:00:07
+The wounds caused by the scourging and the thorns are almost invisible.,"['wounds', 'thorns']",1,1,"('thorns', 'wounds')",00:00:10
+"The war was caused by the expansionist desires of Hitler, Mussolini and the Japanese imperialists.","['war', 'desires']",1,1,"('desires', 'war')",00:00:13
+Osteoporosis is caused by a sharp decrease in estrogen levels that leads to an increased rate of bone remodeling.,"['Osteoporosis', 'decrease']",1,1,"('decrease', 'Osteoporosis')",00:00:11
+The economic collapse was caused by consumers buying mortgages they couldn't afford and the housing collapse.,"['collapse', 'consumers']",1,1,"('consumers', 'collapse')",00:00:14
+"Convulsions that occur after DTaP are usually not caused directly by the vaccine, but by a fever, which in turn was triggered by the vaccine.","['fever', 'vaccine']",1,1,"('vaccine', 'fever')",00:00:10
+"To determine, once and for all, how the manakin was making its bizarre sounds, Bostwick and colleagues decided to take feather samples.","['manakin', 'sounds']",1,0,"('manakin', 'sounds')",00:00:08
+Licenses and Permits are revenues from the selling of vendor and dog licenses and other items.,"['revenues', 'selling']",1,1,"('selling', 'revenues')",00:00:16
+"More than 4500 tons of nitrogen oxides annually -- a pollutant that causes smog, acid rain, and contributes to asthma attacks and other breathing problems.","['pollutant', 'rain']",0,0,"('pollutant', 'rain')",00:00:19
+Addiction and poverty lead to neglect and abuse.,"['Addiction', 'neglect']",0,0,"('Addiction', 'neglect')",00:00:12
+The swelling of the vocal fold mucosa is caused by smoking.,"['swelling', 'smoking']",1,1,"('smoking', 'swelling')",00:00:17
+"In conclusion, incubation of the aorta produces a specific reduction in agonist-evoked contraction.","['incubation', 'reduction']",0,0,"('incubation', 'reduction')",00:00:12
+"The high humidity caused by the rainfall damaged the seed of PU already mature while the good soil moisture allowed the seed of SO, TO and OO to fill better.","['high humidity', 'rainfall']",1,1,"('rainfall', 'high humidity')",00:00:15
+"First, the H5N1 virus has caused by far the greatest number of human cases of very severe disease and the greatest number of deaths.","['virus', 'disease']",0,0,"('virus', 'disease')",00:00:11
+"Many symptoms of fight or flight are caused by chemical changes in the body, but these two symptoms of are caused by chronic, rapid, shallow breathing.","['symptoms', 'chemical changes']",1,1,"('chemical changes', 'symptoms')",00:00:17
+"The assassination resulted in extensive arrests of governmental, security, and criminal figures.","['assassination', 'arrests']",0,0,"('assassination', 'arrests')",00:00:12
+The storm resulted in 31 deaths and 2.5 million dollars damage.,"['storm', 'damage']",0,0,"('storm', 'damage')",00:00:19
+Obama's economic policies are turning into a global disaster.,"['policies', 'disaster']",0,0,"('policies', 'disaster')",00:00:11
+"Thus, evaluating capital punishment as a form of retribution is reduced by Sellin to merely estimating the proportion of capital murders that result in execution.","['murders', 'execution']",0,0,"('murders', 'execution')",00:00:15
+Dizziness was caused by whiplash and head injury.,"['Dizziness', 'injury']",1,1,"('injury', 'Dizziness')",00:00:10
+The hull caused a scratch on the eye and that is why it's not healing all the way.,"['hull', 'scratch']",0,0,"('hull', 'scratch')",00:00:11
+The massacre resulted in a local and international onslaught.,"['massacre', 'onslaught']",0,0,"('massacre', 'onslaught')",00:00:12
+"Both colds and flu cause inflammation of the mucous membranes (found in the nose, throat and mouth).","['colds', 'inflammation']",0,0,"('colds', 'inflammation')",00:00:09
+Constipation is the most common cause of abdominal pain in the pediatric population.,"['Constipation', 'abdominal pain']",0,0,"('Constipation', 'abdominal pain')",00:00:19
+Our country is resolving the war and poverty caused by the previous administration.,"['poverty', 'administration']",1,1,"('administration', 'poverty')",00:00:08
+The pain was radiating from the contraction out to my hips and back and then down both my legs all the way to my toes.,"['pain', 'contraction']",1,1,"('contraction', 'pain')",00:00:14
+"The fresh Muslim anger has been caused by the opening speech delivered by Pope Benedict XVI on September 12, 2006.","['anger', 'speech']",1,1,"('speech', 'anger')",00:00:11
+Cold sores or fever blisters are caused by the herpes simplex virus and are usually relatively easy to identify.,"['Cold sores', 'virus']",1,1,"('virus', 'Cold sores')",00:00:11
+The quarrel during the night of the crime was caused by money.,"['quarrel', 'money']",1,1,"('money', 'quarrel')",00:00:09
+Sinusitis is the inflammation of the sinuses caused by a bacterial infection.,"['Sinusitis', 'infection']",1,1,"('infection', 'Sinusitis')",00:00:14
+During the great fire of the aftershock in Tokyo in 1923 many Ginkgo trees survived while other trees died.,"['fire', 'aftershock']",1,-1,[],00:00:09
+The major product arose from an attack of aromatic compound.,"['product', 'attack']",1,1,"('attack', 'product')",00:00:12
+Interpolation of the missing samples repairs the waveform with a minimum of distortion.,"['Interpolation', 'distortion']",0,-1,[],00:00:11
+The worst devastation around us has been caused by the abject failure of religious education.,"['devastation', 'education']",1,1,"('education', 'devastation')",00:00:13
+"But among the heroin addicts especially, there is frequently a very severe depression, and depression is one of the main causes of suicide.","['depression', 'suicide']",0,0,"('depression', 'suicide')",00:00:08
+"We minimized excessive flows that cause flooding, bank erosion, and habitat loss.","['flows', 'erosion']",0,0,"('flows', 'erosion')",00:00:12
+"For example, measles and chickenpox cause rashes along with other symptoms.","['measles', 'rashes']",0,0,"('measles', 'rashes')",00:00:25
+"However, the planning proposal has generated opposition from locals who have voiced fears over health issues.","['proposal', 'opposition']",0,0,"('proposal', 'opposition')",00:00:11
+"Allaah decreed joy and sadness, because joy results in laughter and sadness leads to crying.","['joy', 'laughter']",0,0,"('joy', 'laughter')",00:00:07
+Malaria is caused by infection with a parasite called Plasmodium that is transmitted by mosquitos.,"['Malaria', 'parasite']",1,1,"('parasite', 'Malaria')",00:00:07
+The warmth was radiating from the fireplace to all corners of the room.,"['warmth', 'fireplace']",1,1,"('fireplace', 'warmth')",00:00:07
+The reports regarding the casualties has been announced and the loss that has been caused by the quake is being estimated.,"['loss', 'quake']",1,1,"('quake', 'loss')",00:00:10
+Air pollution from coal-fired power plants is large and varied and contributes to a significant number of negative environmental and health problems.,"['pollution', 'plants']",1,1,"('plants', 'pollution')",00:00:09
+"Former Safety-Service Director Rex Katterheinrich estimated the city collecting $2.16 million in 2009, who took into account for the economic slowdown caused by the national recession.","['slowdown', 'recession']",1,1,"('recession', 'slowdown')",00:00:10
+"Dr. Marshall is the discoverer of Helicobacter (H. pylori), the germ that causes peptic ulcer.","['germ', 'ulcer']",0,0,"('germ', 'ulcer')",00:00:17
+"The sadness from divorce meant more if you were aware she was married very briefly to choreographer/director Michael Bennett, who shaped her career, then created the ""Chorus Line"" character around her in 1975.","['sadness', 'divorce']",1,-1,[],00:00:08
+NGU (NonGonococcal Urethritis) is an infection of the urethra caused by pathogens ( germs ) other than gonorrhea.,"['infection', 'pathogens']",1,1,"('pathogens', 'infection')",00:00:13
+The crash caused a gash on the west side of the Pentagon measuring 30 yards wide and 10 yards deep.,"['crash', 'gash']",0,0,"('crash', 'gash')",00:00:12
+"A stimulant, nicotine causes a temporary increase in alertness and a calm feeling.","['nicotine', 'increase']",0,0,"('nicotine', 'increase')",00:00:15
+He treated the pain from shingles as it persisted for long periods of time.,"['pain', 'shingles']",1,1,"('shingles', 'pain')",00:00:15
+"There are many types and causes of headaches, from tension headaches due to stress to migraines triggered by certain foods.","['tension', 'headaches']",0,0,"('tension', 'headaches')",00:00:19
+Patients with adenomyosis experience pain from this disease in the early 30's.,"['pain', 'disease']",1,1,"('disease', 'pain')",00:00:20
+These tests establish baseline information on employees and help insure that they are appropriately matched to the physical demands of their jobs.,"['tests', 'information']",0,0,"('tests', 'information')",00:00:09
+"Because the disorders are caused by defective lysosomal enzymes, with the result being lysosomal accumulation of pathway intermediates, these are often referred to as lysosomal storage diseases.","['disorders', 'enzymes']",1,1,"('enzymes', 'disorders')",00:00:07
+"The current crisis was caused by the housing bubble, and the primary cause of the housing bubble was the Federal Reserve keeping interest rates at 1 percent.","['crisis', 'housing bubble']",1,1,"('housing bubble', 'crisis')",00:00:08
+Both over-the-counter pain pills and prescription drugs cause medication-overuse headaches.,"['pills', 'headaches']",0,0,"('pills', 'headaches')",00:00:10
+Most deaths from the accident were caused by radiation poisoning.,"['deaths', 'poisoning']",1,1,"('poisoning', 'deaths')",00:00:06
+Bankers were assessing the loss caused by the poor performance of Gartmore's 340m pounds IPO this week after it needed to be scaled down and its price slashed.,"['loss', 'performance']",1,1,"('performance', 'loss')",00:00:15
+GIS revealed a relationship between cracks caused by earthquakes and paddy fields.,"['cracks', 'earthquakes']",1,1,"('earthquakes', 'cracks')",00:00:07
+Both bacteria cause mortality in target species via a lethal septicaemia as a result of spore germination.,"['bacteria', 'mortality']",0,0,"('bacteria', 'mortality')",00:00:11
+Pancreatitis is an inflammation of the pancreas caused by a malfunction involving the digestive enzymes that the pancreas makes.,"['inflammation', 'malfunction']",1,1,"('malfunction', 'inflammation')",00:00:10
+"The direct catastrophe caused by the earthquake was estimated at 10.2 billion euro, clearly justifying European intervention.","['catastrophe', 'earthquake']",1,1,"('earthquake', 'catastrophe')",00:00:12
+"The damages caused by the fires that immediately broke out and raged for three days, were by far worse than those caused by the earthquake itself.","['damages', 'fires']",1,1,"('fires', 'damages')",00:00:13
+He testified that cause of death was massive bleeding into the blood sac of the heart caused by a stab wound on the left chest.,"['death', 'wound']",1,1,"('wound', 'death')",00:00:14
+"The scale of such landslides on natural slopes can be large enough to devastate entire villages or towns, such as the Huascaran Avalanche triggered by the Peru earthquake (1970, Mw = 7.8), or the complex slides caused by the Alaska earthquake in 1964 (Ms = 8.4).","['slides', 'earthquake']",1,1,"('earthquake', 'slides')",00:00:14
+Chronic daily headaches are tension headaches or headaches which are caused by taking too many pain killers.,"['tension', 'headaches']",0,0,"('tension', 'headaches')",00:00:07
+"A trend has been caused by the growing absolute numbers of young people on the planet, and by the rising unemployment rate.","['trend', 'rising unemployment rate']",1,1,"('rising unemployment rate', 'trend')",00:00:07
+Birth defects are caused by drugs that the persons have been exposed to before birth.,"['Birth defects', 'drugs']",1,1,"('drugs', 'Birth defects')",00:00:21
+"In these cases of fever from constipation there are no local signs except, perhaps, a varying amount of tenderness over the sigmoid flexure of the colon, but only appreciable where the distension of gut is extreme.","['fever', 'constipation']",1,1,"('constipation', 'fever')",00:00:11
+"Toxoplasmosis is caused by infection with Toxoplasma gondii, an obligate intracellular parasite.","['Toxoplasmosis', 'parasite']",1,1,"('parasite', 'Toxoplasmosis')",00:00:10
+"Most importantly, the shock and anger caused by the surprise attack on Pearl Harbor united a divided nation and was translated into a wholehearted commitment to victory in World War II.","['shock', 'attack']",1,1,"('attack', 'shock')",00:00:07
+Morton's neuroma is the most common cause of localized pain in the third interspace and these diagnostic tests produce good indications of the condition.,"['neuroma', 'pain']",0,0,"('neuroma', 'pain')",00:00:14
+"Furthermore, the substrate doping density at which impact ionization causes avalanche breakdown at the trench capacitor junction has been estimated.","['ionization', 'avalanche']",0,0,"('ionization', 'avalanche')",00:00:07
+"Major disasters like cyclone, floods and the storm surges, drought are caused by climate change.","['cyclone', 'climate change']",1,1,"('climate change', 'cyclone')",00:00:12
+Knee injuries from running are treated and prevented by following tips and performing stretches from Runner's World.com.,"['injuries', 'running']",1,1,"('running', 'injuries')",00:00:12
+Ita s hard for me to fathom the craziness that has been caused by the H1N1 virus.,"['craziness', 'virus']",1,1,"('virus', 'craziness')",00:00:16
+The displacement comes from low atmospheric pressure within the centre of the depression.,"['displacement', 'atmospheric pressure']",1,1,"('atmospheric pressure', 'displacement')",00:00:09
+Dacryoadenitis is caused by local infection of the lacrimal gland by bacteria or viruses.,"['Dacryoadenitis', 'infection']",1,1,"('infection', 'Dacryoadenitis')",00:00:12
+"Shortly after takeoff, an apparent systems malfunction has caused the inadvertent launch of an AIM-9 Sidewinder missile.","['malfunction', 'launch']",0,0,"('malfunction', 'launch')",00:00:14
+"After the war, as the Midway was preparing for retirement, she was called upon one last time to the Philippines to help with an evacuation after the eruption of Mt. Pinatubo.","['evacuation', 'eruption']",1,1,"('eruption', 'evacuation')",00:00:20
+The vibrations caused a violent twisting motion on the bridge.,"['vibrations', 'motion']",0,0,"('vibrations', 'motion')",00:00:13
+To help doctors to know and cure headaches from medication overuse a revised criteria was published by the International Headache Society.,"['headaches', 'medication overuse']",1,1,"('medication overuse', 'headaches')",00:00:09
+Head injuries are a common cause of unconsciousness and they occur in many sports like rugby and boxing.,"['injuries', 'unconsciousness']",0,0,"('injuries', 'unconsciousness')",00:00:14
+The colouration has been caused by a blue dye.,"['colouration', 'dye']",1,1,"('dye', 'colouration')",00:00:13
+"Occasionally, a dream proffers no solution but portrays only the anxiety which is generated by the conflict.","['anxiety', 'conflict']",1,1,"('conflict', 'anxiety')",00:00:13
+"Using the product around the house killed germs that were causing flu, colds or sore throat.","['germs', 'sore throat']",0,0,"('germs', 'sore throat')",00:00:13
+This consensus paper describes the essential skills that clinicians need to help persons who are experiencing grief after the death of a loved one.,"['grief', 'death']",1,1,"('death', 'grief')",00:00:17
+"After making an impression the crowd with an a capella rendition of their national anthem, the South African were immediately under pressure.","['impression', 'rendition']",1,1,"('rendition', 'impression')",00:00:18
+"Recently, marketing spending translated into revenue.","['marketing spending', 'revenue']",0,0,"('marketing spending', 'revenue')",00:00:14
+"In reality, however, the drama has been caused by the erupting ash and smoke colliding with a lightning storm.","['drama', 'ash']",1,1,"('ash', 'drama')",00:00:10
+"Yet on the whole, given the constraints of sticking so closely to the original book, the developer has crafted a thoroughly pleasing puzzle adventure.","['developer', 'adventure']",0,0,"('developer', 'adventure')",00:00:08
+Corruption is one of the main causes of a global crisis that deprives more than a billion people of access to safe drinking water and more than 2.6 billion of access to sanitation systems.,"['Corruption', 'crisis']",0,0,"('Corruption', 'crisis')",00:00:10
+"Many commercial soap, shower gel or cleanser products contain preservatives, colorants and chemicals that cause dryness, rashes, itchiness and roughness on the skin.","['colorants', 'rashes']",0,0,"('colorants', 'rashes')",00:00:20
+"For all the pain caused by the great recession, the job market still was not in as bad shape as it had been during the depths of the early 1980s recession, until now.","['pain', 'recession']",1,1,"('recession', 'pain')",00:00:18
+Landrieu where he saw firsthand the destruction caused by the hurricanes and the failure of the storm protection system.,"['destruction', 'hurricanes']",1,1,"('hurricanes', 'destruction')",00:00:08
+Sea breezes are caused by cool and more dense air moving inland off the water.,"['breezes', 'air']",1,1,"('air', 'breezes')",00:00:13
+"These germs cause several kinds of illnesses, such as diarrhea, meningitis or a cold.","['germs', 'diarrhea']",0,0,"('germs', 'diarrhea')",00:00:16
+"The brown areas are caused by drought, brown patch, take-all-patch, chinch bugs or grubs.","['brown areas', 'drought']",1,1,"('drought', 'brown areas')",00:00:20
+Many adults retain scars from acne breakouts during their teen years and feel marked for life.,"['scars', 'acne breakouts']",1,1,"('acne breakouts', 'scars')",00:00:09
+"The slow suffocation of the cells swiftly cause unconsciousness and shock, soon followed by death.","['suffocation', 'shock']",0,0,"('suffocation', 'shock')",00:00:15
+"In these cases, the disappointment from the purchase is not forgotten over time, but rather accumulates.","['disappointment', 'purchase']",1,1,"('purchase', 'disappointment')",00:00:12
+"Unemployment, debt and poverty cause enormous stress.","['debt', 'stress']",0,0,"('debt', 'stress')",00:00:13
+The earthquake was caused by the Anatolian plate and the Eurasian plate moving past each other.,"['earthquake', 'plate']",1,1,"('plate', 'earthquake')",00:00:14
+"While it took only minutes for the Pacific tsunami and earthquake to cause havoc to the south coast of Samoa, the rebuilding and reconstruction efforts will take years.","['tsunami', 'havoc']",0,0,"('tsunami', 'havoc')",00:00:15
+Many more resources are required in order to stem the devastation that has been caused by the epidemic throughout sub-Saharan Africa.,"['devastation', 'epidemic']",1,1,"('epidemic', 'devastation')",00:00:11
+"In one case, the waterjet caused a large gouge on the bottom side of a a copper/ wood/copper piece.","['waterjet', 'gouge']",0,0,"('waterjet', 'gouge')",00:00:12
+"Frustrations, threats, and conflicts cause stress.","['threats', 'stress']",0,0,"('threats', 'stress')",00:00:08
+"The damages caused by mudslides, tremors, subsidence, superficial or underground water were verified, as well as swelling clay soils.","['damages', 'tremors']",1,1,"('tremors', 'damages')",00:00:22
+The sound machine contained 10 sounds that his dog loved.,"['machine', 'sounds']",0,0,"('machine', 'sounds')",00:00:12
+"The steam caused a backpressure on the VTD, resulting in the rupture disc opening.","['steam', 'backpressure']",0,0,"('steam', 'backpressure')",00:00:13
+His death during one of the Portuguese raids caused the abandonment of the settlement.,"['death', 'abandonment']",0,0,"('death', 'abandonment')",00:00:09
+Exposure to vapor causes intense watering and irritation to eyes.,"['Exposure', 'watering']",0,0,"('Exposure', 'watering')",00:00:14
+The scandals are caused by the young female celebs who 'inadvertently' reveal glimpses of their naked faces as they get out of limousines.,"['scandals', 'celebs']",1,1,"('celebs', 'scandals')",00:00:15
+The infection was caused by the contaminated chopsticks used by the parent to feed her child.,"['infection', 'chopsticks']",1,1,"('chopsticks', 'infection')",00:00:19
+"A University of Michigan study of 756 recently unemployed job seekers has found that medical and emotional fallout, including depression, from unemployment continued even after two years, when 71 percent were re-employed.","['fallout', 'unemployment']",1,1,"('unemployment', 'fallout')",00:00:15
+The accolade was decided upon after an intense discussion between about 200 members.,"['accolade', 'discussion']",1,1,"('discussion', 'accolade')",00:00:09
+"Food poisoning is perhaps the commonest cause of abdominal pain, especially in the young dog or the scavenger type.","['poisoning', 'abdominal pain']",0,0,"('poisoning', 'abdominal pain')",00:00:14
+"Instead, the success of the revolution is the reason for the celebration.","['success', 'celebration']",0,-1,[],00:00:13
+I got a fever from exhaustion and it seems like I'm better but basically my body is suffering from major exhaustion so I'm always tired.,"['fever', 'exhaustion']",1,1,"('exhaustion', 'fever')",00:00:11
+"The hinge caused a crack on the left side of my kindle, and Amazon has been horrible about helping with this issue.","['hinge', 'crack']",0,0,"('hinge', 'crack')",00:00:12
+Injury of patients of the Bikini accident has been caused by the radiation of the fallout in contrast to the atomic bomb injury at Hiroshima and Nagasaki.,"['Injury', 'radiation']",1,1,"('radiation', 'Injury')",00:00:11
+The abdominal distention caused by the worms was slightly asymmetrical when compared with the normal fright-induced swelling.,"['distention', 'worms']",1,1,"('worms', 'distention')",00:00:14
+"More than thirty people lost their lives in June, in the disaster caused by torrential rains in Hiroshima Prefecture, and in September more than thirty people lost their lives in the damage caused by the typhoon that swept through various regions, centering on Kumamoto Prefecture.","['disaster', 'rains']",1,1,"('rains', 'disaster')",00:00:10
+Learning about the dynamics of addiction starts from repairing the damage that has been caused by the addiction.,"['damage', 'addiction']",1,1,"('addiction', 'damage')",00:00:08
+A febrile seizure is a convulsion in a child triggered by a fever.,"['convulsion', 'fever']",1,1,"('fever', 'convulsion')",00:00:14
+"Recently, there is a movement afoot, instigated by the heterodox section of the community, as well as by the followers of the Gatha Alone Cultists to proselytise others to become ""Zarthushtis"".","['movement', 'community']",1,1,"('community', 'movement')",00:00:11
+"Regardless I got my life back, sadness from divorce is GONE I am thrilled I am not bleeding, dont need red shorts to walk my daughter to the park.","['sadness', 'divorce']",1,1,"('divorce', 'sadness')",00:00:11
+He is personally responsible for the carnage that has been caused by the fight.,"['carnage', 'fight']",1,1,"('fight', 'carnage')",00:00:18
+Peters's pain and symptoms were caused by the automobile accident.,"['pain', 'accident']",1,1,"('accident', 'pain')",00:00:13
+Sensitive pets experience rashes and discomfort from ticks and fleas.,"['rashes', 'fleas']",1,1,"('fleas', 'rashes')",00:00:25
+"""Morning Sickness"" is a bit of a misnomer, as nausea from pregnancy; it can happen at any time of the day.","['nausea', 'pregnancy']",1,1,"('pregnancy', 'nausea')",00:00:15
+Some people took this as an indication that the increase was caused by the MMR vaccine.,"['increase', 'vaccine']",1,1,"('vaccine', 'increase')",00:00:07
+"The wind caused a neat effect on the smoke clouds though, causing a corkscrew in the otherwise straight line.","['wind', 'corkscrew']",0,0,"('wind', 'corkscrew')",00:00:08
+"A women fear from darkness, insects, cockroaches, mice, lizards, spiders and more and more.","['fear', 'cockroaches']",1,1,"('cockroaches', 'fear')",00:00:17
+Bacteria and comedonal debris cause acne pimples or pustules (inflammatory lesions).,"['debris', 'pustules']",0,0,"('debris', 'pustules')",00:00:10
+An oil spill caused by a collision between a ship and a barge closed the ship channel servicing the nation's second largest port.,"['spill', 'collision']",1,1,"('collision', 'spill')",00:00:14
+"Excessive anxiety, worry or fear are among the causes of heart attack.","['fear', 'heart attack']",0,0,"('fear', 'heart attack')",00:00:17
+Medical bills make up half of bankruptcies.,"['bills', 'bankruptcies']",0,0,"('bills', 'bankruptcies')",00:00:12
+"In reality, acne is caused by bacteria and oil on the skin.","['acne', 'bacteria']",1,1,"('bacteria', 'acne')",00:00:07
+The 77-year-old is suffering from exhaustion and he will undergo medical tests.,"['suffering', 'exhaustion']",1,1,"('exhaustion', 'suffering')",00:00:14
+We began to reverse the damage to one of the greatest rivers in the state caused by the construction of a dam nearly 70 years ago.,"['damage', 'construction']",1,1,"('construction', 'damage')",00:00:15
+A loop emiting short flashes of light is projected onto volunteer members of the audience.,"['loop', 'light']",0,0,"('loop', 'light')",00:00:09
+Earthquakes are caused by movement of the earth's crust along this fault.,"['Earthquakes', 'movement']",1,1,"('movement', 'Earthquakes')",00:00:15
+"The tsunami was generated by an undersea landslide, which was triggered by the earthquake.","['landslide', 'earthquake']",1,1,"('earthquake', 'landslide')",00:00:13
+The dancing duo caused a stir on the 2008 series of the show with their infusion of classic Michael Jackson songs and dance moves mixed with bangra.,"['duo', 'stir']",0,0,"('duo', 'stir')",00:00:17
+The deeper currents are caused by heat from the sun.,"['currents', 'heat']",1,1,"('heat', 'currents')",00:00:07
+An alert victim with a broken neck or severely torn ligament has enough discomfort from the injury and muscle spasm to force him to hold his neck still.,"['discomfort', 'injury']",1,1,"('injury', 'discomfort')",00:00:19
+The Affiliate Classroom promotes the direct sales and gets commission from the selling of products.,"['commission', 'selling']",1,1,"('selling', 'commission')",00:00:15
+The act of repeated hand washing is the compulsive behavior performed in an attempt to remove the anxiety caused by the obsessive thought.,"['anxiety', 'thought']",1,1,"('thought', 'anxiety')",00:00:16
+In relation to the catastrophe caused by the rains of recent days in the Sierra and Coastal zones of Chiapas.,"['catastrophe', 'rains']",1,1,"('rains', 'catastrophe')",00:00:12
+The development of oil palm plantations is one of the biggest causes of rainforest clearance.,"['development', 'clearance']",0,0,"('development', 'clearance')",00:00:15
+Asthma causes swelling and narrowing of the airways.,"['Asthma', 'swelling']",0,0,"('Asthma', 'swelling')",00:00:16
+"The weekend snowstorm caused delays that had some passengers still stuck in Washington, DC on Monday night.","['snowstorm', 'delays']",0,0,"('snowstorm', 'delays')",00:00:13
+"Global warming pollution from cars, light trucks and SUV's is the single largest source of global warming pollution generated in Maine.","['pollution', 'cars']",1,1,"('cars', 'pollution')",00:00:09
+"Cervical strain results from the physical stresses of everyday life, including poor posture, muscle tension from psychologic stress or poor sleeping.","['tension', 'poor sleeping']",1,-1,[],00:00:11
+The reference clock signal originates from an internal clock source.,"['signal', 'source']",1,1,"('source', 'signal')",00:00:09
+The chemical reaction in the water caused a bubbling affect on the surface.,"['reaction', 'affect']",0,0,"('reaction', 'affect')",00:00:11
+The conflict is rooted in an ongoing refusal by the Palestinians and the Arab world to recognize the right of the Jewish people.,"['conflict', 'refusal']",1,1,"('refusal', 'conflict')",00:00:12
+A spot fire is caused by burning embers being blown away by high winds that occur during bushfires.,"['fire', 'embers']",1,1,"('embers', 'fire')",00:00:08
+A rock in the road caused an accident by breaking the rear wheel on the wagon.,"['rock', 'accident']",0,0,"('rock', 'accident')",00:00:13
+Ditto for his funny turn as a man who instigates the kidnapping of his own wife in E Niwas's Love Ke Liye Kuch Bhi Karega.,"['man', 'kidnapping']",0,0,"('man', 'kidnapping')",00:00:15
+"The explosion caused a gas leak on the pipeline near the village of Pouce Coupe, south of Dawson Creek.","['explosion', 'gas leak']",0,0,"('explosion', 'gas leak')",00:00:14
+A spaghetti pie served at a church dinner had caused the poisoning of one hundred people.,"['pie', 'poisoning']",0,0,"('pie', 'poisoning')",00:00:12
+My dog has a fever from allergies he was given clavamox and a shot.,"['fever', 'allergies']",1,1,"('allergies', 'fever')",00:00:12
+"The shooting stemmed from an argument the two students had ""in the community"" over the weekend.","['shooting', 'argument']",1,1,"('argument', 'shooting')",00:00:12
+Part of the problem is rooted in an ill-conceived state law.,"['problem', 'law']",1,1,"('law', 'problem')",00:00:13
+An important challenge for the new administration was to address the insecurity and poverty caused by civil war.,"['insecurity', 'war']",1,1,"('war', 'insecurity')",00:00:06
+Phone masts for the high-tech third generation mobile phones cause headaches and nausea.,"['masts', 'nausea']",0,0,"('masts', 'nausea')",00:00:16
+"Various hormonal, bacterial and inflammatory disturbances cause acne.","['disturbances', 'acne']",0,0,"('disturbances', 'acne')",00:00:08
+Paralysis or convulsions are caused by hormone deficiencies and imbalances.,"['Paralysis', 'imbalances']",1,1,"('imbalances', 'Paralysis')",00:00:08
+Conflict had caused the collapse of the Somali Republic.,"['Conflict', 'collapse']",0,0,"('Conflict', 'collapse')",00:00:11
+The fatal mistake caused a quarrel between different companies.,"['mistake', 'quarrel']",0,0,"('mistake', 'quarrel')",00:00:12
+Many disorders of the stomach and intestines cause nausea and vomiting.,"['disorders', 'vomiting']",0,0,"('disorders', 'vomiting')",00:00:12
+These are all symptoms of the muscle paralysis caused by the bacterial toxin.,"['paralysis', 'toxin']",1,1,"('toxin', 'paralysis')",00:00:09
+It was the destruction of the gold standard by the government that caused the unprecedented collapse in the world economy.,"['destruction', 'collapse']",0,0,"('destruction', 'collapse')",00:00:15
+"Coughing from asthma is worse at night or early in the morning, making it hard to sleep.","['Coughing', 'asthma']",1,1,"('asthma', 'Coughing')",00:00:16
+The Obama administration supports ending the use of antibiotics for growth and feed efficiency in food animals.,"['antibiotics', 'growth']",0,0,"('antibiotics', 'growth')",00:00:10
+"The primary electron beam was generated by an electrostatically focused electron gun, with a rhenium strip cathode.","['beam', 'gun']",1,1,"('gun', 'beam')",00:00:07
+"Higher doses of cocaine cause convulsions, severe maternal weight loss and increased maternal mortality.","['cocaine', 'mortality']",0,0,"('cocaine', 'mortality')",00:00:17
+A dog loose on the carriageway caused a five-vehicle crash on the M25 on Wednesday morning.,"['dog', 'crash']",0,0,"('dog', 'crash')",00:00:11
+"In economic terms, pollution from fossil fuels is regarded as a negative externality and should be taxed.","['pollution', 'fuels']",1,1,"('fuels', 'pollution')",00:00:13
+"Third, air and water pollution from fossil fuels are a huge problem in China.","['pollution', 'fuels']",1,1,"('fuels', 'pollution')",00:00:16
+"In 1880, there was a strong typhoon and an earthquake that lead to the destruction of the instrument.","['typhoon', 'destruction']",0,0,"('typhoon', 'destruction')",00:00:28
+Speeding is one of the more obvious causes of pedestrian accidents.,"['Speeding', 'accidents']",0,0,"('Speeding', 'accidents')",00:00:12
+"The high temperature caused a decomposition reaction, increased the inner pressure of the reactor, and resulted in a rupture.","['high temperature', 'decomposition reaction']",0,0,"('high temperature', 'decomposition reaction')",00:00:15
+The deterioration has been caused by an apparently endless recession.,"['deterioration', 'recession']",1,1,"('recession', 'deterioration')",00:00:10
+"The scientific, yet understandable reasons of why the L*Bo Aid is so effective in eliminating and preventing elbow pain due to epicondylitis commonly referred to as ""Tennis Elbow"" and tendinitis.","['elbow pain', 'tendinitis']",1,1,"('tendinitis', 'elbow pain')",00:00:19
+The process departs from an inspiration and idea generation phase based on challenges the company faces in the coming years.,"['process', 'inspiration']",1,1,"('inspiration', 'process')",00:00:16
+The decline has been caused by the immigration of lower ability immigrants.,"['decline', 'immigration']",1,1,"('immigration', 'decline')",00:00:17
+"Instead, criminal law is set out in a diverse range of statutes and court decisions.","['criminal law', 'range']",1,-1,[],00:00:16
+Infectious conjunctivitis is the most common cause of pinkeye around the world.,"['conjunctivitis', 'pinkeye']",0,0,"('conjunctivitis', 'pinkeye')",00:00:18
+The singing comes from the substantial figure of Mole - Paul Smith in the normal world - who crams into his days a full-time job.,"['singing', 'figure']",1,1,"('figure', 'singing')",00:00:19
+"The damage in Washington was so much less than the damage caused by the 1994 Northridge earthquake, despite that their magnitudes were so similar-- 6.8 vs. 6.7.","['damage', 'earthquake']",1,1,"('earthquake', 'damage')",00:00:13
+"In early 2007 renewed a coal mining activity in the region triggered the earthquake, although earthquake activity has been present in the area at least since white settlement first occurred.","['activity', 'earthquake']",0,0,"('activity', 'earthquake')",00:00:12
+"This bacteria causes skin infections, colds, or diarrhea.","['bacteria', 'diarrhea']",0,0,"('bacteria', 'diarrhea')",00:00:15
+"Brushing the air with both hands and coughing from the dust, it settled on both vehicles.","['coughing', 'dust']",1,1,"('dust', 'coughing')",00:00:15
+Anger leads to aggressions towards colleagues.,"['Anger', 'aggressions']",0,0,"('Anger', 'aggressions')",00:00:13
+The former emission arose from the primary collisional excitation.,"['emission', 'excitation']",1,1,"('excitation', 'emission')",00:00:09
+This sweet satisfaction was only troubled by the sorrow caused by the horrible attack on the person of a representative of the nation.,"['sorrow', 'attack']",1,1,"('attack', 'sorrow')",00:00:11
+Many depression sufferers and their physicians revealed that insomnia was caused by depression.,"['insomnia', 'depression']",1,1,"('depression', 'insomnia')",00:00:10
+The increased spending caused a strain on the state treasury as the Sultan was spending increasing amounts of time in the harem rather than leading the people.,"['spending', 'strain']",0,0,"('spending', 'strain')",00:00:12
+My earliest research interest stemmed from an internship at Tall Timbers.,"['interest', 'internship']",1,1,"('internship', 'interest')",00:00:13
+Here are some ways to avoid mindless eating and boost your weight loss from running.,"['loss', 'running']",1,1,"('running', 'loss')",00:00:06
+The tides caused by the sun follow the exact same methods as those by the moon.,"['tides', 'sun']",1,1,"('sun', 'tides')",00:00:08
+I forgot to shut the bathroom door before showering and the steam set off the smoke alarm on the wall between the bathroom and my bedroom.,"['steam', 'alarm']",0,0,"('steam', 'alarm')",00:00:16
+Characteristics of a vacuum spark triggered by the transient hollowcathode discharge electron beam.,"['spark', 'beam']",1,1,"('beam', 'spark')",00:00:14
+"Each year, many infants and toddlers die due to suffocation from breathing small objects into their breathing passages and lungs.","['suffocation', 'breathing']",1,1,"('breathing', 'suffocation')",00:00:11
+"Aware of the suffering caused by the destruction of life, I am committed to cultivating compassion and learning ways to protect the lives of people, animals, plants, and minerals.","['suffering', 'destruction']",1,1,"('destruction', 'suffering')",00:00:09
+"Even way back in the San Francisco earthquake, most of the damage was caused by fire after the earthquake.","['fire', 'earthquake']",1,1,"('earthquake', 'fire')",00:00:14
+"Liver cancer caused by HBV virus is among the first three causes of death from cancer in men, and a major cause of cancer in women.","['cancer', 'virus']",1,1,"('virus', 'cancer')",00:00:16
+"A common side effect of strict elimination after extended periods of use is headaches from caffeine withdrawal, which is also a clear sign of the addiction.","['headaches', 'caffeine withdrawal']",1,1,"('caffeine withdrawal', 'headaches')",00:00:14
+The war resulted in other collateral imperial conquests as well.,"['war', 'conquests']",0,0,"('war', 'conquests')",00:00:11
+The light that is currently reaching the Earth was generated in the sun approximately 100000 years ago.,"['light', 'sun']",1,1,"('sun', 'light')",00:00:17
+The bounded applicability of the Perceptron arose from the linearity of its modifiable decision rule.,"['applicability', 'linearity']",1,1,"('linearity', 'applicability')",00:00:14
+The shock wave was generated by an explosive made from RDX.,"['wave', 'explosive']",1,1,"('explosive', 'wave')",00:00:14
+"In a literature review of 875 cases of Merkel cell carcinoma, the tumor was the cause of death in 34% of these patients.","['tumor', 'death']",0,0,"('tumor', 'death')",00:00:10
+The instability grows from an perturbation whose initial amplitude is small.,"['instability', 'perturbation']",1,1,"('perturbation', 'instability')",00:00:10
+"Both praise and blame cause concern, for they bring people hope and fear.","['praise', 'concern']",0,0,"('praise', 'concern')",00:00:14
+A method of mitigating the effect of a market spike caused by the triggering and the election of a conditional order includes monitoring conditional orders.,"['spike', 'election']",1,1,"('election', 'spike')",00:00:08
+The deaths of Israelis caused by terror are permanent and irreversible whereas the hardships faced by the Palestinians are temporary and reversible.,"['deaths', 'terror']",1,1,"('terror', 'deaths')",00:00:10
+Job dissatisfaction is one of the main causes of stress and stress is one of the main causes of illness.,"['Job dissatisfaction', 'stress']",0,0,"('Job dissatisfaction', 'stress')",00:00:07
+"The stroke, which was triggered by a bout of chicken pox, also weakened her arteries so much that doctors said she had the brain 'of an 80-year-old'.","['stroke', 'bout']",1,1,"('bout', 'stroke')",00:00:14
+The delay in the progression of these applications has been caused by the original applicants.,"['delay', 'applicants']",1,1,"('applicants', 'delay')",00:00:10
+Boslough and colleagues achieved fame more than a decade ago by accurately predicting that that the fireball caused by the intersection of the comet Shoemaker-Levy 9 with Jupiter is observable from Earth.,"['fireball', 'intersection']",1,1,"('intersection', 'fireball')",00:00:19
+Here are reside meningococcal bacilli in the vaccine and it is accessible to bolt the ache or become a carrier of the ache from the vaccine.,"['ache', 'vaccine']",1,1,"('vaccine', 'ache')",00:00:13
+Good breeding consists of concealing how much we think of ourselves and how little we think of the other person.,"['breeding', 'concealing']",0,0,"('breeding', 'concealing')",00:00:17
+The bruises are caused by the attacker's fingertips pressing into the skin.,"['bruises', 'fingertips']",1,1,"('fingertips', 'bruises')",00:00:11
+"Fog, rain, darkness, and or blowing snow lead to disorientation.","['Fog', 'disorientation']",0,0,"('Fog', 'disorientation')",00:00:20
+"Fungal growth and aflatoxin contamination are caused by the following factors: warm temperature, high humidity and poor soil condition.","['contamination', 'humidity']",1,1,"('humidity', 'contamination')",00:00:12
+The tides are caused by the gravitational force of the Moon.,"['tides', 'gravitational force']",1,1,"('gravitational force', 'tides')",00:00:11
+Reducing the harm caused by the War on Drugs is a big task.,"['harm', 'War']",1,1,"('War', 'harm')",00:00:25
+"When these fuels are burned, they create air pollution that contributes to global warming and causes smog, acid rain and respiratory disease.","['pollution', 'disease']",0,0,"('pollution', 'disease')",00:00:13
+My friend got a rash from a mosquito bite and Westcort helped her but it left a scar so she also put on Mederma after the rash went away.,"['rash', 'bite']",1,1,"('bite', 'rash')",00:00:08
+"These germs cause illnesses ranging from common ailments, like the cold and flu, to disabling.","['germs', 'flu']",0,0,"('germs', 'flu')",00:00:09
+"The greatest impact of the tsunami was generally in an east-west direction, so the havoc caused by the tsunami along the southwestern shores of Sri Lanka was not as severe as along the eastern coast.","['havoc', 'tsunami']",1,1,"('tsunami', 'havoc')",00:00:18
+Scleroderma is a disease of the body's connective tissue that causes thickening and hardening of the skin.,"['Scleroderma', 'hardening']",0,0,"('Scleroderma', 'hardening')",00:00:14
+"The cramps are caused by the anxiety reaction but because the sufferer has high anxiety, they can be interpreted in other ways; fears grow and the anxiety worsens.","['cramps', 'anxiety reaction']",1,1,"('anxiety reaction', 'cramps')",00:00:20
+"A fuel leak in one of the C-17s caused a delay on the morning of Nov. 7 as the crew was preparing for departure for Cairo, Egypt.","['fuel leak', 'delay']",0,0,"('fuel leak', 'delay')",00:00:13
+Pinworm infestation is very rarely fatal; death and morbidity are from secondary infection.,"['Pinworm', 'infestation']",0,0,"('Pinworm', 'infestation')",00:00:16
+"The drugs he sold had caused the overdose death of Matthew Lessard, 19, of Lowell.","['drugs', 'death']",0,0,"('drugs', 'death')",00:00:15
+The jar from the fall had caused a subdural hematoma on the right front side of my brain that shows up in the CT.,"['jar', 'hematoma']",0,0,"('jar', 'hematoma')",00:00:21
+Earthquakes are caused by the discharge of accumulated along geologic faults.,"['Earthquakes', 'discharge']",1,1,"('discharge', 'Earthquakes')",00:00:13
+Oscillation of the lever caused by the swinging of the pendulum.,"['Oscillation', 'swinging']",1,1,"('swinging', 'Oscillation')",00:00:10
+"Method according to claim 1, characterized in that the time duration of the quality reduction is limited at least to the duration of the interference triggered by the switching process.","['interference', 'process']",1,1,"('process', 'interference')",00:00:12
+Student protests are turning into a Twitter revolution in Moldova.,"['protests', 'revolution']",0,0,"('protests', 'revolution')",00:00:11
+"Nasal dryness causes nosebleeds, coughing, wheezing, and other short-term respiratory problems.","['dryness', 'coughing']",0,0,"('dryness', 'coughing')",00:00:11
+"Colds and flu cause inflammation of the mucous membranes of the nose, throat and mouth.","['flu', 'inflammation']",0,0,"('flu', 'inflammation')",00:00:15
+Defra identified the different noises made by dogs and the meanings behind them.,"['noises', 'dogs']",0,1,"('dogs', 'noises')",00:00:08
+The Maryland Department of the Environment has already worked to reduce the amount of pollution from sources like cars and factories.,"['pollution', 'factories']",1,1,"('factories', 'pollution')",00:00:09
+"Soya farming is one of the main causes of tropical deforestation, which currently produces a fifth of global climate change.","['Soya farming', 'deforestation']",0,0,"('Soya farming', 'deforestation')",00:00:12
+The encroaching darkness has been caused by the twin horrors of war and a mysterious plague.,"['darkness', 'plague']",1,1,"('plague', 'darkness')",00:00:13
+"Alzheimer's disease is a degenerative brain disorder that results in memory loss, impaired thinking, difficulty finding the right word when speaking, and personality changes (see ""Warning signs of Alzheimer's disease,"" below).","['disorder', 'memory loss']",0,0,"('disorder', 'memory loss')",00:00:11
+The clock signal was generated from an external cavity semiconductor laser.,"['signal', 'laser']",1,1,"('laser', 'signal')",00:00:11
+The landslides caused by these earthquakes and aftershocks were concentrated along the mudstone and sandstone surfaces.,"['landslides', 'aftershocks']",1,1,"('aftershocks', 'landslides')",00:00:15
+The desperate man who had clung to the stump had battered the rocks with a shuddering thump.,"['man', 'thump']",0,0,"('man', 'thump')",00:00:11
+"Systemically, dust and fume cause irritation of the upper respiratory tract, metallic taste and nausea.","['fume', 'nausea']",0,0,"('fume', 'nausea')",00:00:18
+"The dust, noise, and sleep deprivation produced by the construction are intolerable.","['dust', 'construction']",1,1,"('construction', 'dust')",00:00:16
+The transmitter sends a radio signal to the doorbell radio receiver inside the building.,"['transmitter', 'signal']",0,0,"('transmitter', 'signal')",00:00:14
+They are all in on it and the same people who caused the destruction of the economy are still running the show so they can keep us down and buy up the country cheap.,"['people', 'destruction']",0,0,"('people', 'destruction')",00:00:09
+"In two of the cases reported in the media, an older woman's baby was stillborn because of an abnormal placeta, and one of the miscarriages was caused by the umbilical chord encircling the fetus.","['miscarriages', 'chord']",1,1,"('chord', 'miscarriages')",00:00:21
+"When it was closer she saw the light was coming from a flashlight being carried in the mouth of a large black Scottie dog, its muzzle gray with age.","['light', 'flashlight']",1,1,"('flashlight', 'light')",00:00:19
+Vulvodynia is the cause of chronic vulval pain in the absence of skin disease and infection.,"['Vulvodynia', 'vulval pain']",0,0,"('Vulvodynia', 'vulval pain')",00:00:09
+Olympic chiefs are worried about the environmental damage caused by the Olympic flame.,"['damage', 'flame']",1,1,"('flame', 'damage')",00:00:14
+"The log truck caught fire after the collision, but the 35-year-old driver escaped before the cab became engulfed in flames.","['fire', 'collision']",1,1,"('collision', 'fire')",00:00:09
+"I have an additional concern about body exposure to any electromagnetic radiation, from computers and cell phones held next to the body.","['radiation', 'computers']",1,1,"('computers', 'radiation')",00:00:15
+"The spill was caused by a leak in a Kuwaiti tanker carrying 160,000 tonnes of crude, after it collided with a dredger further south on December 14.","['spill', 'leak']",1,1,"('leak', 'spill')",00:00:11
+"Josie Cormier, succumbed to peer pressure and now hangs out with the popular crowd that often instigates the harassment.","['crowd', 'harassment']",0,0,"('crowd', 'harassment')",00:00:23
+"Her unexpected elimination caused a riot on the Internet, and one blog site (SOHH.com) referred to her elimination episode as the one where the show lost all credibility.","['elimination', 'riot']",0,0,"('elimination', 'riot')",00:00:11
+"I changed the balance of the flavours through my selection of bread, and got an increase in the sweetness with a choice of raisin bread.","['increase', 'raisin bread']",1,1,"('raisin bread', 'increase')",00:00:16
+Our inquiry into the city's job creation funding came from a reader's tip.,"['inquiry', 'tip']",1,1,"('tip', 'inquiry')",00:00:07
+It is very natural and normal to feel grief and sorrow after the loss of a pet.,"['sorrow', 'loss']",1,1,"('loss', 'sorrow')",00:00:14
+The irritation from the chemicals in the tobacco is considered to be the number one contributing factor.,"['irritation', 'chemicals']",1,1,"('chemicals', 'irritation')",00:00:13
+"The smell was radiating from all directions, from every tree and branch.","['smell', 'tree']",1,1,"('tree', 'smell')",00:00:18
+Thousands of women suffer headaches from caffeine withdrawal as a result of this study.,"['headaches', 'caffeine withdrawal']",1,1,"('caffeine withdrawal', 'headaches')",00:00:13
+Up to 85% of viruses that cause respiratory illness are identified by the technology.,"['viruses', 'illness']",0,0,"('viruses', 'illness')",00:00:17
+The disruption has been caused by the freak storms and flash floods overnight.,"['disruption', 'floods']",1,1,"('floods', 'disruption')",00:00:07
+An organization with the mission of allowing a safe haven for parents to share their grief after the death of a child.,"['grief', 'death']",1,1,"('death', 'grief')",00:00:17
+I have been talking extensively here about the disruption that has been caused by the Brazilian Air Traffic Controllers white strike.,"['disruption', 'strike']",1,1,"('strike', 'disruption')",00:00:13
+Air pollution from coal fired sources is so serious we can not afford a policy that backslides in any way.,"['pollution', 'coal']",1,1,"('coal', 'pollution')",00:00:11
+Many viral infections that cause rash resolve within several days and require no medication.,"['infections', 'rash']",0,0,"('infections', 'rash')",00:00:19
+The kind of treatments necessary to kill the bacteria which cause acne breakouts must be prescribed or administered by a medical professional.,"['bacteria', 'breakouts']",0,0,"('bacteria', 'breakouts')",00:00:10
+"Blinking is caused by the eyelids sliding down over the positively charged cornea, whereas saccade potentials are caused by changes in the orientation of the corneoretinal dipole.","['Blinking', 'eyelids']",1,1,"('eyelids', 'Blinking')",00:00:10
+The surprise visit caused a frenzy on the already chaotic trading floor.,"['visit', 'frenzy']",0,0,"('visit', 'frenzy')",00:00:10
+An agenda of deeper reforms can boost public confidence even as it undoes a lot of the distress caused by the financiers and bankers.,"['distress', 'bankers']",1,1,"('bankers', 'distress')",00:00:17
+Be sure to drink plenty of water to prevent running a fever from dehydration.,"['fever', 'dehydration']",1,1,"('dehydration', 'fever')",00:00:16
+"The consequences of the injuries caused by the bike-accident in February, fractures in the area of head and neck, unfortunately have turned out to be still too severe.","['injuries', 'bike-accident']",1,1,"('bike-accident', 'injuries')",00:00:10
+"The amide-linked local anesthetics, bupivacaine and ropivacaine, cause depression of cardiac contractility and dysrhythmias.","['anesthetics', 'depression']",0,0,"('anesthetics', 'depression')",00:00:23
+"Aware of the suffering caused by unmindful drinking, I am committed to cultivate good health, both physical and mental, for myself, my family, and my society.","['suffering', 'drinking']",1,1,"('drinking', 'suffering')",00:00:10
+Oak root and chamomile provide a gentle astringent that helps reduce inflammation and calms skin irritation from the sun and environmental pollutants.,"['irritation', 'sun']",1,1,"('sun', 'irritation')",00:00:17
+The colitis usually is caused by taking antibiotics.,"['colitis', 'antibiotics']",1,1,"('antibiotics', 'colitis')",00:00:19
+"The halting of easy profits from inflation brought on a banking crisis, which resulted in a complete restructuring of the industry during the late 1990s.","['profits', 'inflation']",1,1,"('inflation', 'profits')",00:00:09
+"Overall, the fire after the earthquake burned out 7456 houses in over 530 localities.","['fire', 'earthquake']",1,1,"('earthquake', 'fire')",00:00:06
+The northwest swell was generated by a powerful storm off Japan on Jan. 5 and gained strength last week.,"['swell', 'storm']",1,1,"('storm', 'swell')",00:00:10
+"In the same way that diet and stress effect facial acne they also effect body acne therefore the basic ""clear skin rules"" of cutting out greasy, fatty foods, and sugary foods as well as trying to reduce everyday stress apply to body acne as well.","['stress', 'acne']",0,0,"('stress', 'acne')",00:00:08
+The wire had caused a slight injury on the ventral side of the neck and at the base of horns.,"['wire', 'injury']",0,0,"('wire', 'injury')",00:00:12
+Special articles specifically on gas corrosion and stress corrosion are also available in the literature.,"['stress', 'corrosion']",0,-1,[],00:00:12
+Recent traffic studies by the department show that a majority of the accidents are caused by drivers.,"['accidents', 'drivers']",1,1,"('drivers', 'accidents')",00:00:13
+Chest pain from indigestion feels like an intense burning and is usually accompanied by regurgitation and gas.,"['pain', 'indigestion']",1,1,"('indigestion', 'pain')",00:00:09
+"It was intermittently wet and dry, and almost always followed with a whine and often a few tears from the terrible pain.","['tears', 'pain']",1,1,"('pain', 'tears')",00:00:12
+"The mite's burrows, fecal matter, proteins and eggs cause itching, rashes and sensitivity.","['burrows', 'rashes']",0,0,"('burrows', 'rashes')",00:00:09
+"Thus previous scientific estimates had overstated the devastation caused by the asteroid, since topographic and ecologic factors contributing to the result had not been taken into account.","['devastation', 'asteroid']",1,1,"('asteroid', 'devastation')",00:00:08
+The analysis device instigates the termination of the connection.,"['device', 'termination']",0,0,"('device', 'termination')",00:00:11
+Either we saw our mothers show fear from bugs /spiders/cockroaches and learned to fear them irrationally.,"['fear', 'bugs']",1,1,"('bugs', 'fear')",00:00:12
+"It's common to get a slight fever from immunizations, which can make them uncomfortable.","['fever', 'immunizations']",1,1,"('immunizations', 'fever')",00:00:12
+They are intentionally sewn larger than the pillow to accommodate for shrinkage from washing.,"['shrinkage', 'washing']",1,1,"('washing', 'shrinkage')",00:00:13
+Heavy thunderstorms caused cancellation of races later in the afternoon preventing the Masters Mens fours and Masters Womens and Womens eights from racing.,"['thunderstorms', 'cancellation']",0,0,"('thunderstorms', 'cancellation')",00:00:11
+"Actually, the earthquake is largely from a global company that had interests insured in China, whereas the snowstorm losses are exclusively from a variety of Chinese companies that we had relationships with for some year.","['snowstorm', 'losses']",0,0,"('snowstorm', 'losses')",00:00:13
+By avoiding or limiting contact with trash the chance of contracting germs that lead to sickness or disease is decreased.,"['germs', 'sickness']",0,0,"('germs', 'sickness')",00:00:28
+"In the years since the ADM scandal of the 1990s, the calamities caused by the subversion of the food resources of masses of people to the private profit interests of a few has reached new heights.","['calamities', 'subversion']",1,1,"('subversion', 'calamities')",00:00:15
+"The living vaccine, caused a sharp temperature elevation on the day following the second injection.","['vaccine', 'temperature elevation']",0,0,"('vaccine', 'temperature elevation')",00:00:07
+"In a person who already has some neck tension from stress, such an event can lead to a long-term increase of neck tension.","['tension', 'stress']",1,1,"('stress', 'tension')",00:00:08
+The first order of business when a patient complains of palpitations is to check whether the palpitations are caused by a heart rhythm.,"['palpitations', 'heart rhythm']",1,1,"('heart rhythm', 'palpitations')",00:00:11
+"The miscarriages are caused by one time, non-repeating genetic problems.","['miscarriages', 'genetic problems']",1,1,"('genetic problems', 'miscarriages')",00:00:12
+"It found the net aggregate economic benefit to native-born Americans from the enormous influx accidentally triggered by the 1965 immigration is nugatory-less than $10 billion a year, in an economy of $10 trillion.","['influx', 'immigration']",1,1,"('immigration', 'influx')",00:00:12
+McGee's talent stemmed from mother's teaching.,"['talent', 'teaching']",1,1,"('teaching', 'talent')",00:00:12
+Harbor Beach man pleads in case that stemmed from dog attack on tot.,"['case', 'attack']",1,1,"('attack', 'case')",00:00:16
+Sinusitis and tinnitus cause stress or anxiety.,"['Sinusitis', 'anxiety']",0,0,"('Sinusitis', 'anxiety')",00:00:21
+"The cool fog of the summer morning had inundated the fabric of the blimp's coverings with excess moisture, adding additional weight to the aircraft.","['fog', 'moisture']",0,0,"('fog', 'moisture')",00:00:15
+The perturbations caused by the substorm related field-aligned currents are most notable in the east-west deflections of the geosynchronous magnetic field.,"['perturbations', 'currents']",1,1,"('currents', 'perturbations')",00:00:14
+Xanax works by changing brain chemicals that cause stress and anxiety.,"['chemicals', 'anxiety']",0,0,"('chemicals', 'anxiety')",00:00:13
+"However several species of fungi, insect, and bacteria cause mortality or reduced growth of the tree.","['fungi', 'mortality']",0,0,"('fungi', 'mortality')",00:00:14
+The author clearly got a great deal of pleasure from the work and did not allow his vast amount of material to force him into shallow generalizations.,"['pleasure', 'work']",1,1,"('work', 'pleasure')",00:00:12
+"General information about the infection caused by the bacteria called Salmonella, when food is eaten raw or undercooked.","['infection', 'bacteria']",1,1,"('bacteria', 'infection')",00:00:16
+"All the profits from the books listed below are donated to the Norman Historic Preservation Program, Inc. (NHPP) to be used toward the renovation of the old Norman High School as a children's educational center and museum.","['profits', 'books']",1,1,"('books', 'profits')",00:00:15
+Gaza following the widespread destruction caused by the Israeli invasion.,"['destruction', 'invasion']",1,1,"('invasion', 'destruction')",00:00:13
+The hole has been caused by the accumulation of dust into planets like Earth.,"['hole', 'accumulation']",1,1,"('accumulation', 'hole')",00:00:09
+Sigmoid colon diverticulitis is the most common cause of acute pain in the left lower abdomen in older adults.,"['diverticulitis', 'pain']",0,0,"('diverticulitis', 'pain')",00:00:15
+"The relative calm produced by the Shia ceasefire has coincided with what the CIA is now calling the ""near strategic defeat"" of al-Qaeda in Iraq.","['calm', 'ceasefire']",0,1,"('ceasefire', 'calm')",00:00:13
+"We are aware that acne or pimples are caused by hormonal imbalance, improper skin care or bad eating habits.","['acne', 'hormonal imbalance']",1,1,"('hormonal imbalance', 'acne')",00:00:14
+My grandmother is beautiful too but she has a lot of wrinkles from the sun.,"['wrinkles', 'sun']",1,1,"('sun', 'wrinkles')",00:00:13
+The confrontation between Martyn and Liz earlier ended with a struggle that resulted in Martyn's drowning.,"['struggle', 'drowning']",0,0,"('struggle', 'drowning')",00:00:18
+"The Lancet study already demonstrated that, as of July 2006, the deaths caused by the U.S. invasion of Iraq rivaled the death toll of the 1994 Rwandan genocide.","['deaths', 'invasion']",1,1,"('invasion', 'deaths')",00:00:11
+A 3-year-old boy sustains a chemical burn after the spilling of bleach onto his lower extremities.,"['burn', 'spilling']",1,1,"('spilling', 'burn')",00:00:15
+I get severe headaches and dizziness from colas and drinks with nutrasweet (aspartame) and splenda (sucralose).,"['dizziness', 'drinks']",1,1,"('drinks', 'dizziness')",00:00:14
+For a few more years the surplus is generated by the excess of Social Security tax revenue over benefits paid to today's elderly and disabled.,"['surplus', 'excess']",1,1,"('excess', 'surplus')",00:00:13
+"The decline in populations has been caused by the influx of industrial and resident waste water, sludge sedimentation, and land reclamation.","['decline', 'influx']",1,1,"('influx', 'decline')",00:00:14
+A lamp emiting a strong white light is placed on an mobile block makes it possible to the scanner to sweep all the document.,"['lamp', 'light']",0,0,"('lamp', 'light')",00:00:14
+"Relena's head was bowed, though the heat was radiating from the young princess in waves.","['heat', 'princess']",1,1,"('princess', 'heat')",00:00:16
+"In many patients, the disease caused by the H5N1 virus follows an unusually aggressive clinical course, with rapid deterioration and high fatality.","['disease', 'virus']",1,1,"('virus', 'disease')",00:00:15
+Agriculture has again become a producer of renewable domestic energy to offset supply disruption and stabilize fuel prices.,"['producer', 'energy']",0,0,"('producer', 'energy')",00:00:11
+"Losing land to new white settlers, non-payment, past broken treaties, plus food shortages and famine following crop failure led to great discontent among the Dakota people.","['famine', 'failure']",1,1,"('failure', 'famine')",00:00:10
+"Some people voluntarily get involved with politicisation, while others become victims of circumstances created by the politicisation.","['circumstances', 'politicisation']",1,1,"('politicisation', 'circumstances')",00:00:12
+"Polar bears and hippos have joined the ranks of species threatened with extinction from climate change, unregulated hunting and other dangers created by humans.","['extinction', 'climate change']",1,1,"('climate change', 'extinction')",00:00:23
+"Most of the excitement came from the anticipation of winning a nice prize, all for the sum of one dollar.","['excitement', 'anticipation']",1,1,"('anticipation', 'excitement')",00:00:12
+"Progress comes from constructive competition, and churches and religions can benefit greatly from it.","['Progress', 'competition']",1,1,"('competition', 'Progress')",00:00:12
+"The concrete sidewalk radiated heat like a furnace, and there was no relief in the shade of a large crepe myrtle tree as they walked under it.","['sidewalk', 'heat']",0,0,"('sidewalk', 'heat')",00:00:21
+The fire started with an explosion in the cargo hold and spread across the ship within 10 minutes.,"['fire', 'explosion']",1,1,"('explosion', 'fire')",00:00:08
+Villagers live in constant terror of indiscriminate gunfire which fills the nights throughout Chechnya.,"['terror', 'gunfire']",1,1,"('gunfire', 'terror')",00:00:14
+There was an the outrage from the sexism crusaders.,"['outrage', 'crusaders']",1,1,"('crusaders', 'outrage')",00:00:18
+"His highly original and topical act reaches from the top of the corporate ladder into blokes' sheds, leaving his audiences aching from laughter.","['aching', 'laughter']",1,1,"('laughter', 'aching')",00:00:12
+Videotape is a fragile medium subject to damage and deterioration from exposure to poor environmental conditions and inadequate handling practices.,"['deterioration', 'exposure']",1,1,"('exposure', 'deterioration')",00:00:15
+Most of the steam comes from a volcano's magma.,"['steam', 'magma']",1,1,"('magma', 'steam')",00:00:15
+When I start the engine the car makes a screaching sound.,"['car', 'sound']",0,0,"('car', 'sound')",00:00:19
+"The enclosed community produced the enclosed personality, and vice versa.","['community', 'personality']",0,0,"('community', 'personality')",00:00:22
+"In a clock, the 'tick' is produced by the action of the escapement.","['tick', 'action']",1,1,"('action', 'tick')",00:00:13
+"The risks of this procedure include anesthesia complications, post-operative difficulty breathing, and sore throat from intubation.","['sore throat', 'intubation']",1,1,"('intubation', 'sore throat')",00:00:14
+"Whilst audio sampled at 8kHz is sufficient for communication, such narrow-band speech does not sound natural, leading to user frustration after prolonged exposure, and making language learning difficult.","['frustration', 'exposure']",1,1,"('exposure', 'frustration')",00:00:17
+"Initiated during the early 1990's National Mineral Resource Assessment, this project received a major boost from funding provided through the 'Data-at-Risk' add-on funding received by the USGS through the 2004 fiscal year.","['boost', 'funding']",1,1,"('funding', 'boost')",00:00:16
+The energy of emission produces the separation field.,"['energy', 'separation field']",0,0,"('energy', 'separation field')",00:00:12
+"I derive tremendous pleasure and fulfillment from teaching, particularly when I am able to help students understand a previously foreign concept or idea, aid them in seeing a familiar object or event from a new and unusual perspective, guide them with projects they are working on, or encourage the interests they have.","['fulfillment', 'teaching']",1,1,"('teaching', 'fulfillment')",00:00:14
+"Sometimes the blockage comes from fear, as for a CEO who hates public speaking but must give frequent speeches.","['blockage', 'fear']",1,1,"('fear', 'blockage')",00:00:19
+"When they took the floor against a team favored to win the national championship, the patriots radiated carefree confidence.","['patriots', 'confidence']",0,0,"('patriots', 'confidence')",00:00:17
+Zinc is essential for growth and cell division.,"['Zinc', 'growth']",0,0,"('Zinc', 'growth')",00:00:14
+"The backup vocals are from a rather talented female, Stephanie Eitel.","['vocals', 'female']",0,-1,[],00:00:15
+The soft brown and beige tones in the decoration provide a tranquil mood.,"['tones', 'mood']",0,0,"('tones', 'mood')",00:00:15
+Their success comes from their ability to quickly answer a growing surge of mid-size customer demands -- demands that *always* focus around ease of implementation and ease of administration/use.,"['success', 'ability']",1,1,"('ability', 'success')",00:00:10
+"The filament emits a yellowish-white light, and the walls have a strong yellow tint.","['filament', 'light']",0,0,"('filament', 'light')",00:00:09
+"This program is an effective step to mitigate damage from hurricanes, but let us not forget this is a retroactive measure.","['damage', 'hurricanes']",1,1,"('hurricanes', 'damage')",00:00:10
+"It's not unlike an archeological dig through an attic, choking from laughter rather than dust, as familiar and forgotten memories are refreshed and taken for a satirical synaptic spin by a master humorist.","['choking', 'laughter']",1,1,"('laughter', 'choking')",00:00:20
+Six glowing disks await activation by the footsteps of desert wanderers.,"['activation', 'footsteps']",1,1,"('footsteps', 'activation')",00:00:13
+Significant reductions of these levels produce pastries with poor lift in the oven and with unacceptable shrinkage after cooling.,"['shrinkage', 'cooling']",1,1,"('cooling', 'shrinkage')",00:00:13
+"The transmitter generates the electromagnetic wave, some of which will be incident on the receiver.","['transmitter', 'wave']",0,0,"('transmitter', 'wave')",00:00:16
+"True progress comes from science, debate, inference, logic and reasoning.","['progress', 'science']",1,1,"('science', 'progress')",00:00:14
+Preliminary experiments seemed to support this idea in that the quenches produced the predicted high vortex-densities.,"['quenches', 'vortex-densities']",0,0,"('quenches', 'vortex-densities')",00:00:11
+A tear or a crease changes the character of the surface more drastically than a mere deformation from roundness.,"['deformation', 'roundness']",1,-1,[],00:00:19
+"Continuous improvement starts with measuring process performance, and instigating a robust process for reviewing further changes logically and quickly.","['improvement', 'measuring']",1,1,"('measuring', 'improvement')",00:00:08
+The period of tumor shrinkage after radiation therapy is often long and varied (mean 29 months).,"['shrinkage', 'therapy']",1,1,"('therapy', 'shrinkage')",00:00:13
+"First, the sound radiated from a surface simulating a two-dimensional monopole is calculated using an unstructured mesh.","['sound', 'surface']",1,1,"('surface', 'sound')",00:00:15
+"I have always drawn satisfaction from exertion, straining my muscles to their limits.","['satisfaction', 'exertion']",1,1,"('exertion', 'satisfaction')",00:00:14
+That happens when the media makes a mistake.,"['media', 'mistake']",0,0,"('media', 'mistake')",00:00:14
+Sudden death from inhalation of petroleum distillates is well recognised in misuses of volatile substances.,"['death', 'inhalation']",1,1,"('inhalation', 'death')",00:00:13
+We continue to see progress toward a world free of the daily terror of antipersonnel landmines.,"['terror', 'landmines']",1,1,"('landmines', 'terror')",00:00:23
+"In a conventional, steam turbine-only power plant, the heat required to produce the steam comes from a boiler.","['heat', 'boiler']",1,1,"('boiler', 'heat')",00:00:10
+"After several years of self-observation, Alexander began to teach his method of conscious inhibition through manual facilitated movement.","['inhibition', 'movement']",1,0,"('inhibition', 'movement')",00:00:08
+"As the molten metal cools, it hardens and assumes the shape created by the mold's cavity.","['shape', 'cavity']",1,1,"('cavity', 'shape')",00:00:21
+We planetary citizens have a unique capacity for ecstasy from repetition - especially when it comes from drumming.,"['ecstasy', 'repetition']",1,1,"('repetition', 'ecstasy')",00:00:08
+The scintillator material produces visible light when transversed by the particle's radiated energy.,"['scintillator material', 'visible light']",0,0,"('scintillator material', 'visible light')",00:00:10
+The evacuation after the Chernobyl accident was poorly planned and chaotic.,"['evacuation', 'accident']",1,1,"('accident', 'evacuation')",00:00:17
+"Their chemical activation by light (halogen, plasma, lasers, etc.) enhances their efficiency by reducing exposure time and number of appointments.","['activation', 'light']",1,1,"('light', 'activation')",00:00:10
+"The moisturizers' primary function is to keep skin moist, minimize wrinkles from dryness, smoothe and soften skin, and to deliver other ingredients, like sunscreen, that benefit the skin.","['wrinkles', 'dryness']",1,1,"('dryness', 'wrinkles')",00:00:14
+This lamp causes serious skin burn and eye inflammation from shortwave ultraviolet radiation when outer envelope of the lamp is broken or punctured.,"['inflammation', 'radiation']",1,1,"('radiation', 'inflammation')",00:00:17
+"Genuine joy comes from profound spiritual awareness on life and an absolute clarity of direction, living for a purpose.","['joy', 'awareness']",1,1,"('awareness', 'joy')",00:00:17
+The light in the background is from the sunrise.,"['light', 'sunrise']",1,1,"('sunrise', 'light')",00:00:11
+"The volunteers enjoy a sense of satisfaction and personal fulfillment from helping others, and recent findings suggest that this feeling may well be a major reason why many people choose to volunteer.","['fulfillment', 'helping']",1,1,"('helping', 'fulfillment')",00:00:12
+This prescription drug alleviates panic from claustrophobia and is also very handy for airplane rides and in case of broken-down subway cars or elevators.,"['panic', 'claustrophobia']",1,1,"('claustrophobia', 'panic')",00:00:06
+It has helped to revive a city whose primary natural resource -- its charm -- is constantly threatened with extinction from overdevelopment.,"['extinction', 'overdevelopment']",1,1,"('overdevelopment', 'extinction')",00:00:08
+Diabetes drug shows promise for preventing brain injury from radiation therapy.,"['injury', 'therapy']",1,1,"('therapy', 'injury')",00:00:11
+Scientific progress comes from breakthroughs and breakthroughs by their very nature are unpredictable and surprising in their impact.,"['progress', 'breakthroughs']",1,1,"('breakthroughs', 'progress')",00:00:09
+The afterglow is produced by shock waves in the jets of tenuous gas that shoot from the blast at almost the speed of light.,"['afterglow', 'shock waves']",1,1,"('shock waves', 'afterglow')",00:00:14
+"Like normal 'Simon' games, it starts with a one digit sequence, and then increases indefinitely until the caller makes a mistake.","['caller', 'mistake']",0,0,"('caller', 'mistake')",00:00:16
+Profit from sale of investments is tax-free for general insurers.,"['Profit', 'sale']",1,1,"('sale', 'Profit')",00:00:23
+The design of the shape of the can ends moreover has a marked effect on their ability to resist deformation from internal pressure.,"['deformation', 'pressure']",1,1,"('pressure', 'deformation')",00:00:13
+Companies face big risk from loss of key employees.,"['risk', 'loss']",1,1,"('loss', 'risk')",00:00:14
+Some people experience tremors after drinking coffee and tea.,"['tremors', 'drinking']",1,1,"('drinking', 'tremors')",00:00:22
+Hitting out of anger is absolutely wrong.,"['Hitting', 'anger']",1,1,"('anger', 'Hitting')",00:00:11
+He derives great joy and happiness from cycling.,"['happiness', 'cycling']",1,1,"('cycling', 'happiness')",00:00:16
+The man cannot be too old - in his middle thirties - but his face exhibits more wrinkles from smiling than I've seen upon the mug of the happiest of grandparents.,"['wrinkles', 'smiling']",1,1,"('smiling', 'wrinkles')",00:00:18
+The randomized hypertensive ABCD study demonstrated a decrease in myocardial infarction with ACE inhibitors and a decrease in overall mortality with aggressive blood pressure control.,"['decrease', 'control']",1,1,"('control', 'decrease')",00:00:20
+The resulting shockwaves produced the metal-forming conditions for periods of 100-200 ns.,"['shockwaves', 'conditions']",0,0,"('shockwaves', 'conditions')",00:00:13
+"Another drinking accident happened in the Gallup area the other day, which is plagued by drinking and driving accidents.","['drinking', 'accident']",0,0,"('drinking', 'accident')",00:00:15
+"The programmer made a mistake with respect to quoting, but it appeared as over-quoting instead of lurking as a security problem.","['programmer', 'mistake']",0,0,"('programmer', 'mistake')",00:00:08
+Entrepreneurship out of necessity is quite common in Europe where 60% of female headed businesses in Northern Europe and 70% in Southern Europe are established for this reason.,"['Entrepreneurship', 'necessity']",1,1,"('necessity', 'Entrepreneurship')",00:00:17
+"Anthony finds inspiration in a beautiful, enigmatic older woman who teaches him to follow his heart and find happiness through swing dancing.","['happiness', 'dancing']",1,1,"('dancing', 'happiness')",00:00:14
+"I'm finding the most joy comes from Asian flavours; beautiful fresh fish; things that have been marinated; roasted vegetables; meats that intensify in flavour during the cooking process; and dishes made from the most brilliant, fresh, in-season food.","['joy', 'flavours']",1,1,"('flavours', 'joy')",00:00:07
+A cancer survivor writes about the relatively rare occurrence of calcification of the breast after radiation therapy.,"['calcification', 'therapy']",1,1,"('therapy', 'calcification')",00:00:20
+The neutrons were produced by bombarding a tritium target with deuterium.,"['neutrons', 'bombarding']",1,1,"('bombarding', 'neutrons')",00:00:13
+"Before doing for his hair reduction by laser treatment, he first consulted with a dermatologist.","['reduction', 'treatment']",1,1,"('treatment', 'reduction')",00:00:12
+"Short-term side effects are uncommon, but include headache from eyestrain, nausea, agitation or nervousness.","['headache', 'eyestrain']",1,1,"('eyestrain', 'headache')",00:00:11
+"Thatch is caused by excessive growth from overfertilizing, by allowing the grass to get too high before mowing, or by incorrect watering.","['growth', 'overfertilizing']",1,1,"('overfertilizing', 'growth')",00:00:08
+"Alabama has since enacted legislation, allowing death by lethal injection as an alternative choice to death in the electric chair.","['death', 'injection']",1,1,"('injection', 'death')",00:00:15
+It's very rewarding and I get a great deal of enjoyment and satisfaction from mentoring.,"['satisfaction', 'mentoring']",1,1,"('mentoring', 'satisfaction')",00:00:11
+The bombing produced the worst carnage since a Nov. 23 attack in the Shi'ite slum of Sadr City that killed more than 200 people.,"['bombing', 'carnage']",0,0,"('bombing', 'carnage')",00:00:08
+My problem is that the advertisement gives the impression that women in rural Bangladesh have 6 children.,"['advertisement', 'impression']",0,0,"('advertisement', 'impression')",00:00:15
+The southern supercell produced the longest tornado track of the outbreak (tornado #4).,"['supercell', 'tornado track']",0,0,"('supercell', 'tornado track')",00:00:17
+"That year, summer students at the VLA made the first discovery of radio emission from a brown dwarf.","['emission', 'dwarf']",1,1,"('dwarf', 'emission')",00:00:14
+"The tongue has taste buds, but a cat's appetite comes from the smell of the food and doesn't come from the taste of it.","['appetite', 'smell']",1,1,"('smell', 'appetite')",00:00:11
+The dryer emits air that is regulated close to your body temperature.,"['dryer', 'air']",1,0,"('dryer', 'air')",00:00:15
+Flight disruption after the attacks in the US delayed him there for three days.,"['disruption', 'attacks']",1,1,"('attacks', 'disruption')",00:00:13
+Ray Parlour shows his frustration after Middlesbrough's defeat.,"['frustration', 'defeat']",1,1,"('defeat', 'frustration')",00:00:17
+Hundreds of thousands in central China are sleeping outdoors for fear of more tremors after Saturday's earthquake.,"['tremors', 'earthquake']",1,1,"('earthquake', 'tremors')",00:00:14
+"The taste is from the ginseng, not alcohol.","['taste', 'ginseng']",1,1,"('ginseng', 'taste')",00:00:22
+Maybe the most significant difference is that we have changed from emigration out of necessity to emigration in search of new opportunities.,"['emigration', 'necessity']",1,1,"('necessity', 'emigration')",00:00:11
+"On both of my systems, the reboot produced the ominous message 'Missing operating system'.","['reboot', 'message']",0,0,"('reboot', 'message')",00:00:14
+The person providing the alibi is the culprit and would be providing a fabricated alibi.,"['person', 'alibi']",0,0,"('person', 'alibi')",00:00:11
+"The effect of pain relief by acupuncture lasts for an extended period of time, sometimes months after the needle was removed.","['relief', 'acupuncture']",1,1,"('acupuncture', 'relief')",00:00:16
+"About 30 ducks were found dead in Klamath County in the past two days, and officials are investigating whether the deaths are from a cholera outbreak.","['deaths', 'outbreak']",1,1,"('outbreak', 'deaths')",00:00:06
+Principals respond to a decrease in uncertainty with more aggressive strategies.,"['decrease', 'strategies']",0,0,"('decrease', 'strategies')",00:00:07
+Most of the taste of strong onions comes from the smell.,"['taste', 'smell']",1,1,"('smell', 'taste')",00:00:08
+A city nightclub has had an ambitious expansion plan blocked over concerns about unruly behaviour from drunken revellers.,"['behaviour', 'revellers']",1,1,"('revellers', 'behaviour')",00:00:20
+"The studies revealed that skin irritation from soaps, inaccessibility to supplies or sinks, and insufficient time to wash hands between every patient care contact were the main reasons given by healthcare workers for lack of handwashing compliance.","['irritation', 'soaps']",1,1,"('soaps', 'irritation')",00:00:13
+But not every run of the experiment produced the desired state - a very large number of failed tries accompanied each successful creation.,"['experiment', 'state']",0,0,"('experiment', 'state')",00:00:23
+The movie gives the inaccurate impression that the Apaches all surrendered.,"['movie', 'impression']",0,0,"('movie', 'impression')",00:00:10
+"Thailand has been bracing itself for a downturn in the wake of the bombs, especially in the tourist sector.","['downturn', 'bombs']",1,1,"('bombs', 'downturn')",00:00:15
+The spiciness comes from small capsaicin glands located between the pepper's outside skin and the white ribs inside.,"['spiciness', 'glands']",1,1,"('glands', 'spiciness')",00:00:19
+"In one day, the Red Crescent treated more than 50 injuries - mainly broken bones caused by panic from aftershocks.","['panic', 'aftershocks']",1,1,"('aftershocks', 'panic')",00:00:16
+"In the most common form of such an attack, called ischemic stroke, the blockage comes from a blood clot that develops in one of the brain's blood vessels.","['blockage', 'clot']",1,1,"('clot', 'blockage')",00:00:16
+"The report links conditions in some of the worst affected localities and the likelihood that dire poverty - combined with despair and outrage over rampant corruption, repressive policies, and governments' failure to address local needs - could lead to outbreaks of localised unrest with the potential to spread into a wider regional conflict.","['outrage', 'corruption']",1,1,"('corruption', 'outrage')",00:00:10
+The troubled company is still feeling aftershocks after its devastating withdrawal of the pain medication Vioxx six months ago.,"['aftershocks', 'withdrawal']",1,1,"('withdrawal', 'aftershocks')",00:00:16
+Energy expenditure through physical activity is a key component in the prevention and treatment of overweight and obesity.,"['expenditure', 'activity']",1,1,"('activity', 'expenditure')",00:00:08
+The cathode emits electrons.,"['cathode', 'electrons']",0,0,"('cathode', 'electrons')",00:00:15
+The product emits radiation.,"['product', 'radiation']",0,0,"('product', 'radiation')",00:00:08
+Infection starts with manual execution of the binary.,"['Infection', 'execution']",1,1,"('execution', 'Infection')",00:00:08
+The construction gives a refinement of Nori's argument in the case of a self-product of a curve.,"['construction', 'refinement']",0,0,"('construction', 'refinement')",00:00:13
+"There were the years of constant fatigue and shortness of breath, the heart attack at age 11, the collapse from exhaustion on her high school graduation night.","['collapse', 'exhaustion']",1,1,"('exhaustion', 'collapse')",00:00:12
+"The pipeline had to face the following main concerns from opposition: disturbance of animal migration patterns, environmental damage from spills, geological concerns and the Alaskan permafrost.","['damage', 'spills']",1,1,"('spills', 'damage')",00:00:10
+"Dehydration from fluid loss is the only major problem the virus causes, most often in the elderly.","['Dehydration', 'loss']",1,1,"('loss', 'Dehydration')",00:00:10
+"Yoga is fantastic for increased flexibility, which is great for cross-training with all the other programs we offer.","['Yoga', 'flexibility']",0,0,"('Yoga', 'flexibility')",00:00:09
+The electricity is produced by 440 nuclear reactors in 31 countries.,"['electricity', 'reactors']",1,1,"('reactors', 'electricity')",00:00:21
+"He was a trouble maker then, a leader in SDS, and a trouble maker he remains.","['trouble', 'maker']",0,-1,[],00:00:12
+"In summer 2000, an Adventist church in Polotsk, Vitebsk Region, was damaged by a fire started with flammable liquids.","['fire', 'flammable liquids']",1,1,"('flammable liquids', 'fire')",00:00:11
+The film also features documentary like segments about fishing and about the evacuation after the eruption of the volcano.,"['evacuation', 'eruption']",1,1,"('eruption', 'evacuation')",00:00:09
+"The voltage swing obtainable across the load is greater than the output voltage swing obtainable from the amplifier alone, thus the efficiency of the amplifier system and power handling capacity of the system are improved.","['swing', 'amplifier']",1,1,"('amplifier', 'swing')",00:00:23
+We examined mood alterations through physical activity and other interventions.,"['alterations', 'activity']",1,1,"('activity', 'alterations')",00:00:08
+"In addition, scientists maye have a number of potentially useful targets to prevent and treat this lethal tumour because of the findings that NOX5 mediated overproduction of hydrogen peroxide is responsible for increased growth and decreased death of cancer cells.","['overproduction', 'growth']",0,0,"('overproduction', 'growth')",00:00:18
+"It was also felt necessary at this time to draw up a similar document, dealing not with the prevention of marine pollution by dumping, but instead with the prevention of marine pollution by discharges of dangerous substances from land-based sources, watercourses or pipelines.","['pollution', 'dumping']",1,1,"('dumping', 'pollution')",00:00:15
+Short-term disability and long-term disability benefits are available at no cost to USTelecom employees.,"['disability', 'benefits']",0,0,"('disability', 'benefits')",00:00:25
+This proves that the generator actually produced the renewable energy purchased and acts as the operative instrument of the transaction.,"['generator', 'energy']",0,0,"('generator', 'energy')",00:00:13
+The said whistle produced the 2600 Hz tone necessary to authorize calls.,"['whistle', 'tone']",0,0,"('whistle', 'tone')",00:00:14
+There exists a widespread controversy over stem cell research that emanates from the techniques used in the creation and usage of stem cells.,"['controversy', 'research']",1,1,"('research', 'controversy')",00:00:11
+"In the months leading up to trade negotiations, estimates of the economic gains from trade liberalization suddenly become newsworthy.","['gains', 'liberalization']",1,1,"('liberalization', 'gains')",00:00:19
+"The resulting anti-social behaviour from alcohol consumption is an on-going matter that the town and the police continue to address, particularly in the summer months.","['behaviour', 'consumption']",1,1,"('consumption', 'behaviour')",00:00:16
+The revolution brought forth impassioned pleas condemning the common law for not respecting the interests of the people and calling for law reform.,"['revolution', 'pleas']",1,0,"('revolution', 'pleas')",00:00:08
+The health benefits of alcoholic beverages are the subject of this investigation.,"['benefits', 'beverages']",1,1,"('beverages', 'benefits')",00:00:25
+Inhibition through synaptic depression is unlike the previous forms of inhibition in that it turns on more slowly and thus acts as delayed negative feedback.,"['Inhibition', 'depression']",1,1,"('depression', 'Inhibition')",00:00:12
+"The joy comes from Cather's writing: precise observation and wording, the lilting cadence of her phrasing, the beautiful and clear pictures she evokes of scenery and characters, and the unfamiliar, old fashioned words and expressions she uses.","['joy', 'writing']",1,1,"('writing', 'joy')",00:00:19
+"Famine following drought has hit the West African savannahs, where there have been other bad droughts, notably the great one of 1972-74.","['Famine', 'drought']",1,1,"('drought', 'Famine')",00:00:10
+"And, of course, everyone wants to prove the truth of their beliefs through experience, but the belief begets the experience.","['belief', 'experience']",0,0,"('belief', 'experience')",00:00:14
+The man radiated jolliness.,"['man', 'jolliness']",0,0,"('man', 'jolliness')",00:00:25
+Earplugs relieve the discomfort from traveling with a cold allergy or sinus condition.,"['discomfort', 'traveling']",1,-1,[],00:00:22
+There is a rise in erratic behaviour from substance abuse and frustration caused by long waits for hospital treatment.,"['behaviour', 'abuse']",1,1,"('abuse', 'behaviour')",00:00:14
+"The spring molt produces mottled brown feathers, making the female almost invisible as she sits on her nest.","['molt', 'feathers']",0,0,"('molt', 'feathers')",00:00:10
+Beauty had scarcely uttered these words when the castle radiated with light.,"['castle', 'light']",0,0,"('castle', 'light')",00:00:15
+This durable short sleeve crew neck tee shirt is made of preshrunk cotton to minimize shrinkage after washing.,"['shrinkage', 'washing']",1,1,"('washing', 'shrinkage')",00:00:11
+Givers gain moral strength and happiness from giving.,"['happiness', 'giving']",1,1,"('giving', 'happiness')",00:00:09
+"Citing the conflict of interest created by the ethics charges, Nifong asked the state attorney general's office to take over the lacrosse case.","['conflict', 'charges']",1,1,"('charges', 'conflict')",00:00:16
+Apartment residents in Delaware were awarded $1 million for health problems due to mold growth from unrepaired leaks.,"['growth', 'leaks']",1,1,"('leaks', 'growth')",00:00:11
+A lamp's lumen output expresses the total amount of light the lamp emits in all directions per unit time.,"['light', 'lamp']",1,1,"('lamp', 'light')",00:00:10
+"When deliberations began, the crowd of people jamming the hallways radiated optimism.","['crowd', 'optimism']",0,0,"('crowd', 'optimism')",00:00:19
+But Hong Kong was able to recover from that and is now experiencing strong economic growth from exports.,"['growth', 'exports']",1,1,"('exports', 'growth')",00:00:08
+The sun emits light or radiation at a large range of energies or frequencies.,"['sun', 'light']",0,0,"('sun', 'light')",00:00:09
+Mr C notes worsening of seizures and cognition with sleep deprivation and stress.,"['worsening', 'deprivation']",1,1,"('deprivation', 'worsening')",00:00:22
+"Hand creams counteract dryness from exposure to wind, sun, and detergents.","['dryness', 'exposure']",1,1,"('exposure', 'dryness')",00:00:21
+Eye discomfort from this staring effect is exacerbated by low humidity.,"['discomfort', 'staring effect']",1,1,"('staring effect', 'discomfort')",00:00:13
+The transmitter emits a constant radio signal to crea.,"['transmitter', 'signal']",0,0,"('transmitter', 'signal')",00:00:23
+Parents also experience anxiety from fear of the suffering of their child and worry about an uncertain outcome.,"['anxiety', 'fear']",1,1,"('fear', 'anxiety')",00:00:16
+In chemical lasers the inversion is produced by a chemical reaction.,"['inversion', 'reaction']",1,1,"('reaction', 'inversion')",00:00:11

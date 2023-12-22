@@ -1,0 +1,455 @@
+{
+    "nodes": [
+        "old ellagic acid",
+        "old control",
+        "hepatic SIRT1",
+        "lipid disorders",
+        "Ellagic acid",
+        "protective effects",
+        "male Wistar rats",
+        "cholesterol contents",
+        "ageing",
+        "serum biochemical factors",
+        "PPAR-\u03b1",
+        "SREBP-1c",
+        "aged liver",
+        "young control",
+        "AMPK",
+        "hepatic triglyceride",
+        "lipid metabolism",
+        "traditional medicine",
+        "histopathological alterations"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Ellagic acid",
+                "lipid metabolism"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "Ellagic acid",
+                "histopathological alterations"
+            ],
+            "Ellagic acid ... improved histopathological changes"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "hepatic SIRT1"
+            ],
+            "Ellagic acid elevated the levels of SIRT1"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "AMPK"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "SREBP-1c"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "PPAR-\u03b1"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "cholesterol contents"
+            ],
+            "Ellagic acid decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "Ellagic acid",
+                "protective effects"
+            ],
+            "The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "traditional medicine",
+                "lipid metabolism"
+            ],
+            "Ellagic acid is used in traditional medicine for the treatment of lipid disorders."
+        ],
+        [
+            [
+                "traditional medicine",
+                "hepatic SIRT1"
+            ],
+            "Ellagic acid is used in traditional medicine for the treatment of lipid disorders. After one month of treatment with ellagic acid, the expression levels of hepatic SIRT1 [...] were evaluated. Ellagic acid elevated the levels of SIRT1 [...] in the liver of old rats."
+        ],
+        [
+            [
+                "traditional medicine",
+                "AMPK"
+            ],
+            "Ellagic acid is used in traditional medicine for the treatment of lipid disorders. After one month of treatment with ellagic acid, the expression levels of hepatic ... AMPK ... were evaluated. ... Ellagic acid elevated the levels of ... p-AMPK ... in the liver of old rats."
+        ],
+        [
+            [
+                "traditional medicine",
+                "PPAR-\u03b1"
+            ],
+            ""
+        ],
+        [
+            [
+                "traditional medicine",
+                "serum biochemical factors"
+            ],
+            ""
+        ],
+        [
+            [
+                "traditional medicine",
+                "cholesterol contents"
+            ],
+            "Ellagic acid is used in traditional medicine for the treatment of lipid disorders. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "traditional medicine",
+                "protective effects"
+            ],
+            "The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing"
+        ],
+        [
+            [
+                "lipid metabolism",
+                "lipid disorders"
+            ],
+            ""
+        ],
+        [
+            [
+                "lipid disorders",
+                "histopathological alterations"
+            ],
+            ""
+        ],
+        [
+            [
+                "SREBP-1c",
+                "lipid disorders"
+            ],
+            ""
+        ],
+        [
+            [
+                "lipid disorders",
+                "hepatic triglyceride"
+            ],
+            ""
+        ],
+        [
+            [
+                "lipid disorders",
+                "cholesterol contents"
+            ],
+            ""
+        ],
+        [
+            [
+                "lipid disorders",
+                "protective effects"
+            ],
+            ""
+        ],
+        [
+            [
+                "lipid metabolism",
+                "histopathological alterations"
+            ],
+            ""
+        ],
+        [
+            [
+                "aged liver",
+                "lipid metabolism"
+            ],
+            ""
+        ],
+        [
+            [
+                "old ellagic acid",
+                "lipid metabolism"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "AMPK",
+                "lipid metabolism"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats."
+        ],
+        [
+            [
+                "SREBP-1c",
+                "lipid metabolism"
+            ],
+            ""
+        ],
+        [
+            [
+                "PPAR-\u03b1",
+                "lipid metabolism"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats."
+        ],
+        [
+            [
+                "lipid metabolism",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "lipid metabolism",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "protective effects",
+                "lipid metabolism"
+            ],
+            "The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "ageing",
+                "lipid metabolism"
+            ],
+            "The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "aged liver",
+                "histopathological alterations"
+            ],
+            "It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "old ellagic acid",
+                "histopathological alterations"
+            ],
+            "It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes"
+        ],
+        [
+            [
+                "PPAR-\u03b1",
+                "histopathological alterations"
+            ],
+            ""
+        ],
+        [
+            [
+                "protective effects",
+                "histopathological alterations"
+            ],
+            "Ellagic acid decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes"
+        ],
+        [
+            [
+                "ageing",
+                "histopathological alterations"
+            ],
+            "It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes. The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "aged liver",
+                "hepatic triglyceride"
+            ],
+            ""
+        ],
+        [
+            [
+                "aged liver",
+                "cholesterol contents"
+            ],
+            ""
+        ],
+        [
+            [
+                "ageing",
+                "aged liver"
+            ],
+            "The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "old ellagic acid",
+                "hepatic SIRT1"
+            ],
+            "Ellagic acid elevated the levels of SIRT1 in the liver of old rats"
+        ],
+        [
+            [
+                "old ellagic acid",
+                "AMPK"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats."
+        ],
+        [
+            [
+                "old ellagic acid",
+                "PPAR-\u03b1"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 in the liver of old rats"
+        ],
+        [
+            [
+                "old ellagic acid",
+                "serum biochemical factors"
+            ],
+            ""
+        ],
+        [
+            [
+                "old ellagic acid",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "old ellagic acid",
+                "cholesterol contents"
+            ],
+            "Ellagic acid decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "hepatic SIRT1",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "hepatic SIRT1",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, [...] and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "hepatic SIRT1",
+                "protective effects"
+            ],
+            "Ellagic acid elevated the levels of SIRT1... The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "ageing",
+                "hepatic SIRT1"
+            ],
+            ""
+        ],
+        [
+            [
+                "AMPK",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "AMPK",
+                "protective effects"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "SREBP-1c",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "SREBP-1c",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "ageing",
+                "SREBP-1c"
+            ],
+            ""
+        ],
+        [
+            [
+                "PPAR-\u03b1",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver"
+        ],
+        [
+            [
+                "PPAR-\u03b1",
+                "protective effects"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes."
+        ],
+        [
+            [
+                "ageing",
+                "hepatic triglyceride"
+            ],
+            "Ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "protective effects",
+                "cholesterol contents"
+            ],
+            "Ellagic acid elevated the levels of SIRT1, p-AMPK, and PPAR-\u03b1 and reduced SREBP-1c level in the liver of old rats. It decreased triglyceride and cholesterol contents in the aged liver and improved histopathological changes. The results demonstrated that ellagic acid can exert protective effects against hepatic lipid metabolism disorders induced by ageing."
+        ],
+        [
+            [
+                "ageing",
+                "cholesterol contents"
+            ],
+            "It decreased triglyceride and cholesterol contents in the aged liver"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "lipid disorders",
+            "protective effects",
+            "lipid metabolism"
+        ]
+    ],
+    "exec_time": "01:51:32"
+}

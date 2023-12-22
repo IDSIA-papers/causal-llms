@@ -1,0 +1,937 @@
+{
+    "nodes": [
+        "clinical treatment",
+        "outcome of infections",
+        "Staphylococcus aureus",
+        "publicly available database",
+        "antimicrobial susceptibility phenotypes",
+        "retrospective clinical case study",
+        "prevention of treatment resistance",
+        "current culture-based techniques",
+        "areas under the receiver operating characteristic curve",
+        "MALDI-TOF mass spectra profiles",
+        "optimal antibiotic treatments",
+        "Early use of effective antimicrobial treatments",
+        "change of clinical management",
+        "clinical isolates",
+        "Klebsiella pneumoniae",
+        "predict antimicrobial resistance",
+        "calibrated classifiers",
+        "Escherichia coli",
+        "machine learning approach"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections"
+        ],
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance"
+        ],
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "machine learning approach"
+            ],
+            ""
+        ],
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "predict antimicrobial resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "Early use of effective antimicrobial treatments"
+            ],
+            ""
+        ],
+        [
+            [
+                "publicly available database",
+                "Early use of effective antimicrobial treatments"
+            ],
+            ""
+        ],
+        [
+            [
+                "Early use of effective antimicrobial treatments",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "machine learning approach",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. Furthermore, a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "clinical isolates",
+                "outcome of infections"
+            ],
+            ""
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "outcome of infections"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "Escherichia coli",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections"
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "outcome of infections"
+            ],
+            ""
+        ],
+        [
+            [
+                "change of clinical management",
+                "outcome of infections"
+            ],
+            ""
+        ],
+        [
+            [
+                "clinical treatment",
+                "outcome of infections"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections"
+        ],
+        [
+            [
+                "optimal antibiotic treatments",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "machine learning approach",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "prevention of treatment resistance",
+                "predict antimicrobial resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "clinical isolates",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance."
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "prevention of treatment resistance",
+                "change of clinical management"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance. Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates... demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "clinical treatment",
+                "prevention of treatment resistance"
+            ],
+            "Early use of effective antimicrobial treatments is critical for the outcome of infections and the prevention of treatment resistance"
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results."
+        ],
+        [
+            [
+                "machine learning approach",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "clinical isolates",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "optimal antibiotic treatments"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "optimal antibiotic treatments"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "optimal antibiotic treatments"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "optimal antibiotic treatments"
+            ],
+            ""
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "optimal antibiotic treatments"
+            ],
+            ""
+        ],
+        [
+            [
+                "areas under the receiver operating characteristic curve",
+                "optimal antibiotic treatments"
+            ],
+            ""
+        ],
+        [
+            [
+                "optimal antibiotic treatments",
+                "change of clinical management"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates. [...] Validation on a panel of clinically important pathogens [...] demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "optimal antibiotic treatments",
+                "clinical treatment"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments"
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "machine learning approach"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "predict antimicrobial resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            ""
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "change of clinical management"
+            ],
+            "Antimicrobial resistance testing enables the selection of optimal antibiotic treatments, but current culture-based techniques can take up to 72\u2009hours to generate results. ... demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "current culture-based techniques",
+                "clinical treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine learning approach",
+                "predict antimicrobial resistance"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "machine learning approach",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine learning approach",
+                "calibrated classifiers"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates. We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "machine learning approach"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine learning approach",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates. We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "machine learning approach",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "machine learning approach",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "machine learning approach",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "machine learning approach",
+                "clinical treatment"
+            ],
+            "A retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "predict antimicrobial resistance"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "clinical isolates",
+                "predict antimicrobial resistance"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "predict antimicrobial resistance"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "predict antimicrobial resistance"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "predict antimicrobial resistance"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "predict antimicrobial resistance"
+            ],
+            ""
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination"
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "change of clinical management"
+            ],
+            "demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management"
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "predict antimicrobial resistance",
+                "clinical treatment"
+            ],
+            "Furthermore, a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "clinical isolates",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates."
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "calibrated classifiers"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            ""
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes"
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            ""
+        ],
+        [
+            [
+                "Escherichia coli",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            ""
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "MALDI-TOF mass spectra profiles"
+            ],
+            ""
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "MALDI-TOF mass spectra profiles",
+                "clinical treatment"
+            ],
+            "A retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "clinical isolates",
+                "calibrated classifiers"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "clinical isolates",
+                "publicly available database"
+            ],
+            ""
+        ],
+        [
+            [
+                "clinical isolates",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "clinical isolates",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively"
+        ],
+        [
+            [
+                "clinical isolates",
+                "change of clinical management"
+            ],
+            "We have developed a novel machine learning approach to predict antimicrobial resistance directly from matrix-assisted laser desorption/ionization-time of flight (MALDI-TOF) mass spectra profiles of clinical isolates. ... demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "clinical isolates",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "clinical isolates",
+                "clinical treatment"
+            ],
+            "A retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases"
+        ],
+        [
+            [
+                "publicly available database",
+                "calibrated classifiers"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "calibrated classifiers"
+            ],
+            ""
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively"
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "calibrated classifiers",
+                "clinical treatment"
+            ],
+            "a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)"
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "publicly available database"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "publicly available database",
+                "change of clinical management"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. This dataset combines more than 300,000 mass spectra with more than 750,000 antimicrobial resistance phenotypes from four medical institutions. Validation on a panel of clinically important pathogens... demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "publicly available database",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "publicly available database",
+                "clinical treatment"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. This dataset combines more than 300,000 mass spectra with more than 750,000 antimicrobial resistance phenotypes from four medical institutions. Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management. Furthermore, a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes."
+        ],
+        [
+            [
+                "Escherichia coli",
+                "antimicrobial susceptibility phenotypes"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. This dataset combines more than 300,000 mass spectra with more than 750,000 antimicrobial resistance phenotypes from four medical institutions. Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "retrospective clinical case study"
+            ],
+            ""
+        ],
+        [
+            [
+                "antimicrobial susceptibility phenotypes",
+                "clinical treatment"
+            ],
+            "We trained calibrated classifiers on a newly created publicly available database of mass spectra profiles from the clinically most relevant isolates with linked antimicrobial susceptibility phenotypes. This dataset combines more than 300,000 mass spectra with more than 750,000 antimicrobial resistance phenotypes from four medical institutions. Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management. Furthermore, a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively"
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, [...] demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "Staphylococcus aureus",
+                "clinical treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "Escherichia coli",
+                "areas under the receiver operating characteristic curve"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively"
+        ],
+        [
+            [
+                "Escherichia coli",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "Escherichia coli",
+                "clinical treatment"
+            ],
+            ""
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "Klebsiella pneumoniae",
+                "clinical treatment"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "areas under the receiver operating characteristic curve",
+                "change of clinical management"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "areas under the receiver operating characteristic curve",
+                "clinical treatment"
+            ],
+            "Validation on a panel of clinically important pathogens, including Staphylococcus aureus, Escherichia coli and Klebsiella pneumoniae, resulting in areas under the receiver operating characteristic curve of 0.80, 0.74 and 0.74, respectively, demonstrated the potential of using machine learning to substantially accelerate antimicrobial resistance determination and change of clinical management."
+        ],
+        [
+            [
+                "retrospective clinical case study",
+                "change of clinical management"
+            ],
+            "A retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases, which would have been beneficial in eight cases (89%)."
+        ],
+        [
+            [
+                "change of clinical management",
+                "clinical treatment"
+            ],
+            "a retrospective clinical case study of 63 patients found that implementing this approach would have changed the clinical treatment in nine cases"
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "optimal antibiotic treatments",
+            "change of clinical management"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "optimal antibiotic treatments"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "areas under the receiver operating characteristic curve",
+            "optimal antibiotic treatments",
+            "change of clinical management"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "areas under the receiver operating characteristic curve",
+            "optimal antibiotic treatments"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "areas under the receiver operating characteristic curve",
+            "change of clinical management"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "areas under the receiver operating characteristic curve"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "change of clinical management"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "retrospective clinical case study",
+            "change of clinical management"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance"
+        ],
+        [
+            "clinical treatment",
+            "prevention of treatment resistance",
+            "change of clinical management"
+        ],
+        [
+            "publicly available database",
+            "Early use of effective antimicrobial treatments",
+            "machine learning approach",
+            "MALDI-TOF mass spectra profiles",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "publicly available database",
+            "Early use of effective antimicrobial treatments",
+            "machine learning approach",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "publicly available database",
+            "machine learning approach",
+            "MALDI-TOF mass spectra profiles",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "publicly available database",
+            "machine learning approach",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "publicly available database",
+            "MALDI-TOF mass spectra profiles",
+            "Early use of effective antimicrobial treatments",
+            "machine learning approach",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "publicly available database",
+            "MALDI-TOF mass spectra profiles",
+            "antimicrobial susceptibility phenotypes"
+        ],
+        [
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "optimal antibiotic treatments"
+        ],
+        [
+            "prevention of treatment resistance",
+            "predict antimicrobial resistance",
+            "areas under the receiver operating characteristic curve",
+            "optimal antibiotic treatments"
+        ],
+        [
+            "MALDI-TOF mass spectra profiles",
+            "Early use of effective antimicrobial treatments",
+            "machine learning approach"
+        ]
+    ],
+    "exec_time": "01:57:12"
+}

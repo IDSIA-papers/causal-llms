@@ -1,0 +1,962 @@
+{
+    "nodes": [
+        "Mycobacterium tuberculosis infections",
+        "dysregulated signaling",
+        "activation-induced TCR-signaling kinetics",
+        "aerobic metabolism",
+        "cellular mitoROS",
+        "adoptive transfer",
+        "tissue oxidative stress",
+        "immune deficient mouse models (RAG-KO)",
+        "therapeutic intervention",
+        "cellular metabolism",
+        "influenza A",
+        "proliferation ex vivo",
+        "markers of activation (CD25)",
+        "functional mitochondria",
+        "Mitochondrial dysfunction",
+        "elderly",
+        "IL-2 production",
+        "function of CD4+ T lymphocytes",
+        "CD4+ T cells",
+        "mitochondrial proteome alterations"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Mitochondrial dysfunction",
+                "cellular metabolism"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism"
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "tissue oxidative stress"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress"
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "function of CD4+ T lymphocytes"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "elderly",
+                "Mitochondrial dysfunction"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly"
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "functional mitochondria"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "CD4+ T cells"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "mitochondrial proteome alterations"
+            ],
+            "The delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS."
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS."
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "cellular mitoROS"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress"
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "markers of activation (CD25)"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "proliferation ex vivo"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "adoptive transfer"
+            ],
+            ""
+        ],
+        [
+            [
+                "Mitochondrial dysfunction",
+                "therapeutic intervention"
+            ],
+            "These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "function of CD4+ T lymphocytes"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "elderly",
+                "cellular metabolism"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "cellular metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "cellular metabolism"
+            ],
+            "The delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "cellular metabolism",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "cellular metabolism",
+                "cellular mitoROS"
+            ],
+            "The text does not explicitly state that \"cellular metabolism\" causes \"cellular mitoROS\". Instead, it mentions that mitochondrial dysfunction alters cellular metabolism and increases tissue oxidative stress, and that the delivery of exogenous mitochondria led to improved aerobic metabolism and decreased cellular mitoROS. Therefore, the causal relationship between \"cellular metabolism\" and \"cellular mitoROS\" is not directly supported by the given text."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "IL-2 production"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "proliferation ex vivo"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "cellular metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "elderly",
+                "tissue oxidative stress"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "dysregulated signaling",
+                "function of CD4+ T lymphocytes"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "elderly",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "dysregulated signaling"
+            ],
+            ""
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "cellular mitoROS",
+                "dysregulated signaling"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "dysregulated signaling",
+                "markers of activation (CD25)"
+            ],
+            ""
+        ],
+        [
+            [
+                "dysregulated signaling",
+                "IL-2 production"
+            ],
+            ""
+        ],
+        [
+            [
+                "dysregulated signaling",
+                "therapeutic intervention"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly. These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "function of CD4+ T lymphocytes"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "function of CD4+ T lymphocytes"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "function of CD4+ T lymphocytes"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "aerobic metabolism",
+                "function of CD4+ T lymphocytes"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "function of CD4+ T lymphocytes",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "function of CD4+ T lymphocytes",
+                "markers of activation (CD25)"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "function of CD4+ T lymphocytes",
+                "IL-2 production"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production"
+        ],
+        [
+            [
+                "function of CD4+ T lymphocytes",
+                "proliferation ex vivo"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "adoptive transfer",
+                "function of CD4+ T lymphocytes"
+            ],
+            "Importantly, immune deficient mouse models (RAG-KO) showed that adoptive transfer of mito-transferred naive aged CD4+ T cells, protected recipient mice from influenza A and Mycobacterium tuberculosis infections."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "function of CD4+ T lymphocytes"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "elderly",
+                "mitochondrial proteome alterations"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "elderly",
+                "cellular mitoROS"
+            ],
+            "Mitochondrial dysfunction alters cellular metabolism, increases tissue oxidative stress, and may be principal to the dysregulated signaling and function of CD4+ T lymphocytes in the elderly."
+        ],
+        [
+            [
+                "elderly",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            ""
+        ],
+        [
+            [
+                "elderly",
+                "therapeutic intervention"
+            ],
+            "These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "CD4+ T cells"
+            ],
+            "The delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "mitochondrial proteome alterations"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "functional mitochondria",
+                "cellular mitoROS"
+            ],
+            ""
+        ],
+        [
+            [
+                "functional mitochondria",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "markers of activation (CD25)"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "functional mitochondria",
+                "IL-2 production"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "functional mitochondria",
+                "proliferation ex vivo"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "functional mitochondria"
+            ],
+            ""
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "mitochondrial proteome alterations"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS."
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "cellular mitoROS"
+            ],
+            ""
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics"
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "markers of activation (CD25)"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "IL-2 production"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production"
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "proliferation ex vivo"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "immune deficient mouse models (RAG-KO)"
+            ],
+            ""
+        ],
+        [
+            [
+                "CD4+ T cells",
+                "adoptive transfer"
+            ],
+            "Importantly, immune deficient mouse models (RAG-KO) showed that adoptive transfer of mito-transferred naive aged CD4+ T cells, protected recipient mice from influenza A and Mycobacterium tuberculosis infections."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "CD4+ T cells"
+            ],
+            "These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "markers of activation (CD25)"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "IL-2 production"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "mitochondrial proteome alterations",
+                "proliferation ex vivo"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "adoptive transfer",
+                "mitochondrial proteome alterations"
+            ],
+            ""
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "mitochondrial proteome alterations"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations"
+        ],
+        [
+            [
+                "aerobic metabolism",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "aerobic metabolism",
+                "proliferation ex vivo"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "aerobic metabolism"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism"
+        ],
+        [
+            [
+                "cellular mitoROS",
+                "therapeutic intervention"
+            ],
+            "The results show that the delivery of exogenous mitochondria to aged non-activated CD4+ T cells led to significant mitochondrial proteome alterations highlighted by improved aerobic metabolism and decreased cellular mitoROS. These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "activation-induced TCR-signaling kinetics",
+                "markers of activation (CD25)"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "activation-induced TCR-signaling kinetics",
+                "proliferation ex vivo"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "activation-induced TCR-signaling kinetics"
+            ],
+            "These findings support mitochondria as targets of therapeutic intervention in aging."
+        ],
+        [
+            [
+                "markers of activation (CD25)",
+                "IL-2 production"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production"
+        ],
+        [
+            [
+                "markers of activation (CD25)",
+                "proliferation ex vivo"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "markers of activation (CD25)"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25)"
+        ],
+        [
+            [
+                "IL-2 production",
+                "proliferation ex vivo"
+            ],
+            "mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo"
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "IL-2 production"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "proliferation ex vivo"
+            ],
+            "Additionally, mito-transferred aged CD4+ T cells showed improvements in activation-induced TCR-signaling kinetics displaying markers of activation (CD25), increased IL-2 production, enhanced proliferation ex vivo."
+        ],
+        [
+            [
+                "therapeutic intervention",
+                "adoptive transfer"
+            ],
+            ""
+        ],
+        [
+            [
+                "influenza A",
+                "therapeutic intervention"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism",
+            "cellular mitoROS"
+        ],
+        [
+            "dysregulated signaling",
+            "therapeutic intervention",
+            "adoptive transfer",
+            "mitochondrial proteome alterations"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "functional mitochondria"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "CD4+ T cells"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "CD4+ T cells",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ],
+        [
+            "cellular mitoROS",
+            "therapeutic intervention",
+            "adoptive transfer",
+            "mitochondrial proteome alterations",
+            "cellular metabolism"
+        ]
+    ],
+    "exec_time": "01:49:27"
+}

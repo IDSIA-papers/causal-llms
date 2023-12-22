@@ -1,0 +1,308 @@
+{
+    "nodes": [
+        "Hydrogen sulfide (H2S)",
+        "HNA",
+        "cardiovascular diseases",
+        "neurodegenerative disorders",
+        "Abnormal mitochondrial state",
+        "pathogenesis",
+        "mitochondrial respiratory chain activity",
+        "cancers",
+        "inflammatory process",
+        "ATP synthesis",
+        "calcium ion balance",
+        "mitochondrial functionality",
+        "signal transduction",
+        "mitochondrial DNA (mtDNA) integrity",
+        "cellular metabolism",
+        "mitochondrial polarity",
+        "mitochondrial-related diseases",
+        "myopathies",
+        "antioxidative mechanisms"
+    ],
+    "directed_edges": [
+        [
+            [
+                "Abnormal mitochondrial state",
+                "pathogenesis"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "neurodegenerative disorders"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders"
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "myopathies"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "cardiovascular diseases"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "mitochondrial functionality"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers. Assessing mitochondrial functionality can be achieved by monitoring alterations in mitochondrial polarity and mitochondrial DNA (mtDNA) integrity, which serve as valuable biomarkers."
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "cellular metabolism"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "antioxidative mechanisms"
+            ],
+            "our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms"
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "inflammatory process"
+            ],
+            ""
+        ],
+        [
+            [
+                "Abnormal mitochondrial state",
+                "mitochondrial-related diseases"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "pathogenesis",
+                "neurodegenerative disorders"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders"
+        ],
+        [
+            [
+                "pathogenesis",
+                "myopathies"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "pathogenesis",
+                "cardiovascular diseases"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "pathogenesis",
+                "mitochondrial-related diseases"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "neurodegenerative disorders"
+            ],
+            ""
+        ],
+        [
+            [
+                "neurodegenerative disorders",
+                "antioxidative mechanisms"
+            ],
+            ""
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "myopathies"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "mitochondrial DNA (mtDNA) integrity"
+            ],
+            "Assessing mitochondrial functionality can be achieved by monitoring alterations in mitochondrial polarity and mitochondrial DNA (mtDNA) integrity, which serve as valuable biomarkers."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "mitochondrial functionality"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "ATP synthesis"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "cellular metabolism"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "antioxidative mechanisms"
+            ],
+            "Facilitated by HNA, our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms."
+        ],
+        [
+            [
+                "mitochondrial functionality",
+                "mitochondrial-related diseases"
+            ],
+            ""
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "mitochondrial polarity"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "mitochondrial DNA (mtDNA) integrity"
+            ],
+            "Facilitated by HNA, our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms."
+        ],
+        [
+            [
+                "antioxidative mechanisms",
+                "mitochondrial DNA (mtDNA) integrity"
+            ],
+            "our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms"
+        ],
+        [
+            [
+                "mitochondrial DNA (mtDNA) integrity",
+                "mitochondrial-related diseases"
+            ],
+            "Abnormal mitochondrial state has been implicated in the pathogenesis of various diseases including neurodegenerative disorders, myopathies, cardiovascular diseases, and cancers."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "mitochondrial respiratory chain activity"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity"
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "ATP synthesis"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "calcium ion balance"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance"
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "cellular metabolism"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "signal transduction"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "Hydrogen sulfide (H2S)",
+                "antioxidative mechanisms"
+            ],
+            "Facilitated by HNA, our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms."
+        ],
+        [
+            [
+                "mitochondrial respiratory chain activity",
+                "ATP synthesis"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "mitochondrial respiratory chain activity",
+                "cellular metabolism"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "mitochondrial respiratory chain activity",
+                "antioxidative mechanisms"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction. ... our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms."
+        ],
+        [
+            [
+                "mitochondrial respiratory chain activity",
+                "mitochondrial-related diseases"
+            ],
+            ""
+        ],
+        [
+            [
+                "ATP synthesis",
+                "cellular metabolism"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction."
+        ],
+        [
+            [
+                "cellular metabolism",
+                "antioxidative mechanisms"
+            ],
+            "Hydrogen sulfide (H2S), a gaseous signaling molecule, plays a regulatory role in mitochondrial respiratory chain activity, ATP synthesis, and calcium ion balance, thereby influencing cellular metabolism and signal transduction. [...] our study provides novel insights into the role of mitochondrial H2S in maintaining mitochondrial polarity and validates its protective effect on mtDNA through antioxidative mechanisms."
+        ],
+        [
+            [
+                "mitochondrial-related diseases",
+                "antioxidative mechanisms"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [
+        [
+            "mitochondrial DNA (mtDNA) integrity",
+            "mitochondrial-related diseases",
+            "antioxidative mechanisms"
+        ]
+    ],
+    "exec_time": "01:56:48"
+}

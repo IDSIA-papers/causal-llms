@@ -1,0 +1,126 @@
+{
+    "nodes": [
+        "Three-Factor Eating Questionnaire R21 (TFEQ-R21)",
+        "Hospital Anxiety and Depression Scale (HADS)",
+        "self-efficacy to resist eating",
+        "uncontrolled eating",
+        "Weight Efficacy Lifestyle Questionnaire (WEL)",
+        "symptoms of anxiety",
+        "emotional eating",
+        "cognitive restraint",
+        "obesity",
+        "Pearson correlation coefficients",
+        "eating behavior"
+    ],
+    "directed_edges": [
+        [
+            [
+                "eating behavior",
+                "obesity"
+            ],
+            "Given the link between eating behavior and obesity, it is critical to identify individuals who have eating behaviors which contribute to obesity etiology."
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "eating behavior"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p < 0.01). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p < 0.001, respectively), and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21."
+        ],
+        [
+            [
+                "eating behavior",
+                "uncontrolled eating"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p < 0.001, respectively)"
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "obesity"
+            ],
+            ""
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "Three-Factor Eating Questionnaire R21 (TFEQ-R21)"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27). Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p < 0.001, respectively), and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21."
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "Weight Efficacy Lifestyle Questionnaire (WEL)"
+            ],
+            "The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p < 0.01)."
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "emotional eating"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36)"
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "uncontrolled eating"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27)."
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "self-efficacy to resist eating"
+            ],
+            "The HADS-A score was negatively correlated with self-efficacy to resist eating in all five situational factors on the WEL (p < 0.01)."
+        ],
+        [
+            [
+                "symptoms of anxiety",
+                "cognitive restraint"
+            ],
+            "Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p < 0.001, respectively),and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21."
+        ],
+        [
+            [
+                "Hospital Anxiety and Depression Scale (HADS)",
+                "Pearson correlation coefficients"
+            ],
+            ""
+        ],
+        [
+            [
+                "Hospital Anxiety and Depression Scale (HADS)",
+                "emotional eating"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36)"
+        ],
+        [
+            [
+                "Hospital Anxiety and Depression Scale (HADS)",
+                "uncontrolled eating"
+            ],
+            "Anxiety scores (HADS-A) positively correlated with two factors of the TFEQ, emotional eating (r = 0.36) and uncontrolled eating (r = 0.27)"
+        ],
+        [
+            [
+                "Hospital Anxiety and Depression Scale (HADS)",
+                "cognitive restraint"
+            ],
+            "Patients with symptoms of anxiety additionally showed higher mean scores for emotional eating and uncontrolled eating (p < 0.001, respectively),and lower levels of cognitive restraint (p = 0.04) on the TFEQ-R21"
+        ],
+        [
+            [
+                "Three-Factor Eating Questionnaire R21 (TFEQ-R21)",
+                "Pearson correlation coefficients"
+            ],
+            ""
+        ]
+    ],
+    "bidirected_edges": [],
+    "edge_explanation": true,
+    "cycles": [],
+    "exec_time": "00:25:00"
+}
